@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="37d09ae5-4f86-4200-83ca-e3b9c909e296" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\develop\java\Maven-master\apache-maven-3.8.1\maven_repository" />
+        <option name="mavenHome" value="D:/develop/java/Maven-master/apache-maven-3.8.1" />
+        <option name="userSettingsFile" value="D:\develop\java\Maven-master\apache-maven-3.8.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1tLn3Ez8vPoLhwNGIxGbd9zznjr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Demo" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="contract.Struct" />
+      <recent name="contract.Contracts" />
+      <recent name="" />
+      <recent name="DbStrore" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\dealProjects\BlockChainDemo2\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.verify">
+    <configuration name="LevelDbUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DbStrore.LevelDbUtil" />
+      <module name="BlockChainDemo2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DbStrore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="BlockChainDemo2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main_Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="contract.UITest.Main_Test" />
+      <module name="BlockChainDemo2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="contract.UITest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShowMessageUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="contract.UI.ShowMessageUI" />
+      <module name="BlockChainDemo2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="contract.UI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="verify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Communication.verify" />
+      <module name="BlockChainDemo2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Communication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.verify" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ShowMessageUI" />
+        <item itemvalue="Application.Main_Test" />
+        <item itemvalue="Application.LevelDbUtil" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="37d09ae5-4f86-4200-83ca-e3b9c909e296" name="Default Changelist" comment="" />
+      <created>1622557035843</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622557035843</updated>
+      <workItem from="1622557038657" duration="493000" />
+      <workItem from="1622592451574" duration="5881000" />
+      <workItem from="1622602837977" duration="28970000" />
+      <workItem from="1622681632445" duration="2363000" />
+      <workItem from="1622684882312" duration="6259000" />
+      <workItem from="1622692325842" duration="1556000" />
+      <workItem from="1622694013133" duration="4114000" />
+      <workItem from="1622764809745" duration="2886000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="233" y="7" key="#Project_Structure" timestamp="1622601832288">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="233" y="7" key="#Project_Structure/0.0.1280.689@0.0.1280.689" timestamp="1622601832288" />
+    <state x="371" y="104" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1622636260589">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="371" y="104" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1280.689@0.0.1280.689" timestamp="1622636260589" />
+    <state x="401" y="52" key="#com.intellij.ide.util.MemberChooser" timestamp="1622604047289">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="401" y="52" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1622604047289" />
+    <state x="329" y="274" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1622620696653">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="329" y="274" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.689@0.0.1280.689" timestamp="1622620696653" />
+    <state x="430" y="212" width="421" height="271" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1622685050982">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="430" y="212" width="421" height="271" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.689@0.0.1280.689" timestamp="1622685050982" />
+    <state x="371" y="95" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1622693224105">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="371" y="95" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.689@0.0.1280.689" timestamp="1622693224105" />
+    <state x="421" y="104" key="FileChooserDialogImpl" timestamp="1622685935770">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="421" y="104" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1622685935770" />
+    <state width="1237" height="61" key="GridCell.Tab.0.bottom" timestamp="1622768993245">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="61" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1622768993245" />
+    <state width="1237" height="61" key="GridCell.Tab.0.center" timestamp="1622768993245">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="61" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1622768993245" />
+    <state width="1237" height="61" key="GridCell.Tab.0.left" timestamp="1622768993245">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="61" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1622768993245" />
+    <state width="1237" height="61" key="GridCell.Tab.0.right" timestamp="1622768993245">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="61" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1622768993245" />
+    <state x="171" y="4" key="Maven.ArtifactSearchDialog" timestamp="1622602973899">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="171" y="4" key="Maven.ArtifactSearchDialog/0.0.1280.689@0.0.1280.689" timestamp="1622602973899" />
+    <state x="144" y="0" key="SettingsEditor" timestamp="1622603378965">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="144" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1622603378965" />
+    <state x="336" y="174" key="com.intellij.ide.util.TipDialog" timestamp="1622764817129">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="336" y="174" key="com.intellij.ide.util.TipDialog/0.0.1280.689@0.0.1280.689" timestamp="1622764817129" />
+    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup" timestamp="1622626546246">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1622626546246" />
+  </component>
+</project>
