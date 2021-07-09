@@ -9,10 +9,21 @@ import contract.Struct.Equip;
 import contract.Struct.Resource;
 import contract.Struct.User;
 
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.io.ObjectInput;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutput;
+import java.io.ObjectOutputStream;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
+
+import bftsmart.tom.ServiceProxy;
 
 public class Tool {
+	public static ServiceProxy serviceProxy=null;
     //获取初始化资源库的资源信息
     public static ArrayList<Resource> getResources( ){
         LevelDbUtil res = new LevelDbUtil();
@@ -103,5 +114,37 @@ public class Tool {
         LevelDbUtil levelDbUtil = new LevelDbUtil();
         levelDbUtil.initLevelDB(s);
         return levelDbUtil;
+    }
+    public static final int FROMCLIENT=1;
+    public static int nodeID=0;
+    public static String sendRawCommandToServer(String[] s){
+        String className=new Exception().getStackTrace()[1].getClassName();
+        String methodName=new Exception().getStackTrace()[1].getMethodName();
+        try (ByteArrayOutputStream byteOut = new ByteArrayOutputStream();
+        ObjectOutput objOut = new ObjectOutputStream(byteOut);) {
+
+            objOut.writeObject(className);
+            objOut.writeObject(methodName);
+            objOut.writeObject(s);
+            
+            objOut.flush();
+            byteOut.flush();
+        
+            byte[] reply = serviceProxy.invokeOrdered(byteOut.toByteArray());
+            if (reply.length == 0)
+                return null;
+            try (ByteArrayInputStream byteIn = new ByteArrayInputStream(reply);
+                    ObjectInput objIn = new ObjectInputStream(byteIn)) {
+                return (String)objIn.readObject();
+                }     
+        } catch (IOException | ClassNotFoundException e) {
+            System.out.println("Exception putting value into map: " + e.getMessage());
+        }
+        return null;
+    }
+    static public void getchar(){
+        Scanner scanner=new Scanner(System.in);
+        scanner.nextLine();
+        // scanner.close();
     }
 }

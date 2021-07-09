@@ -94,7 +94,7 @@ public class RoleManageUI extends JFrame{
                     String new_role = table.getValueAt(selectedRow,3).toString();
 
                     String[] strArr = {user_name,user_work,old_role,new_role,"1"};
-                    String returnStr = User_Contract.changeRole(strArr,false);
+                    String returnStr = User_Contract.changeRole(strArr,Tool.FROMCLIENT);
                     int result = Integer.parseInt(returnStr.substring(returnStr.length()-1,returnStr.length()));
                     String output = returnStr.split("&")[1];
                     String input = "contract.Contracts.User_Contract,userout;"+currentUser.getUser_name()+","+currentUser.getWork_number()+","+new_role+","+"1"+";"+output;
@@ -128,7 +128,7 @@ public class RoleManageUI extends JFrame{
                     String new_role = table.getValueAt(selectedRow,3).toString();
 
                     String[] strArr = {user_name,user_work,old_role,new_role,"0"};
-                    String returnStr = User_Contract.changeRole(strArr,false);
+                    String returnStr = User_Contract.changeRole(strArr,Tool.FROMCLIENT);
                     int result = Integer.parseInt(returnStr.substring(returnStr.length()-1,returnStr.length()));
                     String output = returnStr.split("&")[1];
                     String input = "contract.Contracts.User_Contract,userout;"+currentUser.getUser_name()+","+currentUser.getWork_number()+","+new_role+","+"0"+";"+output;

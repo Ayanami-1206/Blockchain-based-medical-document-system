@@ -29,6 +29,10 @@ public class Res_Contract {
         }
         return resources;
     }
+
+    public static String operateResource(String[] strArr,int fromClient){
+        return Tool.sendRawCommandToServer(strArr);
+    }
     //用户访问指定资源：参数：用户的角色，资源的类型
     public static String operateResource(String[] strArr, Boolean testFlag) throws UnknownHostException {
         String returnStr = "";
@@ -73,6 +77,10 @@ public class Res_Contract {
         }
         return returnStr+flag ;
     };
+
+    public static String  changeResource(String[] strArr,int fromClient){
+        return Tool.sendRawCommandToServer(strArr);
+    }
     //资源操作：资源的名称、资源的级别、操作
     public static String  changeResource(String[] strArr,Boolean testFlag) {
       String returnStr="";

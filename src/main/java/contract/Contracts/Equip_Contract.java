@@ -8,8 +8,11 @@ import java.util.ArrayList;
 import java.util.Calendar;
 
 public class Equip_Contract {
+    public static String new_equip(String[] strArr,int fromClient){
+        return Tool.sendRawCommandToServer(strArr);
+    }
     //设备新增函数设备ip、设备的名称、设备的物理
-    public static boolean new_qquip(String[] strArr,Boolean testFlag){
+    public static boolean new_equip(String[] strArr,Boolean testFlag){
         String equipId =strArr[0];
         String equipName = strArr[1];
         String macAddressuserName =strArr[2];

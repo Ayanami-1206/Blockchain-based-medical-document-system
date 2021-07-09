@@ -137,8 +137,16 @@ public class Initialization_Contract {
             .replaceAll("-----BEGIN PRIVATE KEY-----", "")
             .replaceAll("\n", "");
 
+    public  static void InitialzationUser(int fromClient){
+        Tool.sendRawCommandToServer(new String[0]);
+    }
+
+    static boolean userDone=false;
     //初始化用户
     public  static void InitialzationUser(){
+        if(userDone){
+            return;
+        }
         //初始化用户
         //初始化用户
         LevelDbUtil Users = new LevelDbUtil();
@@ -164,9 +172,19 @@ public class Initialization_Contract {
             }
         }
         Users.closeDB();
+        userDone=true;
     }
+
+    public static void InitialzationRes(int fromClient){
+        Tool.sendRawCommandToServer(new String[0]);
+    }
+
+    static boolean resDone=false;
     //初始化资源
     public static void InitialzationRes(){
+        if(resDone){
+            return;
+        }
         //初始化资源
         LevelDbUtil Resources = new LevelDbUtil();
         Resources.initLevelDB("Resources");
@@ -198,9 +216,18 @@ public class Initialization_Contract {
             }
         }
         Resources.closeDB();
+        resDone=true;
     }
+
+    public static void InitialzationEquip(int fromClient){
+        Tool.sendRawCommandToServer(new String[0]);
+    }
+    static boolean equipDone=false;
     //初始化设备
     public static void InitialzationEquip(){
+        if(equipDone){
+            return;
+        }
         //初始化设备
         LevelDbUtil Equips = new LevelDbUtil();
         Equips.initLevelDB("Equips");
@@ -227,6 +254,39 @@ public class Initialization_Contract {
             }
         }
         Equips.closeDB();
+        equipDone=true;
+    }
+
+    public static void InitialzationApply(int fromClient){
+        Tool.sendRawCommandToServer(new String[0]);
+    }
+    static boolean applyDone=false;
+    public static  void InitialzationApply(){
+        if(applyDone){
+            return;
+        }
+        //权限申请
+        LevelDbUtil ApplyMessages = new LevelDbUtil();
+        ApplyMessages.initLevelDB("ApplyMessages");
+        //未处理的申请角色权限
+        ArrayList<ApplyMessage> applyMessages = new ArrayList<>();//保存未处理的申请角色权限的列表
+        ApplyMessage m1 = new ApplyMessage("李工","1","1","2","2021.02.09");
+        ApplyMessage m2 = new ApplyMessage("白工","1","1","2","2021.02.09");
+        ApplyMessage m3 = new ApplyMessage("王工","1","1","2","2021.02.09");
+        applyMessages.add(m1);
+        applyMessages.add(m2);
+        applyMessages.add(m3);
+        for (int i=0;i<applyMessages.size();i++){
+            String key = String.valueOf(applyMessages.get(i).hashCode());
+            String val = applyMessages.get(i).toString();
+            try {
+                ApplyMessages.put(key,val);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        ApplyMessages.closeDB();
+        applyDone=true;
     }
 
 }

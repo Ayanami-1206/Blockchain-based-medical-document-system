@@ -28,6 +28,11 @@ public class User_Contract {
     //添加新的设备
     public static void addNewEquip(){}
 
+    public static String userRegister(String[] strArr,int fromClient){
+        return Tool.sendRawCommandToServer(strArr);
+    }
+
+
     //用户注册。传入的参数：用户的姓名、用户电话号码、用户工号、用户的身份证号、用户密码
     public static String userRegister(String[] strArr,Boolean testFlag) throws UnsupportedEncodingException {
         String returnStr ="";
@@ -109,6 +114,11 @@ public class User_Contract {
         }
         return returnStr+flag;
     }
+
+    public static String userLogin(String[] strArr,int fromClient){
+        return Tool.sendRawCommandToServer(strArr);
+    }
+
     //用户登录函数：传入的参数：用户的名字 用户的身份证号 用户密码
     public static String userLogin(String[] strArr,Boolean testFlag) throws IOException {
         String returnStr ="";
@@ -167,6 +177,11 @@ public class User_Contract {
         }
         return returnStr+flag;
     }
+
+    public static String userout(String[] strArr,int fromClient){
+        return Tool.sendRawCommandToServer(strArr);
+    }
+
     //用户注销函数：传入的参数：用户的名字 账户的身份证号 用户密码
     public static String userout(String[] strArr,Boolean testFlag) throws UnknownHostException {
         String returnStr ="";
@@ -206,6 +221,9 @@ public class User_Contract {
             }
         }
         return returnStr+flag;
+    }
+    public static String  applyRole(String[] strArr,int fromClient){
+        return Tool.sendRawCommandToServer(strArr);
     }
     //普通用户权限申请函数：参数：用户的名字  用户的工号 旧权限 新权限
     public static String  applyRole(String[] strArr,Boolean testFlag) throws IOException {
@@ -254,6 +272,9 @@ public class User_Contract {
             }
         }
         return returnStr+flag;
+    }
+    public static  String changeRole(String[] strArr,int fromClient){
+        return Tool.sendRawCommandToServer(strArr);
     }
     //管理节点管理权限 参数：用户的名字  用户的工号 新权限 是否变更
     public static  String changeRole(String[] strArr,Boolean testFlag){
@@ -530,6 +551,12 @@ public class User_Contract {
             .replaceAll("-----BEGIN PRIVATE KEY-----", "")
             .replaceAll("\n", "");
 
+    public  static void InitialzationUser(int fromClient){
+        Tool.sendRawCommandToServer(new String[0]);
+    }
+
+
+
     //初始化用户
     public  static void InitialzationUser(){
         //初始化用户
@@ -556,6 +583,10 @@ public class User_Contract {
             }
         }
         Users.closeDB();
+    }
+
+    public static void InitialzationRse(int fromClient){
+        Tool.sendRawCommandToServer(new String[0]);
     }
     //初始化资源
     public static void InitialzationRse(){
@@ -589,6 +620,10 @@ public class User_Contract {
             }
         }
         Resources.closeDB();
+    }
+
+    public static void InitialzationEquip(int fromClient){
+        Tool.sendRawCommandToServer(new String[0]);
     }
     //初始化设备
     public static void InitialzationEquip(){

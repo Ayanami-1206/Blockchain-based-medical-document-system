@@ -1,6 +1,7 @@
 package contract.UI;
 
 import Communication.PackageFun;
+import contract.Contracts.Tool;
 import contract.Contracts.User_Contract;
 import contract.Struct.User;
 
@@ -98,7 +99,7 @@ public class LogoutUI extends JFrame implements ActionListener {
     public  void logout() throws UnknownHostException {
         //调用注销合约
         String[] strArr = {current_user.getUser_name(),current_user.getId_number()};
-        String returnStr = User_Contract.userout(strArr,false);
+        String returnStr = User_Contract.userout(strArr,Tool.FROMCLIENT);
         int flag= Integer.parseInt(returnStr.substring(returnStr.length()-1,returnStr.length()));
         String output = returnStr.split("&")[1];
         String input = "contract.Contracts.User_Contract,userout;"+current_user.getUser_name()+","+current_user.getId_number()+";"+output;

@@ -1,6 +1,7 @@
 package contract.UI;
 
 import Communication.PackageFun;
+import contract.Contracts.Tool;
 import contract.Contracts.User_Contract;
 import contract.Struct.User;
 
@@ -128,7 +129,7 @@ public class LoginUI extends JFrame implements ActionListener {
             String psw = jpf.getText();
             //调用登录智能合约
             String[] strArr ={name,workNumber,psw};
-            String returnStr = User_Contract.userLogin(strArr,false);
+            String returnStr = User_Contract.userLogin(strArr,Tool.FROMCLIENT);
             flag = Integer.parseInt(returnStr.substring(returnStr.length()-1,returnStr.length()));
             //将数据输出到本地文件
             String output = returnStr.split("&")[1];

@@ -1,6 +1,7 @@
 package contract.UI;
 
 import Communication.PackageFun;
+import contract.Contracts.Tool;
 import contract.Contracts.User_Contract;
 
 import javax.swing.*;
@@ -159,7 +160,7 @@ public class UserRegisterUI extends JFrame implements ActionListener {
             String psw = String.valueOf(jpf1.getPassword());
             //调用智能合约
             String[] strArr = {name,phone,worknumber,idnumber,psw};
-            String  returnStr = User_Contract.userRegister(strArr,false);
+            String  returnStr = User_Contract.userRegister(strArr,Tool.FROMCLIENT);
             flag = Integer.parseInt(returnStr.substring(returnStr.length()-1,returnStr.length()));
             //将数据输出到本地文件
             System.out.println("returnStr="+returnStr);

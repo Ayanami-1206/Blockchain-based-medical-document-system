@@ -129,7 +129,7 @@ public class RoneUI extends JFrame{
                     try {
                         current_Role = user.getUser_role();
                         String[] strArr = {String.valueOf(current_Role), String.valueOf(r_level),res_name};
-                        String returnStr = Res_Contract.operateResource(strArr,false);
+                        String returnStr = Res_Contract.operateResource(strArr,Tool.FROMCLIENT);
                         flag = Integer.parseInt(returnStr.substring(returnStr.length()-1,returnStr.length()));
                         String output = returnStr.split("&")[1];
                         String input = "contract.Contracts.Res_Contract,operateResource;"+String.valueOf(current_Role)+","+String.valueOf(r_level)+","+res_name+";"+output;
@@ -165,7 +165,7 @@ public class RoneUI extends JFrame{
                         //将修改的内容传递给数据库
                         String operator= "修改";
                         String[] strArr = {old_R,new_R,operator};
-                        String returnStr = Res_Contract.changeResource(strArr,false);
+                        String returnStr = Res_Contract.changeResource(strArr,Tool.FROMCLIENT);
                         int result = Integer.parseInt(returnStr.substring(returnStr.length()-1,returnStr.length()));
                         String output = returnStr.split("&")[1];
                         String input = "contract.Contracts.Res_Contract,changeResource;"+old_R+","+new_R+","+operator+";"+output;
@@ -249,7 +249,7 @@ public class RoneUI extends JFrame{
                     try {
                         current_Role = user.getUser_role();
                         String[] strArr ={String.valueOf(current_Role), String.valueOf(r_level),res_name};
-                        String returnStr = Res_Contract.operateResource(strArr,false);
+                        String returnStr = Res_Contract.operateResource(strArr,Tool.FROMCLIENT);
                         flag = Integer.parseInt(returnStr.substring(returnStr.length()-1,returnStr.length()));
                         String output = returnStr.split("&")[1];
                         String input = "contract.Contracts.Res_Contract,operateResource;"+String.valueOf(current_Role)+","+String.valueOf(r_level)+","+res_name+";"+output;
@@ -265,14 +265,14 @@ public class RoneUI extends JFrame{
                         } catch (IOException ex) {
                             ex.printStackTrace();
                         }
-                    } catch (UnknownHostException ex) {
+                    } catch (Exception ex) {
                         ex.printStackTrace();
                     }
                     if (flag==1){
                         String operator= "删除";
                         String[] strArr = {old_R,new_R,operator};
                         //将修改的内容传递给数据库
-                        String returnStr = Res_Contract.changeResource(strArr,false);
+                        String returnStr = Res_Contract.changeResource(strArr,Tool.FROMCLIENT);
                         int result = Integer.parseInt(returnStr.substring(returnStr.length()-1,returnStr.length()));
                         String output = returnStr.split("&")[1];
                         String input = "contract.Contracts.Res_Contract,changeResource;"+old_R+","+new_R+","+operator+";"+output;

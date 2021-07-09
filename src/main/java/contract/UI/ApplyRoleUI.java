@@ -1,6 +1,7 @@
 package contract.UI;
 
 import Communication.PackageFun;
+import contract.Contracts.Tool;
 import contract.Contracts.User_Contract;
 import contract.Struct.Equip;
 import contract.Struct.User;
@@ -91,7 +92,7 @@ public class ApplyRoleUI extends JFrame implements ActionListener {
                 try {
                     String[] strArr = {user.getUser_name(),user.getWork_number(), String.valueOf(user.getUser_role()), String.valueOf(new_role)};
                     System.out.println("权限变更信息"+String.valueOf(strArr));
-                    String returnStr = User_Contract.applyRole(strArr,false);
+                    String returnStr = User_Contract.applyRole(strArr,Tool.FROMCLIENT);
                     flag= Integer.parseInt(returnStr.substring(returnStr.length()-1,returnStr.length()));
                     String output = returnStr.split("&")[1];
                     String input = "contract.Contracts.User_Contract,applyRole;"+user.getUser_name()+","+user.getWork_number()+","+Integer.toString(user.getUser_role())+","+Integer.toString(new_role)+";"+output;
