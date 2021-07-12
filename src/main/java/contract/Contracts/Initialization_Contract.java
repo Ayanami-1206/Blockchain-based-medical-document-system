@@ -12,6 +12,9 @@ import java.util.ArrayList;
 import java.util.Calendar;
 
 public class Initialization_Contract {
+    static public void foo(){
+        System.out.println("fooooo");
+    }
     //规定合约的调用者为合约的部署者
     static String chairperson = "192.168.1.125";
     private User[] usereds;
@@ -26,9 +29,9 @@ public class Initialization_Contract {
         //获取当前用户的ip
         String Ei= getLocalIp();
         //管理者就是合约的部署者,只有合约的部署者可以进行初始化
-        if (chairperson == Ei) {
+        if (true | chairperson == Ei) {
             //初始化用户信息
-            InitialzationUser();
+            InitialzationUser(null);
             flag=1;
         }
         String Ti = getCurrentTime();
@@ -46,9 +49,9 @@ public class Initialization_Contract {
         //获取当前用户的ip
         String Ei= getLocalIp();
         //管理者就是合约的部署者,只有合约的部署者可以进行初始化
-        if (chairperson == Ei) {
+        if (true | chairperson == Ei) {
             //初始化设备信息
-            InitialzationEquip();
+            InitialzationEquip(null);
             flag=1;
         }
         String Ti = getCurrentTime();
@@ -66,9 +69,9 @@ public class Initialization_Contract {
         //获取当前用户的ip
         String Ei= getLocalIp();
         //管理者就是合约的部署者,只有合约的部署者可以进行初始化
-        if (chairperson == Ei) {
+        if (true | chairperson == Ei) {
             //初始化资源信息
-            InitialzationRes();
+            InitialzationRes(null);
             flag=1;
         }
         String Ti = getCurrentTime();
@@ -143,9 +146,9 @@ public class Initialization_Contract {
 
     static boolean userDone=false;
     //初始化用户
-    public  static void InitialzationUser(){
+    public  static String InitialzationUser(String[] s){
         if(userDone){
-            return;
+            return null;
         }
         //初始化用户
         //初始化用户
@@ -173,6 +176,7 @@ public class Initialization_Contract {
         }
         Users.closeDB();
         userDone=true;
+        return null;
     }
 
     public static void InitialzationRes(int fromClient){
@@ -181,9 +185,9 @@ public class Initialization_Contract {
 
     static boolean resDone=false;
     //初始化资源
-    public static void InitialzationRes(){
+    public static String InitialzationRes(String[] s){
         if(resDone){
-            return;
+            return null;
         }
         //初始化资源
         LevelDbUtil Resources = new LevelDbUtil();
@@ -217,6 +221,7 @@ public class Initialization_Contract {
         }
         Resources.closeDB();
         resDone=true;
+        return null;
     }
 
     public static void InitialzationEquip(int fromClient){
@@ -224,9 +229,9 @@ public class Initialization_Contract {
     }
     static boolean equipDone=false;
     //初始化设备
-    public static void InitialzationEquip(){
+    public static String InitialzationEquip(String[] s){
         if(equipDone){
-            return;
+            return null;
         }
         //初始化设备
         LevelDbUtil Equips = new LevelDbUtil();
@@ -244,6 +249,8 @@ public class Initialization_Contract {
         equips.add(new Equip("10.28.129.147","1","1"));
         equips.add(new Equip("192.168.0.103","1","1"));
         equips.add(new Equip("192.168.0.101","1","1"));
+        equips.add(new Equip("127.0.1.1","1","1"));
+        equips.add(new Equip("127.0.0.1","1","1"));
         for (int i=0;i<equips.size();i++){
             String key = equips.get(i).getEquip_id();
             String val = equips.get(i).toString();
@@ -255,15 +262,16 @@ public class Initialization_Contract {
         }
         Equips.closeDB();
         equipDone=true;
+        return null;
     }
 
     public static void InitialzationApply(int fromClient){
         Tool.sendRawCommandToServer(new String[0]);
     }
     static boolean applyDone=false;
-    public static  void InitialzationApply(){
+    public static String InitialzationApply(String[] s){
         if(applyDone){
-            return;
+            return null;
         }
         //权限申请
         LevelDbUtil ApplyMessages = new LevelDbUtil();
@@ -287,6 +295,7 @@ public class Initialization_Contract {
         }
         ApplyMessages.closeDB();
         applyDone=true;
+        return null;
     }
 
 }

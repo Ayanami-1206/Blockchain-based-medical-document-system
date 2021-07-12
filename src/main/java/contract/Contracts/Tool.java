@@ -6,8 +6,10 @@ import LevelDB.Constant;
 import LevelDB.LevelDbUtil;
 import contract.Struct.ApplyMessage;
 import contract.Struct.Equip;
+import contract.Struct.MiscCommand;
 import contract.Struct.Resource;
 import contract.Struct.User;
+import Communication.SHA256RSA;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -21,6 +23,7 @@ import java.util.List;
 import java.util.Scanner;
 
 import bftsmart.tom.ServiceProxy;
+
 
 public class Tool {
 	public static ServiceProxy serviceProxy=null;
@@ -117,18 +120,40 @@ public class Tool {
     }
     public static final int FROMCLIENT=1;
     public static int nodeID=0;
+    public static int getBlockHeightFromRemote(){
+        try (ByteArrayOutputStream byteOut = new ByteArrayOutputStream();
+        ObjectOutput objOut = new ObjectOutputStream(byteOut);) {
+            objOut.writeObject(MiscCommand.getBlockHeight);
+            objOut.flush();
+            byteOut.flush();
+            byte[] reply = serviceProxy.invokeOrdered(byteOut.toByteArray());
+            if (reply.length == 0)
+                return -1;
+            try (ByteArrayInputStream byteIn = new ByteArrayInputStream(reply);
+                    ObjectInput objIn = new ObjectInputStream(byteIn)) {
+                return (int)objIn.readObject();
+                }     
+        } catch (IOException | ClassNotFoundException e) {
+            System.out.println("Exception putting value into map: " + e.getMessage());
+        }
+        return -1;
+    }
     public static String sendRawCommandToServer(String[] s){
         String className=new Exception().getStackTrace()[1].getClassName();
         String methodName=new Exception().getStackTrace()[1].getMethodName();
         try (ByteArrayOutputStream byteOut = new ByteArrayOutputStream();
         ObjectOutput objOut = new ObjectOutputStream(byteOut);) {
 
+            objOut.writeObject(MiscCommand.smartContract);
             objOut.writeObject(className);
             objOut.writeObject(methodName);
-            objOut.writeObject(s);
-            
+            objOut.writeObject(s); // method parameters
             objOut.flush();
             byteOut.flush();
+            String signature=SHA256RSA.signatureSHA256RSAWithByteArrayInput(byteOut.toByteArray(),User_Contract.realPK);
+            objOut.writeObject(signature);
+            objOut.flush();
+            byteOut.flush();            
         
             byte[] reply = serviceProxy.invokeOrdered(byteOut.toByteArray());
             if (reply.length == 0)
@@ -137,7 +162,7 @@ public class Tool {
                     ObjectInput objIn = new ObjectInputStream(byteIn)) {
                 return (String)objIn.readObject();
                 }     
-        } catch (IOException | ClassNotFoundException e) {
+        } catch (Exception e) {
             System.out.println("Exception putting value into map: " + e.getMessage());
         }
         return null;

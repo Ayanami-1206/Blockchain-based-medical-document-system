@@ -10,7 +10,7 @@ import java.security.spec.X509EncodedKeySpec;
 import java.util.Base64;
 
 
-class SHA256RSA {
+public class SHA256RSA {
     public static void main(String[] args) throws Exception {
         String input = "sdlyyxy";
         String filename = "private.pem";
@@ -23,11 +23,11 @@ class SHA256RSA {
  
 
 // Create base64 encoded signature using SHA256/RSA.
-    static String signatureSHA256RSA(String document, String strPrivateKey) throws Exception {
+    public static String signatureSHA256RSA(String document, String strPrivateKey) throws Exception {
         return signatureSHA256RSAWithByteArrayInput(document.getBytes(),strPrivateKey);
     }
 
-    static String signatureSHA256RSAWithByteArrayInput(byte[] document, String strPrivateKey) throws Exception {
+    public static String signatureSHA256RSAWithByteArrayInput(byte[] document, String strPrivateKey) throws Exception {
         String realPK = strPrivateKey.replaceAll("-----END PRIVATE KEY-----", "")
                                 .replaceAll("-----BEGIN PRIVATE KEY-----", "")
                                 .replaceAll("\n", "");
@@ -42,11 +42,11 @@ class SHA256RSA {
         return Base64.getEncoder().encodeToString(s);
     }
 
-    static boolean verifySHA256RSA(byte[] sig, String document, String strPubKey) throws Exception {
+    public static boolean verifySHA256RSA(byte[] sig, String document, String strPubKey) throws Exception {
         return verifySHA256RSAWithByteArrayInput(sig, document.getBytes(), strPubKey);
     }
 
-    static boolean verifySHA256RSAWithByteArrayInput(byte[] sig, byte[] document, String strPubKey) throws Exception {
+    public static boolean verifySHA256RSAWithByteArrayInput(byte[] sig, byte[] document, String strPubKey) throws Exception {
         String realPub = strPubKey.replaceAll("-----END PUBLIC KEY-----", "")
                                 .replaceAll("-----BEGIN PUBLIC KEY-----", "")
                                 .replaceAll("\n", "");

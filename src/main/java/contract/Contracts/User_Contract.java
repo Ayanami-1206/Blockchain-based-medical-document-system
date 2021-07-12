@@ -467,6 +467,7 @@ public class User_Contract {
                 {
                     InetAddress addr = a.nextElement();
                     String currentEquip = addr.getHostAddress();
+                    System.out.println(currentEquip);
                     for (int index = 0;index<equips.size();index++){
                         String temp_ip = equips.get(index).getEquip_id();
                         if (currentEquip.equals(temp_ip)){
@@ -492,7 +493,7 @@ public class User_Contract {
     }
     //将内容打包到文件
     public static void PackToFile(String s) throws IOException {
-        String filePath1=new File("src/main/java/event.txt").getAbsolutePath();
+        String filePath1=new File("event.txt").getAbsolutePath();
         System.out.println(filePath1);
         FileWriter fw = null;
         try {
@@ -544,9 +545,15 @@ public class User_Contract {
             "E3uSAwgJMquwjiLOk36+fU2qa0ts+q/7xE7+c5mJ9+f5HXpQEz9+DCvJWqHg9DP5\n" +
             "8pdDifE4lUqHpCr+OkVnDuPCOEU/8wsWzIg+RutLkdhom85R9jUnvq7mYoE26zct\n" +
             "L3iOO2o4xC1VC/feyk0bhJM=";
+    /**
+     * public key
+     */            
     public static String realPub = pub.replaceAll("-----END PUBLIC KEY-----", "")
             .replaceAll("-----BEGIN PUBLIC KEY-----", "")
             .replaceAll("\n", "");
+    /**
+     * private key
+     */            
     public static String realPK = pri.replaceAll("-----END PRIVATE KEY-----", "")
             .replaceAll("-----BEGIN PRIVATE KEY-----", "")
             .replaceAll("\n", "");
