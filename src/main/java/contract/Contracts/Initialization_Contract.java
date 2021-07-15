@@ -165,6 +165,7 @@ public class Initialization_Contract {
         users.add(new User("二类用户", "1", "11", "1", 1, "", realPub));
         users.add(new User("三类用户", "1", "12", "1", 2, "", realPub));
         users.add(new User("管理节点", "1", "13", "1", 3, "", realPub));
+        users.add(new User("typethree", "1", "15", "1", 3, "", realPub));
         for (int i = 0; i < users.size(); i++) {
             String key = users.get(i).getWork_number();
             String val = users.get(i).toString();

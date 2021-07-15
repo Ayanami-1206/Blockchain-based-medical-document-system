@@ -4,15 +4,20 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectInput;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutput;
 import java.io.ObjectOutputStream;
+import java.io.PrintStream;
 import java.lang.invoke.MethodHandle;
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
 import java.lang.reflect.Method;
+import java.security.MessageDigest;
+import java.util.Base64;
 
 import Communication.ReflectNode;
 import bftsmart.tom.MessageContext;
@@ -117,12 +122,17 @@ final public class ContractServer extends DefaultSingleRecoverable{
         new ServiceReplica(id, this, this);
     }
 
+    public static byte[] parentHash=null;
+    public static int blockHeight=0;
+
     @Override
     public byte[] appExecuteOrdered(byte[] command, MessageContext msgCtx) {
+        byte[] originCommand=command.clone();
         byte[] reply = null;
         String className=null;
         String methodName=null;
         String[] strArr=null;
+        String sig=null;
 		boolean hasReply = false;
         String result=null;
 		try (ByteArrayInputStream byteIn = new ByteArrayInputStream(command);
@@ -138,6 +148,7 @@ final public class ContractServer extends DefaultSingleRecoverable{
                     className = (String)objIn.readObject();
                     methodName=(String)objIn.readObject();
                     strArr=(String[])objIn.readObject();
+                    sig=(String)objIn.readObject();
                     Class<?> c = Class.forName(className);
                     // System.out.println("will invode");
                     if(className.equals("contract.Contracts.Initialization_Contract")){
@@ -157,6 +168,36 @@ final public class ContractServer extends DefaultSingleRecoverable{
                     // result = (String) Fun.invoke(null,strArr,false);
                     System.out.println(result);
                     objOut.writeObject(result);
+                    String destination = "block_data";
+                    try(PrintStream ps = new PrintStream(new FileOutputStream(destination, true))){
+                        ps.printf("Block height: %d\n",blockHeight++);
+                        if(parentHash==null){
+                            ps.printf("Parent hash: null\n");
+                        }
+                        else{
+                            ps.printf("Parent hash: %s\n",Base64.getEncoder().encodeToString(parentHash));
+                        }
+                        MessageDigest md = MessageDigest.getInstance("SHA-256");
+                        md.update(originCommand);
+                        parentHash=md.digest();
+                        ps.printf("Block hash: %s\n",Base64.getEncoder().encodeToString(parentHash));
+                        ps.printf("Timestamp: %s\n",User_Contract.getCurrentTime());
+                        ps.printf("Contract class: %s\n",className);
+                        ps.printf("Contract method: %s\n",methodName);
+                        ps.printf("Contract parameters: ");
+                        if(strArr!=null){
+                            for(int i=0;i<strArr.length;i++){
+                                ps.printf("%s ",strArr[i]);
+                            }
+                        }
+                        ps.printf("\n");
+                        ps.printf("Contract result: %s\n",result);//result==null???
+                        ps.printf("Contract signature: %s\n",sig);
+                        ps.printf("\n");
+                        ps.flush();
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
                 break;
                 // case default:
                 // break;

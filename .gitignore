@@ -32,3 +32,5 @@ publickey*
 *.pkcs12
 
 currentView
+
+block_data

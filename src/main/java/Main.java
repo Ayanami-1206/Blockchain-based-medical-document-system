@@ -6,8 +6,10 @@ import contract.Struct.User;
 import contract.UI.UserRegisterUI;
 
 import java.io.ByteArrayOutputStream;
+import java.io.FileNotFoundException;
 import java.io.ObjectOutput;
 import java.io.ObjectOutputStream;
+import java.io.PrintStream;
 import java.io.UnsupportedEncodingException;
 import java.lang.reflect.Method;
 import java.net.InetAddress;
@@ -27,17 +29,15 @@ class miscTest{
     public static void main(String[] args) {
         try (ByteArrayOutputStream byteOut = new ByteArrayOutputStream();
         ObjectOutput objOut = new ObjectOutputStream(byteOut);) {
-            System.out.println(InetAddress.getLocalHost().getHostAddress());
-            // objOut.writeObject(new T());
-            objOut.writeObject(T.a);
-            objOut.writeObject(123456);
-            objOut.flush();
-            byteOut.flush();
-            byte[] a=byteOut.toByteArray();
-            a=byteOut.toByteArray();
-            System.out.printf("byte array size=%d bytes\n",a.length);
-            for(int i=0;i<a.length;i++){
-                System.out.printf("%02X",a[i]);
+            String destination = "file1.txt";
+
+            try(PrintStream ps = new PrintStream(destination)){
+                ps.println("Stackoverflow documentation seems fun.");
+                ps.println();
+                ps.println("I love Java!");
+                ps.flush();
+            } catch (FileNotFoundException e) {
+                e.printStackTrace();
             }
             System.out.println();
         }
