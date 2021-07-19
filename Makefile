@@ -14,3 +14,5 @@ runall:
 	make run0 & make run1 & make run2 & make run3 &
 killall:
 	jobs -p | xargs -n1 pkill -SIGINT -g # not the same bash env, doestn't work
+runp2pbuild:
+	cd ../open-chord-code/&& make runp2p
