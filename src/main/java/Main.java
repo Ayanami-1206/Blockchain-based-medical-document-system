@@ -24,26 +24,31 @@ import Communication.ServerMain;
 enum T{
     a,b,c;
 }
-
+class TT{
+    public int x;
+    public int y;
+}
 class miscTest{
     public static void main(String[] args) {
-        try (ByteArrayOutputStream byteOut = new ByteArrayOutputStream();
-        ObjectOutput objOut = new ObjectOutputStream(byteOut);) {
-            String destination = "file1.txt";
+        TT a=new TT();
+        // a.seria
+        // try (ByteArrayOutputStream byteOut = new ByteArrayOutputStream();
+        // ObjectOutput objOut = new ObjectOutputStream(byteOut);) {
+        //     String destination = "file1.txt";
 
-            try(PrintStream ps = new PrintStream(destination)){
-                ps.println("Stackoverflow documentation seems fun.");
-                ps.println();
-                ps.println("I love Java!");
-                ps.flush();
-            } catch (FileNotFoundException e) {
-                e.printStackTrace();
-            }
-            System.out.println();
-        }
-        catch(Exception e){
-            e.printStackTrace();
-        }
+        //     try(PrintStream ps = new PrintStream(destination)){
+        //         ps.println("Stackoverflow documentation seems fun.");
+        //         ps.println();
+        //         ps.println("I love Java!");
+        //         ps.flush();
+        //     } catch (FileNotFoundException e) {
+        //         e.printStackTrace();
+        //     }
+        //     System.out.println();
+        // }
+        // catch(Exception e){
+        //     e.printStackTrace();
+        // }
         // System.out.println("line 1");
         // Tool.getchar();
         // System.out.println("Line 2");
@@ -82,9 +87,9 @@ public class Main {
         catch(Exception e){
             e.printStackTrace();
         }
+        Initialization_Contract.InitialzationUser(Tool.FROMCLIENT);
         Initialization_Contract.InitialzationRes(Tool.FROMCLIENT);
         Initialization_Contract.InitialzationEquip(Tool.FROMCLIENT);
-        Initialization_Contract.InitialzationUser(Tool.FROMCLIENT);
         Initialization_Contract.InitialzationApply(Tool.FROMCLIENT);
         new UserRegisterUI();
 

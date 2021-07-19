@@ -28,6 +28,23 @@ public class User_Contract {
     //添加新的设备
     public static void addNewEquip(){}
 
+
+    public static String getResource(String[] strArr,Boolean testflag){
+        ArrayList<Resource> Res = Tool.getResources();
+        String res="";
+        for(int i=0;i<Res.size();i++){
+            Resource r=Res.get(i);
+            res+=r.getResource_name();
+            res+=";";
+            res+=r.getResource_level();
+            res+=";";
+            res+=r.getResource_version();
+            res+=";";
+        }
+        return res;
+
+    }
+
     public static String userRegister(String[] strArr,int fromClient){
         return Tool.sendRawCommandToServer(strArr);
     }

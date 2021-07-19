@@ -17,6 +17,7 @@ import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
 import java.lang.reflect.Method;
 import java.security.MessageDigest;
+import java.util.ArrayList;
 import java.util.Base64;
 
 import Communication.ReflectNode;
@@ -24,7 +25,7 @@ import bftsmart.tom.MessageContext;
 import bftsmart.tom.ServiceReplica;
 import bftsmart.tom.server.defaultservices.DefaultSingleRecoverable;
 import contract.Struct.MiscCommand;
-
+import contract.Struct.User;
 import bftsmart.demo.counter.CounterServer;
 
 // public class ContractServer extends DefaultSingleRecoverable{
@@ -181,6 +182,20 @@ final public class ContractServer extends DefaultSingleRecoverable{
                         md.update(originCommand);
                         parentHash=md.digest();
                         ps.printf("Block hash: %s\n",Base64.getEncoder().encodeToString(parentHash));
+                        md = MessageDigest.getInstance("SHA-256");
+                        md.update(Tool.getUser().toString().getBytes());
+                        md.update(Tool.getResources().toString().getBytes());
+                        md.update(Tool.getEquip().toString().getBytes());
+                        md.update(Tool.getApplayMessages().toString().getBytes());
+                        ps.printf("Root hash: %s\n",Base64.getEncoder().encodeToString(md.digest()));
+                        if(blockHeight==1){
+                            ps.printf("User public keys:\n");
+                            ArrayList<User> users = Tool.getUser();
+                            for(int i=0;i<users.size();i++){
+                                User u=users.get(i);
+                                ps.printf("\t\t%s, %s\n",u.getUser_name(),u.getPubKey());
+                            }
+                        }
                         ps.printf("Timestamp: %s\n",User_Contract.getCurrentTime());
                         ps.printf("Contract class: %s\n",className);
                         ps.printf("Contract method: %s\n",methodName);
