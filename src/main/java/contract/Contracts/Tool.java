@@ -97,7 +97,7 @@ public class Tool {
         return users;
     }
     //获取申请的列表
-    public static ArrayList<ApplyMessage> getApplayMessages( ){
+    public static ArrayList<ApplyMessage> getApplyMessages( ){
         LevelDbUtil res = new LevelDbUtil();
         res.initLevelDB(Constant.APPLYMESSAGES);
         //获取当前所有的资源

@@ -9,7 +9,7 @@ public class ApplyMessage {
     String new_role;//申请的新角色权限
     String apply_time;//申请时间
 
-    public ApplyMessage() {
+    public ApplyMessage(String s, int i, String s1) {
     }
 
     public ApplyMessage(String apply_name, String apply_worknumber, String old_role, String new_role, String apply_time) {
