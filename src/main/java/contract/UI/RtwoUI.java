@@ -71,7 +71,12 @@ public class RtwoUI extends JFrame{
                 ((DefaultTableModel) table.getModel()).fireTableDataChanged();//通知模型更新
                 table.updateUI();
                 //读取存储的申请数据，显示在表格中
-                ArrayList<Resource> Res = Tool.getResources();
+                String returnStr=User_Contract.getResource(null, Tool.FROMCLIENT);
+                ArrayList<Resource> Res=new ArrayList<>();
+                String[] rarray=returnStr.split(";");
+                for(int i=0;i<rarray.length;i+=3){
+                    Res.add(new Resource(rarray[i],Integer.parseInt(rarray[i+1]),rarray[i+2]));
+                }
                 System.out.println("获取资源"+Res);
                 ArrayList<Resource> Rones = new ArrayList<>();
                 for (int i =0;i<Res.size();i++){

@@ -31,7 +31,6 @@ class TT{
 class miscTest{
     public static void main(String[] args) {
         TT a=new TT();
-        // a.seria
         // try (ByteArrayOutputStream byteOut = new ByteArrayOutputStream();
         // ObjectOutput objOut = new ObjectOutputStream(byteOut);) {
         //     String destination = "file1.txt";

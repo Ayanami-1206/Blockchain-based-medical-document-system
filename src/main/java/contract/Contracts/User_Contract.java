@@ -28,6 +28,9 @@ public class User_Contract {
     //添加新的设备
     public static void addNewEquip(){}
 
+    public static String getResource(String[] strArr,int fromClient){
+        return Tool.sendRawCommandToServer(strArr);
+    }
 
     public static String getResource(String[] strArr,Boolean testflag){
         ArrayList<Resource> Res = Tool.getResources();
@@ -239,20 +242,45 @@ public class User_Contract {
         }
         return returnStr+flag;
     }
-    public static String  applyRole(String[] strArr,int fromClient){
+
+    public static String getApplyMessages(String[] strArr,int fromClient){
+        return Tool.sendRawCommandToServer(strArr);
+    }
+
+    public static String getApplyMessages(String[] strArr,Boolean testflag){
+        ArrayList<ApplyMessage> applyMessages = Tool.getApplyMessages();
+        String appmsg="";
+        for(int i=0;i<applyMessages.size();i++){
+            ApplyMessage m=applyMessages.get(i);
+            appmsg+=m.getApply_name();
+            appmsg+=";";
+            appmsg+=m.getApply_worknumber();
+            appmsg+=";";
+            appmsg+=m.getOld_role();
+            appmsg+=";";
+            appmsg+=m.getNew_role();
+            appmsg+=";";
+            appmsg+=m.getApply_time();
+            appmsg+=";";
+        }
+        return appmsg;
+
+    }
+
+    public static String applyRole (String[] strArr,int fromClient){
         return Tool.sendRawCommandToServer(strArr);
     }
     //普通用户权限申请函数：参数：用户的名字  用户的工号 旧权限 新权限
-    public static String  applyRole(String[] strArr,Boolean testFlag) throws IOException {
+    public static String applyRole (String[] strArr,Boolean testFlag) throws IOException {
         String returnStr ="";
         String temp_name = strArr[0];
         String temp_worknumber = strArr[1];
-        String temp_old=strArr[2];
+        String temp_old = strArr[2];
         String temp_new = strArr[3];
         //遍历已注册的节点 查看信息是否匹配
         int flag = 0;
-        String  Ei = getLocalIp();
-        ArrayList<ApplyMessage> applyMessages = Tool.getApplayMessages();
+        String Ei = getLocalIp();
+        ArrayList<ApplyMessage> applyMessages = Tool.getApplyMessages();
         System.out.println("applyMessage"+applyMessages);
         //遍历是否存在重复申请
         if (applyMessages.size()!=0){
@@ -305,7 +333,7 @@ public class User_Contract {
         String  Ei = getLocalIp();
         //获取已经注册的用户
         ArrayList<User> usereds =Tool.getUsereds();
-        ArrayList<ApplyMessage> applyMessages = Tool.getApplayMessages();
+        ArrayList<ApplyMessage> applyMessages = Tool.getApplyMessages();
         //遍历数组找到对应用户
         if (pass.equals("1")){
             //遍历数组找到对应用户
@@ -358,10 +386,36 @@ public class User_Contract {
         }
         return returnStr+flag;
     }
+
+    public static String getUsereds(String[] strArr,int fromClient){
+        return Tool.sendRawCommandToServer(strArr);
+    }
+
+    public static String getUsereds(String[] strArr,Boolean testflag){
+        ArrayList<User> usereds = Tool.getUsereds();
+        String user="";
+        for(int i=0;i<usereds.size();i++){
+            User u=usereds.get(i);
+            user+=u.getUser_name();
+            user+=";";
+            user+=u.getWork_number();
+            user+=";";
+            user+=u.getPassword();
+            user+=";";
+        }
+        return user;
+
+    }
     //获取当前的用户信息，参数用户的名字 用户的身份证号 用户密码
     public static User getCurrentUser(String temp_name,String temp_worknumber,String temp_psw){
         User currentUser = new User();
-        ArrayList<User> usereds = Tool.getUsereds();
+        //ArrayList<User> usereds = Tool.getUsereds();
+        String returnStr=User_Contract.getUsereds(null, Tool.FROMCLIENT);
+        ArrayList<User> usereds = new ArrayList<>();
+        String[] rarray=returnStr.split(";");
+        for(int i=0;i<rarray.length;i+=3){
+            usereds.add(new User(rarray[i],null,rarray[i+1],null,-1,rarray[i+2],null));
+        }
         //遍历列表获取当前用户
         if (usereds.size()!=0){
             for (int index = 0;index<usereds.size();index++){
@@ -377,12 +431,12 @@ public class User_Contract {
     //客户端：进行数据发送
     //参数：发送的数据 服务器的ip和端口
 
-    public static void client(String date,String ipAdsress,int port) throws IOException {
+    public static void client(String date,String ipAddress,int port) throws IOException {
         Socket socket = null;
         OutputStream os = null;
 
         try {
-            socket = new Socket(ipAdsress, port);
+            socket = new Socket(ipAddress, port);
             os = socket.getOutputStream();
             os.write(date.getBytes());
         } catch (IOException e) {
@@ -408,7 +462,7 @@ public class User_Contract {
     //服务端：进行数据接收，并返回接收的数据
     //参数：端口
 
-    public static String  server(String ipAdsress,int port) throws IOException {
+    public static String server(String ipAddress,int port) throws IOException {
         ServerSocket ss = null;
         Socket socket = null;
         InputStream is = null;

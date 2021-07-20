@@ -186,7 +186,7 @@ final public class ContractServer extends DefaultSingleRecoverable{
                         md.update(Tool.getUser().toString().getBytes());
                         md.update(Tool.getResources().toString().getBytes());
                         md.update(Tool.getEquip().toString().getBytes());
-                        md.update(Tool.getApplayMessages().toString().getBytes());
+                        md.update(Tool.getApplyMessages().toString().getBytes());
                         ps.printf("Root hash: %s\n",Base64.getEncoder().encodeToString(md.digest()));
                         if(blockHeight==1){
                             ps.printf("User public keys:\n");

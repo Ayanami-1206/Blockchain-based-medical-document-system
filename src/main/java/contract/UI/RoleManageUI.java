@@ -5,6 +5,7 @@ import contract.Contracts.Tool;
 import contract.Contracts.User_Contract;
 import contract.Struct.ApplyMessage;
 import contract.Struct.DbStore;
+import contract.Struct.Resource;
 import contract.Struct.User;
 
 import javax.swing.*;
@@ -70,12 +71,18 @@ public class RoleManageUI extends JFrame{
                 ((DefaultTableModel) table.getModel()).fireTableDataChanged();//通知模型更新
                 table.updateUI();
                 //读取存储的申请数据，显示在表格中
-                ArrayList<ApplyMessage> applyMessages = Tool.getApplayMessages();
-                System.out.println(applyMessages);
+                //ArrayList<ApplyMessage> applyMessages = Tool.getApplyMessages();
+                String returnStr=User_Contract.getApplyMessages(null, Tool.FROMCLIENT);
+                ArrayList<ApplyMessage> applyMessages = new ArrayList<>();
+                String[] rarray=returnStr.split(";");
+                for(int i=0;i<rarray.length;i+=5){
+                    applyMessages.add(new ApplyMessage(rarray[i],rarray[i+1],rarray[i+2],rarray[i+3],rarray[i+4]));
+                }
+                System.out.println("更新数据"+applyMessages);
+
                 for (int index = 0;index<applyMessages.size();index++){
                     ApplyMessage currentMessage = applyMessages.get(index);
-                    String []rowValues = {currentMessage.getApply_name(),currentMessage.getApply_worknumber(),currentMessage.getOld_role(),
-                    currentMessage.getNew_role(),currentMessage.getApply_time()};
+                    String[] rowValues = {currentMessage.getApply_name(),currentMessage.getApply_worknumber(),currentMessage.getOld_role(), currentMessage.getNew_role(),currentMessage.getApply_time()};
                     tableModel.addRow(rowValues);  //添加一行
                 }
             }
