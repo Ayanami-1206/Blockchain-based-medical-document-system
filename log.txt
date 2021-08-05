@@ -1,5 +1,0 @@
-阿达放大
-中文测试 in user_contract
-Did enter userRegister
-temp_name=1, temp_phone=1, temp_worknumber=1, temp_idnumber=1, psw=1
-[10, 11, 12, 13]

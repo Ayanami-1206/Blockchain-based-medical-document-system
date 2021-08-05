@@ -11,14 +11,23 @@ import contract.Struct.Resource;
 import contract.Struct.User;
 import Communication.SHA256RSA;
 
+import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.io.ObjectInput;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutput;
 import java.io.ObjectOutputStream;
+import java.net.InetAddress;
+import java.net.NetworkInterface;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Enumeration;
 import java.util.List;
 import java.util.Scanner;
 
@@ -120,6 +129,7 @@ public class Tool {
     }
     public static final int FROMCLIENT=1;
     public static int nodeID=0;
+    public static final int maxClientCount=200;
     public static int getBlockHeightFromRemote(){
         try (ByteArrayOutputStream byteOut = new ByteArrayOutputStream();
         ObjectOutput objOut = new ObjectOutputStream(byteOut);) {
@@ -152,6 +162,7 @@ public class Tool {
             byteOut.flush();
             String signature=SHA256RSA.signatureSHA256RSAWithByteArrayInput(byteOut.toByteArray(),User_Contract.realPK);
             objOut.writeObject(signature);
+            objOut.writeObject(Tool.getCurrentTime());
             objOut.flush();
             byteOut.flush();            
         
@@ -172,4 +183,170 @@ public class Tool {
         scanner.nextLine();
         // scanner.close();
     }
+
+    //获取当前设备的ip地址
+    public static String getLocalIp(){
+        Enumeration<NetworkInterface> n;
+        try{
+            n = NetworkInterface.getNetworkInterfaces();
+            for (; n.hasMoreElements();){
+                NetworkInterface e = n.nextElement();
+                Enumeration<InetAddress> a = e.getInetAddresses();
+                for (; a.hasMoreElements();){
+                    InetAddress addr = a.nextElement();
+                    String currentEquip = addr.getHostAddress();
+                    boolean ipv6=false;
+                    for(int i=0;i<currentEquip.length();i++){
+                        if(currentEquip.charAt(i)==':'){
+                            ipv6=true;
+                            break;
+                        }
+                    }
+                    if(ipv6)continue;
+                    if((!currentEquip.substring(0,3).equals("127"))){
+                        return currentEquip;
+                    }
+                }
+            }
+        } catch (Exception e1) {
+            e1.printStackTrace();
+        }
+        return "";
+    }
+    public static void system(String s){
+        Runtime rt = Runtime.getRuntime();
+        try{
+            Process p=rt.exec(s);
+            BufferedReader stdInput = new BufferedReader(new
+            InputStreamReader(p.getInputStream()));
+            while ((s = stdInput.readLine()) != null) {
+                // System.out.println(s);
+                // make this command blocks
+            }
+        }
+        catch(Exception e){
+            e.printStackTrace();
+        }
+    }
+    public static void levelDBClear(){
+        String dbFolder="src/main/java/LevelDBLocalData/";
+        system("rm -rf "+dbFolder);
+    }
+    public static void writeApplyMessageDB(ArrayList<ApplyMessage> a){
+        LevelDbUtil ApplyMessages = new LevelDbUtil();
+        ApplyMessages.initLevelDB(Constant.APPLYMESSAGES);
+        for (int i=0;i<a.size();i++){
+            String key = String.valueOf(a.get(i).hashCode());
+            String val = a.get(i).toString();
+            try {
+                ApplyMessages.put(key,val);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        ApplyMessages.closeDB();
+    }
+    public static void writeEquipDB(ArrayList<Equip> a){
+        LevelDbUtil Equips = new LevelDbUtil();
+        Equips.initLevelDB(Constant.EQUIPS);
+        for (int i=0;i<a.size();i++){
+            String key = a.get(i).getEquip_id();
+            String val = a.get(i).toString();
+            try {
+                Equips.put(key,val);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        Equips.closeDB();
+    }
+    public static void writeResourceDB(ArrayList<Resource> a){
+        LevelDbUtil Resources = new LevelDbUtil();
+        Resources.initLevelDB(Constant.RESOURCES);
+        for (int i = 0; i < a.size(); i++) {
+            String key = String.valueOf(a.get(i).hashCode());
+            String val = a.get(i).toString();
+            try {
+                Resources.put(key, val);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        Resources.closeDB();
+    }
+    public static void writeUserDB(ArrayList<User> a){
+        LevelDbUtil Users = new LevelDbUtil();
+        Users.initLevelDB(Constant.USERS);
+        for (int i = 0; i < a.size(); i++) {
+            String key = a.get(i).getWork_number();
+            String val = a.get(i).toString();
+            try {
+                Users.put(key, val);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        Users.closeDB();
+    }
+    public static void writeUseredsDB(ArrayList<User> a){
+        LevelDbUtil Users = new LevelDbUtil();
+        Users.initLevelDB(Constant.USEREDS);
+        for (int i = 0; i < a.size(); i++) {
+            String key = a.get(i).getWork_number();
+            String val = a.get(i).toString();
+            try {
+                Users.put(key, val);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        Users.closeDB();
+    }
+    final public static String blockPath="block_data";
+    public static void storeVar(){
+        try{
+            FileOutputStream fileOut = new FileOutputStream(".storage");
+            ObjectOutputStream out = new ObjectOutputStream(fileOut);
+            out.writeObject(ContractServer.blockHeight);
+            out.writeObject(ContractServer.parentHash);
+            out.writeObject(Initialization_Contract.applyDone);
+            out.writeObject(Initialization_Contract.resDone);
+            out.writeObject(Initialization_Contract.userDone);
+            out.writeObject(Initialization_Contract.equipDone);
+            out.close();
+            fileOut.close();
+        }
+        catch(Exception e){
+            e.printStackTrace();
+        }
+    }
+    public static void loadVar(){
+        try{
+            FileInputStream fileOut = new FileInputStream(".storage");
+            ObjectInputStream out = new ObjectInputStream(fileOut);
+            ContractServer.blockHeight=(int)out.readObject();
+            ContractServer.parentHash=(byte[])out.readObject();
+            Initialization_Contract.applyDone=(boolean)out.readObject();
+            Initialization_Contract.resDone=(boolean)out.readObject();
+            Initialization_Contract.userDone=(boolean)out.readObject();
+            Initialization_Contract.equipDone=(boolean)out.readObject();
+            out.close();
+            fileOut.close();
+        }
+        catch(Exception e){
+            e.printStackTrace();
+        }
+    }
+    public static int currentClientID=-1;
+    public static String getClientIP(){
+        return "10.0.0."+(currentClientID+1);
+    }
+    //获取当前时间的函数
+    public static String getCurrentTime(){
+        Calendar calendar= Calendar.getInstance();
+        SimpleDateFormat dateFormat= new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        String Ti = dateFormat.format(calendar.getTime());
+        return Ti;
+    }
+    public static byte[] initSnapshot=null;
 }

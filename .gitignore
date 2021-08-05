@@ -38,4 +38,14 @@ block_data
 .in
 .out
 ifconfig* 
+.storage
 # ifconfig tmpfile used by runp2p to get self hostname and ip addr
+
+kill.sh
+
+env/*/config/hosts.config
+env/*/config/system.config
+
+event.txt
+
+rungui

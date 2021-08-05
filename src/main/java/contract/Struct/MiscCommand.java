@@ -1,5 +1,5 @@
 package contract.Struct;
 
 public enum MiscCommand {
-    getBlockHeight,smartContract;
+    getBlockHeight,smartContract,getState;
 }

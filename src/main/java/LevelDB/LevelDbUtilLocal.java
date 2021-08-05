@@ -25,7 +25,7 @@ public class LevelDbUtilLocal {
      * 每次使用levelDB前都要调用此方法，无论db是否存在
      */
     public DB initLevelDB(String s) {
-        dbFolder="src/main/java/LevelDBLocalData"+Tool.nodeID+"/"+s;
+        dbFolder="src/main/java/LevelDBLocalData/"+s;
         DBFactory factory = new Iq80DBFactory();
         Options options = new Options();
         options.createIfMissing(true);

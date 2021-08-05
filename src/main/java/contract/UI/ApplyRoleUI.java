@@ -34,7 +34,8 @@ public class ApplyRoleUI extends JFrame implements ActionListener {
         jb1.addActionListener(this);
         jb2.addActionListener(this);
 
-        String []role= {"后端综合测试","数据处理与判读","测发进程模拟配置","管理节点"};	//创建角色权限
+        // String []role= {"后端综合测试","数据处理与判读","测发进程模拟配置","管理节点"};	//创建角色权限
+        String []role= {"后端综合测试","数据处理与判读","测发进程模拟配置"};//创建角色权限
         jcb1=new JComboBox(role);		//添加到下拉框中
 
         jp1 = new JPanel();  //创建面板

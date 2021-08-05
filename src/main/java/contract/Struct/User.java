@@ -1,9 +1,10 @@
 package contract.Struct;
 
+import java.io.Serializable;
 import java.util.Objects;
 
 //定义用户结构
-public class User {
+public class User implements Serializable{
     String user_name; //用户的名字
     String user_phone;//用户电话号码
     String work_number; //用户的工号

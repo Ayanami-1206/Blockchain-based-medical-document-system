@@ -142,10 +142,7 @@ public class Res_Contract {
 
     //获取当前时间的函数
     public static String getCurrentTime(){
-        Calendar calendar= Calendar.getInstance();
-        SimpleDateFormat dateFormat= new SimpleDateFormat("yyyy-MM-dd :hh:mm:ss");
-        String Ti = dateFormat.format(calendar.getTime());
-        return Ti;
+        return Tool.getCurrentTime();
     }
 
 

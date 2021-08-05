@@ -1,9 +1,10 @@
 package contract.Struct;
 
+import java.io.Serializable;
 import java.util.Objects;
 
 //定义资源的结构
-public class Resource {
+public class Resource implements Serializable{
     String resource_name; //资源名称
     int resource_level; //资源的权限
     String resource_version; //资源的版本

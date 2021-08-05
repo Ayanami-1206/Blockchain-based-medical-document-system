@@ -1,8 +1,9 @@
 package contract.Struct;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class ApplyMessage {
+public class ApplyMessage implements Serializable{
     String apply_name;//申请人
     String apply_worknumber;//申请人工号
     String old_role;//申请人当前的角色权限

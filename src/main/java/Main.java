@@ -15,6 +15,7 @@ import java.lang.reflect.Method;
 import java.net.InetAddress;
 import java.nio.charset.Charset;
 import java.util.Scanner;
+import java.util.Locale.Category;
 
 import javax.swing.UIManager;
 
@@ -30,7 +31,8 @@ class TT{
 }
 class miscTest{
     public static void main(String[] args) {
-        TT a=new TT();
+        // Tool.system("pwd");
+        System.out.println(Tool.getLocalIp());
         // try (ByteArrayOutputStream byteOut = new ByteArrayOutputStream();
         // ObjectOutput objOut = new ObjectOutputStream(byteOut);) {
         //     String destination = "file1.txt";
@@ -77,7 +79,8 @@ public class Main {
         // if(Tool.nodeID!=1){//test: one client
             // return;
         // }
-        Tool.nodeID=0;
+        // for gui, use two arguments, e.g. java .... Main gui <id>
+        Tool.nodeID=Integer.parseInt(args[1]);
         Tool.serviceProxy=new ServiceProxy(Tool.nodeID);
         try{
             UIManager.setLookAndFeel(

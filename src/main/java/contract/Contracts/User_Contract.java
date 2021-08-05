@@ -11,9 +11,7 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.net.SocketException;
 import java.net.UnknownHostException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.Enumeration;
 import java.util.Locale;
 
@@ -65,7 +63,8 @@ public class User_Contract {
         System.out.printf("Did enter userRegister\ntemp_name=%s, temp_phone=%s, temp_worknumber=%s, temp_idnumber=%s, psw=%s\n", temp_name,temp_phone,temp_worknumber,temp_idnumber,psw);
         int flag = 0;
         //获取当前主机的ip地址
-        String  Ei = getLocalIp();
+        String  Ei = Tool.getClientIP();
+        System.out.printf("localIP=%s\n",Ei);
         //获取已经初始化的用户列表
         ArrayList<User> users = Tool.getUser();
         ArrayList<Equip> equips = Tool.getEquip();
@@ -101,7 +100,7 @@ public class User_Contract {
 
                     if(!testFlag) {
                         //
-                        String Ti = getCurrentTime();
+                        String Ti = Tool.getCurrentTime();
                         //调用数据库存储接口,用户Ui在设备Ei上申请注册，于时间Ti申请成功/失败；
                         returnStr = Ti+"&"+currentUser.getUser_name()+"*" + "在ip地址为" + Ei + "上申请注册，于" + Ti + "注册成功"+"*注册";
                     }
@@ -117,7 +116,7 @@ public class User_Contract {
                 // System.out.println("currentUser.getUser_name(): "+currentUser.getUser_name());
                 // System.out.println("Ei: "+Ei);
                 System.out.println("no matched user in ArrayList<User> users = Tool.getUser();");
-                String Ti = getCurrentTime();
+                String Ti = Tool.getCurrentTime();
                 returnStr = Ti+"&"+ temp_name+"*" + "在ip地址为" + Ei + "上申请注册，于" + Ti + "注册失败"+"*注册";
                 System.out.println("returnStr: "+returnStr);
             }
@@ -127,11 +126,12 @@ public class User_Contract {
             //将注册失败的信息存储到数据库中
             if(!testFlag) {
                 System.out.println("isEquip(equips)==false");
-                String Ti = getCurrentTime();
+                String Ti = Tool.getCurrentTime();
                 //将数据临时存储到
                 returnStr = Ti+"&"+ temp_name +"*"+ "在ip地址为" + Ei + "上申请注册，于" + Ti + "注册失败"+"*注册";
             }
         }
+        System.out.printf("will exit userRegister: %s\n",returnStr+flag);
         return returnStr+flag;
     }
 
@@ -147,7 +147,7 @@ public class User_Contract {
         String temp_psw=strArr[2];
         int flag = 7;
         //获取当前主机的ip地址
-        String  Ei = getLocalIp();
+        String  Ei = Tool.getClientIP();
         ArrayList<User> usereds = Tool.getUsereds();
         System.out.println(usereds);
         ArrayList<Equip> equips = Tool.getEquip();
@@ -161,7 +161,7 @@ public class User_Contract {
                 System.out.println(temp_workNumber);
                 if(currentUser.getUser_name().equals(temp_name) && currentUser.getWork_number().equals(temp_workNumber)&&currentUser.getPassword().equals(temp_psw)){
                     if(!testFlag){
-                        String Ti = getCurrentTime();
+                        String Ti = Tool.getCurrentTime();
                         returnStr = Ti+"&"+currentUser.getUser_name()+"*" + "在ip地址为" + Ei + "上申请登录，于" + Ti + "登录成功"+"*登录";
                     }
 
@@ -174,7 +174,7 @@ public class User_Contract {
                     flag = 4;
                     //将登录失败的信息存储到数据库进入用户界面
                     if(!testFlag) {
-                        String Ti = getCurrentTime();
+                        String Ti = Tool.getCurrentTime();
                         returnStr=Ti+"&"+ currentUser.getUser_name()+"*" + "在ip地址为" + Ei + "上申请登录，于" + Ti + "登录失败,失败原因是密码错误"+"*登录";
                     }
                     break;
@@ -182,7 +182,7 @@ public class User_Contract {
             }
             if(flag==5){
                 if(!testFlag) {
-                    String Ti = getCurrentTime();
+                    String Ti = Tool.getCurrentTime();
                     returnStr = Ti+"&"+temp_name +"*"+ "在ip地址为" + Ei + "上申请登录，于" + Ti + "登录失败,失败原因是用户信息有误"+"*登录";
                 }
             }
@@ -190,7 +190,7 @@ public class User_Contract {
             //设备未注册
             flag = 6;
             if(!testFlag) {
-                String Ti = getCurrentTime();
+                String Ti = Tool.getCurrentTime();
                 //调用数据库存储接口,用户Ui在设备Ei上申请登录，于时间Ti申请成功/失败；
                 returnStr = Ti+"&"+temp_name+"*" + "在ip地址为" + Ei + "上申请登录，于" + Ti + "登录失败,失败原因是非法设备"+"*登录";
             }
@@ -208,10 +208,10 @@ public class User_Contract {
         String temp_name = strArr[0];
         String temp_idnumber=strArr[1];
         int flag = 0;
-       String Ei = getLocalIp();
+       String Ei = Tool.getClientIP();
         //与已经注册的用户数据进行匹配
         ArrayList<User> usereds =Tool.getUsereds();
-        String Ti = getCurrentTime();
+        String Ti = Tool.getCurrentTime();
         //调用数据库存储接口,用户Ui在设备Ei上申请注销，于时间Ti申请成功/失败；
         returnStr = Ti+"&"+ temp_name+"*" + "在ip地址为" + Ei + "上申请注销，于" + Ti + "注销失败"+"*注销";
         for (int index = 0;index<usereds.size();index++){
@@ -223,7 +223,7 @@ public class User_Contract {
                 Usereds.delete(currentUser.getWork_number());
                 Usereds.closeDB();
                 if(!testFlag) {
-                     Ti= getCurrentTime();
+                     Ti= Tool.getCurrentTime();
                     //调用数据库存储接口,用户Ui在设备Ei上申请注销，于时间Ti申请成功/失败；
                     returnStr = Ti+"&"+ currentUser.getUser_name()+"*" + "在ip地址为" + Ei + "上申请注销，于" + Ti + "注销成功"+"*注销";
                 }
@@ -234,7 +234,7 @@ public class User_Contract {
         if (flag==0){
             //将注销失败的信息存储到数据库进入用户界面
             if(!testFlag) {
-                 Ti = getCurrentTime();
+                 Ti = Tool.getCurrentTime();
                 //调用数据库存储接口,用户Ui在设备Ei上申请登录，于时间Ti申请成功/失败；
                 returnStr =Ti+"&"+temp_name+"*" + "在ip地址为" + Ei + "上申请注销，于" + Ti + "注销失败,失败原因是密码错误"+"*注销";
 
@@ -279,7 +279,7 @@ public class User_Contract {
         String temp_new = strArr[3];
         //遍历已注册的节点 查看信息是否匹配
         int flag = 0;
-        String Ei = getLocalIp();
+        String Ei = Tool.getClientIP();
         ArrayList<ApplyMessage> applyMessages = Tool.getApplyMessages();
         System.out.println("applyMessage"+applyMessages);
         //遍历是否存在重复申请
@@ -295,23 +295,23 @@ public class User_Contract {
             }
             if(flag!=2){
                 flag =1;
-                String Ti = getCurrentTime();
+                String Ti = Tool.getCurrentTime();
                 ApplyMessage applyMessage = new ApplyMessage(temp_name,temp_worknumber,temp_old,temp_new,Ti);
                 LevelDbUtil ApplyMessages = Tool.getLevelDB(Constant.APPLYMESSAGES);
                 ApplyMessages.put(String.valueOf(applyMessage.hashCode()),applyMessage.toString());
                 ApplyMessages.closeDB();
             }
         }
-        String Ti = getCurrentTime();
+        String Ti = Tool.getCurrentTime();
         returnStr = Ti+"&"+  temp_name + "*"+"在ip地址为" + Ei + "上申请权限变更为" + temp_new+"*权限";
         if (flag==1){
             if(!testFlag) {
-                Ti = getCurrentTime();
+                Ti = Tool.getCurrentTime();
                 returnStr = Ti+"&"+  temp_name + "*"+"在ip地址为" + Ei + "上申请权限变更为" + temp_new+"成功"+"*权限";
             }
         }else{
             if(!testFlag) {
-               Ti = getCurrentTime();
+               Ti = Tool.getCurrentTime();
                 returnStr = Ti+"&"+temp_name +"*" + "在ip地址为" + Ei + "上申请权限变更为" + temp_new+"失败"+"*权限";
                 System.out.println("您还有申请未处理，请稍后申请");
             }
@@ -330,7 +330,7 @@ public class User_Contract {
         String temp_new =strArr[3];
         String pass=strArr[4];
         int flag = 0;
-        String  Ei = getLocalIp();
+        String  Ei = Tool.getClientIP();
         //获取已经注册的用户
         ArrayList<User> usereds =Tool.getUsereds();
         ArrayList<ApplyMessage> applyMessages = Tool.getApplyMessages();
@@ -369,18 +369,18 @@ public class User_Contract {
             }
         }
         System.out.println("sssA"+applyMessages);
-        String Ti = getCurrentTime();
+        String Ti = Tool.getCurrentTime();
         returnStr = Ti +"&"+temp_name+"*"+"将角色权限变为"+temp_new+"失败*权限";
         if (flag==1){
             if(!testFlag) {
-                Ti = getCurrentTime();
+                Ti = Tool.getCurrentTime();
                 //上传权限变更的数据
                 returnStr = Ti +"&"+temp_name+"*"+"将角色权限变为"+temp_new+"成功"+"*权限";
             }
 
         }else{
             if(!testFlag) {
-                Ti = getCurrentTime();
+                Ti = Tool.getCurrentTime();
                 returnStr = Ti +"&"+temp_name+"*"+"将角色权限变为"+temp_new+"失败"+"*权限";
             }
         }
@@ -400,6 +400,8 @@ public class User_Contract {
             user+=";";
             user+=u.getWork_number();
             user+=";";
+            user+=u.getUser_role();
+            user+=";";
             user+=u.getPassword();
             user+=";";
         }
@@ -413,8 +415,9 @@ public class User_Contract {
         String returnStr=User_Contract.getUsereds(null, Tool.FROMCLIENT);
         ArrayList<User> usereds = new ArrayList<>();
         String[] rarray=returnStr.split(";");
-        for(int i=0;i<rarray.length;i+=3){
-            usereds.add(new User(rarray[i],null,rarray[i+1],null,-1,rarray[i+2],null));
+        for(int i=0;i<rarray.length;i+=4){
+            usereds.add(new User(rarray[i],null,rarray[i+1],null,
+                Integer.parseInt(rarray[i+2]),rarray[i+3],null));
         }
         //遍历列表获取当前用户
         if (usereds.size()!=0){
@@ -498,26 +501,6 @@ public class User_Contract {
         }
         return is.toString();
     }
-    //获取当前时间的函数
-    public static String getCurrentTime(){
-        Calendar calendar= Calendar.getInstance();
-        SimpleDateFormat dateFormat= new SimpleDateFormat("yyyy-MM-dd :hh:mm:ss");
-        String Ti = dateFormat.format(calendar.getTime());
-        return Ti;
-    }
-
-    //获取当前设备的ip地址
-    public static String getLocalIp(){
-        String ip = "";
-        //获取当前设备ip
-        try {
-            ip = InetAddress.getLocalHost().getHostAddress();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        return ip;
-    }
-
     //根据已知文件名获取文件路径
     public static String getPath(String name){
        return "";
@@ -525,35 +508,13 @@ public class User_Contract {
     //判断当前设备是否已经注册：参数：已经注册的设备列表
     public static boolean isEquip(ArrayList<Equip> equips){
         boolean flag = false;
-        //获取当前设备的ip地址
-        Enumeration<NetworkInterface> n;
-        try {
-            n = NetworkInterface.getNetworkInterfaces();
-            for (; n.hasMoreElements();)
-            {
-                NetworkInterface e = n.nextElement();
-        
-                Enumeration<InetAddress> a = e.getInetAddresses();
-                for (; a.hasMoreElements();)
-                {
-                    InetAddress addr = a.nextElement();
-                    String currentEquip = addr.getHostAddress();
-                    System.out.println(currentEquip);
-                    for (int index = 0;index<equips.size();index++){
-                        String temp_ip = equips.get(index).getEquip_id();
-                        if (currentEquip.equals(temp_ip)){
-                            flag = true;
-                            break;
-                        }
-                    }
-                    if(flag)break;
-                }
+        String localIP=Tool.getClientIP();
+        for(int i=0;i<equips.size();i++){
+            if(localIP.equals(equips.get(i).getEquip_id())){
+                flag=true;
             }
-        } catch (SocketException e1) {
-            // TODO Auto-generated catch block
-            e1.printStackTrace();
         }
-        return  flag;
+        return flag;
     }
     public  static String Test(String [] ss,Boolean flag){
         System.out.println("hello Contract");
@@ -583,7 +544,7 @@ public class User_Contract {
         }
     }
 
-    public static String pub = pub = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwZJO7qu7KLteVCAJH4rB\n" +
+    public static String pub = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwZJO7qu7KLteVCAJH4rB\n" +
             "VnhynhauUJirZPGntVUFx3QJfhHaRdxbk1KVxDCAAYhdUoF4l6uZ762Qjcld9AZE\n" +
             "3BW5CLHdotpfNuJNSJOcnS5RUzXB2jvn8FxAX/dfjG+6y3Og9aKnYygO7DGnSmND\n" +
             "JtNiaLraFHeb3H5IwUa/3AIOvv//iWEwntnGlUDjpajxkNB9auR4Y25fH2kQ1/NB\n" +

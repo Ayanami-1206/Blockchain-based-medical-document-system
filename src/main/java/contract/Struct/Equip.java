@@ -1,6 +1,9 @@
 package contract.Struct;
+
+import java.io.Serializable;
+
 //定义设备的结构
-public class Equip {
+public class Equip implements Serializable{
     String  equip_id; //设备的ID
     String equip_name; //设备的名称
     String  mac_address; //设备的物理地址
