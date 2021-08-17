@@ -26,3 +26,5 @@ batchkill:
 	killall runp2p || true
 	rm -f *.log
 	rm -f .*.log
+netstart:
+	sudo mn --topo single,201 # 201 for illegal devices

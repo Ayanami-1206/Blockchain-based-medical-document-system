@@ -21,6 +21,7 @@ import java.nio.file.Paths;
 import java.security.MessageDigest;
 import java.util.ArrayList;
 import java.util.Base64;
+import java.util.Random;
 
 import Communication.ReflectNode;
 import bftsmart.tom.MessageContext;
@@ -157,7 +158,7 @@ final public class ContractServer extends DefaultSingleRecoverable{
                     {
                         MessageDigest md = MessageDigest.getInstance("SHA-256");
                         md.update(res);
-                        System.out.printf("in case getState, snapshot hash: %s\n",Base64.getEncoder().encodeToString(md.digest()));
+                        // System.out.printf("in case getState, snapshot hash: %s\n",Base64.getEncoder().encodeToString(md.digest()));
                         return res;
                     }
                 case smartContract:
@@ -166,6 +167,7 @@ final public class ContractServer extends DefaultSingleRecoverable{
                     strArr=(String[])objIn.readObject();
                     sig=(String)objIn.readObject();
                     time=(String)objIn.readObject();
+                    Tool.clientTimeString=time;
                     Class<?> c = Class.forName(className);
                     System.out.printf("will invode, class: %s, method: %s\n",className,methodName);
                     if(className.equals("contract.Contracts.Initialization_Contract")){
@@ -205,13 +207,20 @@ final public class ContractServer extends DefaultSingleRecoverable{
                         md.update(Tool.getApplyMessages().toString().getBytes());
                         ps.printf("Root hash: %s\n",Base64.getEncoder().encodeToString(md.digest()));
                         if(blockHeight==1){
-                            ps.printf("User public keys:\n");
+                            ps.printf("User public key signatures:\n");
                             ArrayList<User> users = Tool.getUser();
                             for(int i=0;i<users.size();i++){
                                 User u=users.get(i);
-                                ps.printf("\t\t%s, %s\n",u.getUser_name(),u.getPubKey());
+                                md = MessageDigest.getInstance("SHA-256");
+                                md.update(u.toString().getBytes());
+                                // byte[] tmp=new byte[350];
+                                // new Random().nextBytes(tmp);
+                                // ps.printf("\t%s, %s\n",u.getUser_name(),Base64.getEncoder().encodeToString(tmp));
+                                ps.printf("\t%s, %s\n",u.getUser_name(),Base64.getEncoder().encodeToString(md.digest()));
+                                // ps.printf("\t\t%s, %s\n",u.getUser_name(),u.getPubKey());
                             }
                         }
+                        ps.printf("Device ID: %s\n",Tool.getClientIP());
                         ps.printf("Timestamp: %s\n",time);
                         ps.printf("Contract class: %s\n",className);
                         ps.printf("Contract method: %s\n",methodName);
@@ -260,7 +269,7 @@ final public class ContractServer extends DefaultSingleRecoverable{
     }
 
     public byte[] getSnapshot__() {
-        System.out.println("did enter getSnapshot");
+        // System.out.println("did enter getSnapshot");
         try {
             ByteArrayOutputStream bos = new ByteArrayOutputStream();
             ObjectOutput out = new ObjectOutputStream(bos);
@@ -280,7 +289,7 @@ final public class ContractServer extends DefaultSingleRecoverable{
             bos.flush();
             MessageDigest md = MessageDigest.getInstance("SHA-256");
             md.update(bos.toByteArray());
-            System.out.printf("snapshot hash: %s\n",Base64.getEncoder().encodeToString(md.digest()));
+            // System.out.printf("snapshot hash: %s\n",Base64.getEncoder().encodeToString(md.digest()));
             out.close();
             bos.close();
             return bos.toByteArray();
@@ -298,33 +307,33 @@ final public class ContractServer extends DefaultSingleRecoverable{
     }
 
     public void installSnapshot__(byte[] state) {
-        System.out.println("did enter installSnapshot");
+        // System.out.println("did enter installSnapshot");
         Tool.levelDBClear();
         try {
             ByteArrayInputStream bis = new ByteArrayInputStream(state);
-            System.out.println(0);
+            // System.out.println(0);
             ObjectInput in = new ObjectInputStream(bis);
             ArrayList<ApplyMessage> aam = (ArrayList<ApplyMessage>)in.readObject();
-            System.out.println(1);
+            // System.out.println(1);
             Tool.writeApplyMessageDB(aam);
             ArrayList<Equip> ae = (ArrayList<Equip>)in.readObject();
-            System.out.println(2);
+            // System.out.println(2);
             Tool.writeEquipDB(ae);
             ArrayList<Resource> ar = (ArrayList<Resource>)in.readObject();
-            System.out.println(3);
+            // System.out.println(3);
             Tool.writeResourceDB(ar);
             ArrayList<User> aue = (ArrayList<User>)in.readObject();
-            System.out.println(4);
+            // System.out.println(4);
             Tool.writeUseredsDB(aue);
             ArrayList<User> au = (ArrayList<User>)in.readObject();
-            System.out.println(5);
+            // System.out.println(5);
             Tool.writeUserDB(au);
             Files.write(Paths.get(Tool.blockPath),(byte[])in.readObject());
-            System.out.println(6);
+            // System.out.println(6);
             blockHeight=(int)in.readObject();
-            System.out.println(7);
+            // System.out.println(7);
             parentHash=(byte[])in.readObject();
-            System.out.println(8);
+            // System.out.println(8);
             Initialization_Contract.applyDone=(boolean)in.readObject();
             Initialization_Contract.resDone=(boolean)in.readObject();
             Initialization_Contract.userDone=(boolean)in.readObject();

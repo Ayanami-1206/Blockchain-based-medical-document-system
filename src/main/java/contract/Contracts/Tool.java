@@ -162,7 +162,7 @@ public class Tool {
             byteOut.flush();
             String signature=SHA256RSA.signatureSHA256RSAWithByteArrayInput(byteOut.toByteArray(),User_Contract.realPK);
             objOut.writeObject(signature);
-            objOut.writeObject(Tool.getCurrentTime());
+            objOut.writeObject(Tool.getLocalTime());
             objOut.flush();
             byteOut.flush();            
         
@@ -341,12 +341,20 @@ public class Tool {
     public static String getClientIP(){
         return "10.0.0."+(currentClientID+1);
     }
+    public static String clientTimeString="default timestamp";
     //获取当前时间的函数
     public static String getCurrentTime(){
+        return clientTimeString;
+        // Calendar calendar= Calendar.getInstance();
+        // SimpleDateFormat dateFormat= new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        // String Ti = dateFormat.format(calendar.getTime());
+        // return Ti;
+    }
+    public static String getLocalTime(){
         Calendar calendar= Calendar.getInstance();
         SimpleDateFormat dateFormat= new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         String Ti = dateFormat.format(calendar.getTime());
         return Ti;
-    }
+    }    
     public static byte[] initSnapshot=null;
 }

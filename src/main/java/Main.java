@@ -80,6 +80,7 @@ public class Main {
             // return;
         // }
         // for gui, use two arguments, e.g. java .... Main gui <id>
+        // nodeID=0..maxNodes-1
         Tool.nodeID=Integer.parseInt(args[1]);
         Tool.serviceProxy=new ServiceProxy(Tool.nodeID);
         try{
@@ -89,10 +90,12 @@ public class Main {
         catch(Exception e){
             e.printStackTrace();
         }
-        Initialization_Contract.InitialzationUser(Tool.FROMCLIENT);
-        Initialization_Contract.InitialzationRes(Tool.FROMCLIENT);
-        Initialization_Contract.InitialzationEquip(Tool.FROMCLIENT);
-        Initialization_Contract.InitialzationApply(Tool.FROMCLIENT);
+        if(Tool.nodeID==0){
+            Initialization_Contract.InitialzationUser(Tool.FROMCLIENT);
+            Initialization_Contract.InitialzationRes(Tool.FROMCLIENT);
+            Initialization_Contract.InitialzationEquip(Tool.FROMCLIENT);
+            Initialization_Contract.InitialzationApply(Tool.FROMCLIENT);
+        }
         new UserRegisterUI();
 
     }

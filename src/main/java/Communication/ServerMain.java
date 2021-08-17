@@ -44,15 +44,16 @@ public class ServerMain {
         ObjectOutput objOut = new ObjectOutputStream(byteOut);) {
             System.out.println("Wait servers to be ready.....");
             Thread.sleep(10*1000);
-            System.out.println("Wait done......");
+            // System.out.println("Wait done......");
             objOut.writeObject(MiscCommand.getState);
             objOut.flush();
             byteOut.flush();
             byte[] reply = c.invokeOrdered(byteOut.toByteArray());
             MessageDigest md = MessageDigest.getInstance("SHA-256");
             md.update(reply);
-            System.out.printf("Returned hash: %s\n",Base64.getEncoder().encodeToString(md.digest()));
+            // System.out.printf("Returned hash: %s\n",Base64.getEncoder().encodeToString(md.digest()));
             contractServer.installSnapshot__(reply);
+            System.out.println("Done.");
             c.close();
         }
         catch(Exception e){

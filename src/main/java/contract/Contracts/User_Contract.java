@@ -400,6 +400,8 @@ public class User_Contract {
             user+=";";
             user+=u.getWork_number();
             user+=";";
+            user+=u.getId_number();
+            user+=";";
             user+=u.getUser_role();
             user+=";";
             user+=u.getPassword();
@@ -415,9 +417,12 @@ public class User_Contract {
         String returnStr=User_Contract.getUsereds(null, Tool.FROMCLIENT);
         ArrayList<User> usereds = new ArrayList<>();
         String[] rarray=returnStr.split(";");
-        for(int i=0;i<rarray.length;i+=4){
-            usereds.add(new User(rarray[i],null,rarray[i+1],null,
-                Integer.parseInt(rarray[i+2]),rarray[i+3],null));
+        if(rarray.length<5){
+            return null;
+        }
+        for(int i=0;i<rarray.length;i+=5){
+            usereds.add(new User(rarray[i],null,rarray[i+1],rarray[i+2],
+                Integer.parseInt(rarray[i+3]),rarray[i+4],null));
         }
         //遍历列表获取当前用户
         if (usereds.size()!=0){

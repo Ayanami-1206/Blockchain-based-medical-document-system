@@ -2,5 +2,8 @@
     "java.configuration.updateBuildConfiguration": "automatic",
     "files.watcherExclude": {
         "**/env/**": true
+    },
+    "files.associations": {
+        "set": "cpp"
     }
 }
