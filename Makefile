@@ -1,10 +1,10 @@
-build:
-	mvn clean compile assembly:single
+build: runguibuild
+	mvn clean compile assembly:single | egrep "INFO"
 blockinit:
 	rm -rf env/*/block_data
 	rm -rf env/*/currentView
 runguibuild: rungui.cpp Makefile
-	g++ rungui.cpp -o rungui -g
+	g++ rungui.cpp -o rungui -g 2>/dev/null
 run0:
 	cd env/0 && java -Xms10m -Xmx20m -D"java.security.properties"="./config/java.security" -D"logback.configurationFile"="./config/logback.xml" -cp "bin/*:lib/*:./*:../../target/BlockChainDemo2-1.0-SNAPSHOT-jar-with-dependencies.jar" Main 0
 run1:
@@ -22,9 +22,11 @@ runp2pbuild:
 antbuild:
 	cd ../library && ant	
 batchkill:
-	sudo killall -g -SIGINT runp2p || true
+	killall -g -SIGINT runp2p || true
 	killall runp2p || true
 	rm -f *.log
 	rm -f .*.log
 netstart:
 	sudo mn --topo single,201 # 201 for illegal devices
+run_gui:
+	./rungui 1>/dev/null 2>/dev/null

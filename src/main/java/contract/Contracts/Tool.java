@@ -22,8 +22,12 @@ import java.io.ObjectInput;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutput;
 import java.io.ObjectOutputStream;
+import java.io.PrintStream;
 import java.net.InetAddress;
 import java.net.NetworkInterface;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -149,6 +153,8 @@ public class Tool {
         return -1;
     }
     public static String sendRawCommandToServer(String[] s){
+        long t1;
+        long t2;
         String className=new Exception().getStackTrace()[1].getClassName();
         String methodName=new Exception().getStackTrace()[1].getMethodName();
         try (ByteArrayOutputStream byteOut = new ByteArrayOutputStream();
@@ -158,15 +164,18 @@ public class Tool {
             objOut.writeObject(className);
             objOut.writeObject(methodName);
             objOut.writeObject(s); // method parameters
+            objOut.writeObject(Tool.getLocalTime());
+            objOut.writeObject(Tool.currentUserName);
             objOut.flush();
             byteOut.flush();
             String signature=SHA256RSA.signatureSHA256RSAWithByteArrayInput(byteOut.toByteArray(),User_Contract.realPK);
             objOut.writeObject(signature);
-            objOut.writeObject(Tool.getLocalTime());
             objOut.flush();
             byteOut.flush();            
-        
+            t1=System.nanoTime();
             byte[] reply = serviceProxy.invokeOrdered(byteOut.toByteArray());
+            t2=System.nanoTime();
+            logTime(t2-t1);
             if (reply.length == 0)
                 return null;
             try (ByteArrayInputStream byteIn = new ByteArrayInputStream(reply);
@@ -178,12 +187,22 @@ public class Tool {
         }
         return null;
     }
+    
+    //x: nanoseconds
+    static public void logTime(long x){
+        try(PrintStream ps = new PrintStream(new FileOutputStream("../../times", true))){
+            ps.printf("%d\n",x); // %d works for all integer types, including int/long
+        }
+        catch(Exception e){
+            e.printStackTrace();
+        }
+    }
+
     static public void getchar(){
         Scanner scanner=new Scanner(System.in);
         scanner.nextLine();
         // scanner.close();
     }
-
     //获取当前设备的ip地址
     public static String getLocalIp(){
         Enumeration<NetworkInterface> n;
@@ -357,4 +376,39 @@ public class Tool {
         return Ti;
     }    
     public static byte[] initSnapshot=null;
+    public static String currentUserName="null";
+    public static String[] getBlockData(){
+        try{
+            byte[] data=Files.readAllBytes(Paths.get(blockPath));
+            String all=new String(data,StandardCharsets.UTF_8);
+            // System.out.println(all);
+            return all.split("\n\n");
+        }
+        catch(Exception e){
+            e.printStackTrace();
+        }
+        return new String[0];
+    }
+    public static String queryBlockData(String userName,int type){
+        // ArrayList<String> res=new ArrayList<>();
+        // System.out.printf("type=%d\n",type);
+        String res="";
+        String[] allBlocks=getBlockData();
+        // System.out.println(allBlocks.length);
+        for(int i=0;i<allBlocks.length;i++){
+            String tmp=allBlocks[i];
+            // System.out.println(tmp);
+            String types[]={"userRegister","userLogin","operateResource",
+                "applyRole","userout"};
+            // if(tmp.contains("User name: "+userName)){
+            String str1="User name: "+userName;
+            String str2="Contract method: "+types[type];
+            // System.out.printf("str2=%s\n",str2);
+            if(tmp.contains(str1)&&tmp.contains(str2)){
+            // if(tmp.contains("mgmt")){
+                res=res+tmp+"\n\n";
+            }
+        }
+        return res;
+    }
 }

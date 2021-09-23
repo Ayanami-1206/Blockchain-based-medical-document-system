@@ -1,6 +1,9 @@
 package contract.UI;
 
 import javax.swing.*;
+
+import contract.Contracts.Tool;
+
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -35,6 +38,7 @@ public class ShowMessageUI extends JFrame {	//继承JFrame顶层框架
         jta1=new JTextArea();	//创建多行文本框
         jta1.setLineWrap(true);	//设置多行文本框自动换行
         jta1.setEnabled(false);//设置文本不可写
+        jta1.setDisabledTextColor(Color.BLACK);
         jspane1=new JScrollPane(jta1);	//创建滚动窗格
         jta2=new JTextArea("请输入要查询的用户的名字");
         jta2.setLineWrap(true);
@@ -47,6 +51,8 @@ public class ShowMessageUI extends JFrame {	//继承JFrame顶层框架
         //创建按钮
         jb2=new  JButton("获取数据");
         String [] name= {"注册","登录","资源访问","权限变更","注销"};
+        //userRegister, userLogin, operateResource/changeResource, 
+        //applyRole/changeRole, userout
         jcb1=new JComboBox(name);	//创建下拉框
 
         //设置布局管理
@@ -72,8 +78,10 @@ public class ShowMessageUI extends JFrame {	//继承JFrame顶层框架
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
                 String name = jta2.getText();
+                int type=jcb1.getSelectedIndex();
                 //检索数据显示在文本框中
-                String content = "hello BolckChain";
+                // String content = "hello BolckChain";
+                String content=Tool.queryBlockData(name, type);
                 jta1.setText(content);
             }
         });

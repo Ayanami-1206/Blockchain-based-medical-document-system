@@ -142,6 +142,7 @@ final public class ContractServer extends DefaultSingleRecoverable{
         String[] strArr=null;
         String sig=null;
         String time=null;
+        String username=null;
 		boolean hasReply = false;
         String result=null;
 		try (ByteArrayInputStream byteIn = new ByteArrayInputStream(command);
@@ -165,8 +166,9 @@ final public class ContractServer extends DefaultSingleRecoverable{
                     className = (String)objIn.readObject();
                     methodName=(String)objIn.readObject();
                     strArr=(String[])objIn.readObject();
-                    sig=(String)objIn.readObject();
                     time=(String)objIn.readObject();
+                    username=(String)objIn.readObject();
+                    sig=(String)objIn.readObject();
                     Tool.clientTimeString=time;
                     Class<?> c = Class.forName(className);
                     System.out.printf("will invode, class: %s, method: %s\n",className,methodName);
@@ -221,6 +223,7 @@ final public class ContractServer extends DefaultSingleRecoverable{
                             }
                         }
                         ps.printf("Device ID: %s\n",Tool.getClientIP());
+                        ps.printf("User name: %s\n",username);
                         ps.printf("Timestamp: %s\n",time);
                         ps.printf("Contract class: %s\n",className);
                         ps.printf("Contract method: %s\n",methodName);

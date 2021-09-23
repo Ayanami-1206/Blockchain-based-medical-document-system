@@ -125,6 +125,7 @@ public class LoginUI extends JFrame implements ActionListener {
         {
             //获取进行登录的信息
             String name = jtf1.getText();
+            Tool.currentUserName=name;
             String workNumber = jtf2.getText();
             String psw = jpf.getText();
             //调用登录智能合约

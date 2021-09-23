@@ -154,6 +154,7 @@ public class UserRegisterUI extends JFrame implements ActionListener {
         else
         {
             String name = jtf1.getText();
+            Tool.currentUserName=name;
             String phone = jtf2.getText();
             String worknumber = jtf3.getText();
             String idnumber = jtf4.getText();

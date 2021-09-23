@@ -1,1 +1,1 @@
-sudo nsenter -t $1 -n su bupt
+sudo nsenter -t $1 -n su $USER
