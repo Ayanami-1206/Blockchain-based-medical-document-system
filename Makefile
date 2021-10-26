@@ -27,6 +27,6 @@ batchkill:
 	rm -f *.log
 	rm -f .*.log
 netstart:
-	sudo mn --topo single,201 # 201 for illegal devices
+	sudo mn --custom MyTopo200.py --topo mytopo  # 201 for illegal devices
 run_gui:
 	./rungui 1>/dev/null 2>/dev/null

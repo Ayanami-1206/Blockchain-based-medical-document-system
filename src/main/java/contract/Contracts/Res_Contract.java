@@ -123,18 +123,18 @@ public class Res_Contract {
             }
         }
         String Ti = getCurrentTime();
-        returnStr = Ti + "&" + "资源" +strArr[0]  + "在" + Ti + "修改为"+strArr[1]+"失败" + "资源";
+        returnStr = "资源" +strArr[0]  + "在" + Ti + "修改为"+strArr[1]+"失败" + "资源";
         if(!testFlag&&flag==1) {
 
-            returnStr = Ti + "&" + "资源" +strArr[0]  + "在" + Ti + "修改为"+strArr[1] +"成功"+ "资源";
+            returnStr = "资源" +strArr[0]  + "在" + Ti + "修改为"+strArr[1] +"成功"+ "资源";
         }
         if(!testFlag&&flag==2) {
 
-            returnStr = Ti + "&" + "资源" +strArr[0]  + "在" + Ti + "被删除" + "资源";
+            returnStr = "资源" +strArr[0]  + "在" + Ti + "被删除" + "资源";
         }
         if(!testFlag&&flag==0) {
 
-            returnStr = Ti + "&" + "资源" +strArr[0]  + "在" + Ti + "修改为"+strArr[1]+"失败" + "资源";
+            returnStr = "资源" +strArr[0]  + "在" + Ti + "修改为"+strArr[1]+"失败" + "资源";
         }
         return returnStr+flag;
     }

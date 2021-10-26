@@ -1,0 +1,1881 @@
+Block data
+
+
+Block height: 0
+Parent hash: null
+Block hash: injOk6TCgv3D5jG9bVztOnF9HYX/y0ClZgNjIVXZ8dE=
+Root hash: WsPG2ZXespXjyiDNFjP3WwIqJiPispEihNmLk8H8TgI=
+User public key signatures:
+	一类用户, zaInh3Pp80krYHhB8ZBNStOL+ARptIpnQHdqtV4oY0A=
+	二类用户, WyUZYunVTDuhVJDHdalpLXQ/ZxkJPRM4Z0Ya/eAebsY=
+	三类用户, qtwVtGjfwC1QEvzb/dY2qHt8g5n89XkxVmmSbaLeqXM=
+	mgmt, H+WaXkPFHB506+EUsyEwqwjXj806T+HYU9XRCaslhgQ=
+	typeone, uR88ldZZCl3pnGl7H5kIMtehBrx1PDVyaqpRWzVCPdw=
+Device ID: 10.0.0.1
+User name: null
+Timestamp: 2021-10-18 18:38:41
+Contract class: contract.Contracts.Initialization_Contract
+Contract method: InitialzationUser
+Contract parameters: 
+Contract result: null
+Contract signature: ODDDBZIGkKkO5yz9wWfIA9BabsMv7dKx3ORoIZwrWaQbC+U0T2kgvhHzwULVBMJn5oLj9R6Qya+EwMctskH18OBhP/cK8re4eFgq+ZNM6gx1SKyhLffSIlVu/xS4FbHJw6wix7ecKIts8OaAVnzihgIwgJ7cNY1dP4yx6j4Yg9L6CD53H5rR8/mq3ib5Eel7gBEzRKwn0ncPvbbmgRjP2tSYPTMkr3nB6AX4I00xSMs7Sm/cBoU4JER/eo6m23lqAYVtFw5AwPh56kVTVYXH/vZtJ464Inhipctl/4wWh60CGEBb1EuQ7+xjk6Hi0mB9PvuNfD7Qgh8Hax06nuCN1g==
+
+Block height: 1
+Parent hash: injOk6TCgv3D5jG9bVztOnF9HYX/y0ClZgNjIVXZ8dE=
+Block hash: VrUAlP9nIU57HH4iEzQi/eLQBgR0kCWmz+yT9ooDtgM=
+Root hash: LhhjloA7LiNidKrcaGGATMz9tmcXEh+mTgdKZh4c3Ok=
+Device ID: 10.0.0.1
+User name: null
+Timestamp: 2021-10-18 18:38:42
+Contract class: contract.Contracts.Initialization_Contract
+Contract method: InitialzationRes
+Contract parameters: 
+Contract result: null
+Contract signature: drAUPmT8Wvsib/oDv9GSAaaSQi8L4EK78IJFV9VopOlM7/QNhrkU0fes81mMVdwjm8RAkccrvsLtf0NPy3rY+Y4La7OXa3actpvPkxEC26inndox8NwvYSP8Yg6RGBwQSezNf8xHRBGlmAn7kQ09owtZLxlHBPn0zF+KgNnbL1nJPSsnEW+YEg9slBcvEdDOojasFRF0IsbZ6/XU+pNEILU5IXmdVgyhA8a8eWsHACeYRhI2Zjhtl3OGXa0sxdDG1IktdvUYQO6Uh4AF8dtSBmkIi0tMJT28mZnIdd8KTmAC818iRLIFdbXs9dV0H05ytJKKMLCrA+eIIHyv++LeGQ==
+
+Block height: 2
+Parent hash: VrUAlP9nIU57HH4iEzQi/eLQBgR0kCWmz+yT9ooDtgM=
+Block hash: utZByTQqGOYuB/H2E5HBg4azq4y/ZaF70NmOKsA6j3s=
+Root hash: DAZgiIhgniRiOu4YAau3+GH59PA8XZC16LDeWBC9x0I=
+Device ID: 10.0.0.1
+User name: null
+Timestamp: 2021-10-18 18:38:44
+Contract class: contract.Contracts.Initialization_Contract
+Contract method: InitialzationEquip
+Contract parameters: 
+Contract result: null
+Contract signature: jP7oKcDICgr5JJiBX2ntSglTa25bNNQTmpU6l5ejtqoV7rR7vb1jDteDYmVERDWJorp4TMe/ry3KmbJVDDMEKu5tG8xTTcSb49lb1BPIpp8X4M5czRepgb+12eGmqccpZcLn1KTmWcpKlFgEKeIePHJpR0zHii8dgfKNbe9EzmVAzuEoWLHqUxU1YRJbgWFXM6ztM7XpeG0P4DCtKMh7eeTfD/evCM1dlo1L6BIDVrFk6GXJDWMYe7YXB+fT/OLtPxhefAAo38VECQHoIxuFm5n2xFrtHKhN5T7e/3L9J5jEAb7DbnK50PO1vA19GW0Eh0/H9u4745ENrOIGy/LFhw==
+
+Block height: 3
+Parent hash: utZByTQqGOYuB/H2E5HBg4azq4y/ZaF70NmOKsA6j3s=
+Block hash: lsbXjh5PaUN4d30HtTXzBLQqkQ0vYON8X0NmTAhGi2I=
+Root hash: itTQEZdONkNr8qSp0o2g/c/zv390SoZYgORfEi5HRtk=
+Device ID: 10.0.0.1
+User name: null
+Timestamp: 2021-10-18 18:38:45
+Contract class: contract.Contracts.Initialization_Contract
+Contract method: InitialzationApply
+Contract parameters: 
+Contract result: null
+Contract signature: NowftzOpke9eO7aQsL4Hc1bZ+4oaGsyFZC59eAgXOLG+tvsUB00wnOsoPBOaGxRIsVZSBO6ylo3ywWKhFsIAxc/WVdKoSDBzDf0MY8Z+LooTouupoJHHXUyqeqI8/kKa87DB+TQ9hI6H6CCpzWmi+eIQh+E1zDhTMI66zYFZil020ukK12hMVHWSH8DL8e6Ek6SJVdcWk5EG4460eRUZ27JTU2NcDfbkXH9Es2DjefaNDTyJhbWz/IAOUHbptfRVaTlRmMkGqljyJRng+solhnplsaO29e0igcSz0oA5xMmV01kfJcvV/mcnCT41Z9UOsRGg0+U3jcJwb4dcTDAiLA==
+
+Block height: 4
+Parent hash: lsbXjh5PaUN4d30HtTXzBLQqkQ0vYON8X0NmTAhGi2I=
+Block hash: xoHP+YwuTSwVWRbfM5I4fuKDQ2ZEl/6veIw3KwBp9bI=
+Root hash: itTQEZdONkNr8qSp0o2g/c/zv390SoZYgORfEi5HRtk=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 18:39:01
+Contract class: contract.Contracts.User_Contract
+Contract method: userRegister
+Contract parameters: typeone 1 14 1 123 
+Contract result: 2021-10-18 18:39:01&typeone*在ip地址为10.0.0.1上申请注册，于2021-10-18 18:39:01注册成功*注册2
+Contract signature: i2ukaiydGPUFIPrm3rBQlwsNcqjTrjAVlV7FEGLpmlsmgl7y8R9aiS8R2MuyxyqTqnonOK6ssyg/Q7CK+PXPijyEEV1dioEp0O1/bOS5MQ5GwE3k27fPzDZQU1hlMhZigmOVJQJ8bLKr1QAy3KQW2qYendYttm+WFmJ8ji/+oDhEpEAwyapcAyFazXHVNwwxtNA+Z0x0ZyUD2BZ0fqbGHEGJ+cfE7daJVj/wx7v25FFVQfu8YeG2WUMPrIwAnceSGMrHVo9j3vbllHXBe+W08cKrBfHIF86SpNIfTWMgcT4cCqKfcQFVGI8kqf5CeZLTCwkY21pldgqtDvZk8liWig==
+
+Block height: 5
+Parent hash: xoHP+YwuTSwVWRbfM5I4fuKDQ2ZEl/6veIw3KwBp9bI=
+Block hash: SaZCNs0TNrZDnJ5FiEeWn82WfYHZoZqSPPlPDtBcvjk=
+Root hash: itTQEZdONkNr8qSp0o2g/c/zv390SoZYgORfEi5HRtk=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 18:39:39
+Contract class: contract.Contracts.User_Contract
+Contract method: userLogin
+Contract parameters: typeone 14 123 
+Contract result: 2021-10-18 18:39:39&typeone*在ip地址为10.0.0.1上申请登录，于2021-10-18 18:39:39登录成功*登录0
+Contract signature: Q9j4Cq/inM8uNIWuHVakTdfMOsUQFiamBvLNbdjhmMuUtKerC3ddNKrNsqR7+vYnmlqNPpmirmgPFkFhdRfaPhBlZBWQQbacJa51hsDYzsjRBBNtcyuPUzsWHvPz+AqmghK9CDmszCHJBtzAXA3If3vxGzy7CmNypkF0l+3rPSD+GUcT9AfI0rSN7LT5xD4fB7wIWJUba3odLp+CU39jxa7xZgBDQlNGd7bumeJZFFDwtlzAKWmUdTRDg5FQ9Tx00/8qBr64EEryaGdJRfvU7EGRQDy0aVOA4ZqKWQLqraze4wF7YmhQ1rF/xklUKIQQUiXXwRdtrZ2DK4HEok9kwA==
+
+Block height: 6
+Parent hash: SaZCNs0TNrZDnJ5FiEeWn82WfYHZoZqSPPlPDtBcvjk=
+Block hash: pwseW7bHvU62ZPisuR89F/6P1E96zB186wOpYKLv+2A=
+Root hash: itTQEZdONkNr8qSp0o2g/c/zv390SoZYgORfEi5HRtk=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 18:39:40
+Contract class: contract.Contracts.User_Contract
+Contract method: getUsereds
+Contract parameters: 
+Contract result: typeone;14;1;0;123;
+Contract signature: tJ1eH563s9p8UTCEBJB2sZA7i9uhtMwQC6Uk9Jv9kM/BB2m9hKkdttGbAEtGf9VxutQa7QwhrOOpXRBJ83RatdDmhEsqMfodc9JsnAPFxfQ4i6AAdscJOC5/uQVidJZMiAYqwPsZ8MRv4pupfZ/Q/UHQyd6onxOfAuPTNU61AbFTKhEargxX3m4OkeRm2uIyV0yTO5tnSZ/pif6LZ3QQ9JN7bOaOIAqS1rb93HxVNOTtSathpN9w3858i1jFi8956T+NX5QH7fE9bqM4lsxs9QKhVa7WSX3HMM6oCrnnS1nD8h/9k+v/dR72Zn4CbfMdQGjkYBBxFtpLW895otiaMA==
+
+Block height: 7
+Parent hash: pwseW7bHvU62ZPisuR89F/6P1E96zB186wOpYKLv+2A=
+Block hash: lwR5+XHcUEmTMOJIvCwdN409VJCReo5Ir4uWr1mDJWk=
+Root hash: itTQEZdONkNr8qSp0o2g/c/zv390SoZYgORfEi5HRtk=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 18:41:19
+Contract class: contract.Contracts.User_Contract
+Contract method: userout
+Contract parameters: typeone 1 
+Contract result: 2021-10-18 18:41:19&typeone*在ip地址为10.0.0.1上申请注销，于2021-10-18 18:41:19注销成功*注销1
+Contract signature: LgBjmrYvZZyfpQETH+eiLTmW1TgkxVZPO2cWiSww8g5Lz0DO5ghsdYVVVwtBiic+rU3cOok0mFafVqO0qLWhwT2AAP2h0RzlTGiLbu31A2l4dccXCA/MTf+SGw+uu6psNEW3EnOP0KZLd4HhLEdkyeEWqkPQwn1QjxC8jUisic1vdKmkyjHxUfQTQAYQwV55f9JYBNpo2dIPR56FUIDjIo8bBpN3aU/ClwjFXmU7A2/O7t7qBmO17N9e08n+6+LMuN/3Xu5XuisUfVZ0RTubVrapYAK1zF/7QIB/1XQRUzlDvyjvky1yMElZwJtKIRdW8lEEwPrmkd2WOLAXpld/bQ==
+
+Block height: 8
+Parent hash: lwR5+XHcUEmTMOJIvCwdN409VJCReo5Ir4uWr1mDJWk=
+Block hash: nLAPKyVhhagEEdLvpVtEwV6o43/RWAdSPbHs8cxDMEE=
+Root hash: itTQEZdONkNr8qSp0o2g/c/zv390SoZYgORfEi5HRtk=
+Device ID: 10.0.0.1
+User name: null
+Timestamp: 2021-10-18 18:41:59
+Contract class: contract.Contracts.Initialization_Contract
+Contract method: InitialzationUser
+Contract parameters: 
+Contract result: null
+Contract signature: VKLa0Im69RaXkYkoyc4hJ5ZB7POvECTwRFnGAnasbZlD4wGrHETbNGZiLtQwSeASNmYDYjKE8K/hOSm4Ews6GEQ4gYAxbrieAl7DyK/BBojgi0mxBJE5eOLB+c3e6t8Xd21GnQycoP4NExcWiJctiGUhSuoYA7GeAoqvBYXh6jgkKqtSqR00TgssdHuQ6WiGmH2+Uq+huXsFiW3WwSU5UL5qJkzCrKgAGt7YAsq8f3nLYnUl00QiMNPPp2QZwCWARLG9J75043en9ByKkYWcC7EOqr/HWfvSYs7RLig2/VEO2Rk7TPXMbh7VE3zF8DaimkWralAqO5EeEpSi2uQAuQ==
+
+Block height: 9
+Parent hash: nLAPKyVhhagEEdLvpVtEwV6o43/RWAdSPbHs8cxDMEE=
+Block hash: Rq4HhFkhRtgh9HDGeL5f4cj2XPhWGXdHZvaDYGpcJuI=
+Root hash: itTQEZdONkNr8qSp0o2g/c/zv390SoZYgORfEi5HRtk=
+Device ID: 10.0.0.1
+User name: null
+Timestamp: 2021-10-18 18:42:00
+Contract class: contract.Contracts.Initialization_Contract
+Contract method: InitialzationRes
+Contract parameters: 
+Contract result: null
+Contract signature: ogEXhcKCINGvnz59WtqN/6W7KeoeMltKAkQboMA6jUDT5VERKRRhs/peVogkR09ux7nW8+ADmis7Rv8zdzNzyQiN/Q2UQCEJWcr0EzRczRnn8qn5qJ3xwfst+reR333BJtiaGFcL6dIYksI3UnxJdodKA3SKhrcXxByKzXRdhskePmtrjFCCtlaEuPhoU8UNwG83q2q/GhAtqy7MbCr2B4DAqv+vQFbs1O3VnHCjymjHZHDenkDFXKdq9T5kMqOKfauT8lJMzpluSKdtUm8AUeOvMFufYScR0F5GImsNz8FPnVOtaxggKiLPki7hSLgvF+dlCMOOtCunQVsoPg4uvg==
+
+Block height: 10
+Parent hash: Rq4HhFkhRtgh9HDGeL5f4cj2XPhWGXdHZvaDYGpcJuI=
+Block hash: X6Y1jkJJ1/lSJoucZEHJwiYZ4IU5F0RfvFZJKDgyQm4=
+Root hash: itTQEZdONkNr8qSp0o2g/c/zv390SoZYgORfEi5HRtk=
+Device ID: 10.0.0.1
+User name: null
+Timestamp: 2021-10-18 18:42:01
+Contract class: contract.Contracts.Initialization_Contract
+Contract method: InitialzationEquip
+Contract parameters: 
+Contract result: null
+Contract signature: caTTOqx2dgwcrrj+7Kvhfwc2tddl49N0QFre7mPphXBAd9htOEcqYyYcGYGGbmPO35AJriuv9ZJ0VahTQT0Q0PeKr4QNb0gAfmmzbACIqIwRF+ty6VEYDhwNGzKS0BsnB/w6ag2qA/M1gXfAE/x6XR8wYkTfaAOVK6V8Q+JhG0x8dl7Fy+whfY+i9u1L5qjWvZa6vCVRNrnwt6757A0PZdhMoLjzpN+qxyX2COJJ2D43xBAZQneaQwTzrfCHCqAVkreNeGWfTqwJszGfpnhzT5UgxToQZ/9QbO4yZ66s+kNRUkBiYHO0QANC4LHlWty9wkmfsB5YSod9NlcFQ4C3nA==
+
+Block height: 11
+Parent hash: X6Y1jkJJ1/lSJoucZEHJwiYZ4IU5F0RfvFZJKDgyQm4=
+Block hash: lgB5KC7vZqzTzrBaXwntBWHhWBDAhGbjVeOoBIgb7S0=
+Root hash: itTQEZdONkNr8qSp0o2g/c/zv390SoZYgORfEi5HRtk=
+Device ID: 10.0.0.1
+User name: null
+Timestamp: 2021-10-18 18:42:02
+Contract class: contract.Contracts.Initialization_Contract
+Contract method: InitialzationApply
+Contract parameters: 
+Contract result: null
+Contract signature: MLH9mx8vOh58+UZFqObHoBe/XglNn2XwY9qstkrq6BQRJVB4QXbXTCjRqgr1ey2op3EdIbjyrzgDc5Izg+Wb6lVSq96MaJ73/umowd1bYjLqpXjGkZI5/LiyNufWr325Fk03e3qkSqj9AeJdrgrDvn2hhRF6I6fpoHD/tMPgDUT2cOTaNophcJzwucx2P88ntxNa8euA6/VB+ImUVDxZrzaqLUfG7J/KctVKjmk4k68TuZmhriIoT2Vanwh6Hl3y/w8K3uX8y3a1ej7M5WIOkLOyFjonOfNkI6+YI0gSDUMmjWF6HX54AZRE4s04e0Dh4fdNuAkVkewfUO539lIO8A==
+
+Block height: 12
+Parent hash: lgB5KC7vZqzTzrBaXwntBWHhWBDAhGbjVeOoBIgb7S0=
+Block hash: XZeAcqCYquL/xp+D0yDlEQ5YSn+UU/kFP52R6zyGgqg=
+Root hash: itTQEZdONkNr8qSp0o2g/c/zv390SoZYgORfEi5HRtk=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 18:42:16
+Contract class: contract.Contracts.User_Contract
+Contract method: userRegister
+Contract parameters: typeone 1 14 1 123 
+Contract result: 2021-10-18 18:42:16&typeone*在ip地址为10.0.0.1上申请注册，于2021-10-18 18:42:16注册成功*注册2
+Contract signature: K2OPQLd8cCoiX7a0L9y/qrQZdlk67CJyqPA+KzcCaH1TN0Hir3+VTp4nPpO5MZgiVx9kQUo2fB9vcfiJC4lxwo6Mok+6W2GtddSmE980Wtx9gfJkiGvKMHIjVU3j+r4UQQeub/hngw9kiUBawIg/cDVE8F1TlhUIMH76hV47ABZkPso9EBvpdTkiOe1Y9XaPNGcrLgqF88sKWa+F4yHctplp+P4taiI/YYoHre0TNeMYacViyWvQxAcwntPlF01huxQUmfTU8AW1nA2ZHm3GpxMR6fE2CqoVYvuLzddLOUy1AdZ25ju+RM3DbkbtdSV2bpimr4cw0MvZNKNGv0jQ5g==
+
+Block height: 13
+Parent hash: XZeAcqCYquL/xp+D0yDlEQ5YSn+UU/kFP52R6zyGgqg=
+Block hash: 1q0PmiaAO0UJZiSR8C/C+nz87k4V6HgHu75kED/9o1Y=
+Root hash: itTQEZdONkNr8qSp0o2g/c/zv390SoZYgORfEi5HRtk=
+Device ID: 10.0.0.1
+User name: typeon
+Timestamp: 2021-10-18 18:42:28
+Contract class: contract.Contracts.User_Contract
+Contract method: userLogin
+Contract parameters: typeon 123 123 
+Contract result: 2021-10-18 18:42:28&typeon*在ip地址为10.0.0.1上申请登录，于2021-10-18 18:42:28登录失败,失败原因是用户信息有误*登录5
+Contract signature: cZ5udmvpJLG10r4qSbZs+YjtCEiuMP+bfr+qwA8Snmu8ZwRBjZOcKxleNJCj4UCk8q9zURagAFas9xghaGEmVewO22J1sjJYbigVWWLxNTk3hNXeUHjR6YCiXrHGnbidv/gXtnSq2TbkGh7oMwtxT0TfGtimoeQGFv3c0nsNBkKKDWS0yuHZhoXwK6sZ12XnaL5/EJEmpahhBw5h9/wIzdTymfA2KGXQDIhR1AFmHmSQqcrla9xYKCNZThQRLJaFISKk5Msbc/viem82dJUGMTYBtdTA6qfBLjrRO6HfjGWtkFxzDXHGtwSOUoYyNVeS6xyMdtwExKRkN/OCKxyNhA==
+
+Block height: 14
+Parent hash: 1q0PmiaAO0UJZiSR8C/C+nz87k4V6HgHu75kED/9o1Y=
+Block hash: pPaFPTRq/IDMbgufGBKKcyFhUhFQ39cev2lt4fNixC4=
+Root hash: itTQEZdONkNr8qSp0o2g/c/zv390SoZYgORfEi5HRtk=
+Device ID: 10.0.0.1
+User name: typeon
+Timestamp: 2021-10-18 18:42:29
+Contract class: contract.Contracts.User_Contract
+Contract method: getUsereds
+Contract parameters: 
+Contract result: typeone;14;1;0;123;
+Contract signature: DouD8l2I2m8N7+tGGJ4I/o1OE+fkccFPuAT1md8RbHhdVpBkfT/8+2nQmPgbCYekNV2E4oEpiWQGkMyk+V5TllpttkJENPijtR1gz/RlPmh2qt7vyDIv0pHqIhSGcro5ZZFfneogk94AAJnr+49a+12A6YwxnbTa4eiFOSUIW6vjqV4IZ6xGAKbxbhpgpFJIIge2Wym1iu6fw8Delu8Zd0o4oe7FoQMk0KD0nXlHZEhAsL872HAGyj5sKlZWMZ/5458uMAQTrnkwSIIznbKeBwpLHeRqLU+7zN9PRKkZuUWyZyEqJqJvbKk7Ljnxhe4CP/2pD8U9CZ3/9mMepXSvpg==
+
+Block height: 15
+Parent hash: pPaFPTRq/IDMbgufGBKKcyFhUhFQ39cev2lt4fNixC4=
+Block hash: GzLb96nMDI42o+wngeL+D/nif1eqcCKdjgzXO1ulCJo=
+Root hash: itTQEZdONkNr8qSp0o2g/c/zv390SoZYgORfEi5HRtk=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 18:42:48
+Contract class: contract.Contracts.User_Contract
+Contract method: userLogin
+Contract parameters: typeone 14 123 
+Contract result: 2021-10-18 18:42:48&typeone*在ip地址为10.0.0.1上申请登录，于2021-10-18 18:42:48登录成功*登录0
+Contract signature: G+qtE6WPrtjN7d/jMzmiPcu1mNV95fQU/uRss6YOHbcqiFHvj6A8bxSISd2FMupK9P4p2xxp2l8v4jTrjDIfnVauCU9if2z9EHNMnaBtBSz6uOZV2HpM73k88hP/7Hx5KOqWLN7FKN/nOF3PLAt2rPxaxk2lGAJksF8Wh8mjuwn+R4M6lWRqsZlgGQKmzCqK86s340ZwMsER7sqm/sASa6JB8XH2kBp9pODSr9NxF0LY6ua7hYoDJyRBrD2Xi2SbFSBcPrGt3nG7qxrlfpFmNLvnVzt2JyqkAb27DL18BmIzlOS8PY5VzWeezhBdrj7UXlFS6lsxAWN3eB76REhkBw==
+
+Block height: 16
+Parent hash: GzLb96nMDI42o+wngeL+D/nif1eqcCKdjgzXO1ulCJo=
+Block hash: 2IsHK14y9fOUg23bCXbKDcpetUOli7w3eS/MI90Dwk8=
+Root hash: itTQEZdONkNr8qSp0o2g/c/zv390SoZYgORfEi5HRtk=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 18:42:49
+Contract class: contract.Contracts.User_Contract
+Contract method: getUsereds
+Contract parameters: 
+Contract result: typeone;14;1;0;123;
+Contract signature: c+z7ax0e6bU2XgL5WnlpPUmr3g3Ga6we4N7w7MNjTgxfJshBIZ96S3GD1RWIT9K1gLvXW+QyFzu5XstpjHbV1FGQTx/W4GZYDYSalMm5Xl/icGiQdrVGx7V4jG4xPSz2UEu8LD4f2eW+X3ttcKZn0YXKxLm4XyInyB7ZFhFoL7qCkWJ2duzfhr6C01MnMoxCWbw/keNsQ567ESeZy2cBElrfEAixrNwPfLpxcxut9RoNoT/OLICUlCWujnvghfvEgh/U+haxq/icf8vrA1y9AtxeejlFWzb5p5eDwDmAbL9FE1ct3sXGKOFP2iaNlFkqf65KG5/o+xVArOx2PfUjsQ==
+
+Block height: 17
+Parent hash: 2IsHK14y9fOUg23bCXbKDcpetUOli7w3eS/MI90Dwk8=
+Block hash: bJ0oB4/LN/9br8nIhEDqXhO7/4hZ/irVM9KesQ2rH9g=
+Root hash: itTQEZdONkNr8qSp0o2g/c/zv390SoZYgORfEi5HRtk=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 18:48:32
+Contract class: contract.Contracts.User_Contract
+Contract method: userout
+Contract parameters: typeone 1 
+Contract result: 2021-10-18 18:48:32&typeone*在ip地址为10.0.0.1上申请注销，于2021-10-18 18:48:32注销成功*注销1
+Contract signature: EZaVRy0MGcop7OLa/KZjDNyJ04W/cgFbWQpAV7JJy3U9JBE+Q9Pyny0FoWXsFN1dwLEjouLNoAu+S0/6lpYC5homz71bT9w7bPlRyjUnqsEsFA9a0NP4wjhHMrK3fRK5hyEVVry6dQ1XFrqMzILGFEIS1i+y42MHgz9nb728+V29k1NvzXzFtAX4m4jJriIbpyfugn0tglrEbQabiXqDH4QFVtJDbrvjgWsCF7DB0IKtRtSdh0x7nhKRuTf9yhTLRDQtY6eGj4A4TfgujE7i3pZ0A+1Omnqbu0Rjd90+7ojADjOtQCXrULNuinLJlJfDe6BTjv1SajyzBGtSY1hDZQ==
+
+Block height: 18
+Parent hash: bJ0oB4/LN/9br8nIhEDqXhO7/4hZ/irVM9KesQ2rH9g=
+Block hash: /3r9Q1i7bkrucKBk51MoHFZL1OJXUqeGvcKr2Zw6xII=
+Root hash: itTQEZdONkNr8qSp0o2g/c/zv390SoZYgORfEi5HRtk=
+Device ID: 10.0.0.1
+User name: null
+Timestamp: 2021-10-18 18:48:38
+Contract class: contract.Contracts.Initialization_Contract
+Contract method: InitialzationUser
+Contract parameters: 
+Contract result: null
+Contract signature: P+Z7oi7SmxEB7lZYuZ0wyYLqKXSoXPUwd6/IHHLVjUgrhna/AtcLmTcJbgu1nM+os388KAS1vgQ4Bl0wztWL3RIOQNQlNiX8tQ90aNGFlR5enXw8TELOfBJEa4wzSLGd9NmGhUzOobYPOYasMnFM/209Roq2Ir5z7Llf7dHQAwHHupcy7LSCyJBBvvMOEqpHcHuKtF9VBNMlk7vVUvCS/ctSky7MF5bYCaf0VMXRpQ3oZoq/F1IRxS7X9NLAlutoM274rauIew9IMl8Xg2vQwvZwphawpweo/146s8rJN19UbW7W3vT6IC8v7jx4jSjMe1jBIPapOfMHTN495Z7QsA==
+
+Block height: 19
+Parent hash: /3r9Q1i7bkrucKBk51MoHFZL1OJXUqeGvcKr2Zw6xII=
+Block hash: poi3N2KRsH9/rlU/WBU9Zl1V6CqwxHzMcVQ+zw4o/ao=
+Root hash: itTQEZdONkNr8qSp0o2g/c/zv390SoZYgORfEi5HRtk=
+Device ID: 10.0.0.1
+User name: null
+Timestamp: 2021-10-18 18:48:39
+Contract class: contract.Contracts.Initialization_Contract
+Contract method: InitialzationRes
+Contract parameters: 
+Contract result: null
+Contract signature: VlHPvlSPmyoeZSQ5PLm8W+MGzR43lf8W9iqyeAhZdPNVOJf2hdhZtEwP6KJs13FrBN5AIijqFjETzaTXLd6Y4mHZqbEhgmAV+w0Yxp+yYANiQb+xTAcZEkTQ9TX0AcpVvqwfh2DEnrVImYdHd/Ty8NmoBzr5RjoApqQrUPrDQMyMOqksrZGXyTM7O5wlQ5dl3ESW6rKdbFb2nE+b7GOrX17zUkTjM7YSIX/+sGR5c8DqnLp0p7L2vc4+isMFS3I5qDjE25Nd/4/qCvf4ciHOPPbSIudjjl0YAuQMIWthh4P/6+e40Xp91jI9W46ZynCkgu9Jw2vtZBm9Q1o/0RxWpA==
+
+Block height: 20
+Parent hash: poi3N2KRsH9/rlU/WBU9Zl1V6CqwxHzMcVQ+zw4o/ao=
+Block hash: 9qv9tBfEQ5Ha7GbnHMXFHFU6bSo/W307E0izgcUBcEE=
+Root hash: itTQEZdONkNr8qSp0o2g/c/zv390SoZYgORfEi5HRtk=
+Device ID: 10.0.0.1
+User name: null
+Timestamp: 2021-10-18 18:48:40
+Contract class: contract.Contracts.Initialization_Contract
+Contract method: InitialzationEquip
+Contract parameters: 
+Contract result: null
+Contract signature: g9J56E8H9YQ4H+tJ4bGglzd0q0RMUeEiozmRiyk3phKawg28JjgjDpx5Ziv9TYjZjed6Tki2LBGLUcAd5aIUISuTDMLpVpjOpc/r+4X0yf/2/q+fxUIMetKS/y9NJbaf4QT2JMoRpRsBT5ufEH1eegzSR/mw0M7p2hPlY19kGUD3zkFX3v725Yq5tdrAwTAn8t+UhGZrqQEFx7VdSSqYfchcTob6ZU5qwIW9GLROZ9qM89AJz3hFUat1BXQoir2Ot9koEx8vNL7NXnJB1+aNH+6pIdKRzMjHkR9LgTojtbDSTt83wn9bJhTSsGZL0U/WIZhWWX8+BeXoS4na0Wzxzg==
+
+Block height: 21
+Parent hash: 9qv9tBfEQ5Ha7GbnHMXFHFU6bSo/W307E0izgcUBcEE=
+Block hash: 90MsdEUqBKcduktnDAzsRDW00VV9ZRDEOEd5JH3JgRo=
+Root hash: itTQEZdONkNr8qSp0o2g/c/zv390SoZYgORfEi5HRtk=
+Device ID: 10.0.0.1
+User name: null
+Timestamp: 2021-10-18 18:48:40
+Contract class: contract.Contracts.Initialization_Contract
+Contract method: InitialzationApply
+Contract parameters: 
+Contract result: null
+Contract signature: lOdEOSS8exal2E8hZZPgvqykDo80vu9/chTYTbb4qoJUcrwTeel9wxvtM+MkUmeJNgFnUEq4RvpQ7b1Ac+uJwCgKmL4I5JBLGOdmWHetTsmNTF0DVjg9Az/QK77zEZyNcMSlqqXWNCP+/3+7f9/sV9uFyJLZPBQq/2xj0Q5fdIQa5dEFkvDPZBaJAtiObwP0C7IYoORwh3ZstjMATiIwfIelB0YSHwNlS98NOFVgBBGMXgtjt4wEVNxSBqZ1sWQT9VPib+MtLyddkqarWFBrBuIg81quaMNYhxxGo7Q8nBIFmVV5QOf+M33m8dtoKqDyq/WHw/ZpO+yOJTSi5lNAew==
+
+Block height: 22
+Parent hash: 90MsdEUqBKcduktnDAzsRDW00VV9ZRDEOEd5JH3JgRo=
+Block hash: oKIIdWLJHqVq20rm3vrP+6xSfDf6WFZLGehdehGj0N4=
+Root hash: itTQEZdONkNr8qSp0o2g/c/zv390SoZYgORfEi5HRtk=
+Device ID: 10.0.0.1
+User name: sdf
+Timestamp: 2021-10-18 18:48:49
+Contract class: contract.Contracts.User_Contract
+Contract method: userRegister
+Contract parameters: sdf sdf sdf sdf 123 
+Contract result: 2021-10-18 18:48:49&sdf*在ip地址为10.0.0.1上申请注册，于2021-10-18 18:48:49注册失败*注册0
+Contract signature: kHp6GXJ4y0WCo28ePvsq3E0Zu83Ma6kbDjKeJX85FLUz2WbjWVHnlvyJOcK5r9ciIF6GvI6q6UOkHCHeteRS/ujL1LCis/15Yqkt1HgbZm+kSZMjsRgJxU3pzqiUQ8/CdBZ8gKwyHeTQgexhzQx19+dJ8rQMUDL8m4H6KBOAXtv4DaRyLFXrykq7AfC6FG3A8+BwSticuQ8R7Zr/1WDBFIfbdnuJlicljA7jqcpD4Pmp5xUDCheSRArzD/QaTcHbF28jd/jcdXRwOtjBMAhlwt+MRanP5qRoIEwNP/wp5CFL6oKIvzV0DrAwDbcCD8kNuSUn4Qa4H4vMmo60hMzv8g==
+
+Block height: 23
+Parent hash: oKIIdWLJHqVq20rm3vrP+6xSfDf6WFZLGehdehGj0N4=
+Block hash: eQQM5je3rSJqVBt9j29T6alm2hbw1/AvAIdZ9UDY5So=
+Root hash: itTQEZdONkNr8qSp0o2g/c/zv390SoZYgORfEi5HRtk=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 18:49:07
+Contract class: contract.Contracts.User_Contract
+Contract method: userRegister
+Contract parameters: typeone 1 14 1 123 
+Contract result: 2021-10-18 18:49:07&typeone*在ip地址为10.0.0.1上申请注册，于2021-10-18 18:49:07注册成功*注册2
+Contract signature: ss8r40WtXqVnJGJkEgucHao46hefxDge5J4HVzNiV5TwJWlJ8PG1/NJfvF8gyXeNlK4t2Ec+G67e/tWqJvwZfGg40lir/E5GwilMk1fVPHDIbBMcVV/n7Av/4LZM+0D0uJ2tflNUxQnTPDKT1GjpHfW3JyXJ1qcLyWRMuSisyKee9QUn3vFjNtQDGvTxbLVxbBAfUwJYHYNcxeaNj/od7lRcIy7LR+TPVOlUig+8riW8Btknzi3G2fhWosmvps23vBuhsmPg/WBYeTZEzlokZf+xl4nfICKmSYslxcw51CSnKn2xajvmAmfT59XwQ6SaFI1KTmlpJu2QfrN32HmKCQ==
+
+Block height: 24
+Parent hash: eQQM5je3rSJqVBt9j29T6alm2hbw1/AvAIdZ9UDY5So=
+Block hash: I264+Zox/8CHPET6jzYBbTrp8FoXJasdrWG0NuJvEd4=
+Root hash: itTQEZdONkNr8qSp0o2g/c/zv390SoZYgORfEi5HRtk=
+Device ID: 10.0.0.1
+User name: fds
+Timestamp: 2021-10-18 18:49:15
+Contract class: contract.Contracts.User_Contract
+Contract method: userLogin
+Contract parameters: fds dsf sdf 
+Contract result: 2021-10-18 18:49:15&fds*在ip地址为10.0.0.1上申请登录，于2021-10-18 18:49:15登录失败,失败原因是用户信息有误*登录5
+Contract signature: cu3PX5rNc24CJoao2Na2BrryAKht6FvcR3N4NNQBP4adFcVgjyB2R0jTi19HGFbLi48squqwo23Q8iAjjLzakBuTXK4JfZx+sJcbAzuQcJQFOHr7zFf7J/EP+5gI7pgxWeoy2gTJ/HGZIIJiHpoJgZCQROrj6Tzl0nY4w6E/MnOtcCPt4PlJbZBgOZCbl8k8fkcdbOe8B610hVNNiI7aeSn7KVEf9Mm4twXnXT2/ZyqjUYZIsRcwFw2+cTtpge/jPxeMWFDrwrwcNb05/dEbUinR+8d0vBcD9P9XjZA6vvEz5Pwc1G4SVytjgZEsufaYiOPC6JOh0kQnJyBQv6c5Gw==
+
+Block height: 25
+Parent hash: I264+Zox/8CHPET6jzYBbTrp8FoXJasdrWG0NuJvEd4=
+Block hash: cm91kLSgNgmGtVISCvISJwOA1B86zmisLIHoTJXLH/U=
+Root hash: itTQEZdONkNr8qSp0o2g/c/zv390SoZYgORfEi5HRtk=
+Device ID: 10.0.0.1
+User name: fds
+Timestamp: 2021-10-18 18:49:16
+Contract class: contract.Contracts.User_Contract
+Contract method: getUsereds
+Contract parameters: 
+Contract result: typeone;14;1;0;123;
+Contract signature: bEevknOaI6svJP0yn1GQNQpKEkp3A1mfS4BemLmfa6FpwOkg9eKd1nqArC8qdzQrpUaF8fkOZU9hwXi8wyZgRymOQ3lf57OpgsazCYWDLWxZcwk3soP+B7cbZvAwMKmsfeP3GFxpVa01bwVY1mRnlq9cX5RHhF5jwvLDE1wECmsDPjBdXq0dve7KSaxvX1YQD0KQVX0wK13PzydWeWfVJeyXLjni3AgxHuqLmhu7PW/Uwv9l5f6YWXelpujoi9VunQRNGZBiTQ07ZL/kAJapxqYzk30Qd3SQlw5rrDcMD2YhgU4NWyVLqV4c+TECzbqDdnrUWZHslhCrKJZ6tIeszg==
+
+Block height: 26
+Parent hash: cm91kLSgNgmGtVISCvISJwOA1B86zmisLIHoTJXLH/U=
+Block hash: HVAtoYIpXOJpqb4z09z+4AFAZdJLY9yqfUbvpZ4gggc=
+Root hash: itTQEZdONkNr8qSp0o2g/c/zv390SoZYgORfEi5HRtk=
+Device ID: 10.0.0.1
+User name: fds
+Timestamp: 2021-10-18 18:49:28
+Contract class: contract.Contracts.User_Contract
+Contract method: userLogin
+Contract parameters: fds dskfj sdfkj 
+Contract result: 2021-10-18 18:49:28&fds*在ip地址为10.0.0.1上申请登录，于2021-10-18 18:49:28登录失败,失败原因是用户信息有误*登录5
+Contract signature: depUU1Rp+zFAukqrCkHTB6gPHTd3FW/CDdoEEDaVW3GfgzodAgEiCmEpkJg3lFPDA/AS+bu3bn6EN9Nqts2g1bFhIH2vWY01lYfajwD5AqFm4+9sjDjhBx/iVeOSkkZYfBsHjecEk6k193Ha6FNKmpS8mwQL4AJQvICZ5yD9uC1hVxk3LjHbRPY2zslXitH6Jx66H09GEXQW2MEV3n5kv7Z+dD7NCPfG3IhmPtKLHgDOindlBcZDjLxocOJbJqt8rVbg1LHa0WfIGwHMD8UA/YNoA0taYySy3TqIyTjCq6eJs+XnxcMgUs6OsHeAgJ9wYh+VZq8HLyYqvObdojwGHg==
+
+Block height: 27
+Parent hash: HVAtoYIpXOJpqb4z09z+4AFAZdJLY9yqfUbvpZ4gggc=
+Block hash: MVi06mzDYPBIEbvR4s8rD9a8Kw/k8/rif4ykxB/JuhA=
+Root hash: itTQEZdONkNr8qSp0o2g/c/zv390SoZYgORfEi5HRtk=
+Device ID: 10.0.0.1
+User name: fds
+Timestamp: 2021-10-18 18:49:29
+Contract class: contract.Contracts.User_Contract
+Contract method: getUsereds
+Contract parameters: 
+Contract result: typeone;14;1;0;123;
+Contract signature: GdJdUG5g+JZviIKnbxuhnQWl9dMjXx6GIXa+UtJFY9kLn3zSbRA8gZ8ToZwAZrk9zg2rL62xuz1aSvxZ5Z4r+Zugslqy6MciD+ILTprfYFGCOxnyMM9G5AHfLyqsbzaGo3GbIGTi/y6bPmg7ZhPCOGP5aM/TwFiwUtjtYicUMIq/YGEWsagx+2Yz+SHWCsMHuYxqad08WykHnnljtGaH+tHLar02Q2mzu04fIHCtzn5wRxFwAoWMhya5qSUpqVr9vO/9hOEsy7TgJ614iZmQOEA7y4dgNCXxDt+dtZoHQ4cmBQOyVTwuPLCgPrOoscD+OG49DRI0ZgzygbCI2/2o1Q==
+
+Block height: 28
+Parent hash: MVi06mzDYPBIEbvR4s8rD9a8Kw/k8/rif4ykxB/JuhA=
+Block hash: iYZMWmsLVVh0kvbxliAhb8GNXA1KkTG7jq8DNZO5Kbc=
+Root hash: itTQEZdONkNr8qSp0o2g/c/zv390SoZYgORfEi5HRtk=
+Device ID: 10.0.0.1
+User name: dfksj
+Timestamp: 2021-10-18 18:49:37
+Contract class: contract.Contracts.User_Contract
+Contract method: userLogin
+Contract parameters: dfksj dksd dsfkj 
+Contract result: 2021-10-18 18:49:37&dfksj*在ip地址为10.0.0.1上申请登录，于2021-10-18 18:49:37登录失败,失败原因是用户信息有误*登录5
+Contract signature: G19YhIGT2RS8PIOtblHoMH5+39kGXL/s486nbPoSoYRsFkeIEKdcqr8QbXjfluAtdw2U81nnkfqDzbs9NIcywTbCzJHlv0YortAcU3Mhbt4WNbU0HDnqRlkJj5krJMsf3J/7NiZHZyir/9k/nx1LFOqwDSejO5Y0g33k32xiBdvb7X2DCwSYGfyC4oyFVozgmZ5YtZSCw23GpSSRkO9NWlLI0uAg8Ya8fUhp/m7XVib/LzrT9LqoQXRVOOtZQSe/2ifilL9nm4gXWUlpszHAJ5H3KYZ+5UQ02WbqIvJhciifntjH76xaz2etkYHM9M20w7HSUi1azYpgNtd1CPNXXA==
+
+Block height: 29
+Parent hash: iYZMWmsLVVh0kvbxliAhb8GNXA1KkTG7jq8DNZO5Kbc=
+Block hash: KcRtioKN0Ey2UeR7D2ky/2wlNenShlNyzR0fxUfvCLY=
+Root hash: itTQEZdONkNr8qSp0o2g/c/zv390SoZYgORfEi5HRtk=
+Device ID: 10.0.0.1
+User name: dfksj
+Timestamp: 2021-10-18 18:49:38
+Contract class: contract.Contracts.User_Contract
+Contract method: getUsereds
+Contract parameters: 
+Contract result: typeone;14;1;0;123;
+Contract signature: lgiukwRL8hHJaZhK+t9AqoVvxMnCLUCdLrLFxhiJiUutEQfId0o9FbiBy1BNErs7n+hb0rjCQMIleHLYUa5YDPSFS/gft8G3PdhPMLIEaSRQzbLT4LKNby1Hh7tgajSRo8hSQI9XKpa7wXlYDUhpibpOA8l70pPtnJTsB/ok5C6jcvHkBY3INwA+/sKRP1512bBibzhdBSZ77y6DdOGpbGWvLNr/a0LJpx7BtWKXJXiyfi3DItTm4EsESvN5lx7M/N5VCUsL4aBGIOWS+yg2w+vWy6r003zazs3cbdAgTNUTufx1oFmxeWEYHq4kEQ1YSJ3JHIl6FtFwZewZFxZqDw==
+
+Block height: 30
+Parent hash: KcRtioKN0Ey2UeR7D2ky/2wlNenShlNyzR0fxUfvCLY=
+Block hash: BS5lBxAH0oN5jVjAJ74wmnkOPwwKYOb/l5GtGFJANKE=
+Root hash: itTQEZdONkNr8qSp0o2g/c/zv390SoZYgORfEi5HRtk=
+Device ID: 10.0.0.1
+User name: fdskj
+Timestamp: 2021-10-18 18:49:47
+Contract class: contract.Contracts.User_Contract
+Contract method: userLogin
+Contract parameters: fdskj sdkfj dfsk 
+Contract result: 2021-10-18 18:49:47&fdskj*在ip地址为10.0.0.1上申请登录，于2021-10-18 18:49:47登录失败,失败原因是用户信息有误*登录5
+Contract signature: NqjlkpouXjtF6Df0e+V8K98Ja67UDkHGlKJzGcCiAMNLpWVR9aF94geWeOVZbCn4TB86ECikd6TG04ZD6q++Z26l6jhnXWRPAB2g2W/GQ8k1xup0/UfHAWx/Bkh9bVzT/he9G4JkmYpr8EnkHDmikPu2i7prPLyNnBoeNOodtFzcgEYcy4qHxDpdMOmQbkizx/FMPvxYVOaMvQ0gbA8zDLFmS1aeS07Eo0YbprmNsYhFJDTnReuehwdPgKcF1QsW7f3LXoBxw07osQAloxBC3j4rcZza4oJ6JrKZbeHJJiZmOGgOQeTR83DUkseEwN2nSRAT9Y7bc4pGHa4vcVG9aw==
+
+Block height: 31
+Parent hash: BS5lBxAH0oN5jVjAJ74wmnkOPwwKYOb/l5GtGFJANKE=
+Block hash: kH0KtlcKoCd/oF011C3wfuJbHTdIuBP1v6Wz4HcmmC0=
+Root hash: itTQEZdONkNr8qSp0o2g/c/zv390SoZYgORfEi5HRtk=
+Device ID: 10.0.0.1
+User name: fdskj
+Timestamp: 2021-10-18 18:49:48
+Contract class: contract.Contracts.User_Contract
+Contract method: getUsereds
+Contract parameters: 
+Contract result: typeone;14;1;0;123;
+Contract signature: OzK+57JWbgBZ2j83nZlmL/k7n/S5r4wX2QqCDxGG0KS+OFzPcYC8fG73CWCxYKreiPaS9uyFC19exLlJyustUUzkAV/SHDxCeSuznNdg/puwTzBmxsMf1TDycYTFi4h7KAN9SDk0OhxhdNS0qy40mgHQE6pE+CBQOmTiNL9lTVlft8C1S2C9gM9VSZtfuRRTozgLFP1WB/oEN69UY8BzYlb+sxDc43kkidJQlHXwK3cDpwq/GcAqpDnGiu3BGpyQlur2uf8l5AvrtWVJ9uPZpkG+n9ZaxqpOLpq4lLys/6/bs5SFMOWDpEJH7kixgr79pJYrVaaLDQxuRVVvOiYjnw==
+
+Block height: 32
+Parent hash: kH0KtlcKoCd/oF011C3wfuJbHTdIuBP1v6Wz4HcmmC0=
+Block hash: a0+79VH9YGFow/KmRwBYQf79oJ1gy59aAVIu43X/dO8=
+Root hash: itTQEZdONkNr8qSp0o2g/c/zv390SoZYgORfEi5HRtk=
+Device ID: 10.0.0.1
+User name: dsfk
+Timestamp: 2021-10-18 18:49:58
+Contract class: contract.Contracts.User_Contract
+Contract method: userLogin
+Contract parameters: dsfk dsf dsfkj 
+Contract result: 2021-10-18 18:49:58&dsfk*在ip地址为10.0.0.1上申请登录，于2021-10-18 18:49:58登录失败,失败原因是用户信息有误*登录5
+Contract signature: FMd7seG1c27R4fMgGsM2kjsMpKxZOT4/sYUw0Dea17duHw2BtV45UJ3Ohis1t5VscvYB6MQt7j9jS99+MP/OKtFXxxMpiYIcyq+Bk+egfajIbKrId55y7JfsgepmKFMYlB3AlHR7Gkm4Q9eRu+0yedPFza9l7aqOwKB+fYVN98HpLW8+mzb8tDKv76OBtS9v0XMDmVSGVrNXFsWIhXw1MmOXBffRtTpNumFNAgoYffPDHgz/uDEe6fIVGPEdefaJoxtphao1WSMdU9dE9FwZ2Pqr2WSAnEA+sZMZr64/14A9MFM13+f8YJd09qR/S8eoqWDAOVkPRtUPbswu7FDQMw==
+
+Block height: 33
+Parent hash: a0+79VH9YGFow/KmRwBYQf79oJ1gy59aAVIu43X/dO8=
+Block hash: Arx9mZva4UMXq+SBj14T+RXsWaX652uwa1qiun5OrxY=
+Root hash: itTQEZdONkNr8qSp0o2g/c/zv390SoZYgORfEi5HRtk=
+Device ID: 10.0.0.1
+User name: dsfk
+Timestamp: 2021-10-18 18:49:59
+Contract class: contract.Contracts.User_Contract
+Contract method: getUsereds
+Contract parameters: 
+Contract result: typeone;14;1;0;123;
+Contract signature: LDlNxd/0+i/Oi0wN8jgXoRmb1TLTP7N69jbKUlpGL8JkwJ/GSdjbLn/NvKLMKL+ymcNj9Wy0CT9YBOlX4gCCkbWXHRszTDKTFC8T9DqZSE0+RKJxUUTjnfvzZdpFHO4R10RncAbs6pKEHvNv8+dLAkNdb2Cpf/tT3cMrZz930kD1KQ+FqwmPQ0u2TBBBH1EP2gMaTA/hMjtaHXkpMSg0Bd/xtNoJptjmipvJ/L/N6XAS6SaPt8bFxnjkrQle8np4b3714aQ+F7W6IYc8WQx7wBpxJLp0wPxt/38dRefrcd2lZkyPXuezwD+By0f6opLDWw7vKmgJwvwQTrzcR2bCEA==
+
+Block height: 34
+Parent hash: Arx9mZva4UMXq+SBj14T+RXsWaX652uwa1qiun5OrxY=
+Block hash: hWbAeO8e1eOeRIqQxkXXT8A4tBVdhzQGDKqJ+UKQoVY=
+Root hash: itTQEZdONkNr8qSp0o2g/c/zv390SoZYgORfEi5HRtk=
+Device ID: 10.0.0.1
+User name: sdfk
+Timestamp: 2021-10-18 18:50:13
+Contract class: contract.Contracts.User_Contract
+Contract method: userLogin
+Contract parameters: sdfk dfsk dsf 
+Contract result: 2021-10-18 18:50:13&sdfk*在ip地址为10.0.0.1上申请登录，于2021-10-18 18:50:13登录失败,失败原因是用户信息有误*登录5
+Contract signature: dXWp8eVz/hmYXVlwaVtUTOl8uWyfh+gEPyYuCz/88Ao8aaZMzAguq8miTq7SnCjxJGmZ+8+baUw0nx5EQw+gkSvS3o44+HIb5HB2R9TxqLIX3g2cxasLc76a3DqXtskki95D29R4uRgn4kDnDqPMVoo2sUOYOw5E9OtUeN/+yz0Dq0CKYjkOu9J1+sXlK9xrLYNzDrLK+disLjEUWEttdi/2nd1BNoN9mwlFpqMspmwIaWYrDEmOWaJuisGa54XjczWDuEd2FD5lO4oSqqg2y9Fj879JaSR/4PvPCMSqQ9wyE0NDvTco2m0WOGcP8Haxg/sCZazz5+4GNleGvzDOXg==
+
+Block height: 35
+Parent hash: hWbAeO8e1eOeRIqQxkXXT8A4tBVdhzQGDKqJ+UKQoVY=
+Block hash: jyW8orv9W43ZxppHyEHt14+dsStioEDKtrqeaDzWjEg=
+Root hash: itTQEZdONkNr8qSp0o2g/c/zv390SoZYgORfEi5HRtk=
+Device ID: 10.0.0.1
+User name: sdfk
+Timestamp: 2021-10-18 18:50:15
+Contract class: contract.Contracts.User_Contract
+Contract method: getUsereds
+Contract parameters: 
+Contract result: typeone;14;1;0;123;
+Contract signature: LayRrHV5ajlGSGL3NQn5A0F0DFup3MTUANRiuxB4KiKKhLJGtnyrZML8bEWKri5HXpVMJQSebFIl00h2nMjbfHcm1OkNe8tp9RaP+MTO43H8Natyfue7HaOM2fREw4ilAMGmCVwuul9Ri01dcs0CllTtrt1Abn27PYVngja5osWSNbXKxEaRtgZObN76eZCaEqO9jxOkY5cKDVN148cRSTeY5oJ7b+0V1nnAtZE+ukwFoYf+lUtGQyDgFQmjIQVEwgJNBiLi0+1wXAL6xnfRbXAn1YPw2Z8YJIYjJ2CKCQX8xax8acN1YnYLaBU/oaNi88Cq9eMpBplxFqnw9yHPsw==
+
+Block height: 36
+Parent hash: jyW8orv9W43ZxppHyEHt14+dsStioEDKtrqeaDzWjEg=
+Block hash: 0tl/BLqSc4VxuR/oOqLtEV6lRYPkiY9I9iAmzJSeLq0=
+Root hash: itTQEZdONkNr8qSp0o2g/c/zv390SoZYgORfEi5HRtk=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 18:50:39
+Contract class: contract.Contracts.User_Contract
+Contract method: userLogin
+Contract parameters: typeone 14 123 
+Contract result: 2021-10-18 18:50:39&typeone*在ip地址为10.0.0.1上申请登录，于2021-10-18 18:50:39登录成功*登录0
+Contract signature: O9rOeJBOanuE2WH2zILhbiGgPJBmUXr4yK1Pbhuqq9Z6QC1jQcwnydi5/5VUqYma/9gKi/J2v0/dUXd6pfU5iFiZijxpryG/h//0N832vt74XGMMpytLKJWU8hwoEILKtpjDAzbeXhdIMYcsNvUuklYMXoNeA6QEfzOsC17WKgd602/bwyVh8dp1RctzaPgqD2XPYpaOqwE3V6iK2ICL8nZcVrnI31fH58YjS2h2thNp1YM9GGDExy5DSQF7aD76Du0nMOta0AKk+lko8xSZiZ5l61jnT2YrDhGQugB2ebqOZ1ZyUlU1jzpCysEyXJAOObNwg0shCQlwYKG5jrAl3A==
+
+Block height: 37
+Parent hash: 0tl/BLqSc4VxuR/oOqLtEV6lRYPkiY9I9iAmzJSeLq0=
+Block hash: spptioLatb2LFJG9LsNALYrzkmlrrj5M0cR9Y5+yNn4=
+Root hash: itTQEZdONkNr8qSp0o2g/c/zv390SoZYgORfEi5HRtk=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 18:50:41
+Contract class: contract.Contracts.User_Contract
+Contract method: getUsereds
+Contract parameters: 
+Contract result: typeone;14;1;0;123;
+Contract signature: kt25RLLezcm18KngALdfizKVRt6uWzhRa2kXNcE9wx3/jquJJNjnipmQozd58Fc3QAL+9fKlJDGFdDFUyWcedXbuknbJ7bM9xlZ3DomskQmbHijxAc0nr5T4Po0cw0oPj+JfGF2BDYpPOSl/utPTJw31lRsRd581kGo6mVNiofQnumRG8HFugEeXNEBD3Xy0vc4e2LXF9AQnF5X4jmokdVErN15d8yWy7VFePLZOIYGL5/hUMTleCkktzFHZvQ+gEb5YcCDj624t92PoJgEqHtZ8RDAedYJRSNby1JFPhUhionKYtboL+ps+8XeDdJeQdN6sBPN11ftBJRrW/9QKHg==
+
+Block height: 38
+Parent hash: spptioLatb2LFJG9LsNALYrzkmlrrj5M0cR9Y5+yNn4=
+Block hash: 5U60QoOFKtK65OhejZFBMrbjbxk+ii34zC/WOmNoR84=
+Root hash: itTQEZdONkNr8qSp0o2g/c/zv390SoZYgORfEi5HRtk=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 18:50:47
+Contract class: contract.Contracts.User_Contract
+Contract method: getResource
+Contract parameters: 
+Contract result: 测试流程1;0;1.0;测试流程2;0;2.0;测试流程3;0;1.0.3;测试数据;1;1.0;测试数据;1;2.0;测试数据;1;3.0;测试数据;1;4.0;
+Contract signature: hFv5yOpt8GDEG+W8GbGTBWD3YlXY7kKOdCUy+R9DEauojnPbLgIIEz829cfETYIlKTWxuk5HJ5aaDgM1JuJy9KyJfeCQV8c5uG0D3eePU6qjCINXqor2zLb3F7K+SvBymZS8m1U9KH/qt7UNo+ZGwC98SDEhhfBwyRG2IZe72+MTQrF4eoTIyx4XkGKwDJ4dgd0VSjsW1BdTfHQKzhiBzRzUq4vxq/LG/zToIL0F0KvgWWzaY1hsLVUI9WTpTnghJOq3owp/GIQ/wMn3AtNgkqrsuzoY0rMQXELRnYm46Qpi16v9W+OUTXlqDjMswcOHz6hhJwFp0yZ5RKsiPo3jLw==
+
+Block height: 39
+Parent hash: 5U60QoOFKtK65OhejZFBMrbjbxk+ii34zC/WOmNoR84=
+Block hash: YpEf6i0b5g8bsr5BfVeAC7TRLz0NrCnIUphWXK10CFI=
+Root hash: itTQEZdONkNr8qSp0o2g/c/zv390SoZYgORfEi5HRtk=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 18:50:54
+Contract class: contract.Contracts.Res_Contract
+Contract method: operateResource
+Contract parameters: 0 0 测试流程1 
+Contract result: 2021-10-18 18:50:54&资源测试流程1在2021-10-18 18:50:54申请修改资源1
+Contract signature: WnKuV6nSDQ5JbstFYtscvmCadYw3cAArBPDUos/xmBCVAN6gV3z9WlkC3WcrkIQIcr49WHMnJmtZI9wvs9VIluG4QZBPTCNQ6wcHr4pKSVFzywTRSYMoxIUJR//HhYiFyCzGDL4RS4+L4M1X8bD+ly7keO0zsBBSp6kzGrYnAj+6EUX06mA4o462T5VdJQ8/z2rnWra5BssqN0hLO+YvYpVodM0jim3pw3HiJtD2wRIL4F4HXM+YLlpnhTf9SQmcXsVgdif0oW3sJQFdjStoFCLnNrFc6qKMiH2q0b7/GkrvxEQxjJuzVbsqbg4M6FCY33T2xngv5A9WWC/5dWEfPw==
+
+Block height: 40
+Parent hash: YpEf6i0b5g8bsr5BfVeAC7TRLz0NrCnIUphWXK10CFI=
+Block hash: pgdM/ROTor+DrJVma5RgfRKajWJW+4OlGw38cbbzeyM=
+Root hash: v03Et/IyVChVThyqhEztSIY0wqxg1E49yMLIRaCUDnQ=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 18:50:55
+Contract class: contract.Contracts.Res_Contract
+Contract method: changeResource
+Contract parameters: 测试流程1,0,1.0 测试流程1,0,1.4 修改 
+Contract result: 资源测试流程1,0,1.0在2021-10-18 18:50:55修改为测试流程1,0,1.4成功资源1
+Contract signature: TfBqXFIwj4mmutWZ/R4EgrUQvob+lw83Nyvq3Ji2b0DUsCjl85YR935EMuwfMFz2uDZ+IFtxQCct/2NH3fEjIiOZIlMQdHKQzWI3aRx9qnVZv3tebOe0TU6KFyPcm0zQY/oBKt02dyBxblS/KtP2CLyRXns3bSNSOtYyeCMN/QFgxnRMoPe4vhVAeSf6W5RrohBrFGw36qlgKnk9rjRexAijRNULNqbTO3bIm1vKyfHQOQffC6+gMm4f6IlETeJyizCdQT84SZzi964Y10LdUdHoibwRDV00hFF7oDzn1FBI0Zl7S75FpYxIR2NTfYz1ROZruDsUb62/KfcEP7XbQA==
+
+Block height: 41
+Parent hash: pgdM/ROTor+DrJVma5RgfRKajWJW+4OlGw38cbbzeyM=
+Block hash: GDdSeRwodXnHjCWh7931VIOks8lf186//LY+9yduVW8=
+Root hash: v03Et/IyVChVThyqhEztSIY0wqxg1E49yMLIRaCUDnQ=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 18:51:00
+Contract class: contract.Contracts.User_Contract
+Contract method: getResource
+Contract parameters: 
+Contract result: 测试流程1;0;1.4;测试流程2;0;2.0;测试流程3;0;1.0.3;测试数据;1;1.0;测试数据;1;2.0;测试数据;1;3.0;测试数据;1;4.0;
+Contract signature: ZYQKWduEg4ygDiP84SNYSarjfvqTfLNCFIx0JNz6bVaPCHChraMzLvpH5ER5IbH4I+M8cx/XNPyyBNCok/+0cwWAW5LPtVPBySLAckPDvgCggPy78cjxovBU+o042pq9SGIsynr8z4fKmg5JvzkxGtIapaqed5PPW4ykgZhmNIcx8p7WxoIeiRR/e7QmVlVg0Ruu8QT5GNJGKTGtHbI8CFJjOH2Lzkba9YGImvT89nghAcS8nm8mDgkxSezedly1A0nDIldk2LIvVRGutpNSaeZv+Yzin4HwRlZ3uy6Hg35ZSqXIvYVcFV3/RwV6BbLkgN+v6McKO/9734e5/Nm9XQ==
+
+Block height: 42
+Parent hash: GDdSeRwodXnHjCWh7931VIOks8lf186//LY+9yduVW8=
+Block hash: 7E+gVJxugPTTzkHHu7mhkXheOcKJqNnd6qaSCtPVGVM=
+Root hash: v03Et/IyVChVThyqhEztSIY0wqxg1E49yMLIRaCUDnQ=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 18:51:13
+Contract class: contract.Contracts.Res_Contract
+Contract method: operateResource
+Contract parameters: 0 0 测试流程2 
+Contract result: 2021-10-18 18:51:13&资源测试流程2在2021-10-18 18:51:13申请修改资源1
+Contract signature: T9JDyf4gtX7jxex6WD1W+YB5tF6nOtNfCVGa+x9WCpkYf+VzMBMCSnZko05y92xBAyrxj5UXoIk7E1qqe1cfV4g41o2HZ5icOP5e1jp1TWjZYoCxDTFVHq2zq+1SjJaWOSNNIrkd1Fr8eaKX+ifsRt0GhZhZvtEbVzkbixLO/ERQtXbXrHIqG4Dguf0c29hS+RV/mRGEJe7EpaoULec3+Wh/kCB9AHXUksyw/Q8ZSGURMqZy1bAITFXCTooqe+GhqnJlZz90IXRCGzHuxkncEoeOXQalHWA641CDGQzIWPi3bbgktsDloL460WTjaE8XFuGbaIbLTsOnx2dF3DhG6Q==
+
+Block height: 43
+Parent hash: 7E+gVJxugPTTzkHHu7mhkXheOcKJqNnd6qaSCtPVGVM=
+Block hash: jmR3T6c3NvuOB8uBfFfSfuM0aTVFrD2MqYK9cjCKnfc=
+Root hash: xtn+ajKM0Z+ppIHGdc1+1FvfsNe2Idt2engfDp7szls=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 18:51:14
+Contract class: contract.Contracts.Res_Contract
+Contract method: changeResource
+Contract parameters: 测试流程2,0,2.0 测试流程2,0,0.1 修改 
+Contract result: 资源测试流程2,0,2.0在2021-10-18 18:51:14修改为测试流程2,0,0.1成功资源1
+Contract signature: q+A06FaKi/K++YqdTaQHv2e6n7mFK+VIpPBMnNLaBoveQHylacmrwRfmNbggDl1ZOWBkbzVHskxJBbxPe0nZKFRYtWD3dtlzk34vG0kj22qOnfskTQUXdY8j1EXSQZ7oJSzmMjwk1D62xUsbJvZnsEJFpgOrEvtVhdGORShGXl5e0Ib0tYOxQ+uWF7ksFk8DomIbJSe3q7X1WTM6y9EgXIzzyuZ5HYe4iPyeOWQZIFv4WaIKARO+QOZ9nf52Jm/Wvj8rg6LllJij4ggpXTDHsiNKY9t4WT5UAWjK++6ZiwdAugpS0DlLIN9MzbioBF14QMOv+/MJwJfPaOPr2UFFGw==
+
+Block height: 44
+Parent hash: jmR3T6c3NvuOB8uBfFfSfuM0aTVFrD2MqYK9cjCKnfc=
+Block hash: mb8ELvbWg930/NkODmlJ72FjoMtiafIa0k7BO2aRzi8=
+Root hash: xtn+ajKM0Z+ppIHGdc1+1FvfsNe2Idt2engfDp7szls=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 18:51:17
+Contract class: contract.Contracts.User_Contract
+Contract method: getResource
+Contract parameters: 
+Contract result: 测试流程2;0;0.1;测试流程1;0;1.4;测试流程3;0;1.0.3;测试数据;1;1.0;测试数据;1;2.0;测试数据;1;3.0;测试数据;1;4.0;
+Contract signature: H18Z/9V4524M0B5QOgNsQ0rXSYWOR7Ncoqt6lw3uMuGTzWiR/J1+DOLuINjYNLgglkyzt9YOw7k+iIO763F/1IXtwUOt26lEcwz8a2ls1nJCLIZ+nf/0+zTpMFjlrx3ZXq7PZpUahoL5Tln8A9oL18Jxw3/no5zHAzTMw1b45kVLUUtKJRqZ1Ml5Sh6P4zt8C1KwpP5j1ex5pxpR6KmgFBE/TQvLYuCCpLeGEL0Sc26emZDa1FAqsJQfWB33IoZj2HA3GqelzZfUDqmj2Lmdr1Da4TkerVD3JrofAMvdAublFvPrATlWP1Laji/oqf4DH5Ehlh4sYMOIbTzSqmWj5w==
+
+Block height: 45
+Parent hash: mb8ELvbWg930/NkODmlJ72FjoMtiafIa0k7BO2aRzi8=
+Block hash: oeq/aRvRC+iFPC+wmJXes8x91DH8UvgKheOQBi0FOsw=
+Root hash: xtn+ajKM0Z+ppIHGdc1+1FvfsNe2Idt2engfDp7szls=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 18:51:20
+Contract class: contract.Contracts.User_Contract
+Contract method: getResource
+Contract parameters: 
+Contract result: 测试流程2;0;0.1;测试流程1;0;1.4;测试流程3;0;1.0.3;测试数据;1;1.0;测试数据;1;2.0;测试数据;1;3.0;测试数据;1;4.0;
+Contract signature: Pohgk07y3LBleE42cV3w6Oep84hg4IeiIdve42uxx6KmlSlQodHXddRICMzR+8yQMaBDIQZXP0MqlxHm2nvk4tMOVyTZsK9jj3l/L9E0VFTo9VlFaC/5Qh9h+0nS3X7DbJK3SwtMPQCKRtX24dCWJdVswUCYhXsWHpEwRNXV7u7nRreg1IDeWHhWkNicwyNgDFWFOO7Bn5tcmjkvj3vfQuPIEaTlxnIaCYfZpLpcoPocj5ESLn6zTxI0VAxxcH771uWNeHUB6crTYyjqTLIDBPcFSTrXh+vebKXz3WgUYW9hzlYEdUPoJxqdNVXyVf/71+D0nIMgatE8n2jGmpslPA==
+
+Block height: 46
+Parent hash: oeq/aRvRC+iFPC+wmJXes8x91DH8UvgKheOQBi0FOsw=
+Block hash: jgkxm/LZMDV/W8kWm4/rGZ0k2i0iJEg3FKKuWa+3kZg=
+Root hash: xtn+ajKM0Z+ppIHGdc1+1FvfsNe2Idt2engfDp7szls=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 18:51:30
+Contract class: contract.Contracts.Res_Contract
+Contract method: operateResource
+Contract parameters: 0 0 测试流程1 
+Contract result: 2021-10-18 18:51:30&资源测试流程1在2021-10-18 18:51:30申请修改资源1
+Contract signature: XH+8g44DFZBjnXqwt8/LDAoAtcRF7m39wiVTMeqg6TgVkUMPxXFN4AUGICVsGQ3tNvoQBCUFuNG1DepPst5AIvJOLu36BQpYjoiJqjscNmAZIfJ+XNBmi/NMzjcDC1vgzCRCnOYQO5kScIwT4Ad5BL8iF39P2kFw6RSN6rOFWrya3YxiU5abrTr4cbeyy4JlEL5o/YgIpX9mvceeoj89TpmxUy5NAEVQPBMc96mTxar60bkan7Mo3f1BiAV2EopTCo3LEXSetMbaRflg5O7R0iMrJxQixy4M2i71sXGjkJMgPMDw0YEIdcCXXSwkai9yUSUkOcQm9cCXt+0ZV4uNBw==
+
+Block height: 47
+Parent hash: jgkxm/LZMDV/W8kWm4/rGZ0k2i0iJEg3FKKuWa+3kZg=
+Block hash: UI5QtDW8lp9PYy0coNgJnEBUZ/0MwQYqdfX0v++fNnE=
+Root hash: 0pt8SWY+DhSqmf4/N+3h58L43T1L5hFPchmCNeJ1VGA=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 18:51:30
+Contract class: contract.Contracts.Res_Contract
+Contract method: changeResource
+Contract parameters: 测试流程1,0,1.4 测试流程9,0,1.4 修改 
+Contract result: 资源测试流程1,0,1.4在2021-10-18 18:51:30修改为测试流程9,0,1.4成功资源1
+Contract signature: Sx5Ezwp3QiQTPbo+FGIHMnkUXZY9TS1HMozUwqxy9c563ryJ/GvjmiTxa5qAO+iFTt5OgjAllIgJz0NGcW70hO7lNiV0bBy7MAc+uWTHWyMGyRZO7hkIBjib2y9QwarNDEx8xVSZWzY/zyD/KnqBcXiUlbCETY2bmgYfcCizZW34vuOMRIsG4b1Sa3J7vkjXDTE6PAMe5onwApxXXsk91PsD1J3P7ztu+ifr77/E6sPgyc23m9Y/tlyO0IkyDWrQ9mB8oV+nEQdToocx+STaB79wmcpwZ8kUSQtd6NfEqTYL2kBOy1MjGiVowt4B+bjiyj4w4ljvIW1nTVGnErT6+g==
+
+Block height: 48
+Parent hash: UI5QtDW8lp9PYy0coNgJnEBUZ/0MwQYqdfX0v++fNnE=
+Block hash: rlUM8rYwYBZTsRiR0ZBmEg43SAFwHRkYFqWJuAhQAXg=
+Root hash: 0pt8SWY+DhSqmf4/N+3h58L43T1L5hFPchmCNeJ1VGA=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 18:51:44
+Contract class: contract.Contracts.User_Contract
+Contract method: getResource
+Contract parameters: 
+Contract result: 测试流程2;0;0.1;测试流程9;0;1.4;测试流程3;0;1.0.3;测试数据;1;1.0;测试数据;1;2.0;测试数据;1;3.0;测试数据;1;4.0;
+Contract signature: MFd1jUJ8WJhZIKrolUZ6D1o+54CkVjV52XMKz7UAA/1jrmONrXdGj2e1IKKbm/sIAR1QVFNEVUs+YrPzwGtrAFtOt36o5HUGH3xU6liQiFFyiSHX9B8C7RkemkUIUu5235Vs4mjOOSzL6JNsuIoud+d9qEXqu7/ee2fW59EOqWjZUTUAhd2ZyRFxz/gvD17t4PJYKejUS8RGoo4FWSoQCVqlbJVuYPKco7yNMuVz/yN5MCyTZuISmuGHoQVWeicSCaSaxBdhIpk5yEhJB4ktbH2QxtS6IM48N1noufaUXYwGqIO0TDwlEh7E/pbJEdBfBJ3I4p8tah7YM/SDHwt9Kg==
+
+Block height: 49
+Parent hash: rlUM8rYwYBZTsRiR0ZBmEg43SAFwHRkYFqWJuAhQAXg=
+Block hash: tG29H5BTmue8O24h2SHYC+oyj7v7oOPvdJK2oRWq99I=
+Root hash: 0pt8SWY+DhSqmf4/N+3h58L43T1L5hFPchmCNeJ1VGA=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 18:51:48
+Contract class: contract.Contracts.Res_Contract
+Contract method: operateResource
+Contract parameters: 0 1 测试数据 
+Contract result: 2021-10-18 18:51:48&资源测试数据在2021-10-18 18:51:48申请修改资源0
+Contract signature: oPlOir6mstftauovrZnlcO5vvKKoUXwvDZTZQAr638+IhZyH7916f9/DVNdqSulvUnt7WSOlerpgVkyRhf/tsoJMj5X+9q4bh5A/yEaO24e22GkQ12dCkezNCOOh2Jln7g5Ec9B1SXubD5DsvXl22fYM3+eZ4Vm06mdFWz+8rCZZ8AFasWRgMDbqu52DpZciYKkXjioBS6RyOqluFvnus94ZxE+PJdMHw7zmqq5NSTmIqRHfmtO9817xhH8EEHZmaWJGc1NdOPfPFv4rZZRfR50Fw8drYoKJhwvw9UprHmTEcFOiJ8EKPEhbMX+Kid9GbtdXwdMMEuUi2jRUTsvDwg==
+
+Block height: 50
+Parent hash: tG29H5BTmue8O24h2SHYC+oyj7v7oOPvdJK2oRWq99I=
+Block hash: QEaPcWp+FEF6UXKAkRgzXt03H+3o3cJZj0QhgBlCwhU=
+Root hash: G9DYotnbcF4y5JjzuFTMJXehG/BfqHr7855gcdv6U9s=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 18:51:58
+Contract class: contract.Contracts.User_Contract
+Contract method: applyRole
+Contract parameters: typeone 14 0 1 
+Contract result: 2021-10-18 18:51:58&typeone*在ip地址为10.0.0.1上申请权限变更为1成功*权限1
+Contract signature: M/7dZpLQsJ4CiA0rktHwHWS1ontG4Vv8xBmVj4QcXPAt+riltWNnDD+4xHqekL5QRaaO3Pr0kHaHF2r0kFbj0TzmOhLp9AYJKPuk5tHbgzNYpu2RR6spohq1SAw//RK9Nc0ES41mQUpZyno69OnynjKoj0Cmm3P70VDtvJ5eBu7QDXaHb+aURBlxhGuTZh2ZkR2fBbkvMTae13f2rpXjvxMWlKgNAcauxxd75RByZWvOfyHao3JPByU5ujNTceWm3Fh/ir4mv1mpxc9wfDUT4U7fgAMf4DCq5hc+FKxrQkoSniBujSEeKShVGAWGIl5X8Wozh3kwmzT5sZqVpNCEJw==
+
+Block height: 51
+Parent hash: QEaPcWp+FEF6UXKAkRgzXt03H+3o3cJZj0QhgBlCwhU=
+Block hash: 36GZVAWDkRS+YreFYA19R4jvPmvQZEjCOsy/V68mmVM=
+Root hash: G9DYotnbcF4y5JjzuFTMJXehG/BfqHr7855gcdv6U9s=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 18:52:04
+Contract class: contract.Contracts.User_Contract
+Contract method: applyRole
+Contract parameters: typeone 14 0 2 
+Contract result: 2021-10-18 18:52:04&typeone*在ip地址为10.0.0.1上申请权限变更为2失败*权限2
+Contract signature: VWnA+ZahZzQVgQgo6bzUgmKGnJUPmqQvbjsz0IMIzKIhu3YoJtXGvQwhxh/7MwUrDb1lZEM+jHtSPksNpfcbwnmzVBpSYTnM4Z4OSLg2tf6j6fIE6RdgJlj2QkRJE+pVa2N31se0diNLcZhQceciOb6BCWuJpCRQwmivlgYKu2qo9Nz6ZieOtmh9I467bzFz/lYqy7SQUyiTWJbKk/aRcq2/gtMpqxgOQGyTM8CmL6SdQAL7w2RZfFY0os2tQ5ceZIRHPxofXMdm6XoIGXCUITXl44EPWe+AgSadi1KJHeRqWIr/lxUVvDkXItEX0u1jOYfxOpfSykpxFW+9OdIACw==
+
+Block height: 52
+Parent hash: 36GZVAWDkRS+YreFYA19R4jvPmvQZEjCOsy/V68mmVM=
+Block hash: x8h7uw9bdsWEdb6dl/WQrMwlOg/jI/2RT2iLtAFIRxo=
+Root hash: G9DYotnbcF4y5JjzuFTMJXehG/BfqHr7855gcdv6U9s=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 18:52:14
+Contract class: contract.Contracts.User_Contract
+Contract method: userout
+Contract parameters: typeone 1 
+Contract result: 2021-10-18 18:52:14&typeone*在ip地址为10.0.0.1上申请注销，于2021-10-18 18:52:14注销成功*注销1
+Contract signature: SvN5g7VlyzyEWIFd/iVsRJATWotic5FaMXvX5S0fPDb1dxXcoYTg+hjrazgAD31jwuUR/7lIV94n1g+gg1ThNVvFNs4L6St5w3obW0cn0AP1y5KNhxSj8I+QSywWJQ+o8Zfd1ae9P8LEb/PfDceEc9fjdFa+w+BfCh8BUiHhsre41we4Vuq+n/mSi9V5jS+7z6oBWjdcOsSWKwegXUyfOmxoJaoqiUOB01SEmwiQ5j9pN4lFAjfKFABsMvg8WLnD0N51a3TxwEzRrJIIIf8oTb3q6nQhVMCw2ZP+yF9FDNwBvQXSuKHZ4uydt7Srb7A03h7yB8eFaK5Wa/8wTwIHnw==
+
+Block height: 53
+Parent hash: x8h7uw9bdsWEdb6dl/WQrMwlOg/jI/2RT2iLtAFIRxo=
+Block hash: i8W1wO9Uqo15sDXHl4Y9ZnKEHGWm9JXKFPkd1wqqEfM=
+Root hash: G9DYotnbcF4y5JjzuFTMJXehG/BfqHr7855gcdv6U9s=
+Device ID: 10.0.0.1
+User name: null
+Timestamp: 2021-10-18 18:52:19
+Contract class: contract.Contracts.Initialization_Contract
+Contract method: InitialzationUser
+Contract parameters: 
+Contract result: null
+Contract signature: GT6mdfY7oAb/DSv1X985GiW0tL13LZuWFCNEQ9e6+qnDDiYWxZDfaxL9AVoddjPPKyMUu3Cx1lq29QRZ1gNzMK6ORg1jXbCLjBVKdB7yop8t1xjEmTSvvJ4IPHE7ZNpfiMErA//bYHP82QHgqN/53bRPK8eV2QQGZ85i2SoIgG36mnOc9dvUWM2Lyh9VrnIo5PkCmcgbkAJnbERDdVF9DvjvK4DE20notGuL3bhwWuyG0q2VASj9dBYKfi0TPvLCExBdx8G34TkLL6nq/70NRXS+POOzBZWqG9KtMbh5AHBfLRBZNH9Du/M2LFkBN6mnX8o+VNYICjSMuxrBPKK+Ww==
+
+Block height: 54
+Parent hash: i8W1wO9Uqo15sDXHl4Y9ZnKEHGWm9JXKFPkd1wqqEfM=
+Block hash: dAwFxFJIgbL3ggheaCKeYGHlsA4PvRP99erec6Ir9LM=
+Root hash: G9DYotnbcF4y5JjzuFTMJXehG/BfqHr7855gcdv6U9s=
+Device ID: 10.0.0.1
+User name: null
+Timestamp: 2021-10-18 18:52:20
+Contract class: contract.Contracts.Initialization_Contract
+Contract method: InitialzationRes
+Contract parameters: 
+Contract result: null
+Contract signature: tYBYAAHAwuiLhc324bgZBA165IJiZLgyg1zzulSlIzAfo3vjM6Od7SxJVO5l7WA2r7K5tWksCvA/kprQNtxdN3oV+zs9LfPO05TXkJoblEXjVClLvPu/ykioxg/4hpwTAq2m9J7BuQ0CQInEyWCNGxZh7hyGwgEkBG+6XxPLzbxtRMW6cA1AmppTEK7U2wlGxohBe+kkzh2g/iaT/2uxYypTGfv7KpfA8g2cVwipoqVqhnwozouqdf7JqIssKCJfcFIDxmAWlcxhgGA4gLJCymEZ0+mGqwFfo+rGoKRwTQ0wO2v5MZROQFoDkN1Tz7NwU8zMUt9GblKuq+jMYT2EQw==
+
+Block height: 55
+Parent hash: dAwFxFJIgbL3ggheaCKeYGHlsA4PvRP99erec6Ir9LM=
+Block hash: gdXny5DYSvmw/TNfJECK0948BBVGVscrS0W17KrBVvk=
+Root hash: G9DYotnbcF4y5JjzuFTMJXehG/BfqHr7855gcdv6U9s=
+Device ID: 10.0.0.1
+User name: null
+Timestamp: 2021-10-18 18:52:21
+Contract class: contract.Contracts.Initialization_Contract
+Contract method: InitialzationEquip
+Contract parameters: 
+Contract result: null
+Contract signature: cHcfvTYxWbVDGWPQW5zqOOue3BNeu0CTAfclA7j4VjczlaOfOgOAqF+OcksPAuATSWCx49bNMIlS03770neFiftQj+hEEolg3jZXDjwRYNweFzRqjgZ+Oe0kRqZCjmzE15YoL/RoSDPvgwA9/Jjni9RifDlzjNgQS55hb0cP+CX3K6cMTkebdcGY3cv2nOuif16+MPkgttEHHsHO7DSLrZR9V7yPmMQgyKhoIMhcp+nVwR57PrxE+zrf4hhVG0QBe3OptlB+ULc7vaQ5KID1f2ScIi4VC1tP4DvhSkIFNzVsVkS4CPaPV9YXVp3zXTxjp5ilgWoYLUi8WrXyVKhm6Q==
+
+Block height: 56
+Parent hash: gdXny5DYSvmw/TNfJECK0948BBVGVscrS0W17KrBVvk=
+Block hash: cnKkhavy/66ly8UztPtbiiMH2Udzg7HsI6ovmod/EtI=
+Root hash: G9DYotnbcF4y5JjzuFTMJXehG/BfqHr7855gcdv6U9s=
+Device ID: 10.0.0.1
+User name: null
+Timestamp: 2021-10-18 18:52:22
+Contract class: contract.Contracts.Initialization_Contract
+Contract method: InitialzationApply
+Contract parameters: 
+Contract result: null
+Contract signature: Mk0LOiY6p8on8jWoxx/KS8fmytLvGdmXrVByKbd2kyn5R/MgJSmAqF9y2YvDTSknpUPXFWFNRqsHbetj3eEAxuJDYe841hIhopG+O4ILjnVK3lYqdooGXwgdIrUdUg5loBhWlPI6KYC2vvC1ZeXOLOJ7a52oUxzltheWpA2XspHiy3iCeqyKuc9YtMWAxuIko/nhyMniiJDqq98eFP+Yt3BM7exLe/qEuvaZieNyjztrdUl93kLsYBu/U9botKffexd+vv/S9hOWDYE/FGnx93UCX/7i0wlD2aBvsnMKMCZ/UyhdtkC1CII6/qZBfrJ1zMN1vKvpEtoEOkWlfpkvAg==
+
+Block height: 57
+Parent hash: cnKkhavy/66ly8UztPtbiiMH2Udzg7HsI6ovmod/EtI=
+Block hash: +n4GOzp86dzoi+lhu6AAwoDwkG8nl9PhMvZpqzVuh3k=
+Root hash: G9DYotnbcF4y5JjzuFTMJXehG/BfqHr7855gcdv6U9s=
+Device ID: 10.0.0.1
+User name: mgmt
+Timestamp: 2021-10-18 18:52:41
+Contract class: contract.Contracts.User_Contract
+Contract method: userRegister
+Contract parameters: mgmt 1 13 1 123 
+Contract result: 2021-10-18 18:52:41&mgmt*在ip地址为10.0.0.1上申请注册，于2021-10-18 18:52:41注册成功*注册2
+Contract signature: vnHPeqXMfdH1sjuBqJ3RDFSDM8wRWy4hHGhXsco+X1lAPB5fqHVumRqR32V6RyB3BbmJ7hmMDRNgTFO25wyHE9sFtfHyInXfJDnWXx6Ikyd7BTTlLOzax08Pl1Iajby+MI6BW7K3oPkwgj5mIXDmrzdx+nGFIqUOhr4XxBvT/WZ5SaPCmIkiFmBYsnRLXQwVQp+YNOKgr40eGLerIr4JAUwa0Tk2Je/X1G25n318sqiDroTcHd7WQA1foyzq0crpvZP3j+sO16NYaSRKHsRfVnaf6G7Cm3Bu7PO8IE1Wt+VQWdeoM7Fo3CzsrXr+3HwVgu/4tRn0/l9SELC+VFM3Gw==
+
+Block height: 58
+Parent hash: +n4GOzp86dzoi+lhu6AAwoDwkG8nl9PhMvZpqzVuh3k=
+Block hash: vHoL8619S7UTp5fEtb62rrjzZ76g76aImyFHd34Rg+s=
+Root hash: G9DYotnbcF4y5JjzuFTMJXehG/BfqHr7855gcdv6U9s=
+Device ID: 10.0.0.1
+User name: mgmt
+Timestamp: 2021-10-18 18:52:51
+Contract class: contract.Contracts.User_Contract
+Contract method: userLogin
+Contract parameters: mgmt 13 132 
+Contract result: 2021-10-18 18:52:51&mgmt*在ip地址为10.0.0.1上申请登录，于2021-10-18 18:52:51登录失败,失败原因是密码错误*登录4
+Contract signature: Su5RtwAGzO5CNuOF+50DhEPa04laJPlZMbCGGNcllGXOShCXZQLSMSKlcIjUQXsTQL6YU4/5zaAjCD7H8SvMgMKPMGZLfPq4QyF4fDoSgcY2xoyD7P8W5/km/CxZxsoiphDVgqXExKyIMYaF0CO9YAAu2ZopN2vYUX4tHdfqr6g4IKQrWzhHJadwDE/yM8gKvfFEbAEXBdc0vXmuk0VrqehLMm6m32lJ8MSNGy2MmAIesMBy5/eLuMPIg09OVQQsn5/zexi9QceBjmB1DzoEHhNqK3dxaL4DErFEXJ2CUQwYJPnnHSScxq5h8Kg3xtqNsrg5uCzNP64Y+5KzNOrD/g==
+
+Block height: 59
+Parent hash: vHoL8619S7UTp5fEtb62rrjzZ76g76aImyFHd34Rg+s=
+Block hash: zkS08Q7oJNI5zyeWZtaTObWTiomwCDpDWq49T1fr2sg=
+Root hash: G9DYotnbcF4y5JjzuFTMJXehG/BfqHr7855gcdv6U9s=
+Device ID: 10.0.0.1
+User name: mgmt
+Timestamp: 2021-10-18 18:52:52
+Contract class: contract.Contracts.User_Contract
+Contract method: getUsereds
+Contract parameters: 
+Contract result: mgmt;13;1;3;123;
+Contract signature: suFMDIxbiPFh8gT5BzUBDds4vXGZ4ehnPbUUhESIXufgrYHN85kLF+W0eme/o84+nRNuy1iwqijYgnBSvZCcV9E72Y4Uftu1DmlcwL7gT2qJeqKxbiFug+2gkEh0LKntA0DBp/9rS7+ktpcKEVeEomqM0N7Lo8+MTafx78G3rn7TOh0hjz+3e5K/+OndA3rsUvNkNrfNAvOs51Y41sNfjXtsYF+GrL/kVV+IetDFgosE2STSBAU2T1PHUxofmmuQAdSkCSGV2ChylDENAhRugrdKsHqHieil5BWQVGFBMFAe7bU0+6Uz3MeTxyebpfo2xBfTuusqgQOGZYbY6qc+mw==
+
+Block height: 60
+Parent hash: zkS08Q7oJNI5zyeWZtaTObWTiomwCDpDWq49T1fr2sg=
+Block hash: 5aD6m+JyhV8iuTrjl+3N0YOuZ216GPV16UHwBIdgXBs=
+Root hash: G9DYotnbcF4y5JjzuFTMJXehG/BfqHr7855gcdv6U9s=
+Device ID: 10.0.0.1
+User name: mgmt
+Timestamp: 2021-10-18 18:53:08
+Contract class: contract.Contracts.User_Contract
+Contract method: userLogin
+Contract parameters: mgmt 13 123 
+Contract result: 2021-10-18 18:53:08&mgmt*在ip地址为10.0.0.1上申请登录，于2021-10-18 18:53:08登录成功*登录3
+Contract signature: h5t79qRE6VfNfeC1TFLQxPlW42Azu5VTrbFgVFJnJKz8846fDOic6g+Jf1bZ9gr6f5jeTOil2KN3w7TS40FdBu/P2gYtGOqLEGxSvHskuRDG0As9FUdSTALnn0Yy+nT119Qv2tc9d2Al+HEdeQnAecvawy93xRQO9Uh/emp8c5ZNIDWmCCy7Sbyd++cWizF85hQeZsh4I8Ls5+vQe1GGIB9G+taW4VNOTbosFMxdqBr8QddE1ZMCsBkjGgaIrOJ3mUuRK3pAuOwL9xbmVBoPtNz1d9aKzPgo8AoZTvyu3zH6RwchmxJ1b2ha6zG7PktlfTzztDeTh3o4uNKQGjMyFQ==
+
+Block height: 61
+Parent hash: 5aD6m+JyhV8iuTrjl+3N0YOuZ216GPV16UHwBIdgXBs=
+Block hash: boKE8pTBE8ZmOG0FW400RJB0HnntOpFYyXOUoPb9Npw=
+Root hash: G9DYotnbcF4y5JjzuFTMJXehG/BfqHr7855gcdv6U9s=
+Device ID: 10.0.0.1
+User name: mgmt
+Timestamp: 2021-10-18 18:53:10
+Contract class: contract.Contracts.User_Contract
+Contract method: getUsereds
+Contract parameters: 
+Contract result: mgmt;13;1;3;123;
+Contract signature: iC7ik9GexgF9C0GoCRlmcEeYXN4lIhM9e3T9qzJteBCPyk3/tFzYrDKCp0947dBVSgjx4MASmg2T7wr5qrNu8hCVjwmK+KfwF6R92afmjFyMxT0ivLFd0P3rD+4b0jr3GVfXjKyXSk/+rRja2uleS1DAVi26h+37JPpMdZi3fQT1vdXgrcCLnQDA5aDb6XGmPA/2mdazM3rVa/I1q8CkNiFudJRxY1RqonET2cemyUJxFKRDQleC7MZqfwDM8ujf+KQUxjwSG8/Xj4/UuCzxJ91xOJyzRu5Akng1y4RPscXssNi8sLyXzeg7jrtAA28iIrZZY8e6tUMUoruynLRkqQ==
+
+Block height: 62
+Parent hash: boKE8pTBE8ZmOG0FW400RJB0HnntOpFYyXOUoPb9Npw=
+Block hash: qR4culuuYlZUhjxt1i/muRt5M3oCrTUJZhS0UTGZJrk=
+Root hash: G9DYotnbcF4y5JjzuFTMJXehG/BfqHr7855gcdv6U9s=
+Device ID: 10.0.0.1
+User name: mgmt
+Timestamp: 2021-10-18 18:53:15
+Contract class: contract.Contracts.User_Contract
+Contract method: getResource
+Contract parameters: 
+Contract result: 测试流程2;0;0.1;测试流程9;0;1.4;测试流程3;0;1.0.3;测试数据;1;1.0;测试数据;1;2.0;测试数据;1;3.0;测试数据;1;4.0;
+Contract signature: r9TC8ddFtklT40XDEipjfdPWCp5X6FrxmMOkTCLauOB3+r4drMqSvRHwWVLiLDT5K+QAqUUV+v8NRb+IOJUCfp0c0KcMPB0pPybgvdpZvYi5tnngqMs1nInSlZHz9CoTniIILfoQrx6Fko/DPiiig0rIrpwjP8u9jNsYqnQknmz67qzDS/SAc5WkzPhFPD2fpz0SWNxqZjBlbXFqCnI2NFa8sYVXMBWBQ/uM9Kg6+seR2jm70U1pBvquS+l0Im/eAdmwXbtJnyn0ztmOjT+Cdvbwaztg3ICgJxmumUxUw1DWv8ytw+stJr00oeld6L2qw7Web/pdXgy8Z7RhfxnXkQ==
+
+Block height: 63
+Parent hash: qR4culuuYlZUhjxt1i/muRt5M3oCrTUJZhS0UTGZJrk=
+Block hash: fhU+KxDNhS1rXFGiWmUQ26qgv63to46BjMlALYKl2oM=
+Root hash: G9DYotnbcF4y5JjzuFTMJXehG/BfqHr7855gcdv6U9s=
+Device ID: 10.0.0.1
+User name: mgmt
+Timestamp: 2021-10-18 18:53:23
+Contract class: contract.Contracts.Res_Contract
+Contract method: operateResource
+Contract parameters: 3 0 测试流程3 
+Contract result: 2021-10-18 18:53:23&资源测试流程3在2021-10-18 18:53:23申请修改资源1
+Contract signature: PqqhkZpj99RdaOORDLXg8BF3tVz0DQ2tHackbAfvjEZFArkvInvVu0oATqibRpiCEKzlfpDNO90m9tNxOuZ6+JLM6C+JrlgItds7exfDmJOwMxDwc6vCU2W+CpwJu0bBGPRFsy1hLup2B1I9FtGFFIOMpOsoF04j3ruvEHfD/bYhJxuRLbjh9MqN3Vwk/81dZ/FcnfvefsVoGJCJR1qhX8iunegw+7V1dHK6PcvOcxKJeJ/KkVJvKosPC6tiCIAJ/zn8+Icd9wSGqhI+yFnR+3rZexoRW6XnWoiRLZtI687xNDQfpspWieYT6B3PZH8/JbLOc+Qrb/R2kHP9ohpXhQ==
+
+Block height: 64
+Parent hash: fhU+KxDNhS1rXFGiWmUQ26qgv63to46BjMlALYKl2oM=
+Block hash: wcAFBiQ8oBYv950pukwM3CkKaBTvw8L/eWaa+oeRfJ4=
+Root hash: cs/XQJQhPTtTiXwOhwQNHMuclHDW9ZrQeCEhTpkj1pY=
+Device ID: 10.0.0.1
+User name: mgmt
+Timestamp: 2021-10-18 18:53:24
+Contract class: contract.Contracts.Res_Contract
+Contract method: changeResource
+Contract parameters: 测试流程3,0,1.0.3 测试流程3,0,1.0.3.0 修改 
+Contract result: 资源测试流程3,0,1.0.3在2021-10-18 18:53:24修改为测试流程3,0,1.0.3.0成功资源1
+Contract signature: YZjLBPHLuymc3ARxTXZauYZt819HB3U67pJ4x9ckXPgQ5y2TFIPAjXc6OR5wyh3QbeKHXYIOqnY9ID7D91ATNbdASLB0+iUX0cmP3NlKiX7xdz45jsd+tU+/OkSzbn+1nXM6odbF7nr2LWKdD3WL5yuc4dHAOhx0FEXe/ICdVLuBH3nCs/y1RsTTdt59nf0uwrvH2wdZ8S8ebKpynHq2vfdiBPDDQAMRshjqXrtSfccOP4Eqm3rhZ4W74skbXPT5QYT0Ge7yW/BLlMQ6wTfSni4db5z59oZSa3QoIo6W3CphwjYOSpBugJqMTrN7tNzVQldYLMxBfZdkiKigZHSq1w==
+
+Block height: 65
+Parent hash: wcAFBiQ8oBYv950pukwM3CkKaBTvw8L/eWaa+oeRfJ4=
+Block hash: cII6sRvYjz1l/dsHcxtbqkWeROp72l8UdZTWd7+nZtM=
+Root hash: cs/XQJQhPTtTiXwOhwQNHMuclHDW9ZrQeCEhTpkj1pY=
+Device ID: 10.0.0.1
+User name: mgmt
+Timestamp: 2021-10-18 18:53:29
+Contract class: contract.Contracts.User_Contract
+Contract method: getResource
+Contract parameters: 
+Contract result: 测试流程3;0;1.0.3.0;测试流程2;0;0.1;测试流程9;0;1.4;测试数据;1;1.0;测试数据;1;2.0;测试数据;1;3.0;测试数据;1;4.0;
+Contract signature: a0szjRSv3ocZiwdNMBsr67XbNqsz6tmxpHoHCyX95EB4cd8HzefqnDSEzXLLwcVjrtranYRmUMGsIsUDydPJDSeS2724oSuob6FDU6tGGi2/UFrEcFjnxoKWaofxRs3GpE5Fq4Rne0TOZMp/ly6aOxC15nIrtbddBHR/OV3VA3Anh8b0c445HX+930EunfrHMUcg2WaQ1c1Wu+CW0q2BXqUPxhLtK2x+ElW6r+QbsJW7wc7i97ZjIC7LwWXoYaWfnpRkdrrS5vlyFqjcnb1eUvBRgmpsdO2IOWep7wy0ZWoXl+m0U9UEQq3ic9aQRHMXECqKxJRRDGX+vE7CNJ7yag==
+
+Block height: 66
+Parent hash: cII6sRvYjz1l/dsHcxtbqkWeROp72l8UdZTWd7+nZtM=
+Block hash: xonC74pS1kbcIXHai59Ark5TxxVJMPn5rhPlbjZOs4g=
+Root hash: cs/XQJQhPTtTiXwOhwQNHMuclHDW9ZrQeCEhTpkj1pY=
+Device ID: 10.0.0.1
+User name: mgmt
+Timestamp: 2021-10-18 18:53:35
+Contract class: contract.Contracts.Res_Contract
+Contract method: operateResource
+Contract parameters: 3 0 测试流程3 
+Contract result: 2021-10-18 18:53:35&资源测试流程3在2021-10-18 18:53:35申请修改资源1
+Contract signature: fQEViNLDIQNY87EpczNlU3AZ+gGkTekD++bRJn+BVXeTEEBQ48tSvgsmAqSL8rFw7D24XsY3NOFLOeNNT1nlzJPLfeL8gNWs0EVPPErgDHO8kZcz8jXT3jUjSqMJAF84MCqYrgQ2GIlCr7/DHF+7xGca2/NfiyT1yaxTpQgQDZGgZ7qLzZOEBozMFwr8qfGwYge0t6rlAvZqVyAuYS4BcyY+vbfa7xQAvXQmyFF0w4pCi0TsqN9uSxlzPFooKbjAZIIwGZsGFiGaPwjuEwgIDJJi2rW1w6DKcFmZJL8mwrHkbmTVEvO+mUbECwU67X2pEw7ofZw7MykPJaEOMJioAg==
+
+Block height: 67
+Parent hash: xonC74pS1kbcIXHai59Ark5TxxVJMPn5rhPlbjZOs4g=
+Block hash: o74+K1kt9EG+0NerIm7VGVmGJ//3kA+SiTK5zFFWhEE=
+Root hash: 0qYwHnPet6h6ZyWbNf2N96DE/m4tL8mAMOnXGdzweQ8=
+Device ID: 10.0.0.1
+User name: mgmt
+Timestamp: 2021-10-18 18:53:36
+Contract class: contract.Contracts.Res_Contract
+Contract method: changeResource
+Contract parameters: 测试流程3,0,1.0.3.0 测试流程3,0,1.0.3.0 删除 
+Contract result: 资源测试流程3,0,1.0.3.0在2021-10-18 18:53:36被删除资源2
+Contract signature: k49oyDTTgLc6NaMVqYrSsjNPlgDOtMT2xhgQ2776iGJcAuKkJfsXtm2bpjDK/p/cw/AZUuHzmDN3FxWnORLmW2/Ii79SMn3t6XXygwsB4+JbBCvK53glPgXHKkdb/yB3iTJeWcF3KEmy9aVf1aFYHpINn3anIwcwucYK0DPr/ANZcXVIdN5tynG930amRdHEOdFNJIuyF5PwfoGotDNlRAfbWtLKjk/Dj3ukyq++XJ73Nf/r3qjghnMgWx7IOu/kOjSVQYzmwoppOx30RvtxxYGaOHIUectumLTWouxXxQwZ/ujGGhF4f688NY7XtkjRAqvt9vKnEJLsoknCKMSCkg==
+
+Block height: 68
+Parent hash: o74+K1kt9EG+0NerIm7VGVmGJ//3kA+SiTK5zFFWhEE=
+Block hash: hm31nJjocFpEZ2ALG95LFC3eJXzehh5VZch8cIF6//A=
+Root hash: G9DYotnbcF4y5JjzuFTMJXehG/BfqHr7855gcdv6U9s=
+Device ID: 10.0.0.1
+User name: mgmt
+Timestamp: 2021-10-18 18:53:40
+Contract class: contract.Contracts.User_Contract
+Contract method: getResource
+Contract parameters: 
+Contract result: 测试流程2;0;0.1;测试流程9;0;1.4;测试流程3;0;1.0.3;测试数据;1;1.0;测试数据;1;2.0;测试数据;1;3.0;测试数据;1;4.0;
+Contract signature: vs7icqziHfjbWn5MX/3udYHoMZmKnVzirszBZsv/xg5KSrgKuxzpclJ4zw5swIkgugOqYPGlP8iwHJn+KMkNgcNkqiayj+ezBDrCq7jPQlTwX2n9oePrlt61M125Fi+kVunKs5e1PeWnk1oPrQnm6V2iQ64WFoIiwnoLwin4sbn+u0OVVU88goJhw/KReHtl8KSQhAaOXC8G3P628Bzw2JVXXqF/aw9jpVOjqjKSxjCcBmhaO6WwoD+zUMvmmsri+YPGawinGmDOp33kE+IxKMla49r58F5PM4keKwRILlHmi20Tijy9JqlCotxYJTtBRnTH45gi5slEm8NGyQL/Wg==
+
+Block height: 69
+Parent hash: hm31nJjocFpEZ2ALG95LFC3eJXzehh5VZch8cIF6//A=
+Block hash: laRFci66LEv5fmboBdaThT8N26ChTeWoL6MLepMPW7w=
+Root hash: G9DYotnbcF4y5JjzuFTMJXehG/BfqHr7855gcdv6U9s=
+Device ID: 10.0.0.1
+User name: mgmt
+Timestamp: 2021-10-18 18:53:43
+Contract class: contract.Contracts.User_Contract
+Contract method: getResource
+Contract parameters: 
+Contract result: 测试流程2;0;0.1;测试流程9;0;1.4;测试流程3;0;1.0.3;测试数据;1;1.0;测试数据;1;2.0;测试数据;1;3.0;测试数据;1;4.0;
+Contract signature: rUehUToP0zSAVOnh+up7AKBxBgvYOh9vVfRAaegW6gsOTjHpN98XK+P6yTOKr+xK7L3CcWwYkrP2KtfW/sBofi+QzoO/ZdCKLd1MVAm+Z6Duf/0NIQ6KOtZrLcKtEV4BghGM/VzXSQ3BU5Cg9861tjA+zvIIqhb/nCR+HNVKaEbYTmEW94Iz7/JfadHHpFmIObgickmkxIQcxLFi1KOek94mubSPtuLvgG2x0Zh6TKOPNu1sX5OJTWGmkZHy1zMgUIwfAKETcPmffxCvx1GFYpU2OqBLKK9hbqeTuWToX4/i9qa6Uio9LzRU2JJNhOmJ6rEeThgsOmrZ5+nLGOZJMg==
+
+Block height: 70
+Parent hash: laRFci66LEv5fmboBdaThT8N26ChTeWoL6MLepMPW7w=
+Block hash: YoE21IRrBiHuWjCbcfvpUrytZibgKZhBX7CAdGBjrQ8=
+Root hash: G9DYotnbcF4y5JjzuFTMJXehG/BfqHr7855gcdv6U9s=
+Device ID: 10.0.0.1
+User name: mgmt
+Timestamp: 2021-10-18 18:53:52
+Contract class: contract.Contracts.User_Contract
+Contract method: getResource
+Contract parameters: 
+Contract result: 测试流程2;0;0.1;测试流程9;0;1.4;测试流程3;0;1.0.3;测试数据;1;1.0;测试数据;1;2.0;测试数据;1;3.0;测试数据;1;4.0;
+Contract signature: kVFkT+gau43dDWgXxc+Ov95Pd2rylC8R9w5/T/z73wtgHcqElIow2daYNepLh4yaZeda1IMJHFiZgMjAr+YnYEfwRA5Dk3SHspxf1nizUa/VCt5bfYA5VCmcP4jcW7nhvSNRmOW1wwfryU3Vc+ZiQnfejHIRYxumVp5VGDmYA5u+YBS8lw/Eg2rblL1FCH3SMNU0AT5dDJjn/wcNlPKp2ZIWhqNSPOIjMJUzQnKGJotAqaT9+2LnM3aKnttnI5Y189BspIU4VbYBHfSWo/4J/ACGQi5folFGgK6BSF/xy6V6PGvzCKruJtdSzQV7ugdpwkTL6jXBYJVdz1BZlz7OzQ==
+
+Block height: 71
+Parent hash: YoE21IRrBiHuWjCbcfvpUrytZibgKZhBX7CAdGBjrQ8=
+Block hash: l69vqfzCujiZZ1/0RYjYwFSyBMPUXw9hXmqtId6ZWRg=
+Root hash: G9DYotnbcF4y5JjzuFTMJXehG/BfqHr7855gcdv6U9s=
+Device ID: 10.0.0.1
+User name: mgmt
+Timestamp: 2021-10-18 18:53:59
+Contract class: contract.Contracts.User_Contract
+Contract method: getResource
+Contract parameters: 
+Contract result: 测试流程2;0;0.1;测试流程9;0;1.4;测试流程3;0;1.0.3;测试数据;1;1.0;测试数据;1;2.0;测试数据;1;3.0;测试数据;1;4.0;
+Contract signature: jxQqTHEekE6wszmeD+SJUxObo8YWwWAWUdAQWBejVuGl2DNtPWADp/bKsLvAx2IGgilR5YyHLprHm3anAu055HKs5seFP/Xqxzsn8XcEnK/YIu1sH5zWnf5GeVJBwQouNgYdlEuQiu25bI2lon7EKx8dvnmKjiScONUQDHCz2CSrYhtxROSKQT94EYblGhBegkktAc/2uLp89cyWuFEG02H/lizM2ryaq2VCfRNlAZKGyvodM3RAQOTqbLV2LsUaEQj1kBcleCUz88VRtlEW0ErvNyqPMRYU8QU5hQvn1AcyIsLp2SEzOzbYyDrQ9ARHB1dwEC5v1B9kd/quRVV2tA==
+
+Block height: 72
+Parent hash: l69vqfzCujiZZ1/0RYjYwFSyBMPUXw9hXmqtId6ZWRg=
+Block hash: 1ueqH+BPnJa8jMuKDUO1grHsqy/zZsgJae8uF3d6DLA=
+Root hash: G9DYotnbcF4y5JjzuFTMJXehG/BfqHr7855gcdv6U9s=
+Device ID: 10.0.0.1
+User name: mgmt
+Timestamp: 2021-10-18 18:54:06
+Contract class: contract.Contracts.User_Contract
+Contract method: getResource
+Contract parameters: 
+Contract result: 测试流程2;0;0.1;测试流程9;0;1.4;测试流程3;0;1.0.3;测试数据;1;1.0;测试数据;1;2.0;测试数据;1;3.0;测试数据;1;4.0;
+Contract signature: gmLEZv4De+cFlN/SUAJ7Ddjz1qSzCgDxYR3gXlve1+E/M6GurpwYXC0pxCqwNWS/0GRdY0PKqkL0L+n3sLX82tUjdFiaJRADOnLng2ysINhuDshW15yWSnSa+hCnOy1IZccOOLwyQJdq5ZHmIrqnhj+pwBCuMTMBQZSU6fC7u8Hy9usjFop1S/A8VcKUAeKt2TCNSptnPy7pd0+kBnDhcHHc87dxxhoT/RLE7LMFLbiLEDOSGrZg2n+9qpir2uar1zl9rUH76MJqN4xLPW43Y9lJRW+3aYnJzk8E432YGTVQqo93Up0Vt4Nl2nqcd42R62c9nntk3bqkHsjtJYq04A==
+
+Block height: 73
+Parent hash: 1ueqH+BPnJa8jMuKDUO1grHsqy/zZsgJae8uF3d6DLA=
+Block hash: Zyj1lnjvvNPohdvPkZbn13en2OtP2084LVG8fjhpjg4=
+Root hash: G9DYotnbcF4y5JjzuFTMJXehG/BfqHr7855gcdv6U9s=
+Device ID: 10.0.0.1
+User name: mgmt
+Timestamp: 2021-10-18 18:54:13
+Contract class: contract.Contracts.User_Contract
+Contract method: getApplyMessages
+Contract parameters: 
+Contract result: 李工;1;1;2;2021.02.09;白工;1;1;2;2021.02.09;王工;1;1;2;2021.02.09;typeone;14;0;1;2021-10-18 18:51:58;
+Contract signature: pnxEsZaFGCO4RKpKub9py+oW/a8xMy1kJ4JBwvrECt8uKsQq0dc3FIfqerVYwDSD1mmDyxn+cyuKmaq0QartmdPgF1T/fuUGrFiQpd0N6feF91AumQrr1cXCYAi8tQPsSmoccLxmYNgi7PaYACEkJuX4F5AzXny48GbPlvs1YfL5A2dlCDIX5I5/EYSD44iabPbmWK2Ir7s6CAF45pKFhc4TiB9Qj4QFmUVz6/n88d8zIwDwgfdZm6zI2kkZ3w7gigj2z1YsIa1E5FrbTfQHJSrF4EbsAz29hA81eoYgAEvOcS2Sxa5YxPi4WExxy3ZQ/OgutBC5ctbdlACcDEmUUQ==
+
+Block height: 74
+Parent hash: Zyj1lnjvvNPohdvPkZbn13en2OtP2084LVG8fjhpjg4=
+Block hash: wEGXtuR7V80RPpm223f9dY3Tg8E6EBa6ufu2F2UrFqE=
+Root hash: G9DYotnbcF4y5JjzuFTMJXehG/BfqHr7855gcdv6U9s=
+Device ID: 10.0.0.1
+User name: mgmt
+Timestamp: 2021-10-18 18:54:24
+Contract class: contract.Contracts.User_Contract
+Contract method: getApplyMessages
+Contract parameters: 
+Contract result: 李工;1;1;2;2021.02.09;白工;1;1;2;2021.02.09;王工;1;1;2;2021.02.09;typeone;14;0;1;2021-10-18 18:51:58;
+Contract signature: dhNgrty+CPfei5OSBSLiQSU/kHrlLqKXo5FQQ0xeGPN3PwUaXzaoddIzKC5f+JdFCHZRsz1uaCcrLQ3OCS8gctFIZCbMHuVQTrhNxxsjmt3IQIMPRdJahUD4WIMhucyZIir9hV8CU115kh2tLzeobvhgr9B7/ED4JGKsUal3Vyx47fCclPzMiax4xS5Gu2nAwMtZmdgkS6QOzCAwjjNZYqqyQoRDO/XwN/3zlRs6LOe8tzo9EbdnHi/+z7Ol37eFib6lcZixBUmUe4sJnj2Eg4ERbchE85k81pF5rcIE1EKOQz3IW74agMwz6n3v7+rsmENHrQAf7urLGsN1WWNBqw==
+
+Block height: 75
+Parent hash: wEGXtuR7V80RPpm223f9dY3Tg8E6EBa6ufu2F2UrFqE=
+Block hash: rkDej/WJoVEMVBmkOj9Dd0ltNRtkzllxHW3rsoSYIHk=
+Root hash: FOonI7uxfYN2GJhGBI4uJpsP3gYaNi1JT1PulFaY+lc=
+Device ID: 10.0.0.1
+User name: mgmt
+Timestamp: 2021-10-18 18:54:29
+Contract class: contract.Contracts.User_Contract
+Contract method: changeRole
+Contract parameters: 李工 1 1 2 1 
+Contract result: 2021-10-18 18:54:29&李工*将角色权限变为2失败*权限0
+Contract signature: ADzibGPsDhkcw3KVi4bI0oXa+7dwizjMnlZilbwdQl961bwlKNJjQ6w14mQHyxnFxYT/jcquaUwWTQ/mitZu1JWK6oaeNAkC8U1kxhQSfC+e858dvwTpqRdSFxLE/beY3rTaCh68t14yWcUVv2qRo1gnYK6u7uEpywp1m+MAgTBTXbIkaMnqucVrGUpJYGwlMb20y0tUcLNLRV9U1e+01pTARVT93xZRKE6CWDxY2qCXT4yfUk+W3ZIQQd9058T3HX3EEQuEYtnuB75nfDU0kECW42Odb5VcXdqoh+SUH6dYp7ej3ccGyyVFKsNiYPySLElb2vjByuodBleFJ6CVWQ==
+
+Block height: 76
+Parent hash: rkDej/WJoVEMVBmkOj9Dd0ltNRtkzllxHW3rsoSYIHk=
+Block hash: OBRsZkXvYMl53e6+vGYjh7NklLoiqPOWeMrLCaSqIdk=
+Root hash: uQAb7nZaMyVdmqz6J2W0NxTUWpj6EycDBMi3tKAZsSI=
+Device ID: 10.0.0.1
+User name: mgmt
+Timestamp: 2021-10-18 18:54:33
+Contract class: contract.Contracts.User_Contract
+Contract method: changeRole
+Contract parameters: 王工 1 1 2 1 
+Contract result: 2021-10-18 18:54:33&王工*将角色权限变为2失败*权限0
+Contract signature: nPQdY3SiMLYBu1McbK9Sefpcl07Sahux6KfrD1MiL4YvubWU3lFjZV4QB6QIjrlI18hqRRwlOAcX+r5ucUoaEoiF2cr808EdYaYrPt1SUxYAHUY+77ymUoNO74Rrs0cfNSh5bVAYT7lAT3AyCyplRLusvYkV3HumdCy7ebgmwnBof/9PdZ+0OLsSzVMj7jR3bYb1IBKP1RLatJ3X6bp0LlunWXVrHErSq4iJQe1lv5m0msxM6T5eI41HwdX1ce3R0uJz4NOiouZFFDAjvbxnC5bgZcKk8JVfsOb+5igt+i/+BCKYQKvDsvY9+xNx7rj77kNqgJ23xVWsn6P7dRcMFQ==
+
+Block height: 77
+Parent hash: OBRsZkXvYMl53e6+vGYjh7NklLoiqPOWeMrLCaSqIdk=
+Block hash: PdvXnzNU90CuZ19rTrZNy/lm8e55/pOtku42FHu8MIs=
+Root hash: fJaRCcv/6Gb60roT/bziKWmJBLzndVHz7A/4WVm1yoU=
+Device ID: 10.0.0.1
+User name: mgmt
+Timestamp: 2021-10-18 18:54:37
+Contract class: contract.Contracts.User_Contract
+Contract method: changeRole
+Contract parameters: 白工 1 1 2 1 
+Contract result: 2021-10-18 18:54:37&白工*将角色权限变为2失败*权限0
+Contract signature: NaoAA4DtzDSlosuRv1pJPsw+/L/sI4tUUgG9q5sbVhyCav111QY99L9I9S+H6NrJ8VPZnCp/uLix/Tt3cpNmA8bbyaWGMy+qqc36bKw05POZSg42JJ5M2DjxOuF0+g/rng3ehdB++/l3BzLFdWOx7do7LDV3IwIABBeotwFNUrbq8ny7t1chusPFNCvWebPfvXethu2R1fz6xj/4sm2yFJuNtgJAlG3LDiYutLFCvi6ZlfSguASUgAYMFjcXt+5O/6hhECR2mCcfLPDDvO2G+EwdyeP3J/RtscyVuifPpu3I+xua18xXGVkIN7jmlLS8mAqMvdlamHHmR4gIfrFWOg==
+
+Block height: 78
+Parent hash: PdvXnzNU90CuZ19rTrZNy/lm8e55/pOtku42FHu8MIs=
+Block hash: RJRY4Qym3eOOmGsWIyCccx7s89t2akw1gHDvnm0p5go=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: mgmt
+Timestamp: 2021-10-18 18:54:41
+Contract class: contract.Contracts.User_Contract
+Contract method: changeRole
+Contract parameters: typeone 14 0 1 1 
+Contract result: 2021-10-18 18:54:41&typeone*将角色权限变为1失败*权限0
+Contract signature: T/L6pf8dVUw9aJlQThFWglzxkeBM4bEkBgbKvQ5MGoAzzQljClE5AzXWgaPYAItEzgyn+Nlawvtb/G76J7A4E6cmieyy4x0W1yWyX7+9YiKcVrUYJOPVTAtrjIpX2zYP/P5kTCng46ABbBoGHBTtdOfcV8gMeRLQpvN4Cdtb6s1uiE/y40YtBJ724hnuaewKPtvGfveRYronPIDAfQRcmqJBqxUAS3UD2wVMHueo15LPGSF/sB5GEZfZqWjEQsl6/lLpnmpivK8niIm773WTECNeLBT27xbrz5xiZObB1FhrheuWtlP6U3upRAmrbzV4sDcGOQ8Puw9N0mPhsBUrjA==
+
+Block height: 79
+Parent hash: RJRY4Qym3eOOmGsWIyCccx7s89t2akw1gHDvnm0p5go=
+Block hash: /haYmEPvvugZ3SXYc8Sxz5OxqzG2qRC8LIRO2Wxitmk=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: mgmt
+Timestamp: 2021-10-18 18:55:18
+Contract class: contract.Contracts.User_Contract
+Contract method: userout
+Contract parameters: mgmt 1 
+Contract result: 2021-10-18 18:55:18&mgmt*在ip地址为10.0.0.1上申请注销，于2021-10-18 18:55:18注销成功*注销1
+Contract signature: n30OTPCmbM2d+JU0lrX4Z+1WUEscn+Tab9kSfO7uTWDx9sfqrKJJnelDs0bhanW4JpYWJ1sgZEBpOrFafv2hcOMpXHv/Dyal8Iefv6s8gAMGVEJYYiuDOmpzppLoydRjJtT3LoqzCE98RxFpPk7gZT47MM1y3zNq9GqEXVdhYY6P+AZi94focd/c9KYeB9fCYXEIU5U7S4WdzB0wJb181p3D0983S5e99FiaXZFfjkKMxE0C7m315OFMmzCqr7qMGi47lMpl9jZeo1dlUe6xSIWr88Wq2UTw4KnBZeFzH26s32SaE3gDqs8NJA30ACpdYoNzKEqgkUvQZDTsX2eECw==
+
+Block height: 80
+Parent hash: /haYmEPvvugZ3SXYc8Sxz5OxqzG2qRC8LIRO2Wxitmk=
+Block hash: bmYkdag1C60LP2tdL6iWybLFecgrl+zPKCLgdODP0cQ=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: null
+Timestamp: 2021-10-18 18:56:26
+Contract class: contract.Contracts.Initialization_Contract
+Contract method: InitialzationUser
+Contract parameters: 
+Contract result: null
+Contract signature: kXhk/03+LVR7wd2wj0NT9g+L5KZVkQhG+eP9sYyXlh/oCCGnfce7UC+g1Utsy9RgPDQvkOSXget70UdMrts7KXthul0jaiq0rHb++tH5ClROrooOijcA/FmRh9vsgOJ2LvaX1qU3IwiSpgehXBUSg5d2o97a2z69nX+ZGKYjA4BK5gQafuyuqiU7uLRiumzWumvnppoU4x+vm8Kqh8WTGJK6rqAqu4r9s8D8PRaT9yl8t0zQs6Yub5i0MER894NviGkq/noghxihOwr/DoGAcQvkzpR5n09yK1rpY0Gun35hOWUCkomlrp5LoqjC3EyDd/aKqXfRPg8qJU6spkN6xA==
+
+Block height: 81
+Parent hash: bmYkdag1C60LP2tdL6iWybLFecgrl+zPKCLgdODP0cQ=
+Block hash: VgysHX7NTVmSEj73z38F6V4TUbxDlNORPsifLP7n6fU=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: null
+Timestamp: 2021-10-18 18:56:27
+Contract class: contract.Contracts.Initialization_Contract
+Contract method: InitialzationRes
+Contract parameters: 
+Contract result: null
+Contract signature: ZvcB3i2TKOy6C2rrxqo+neSrhNa2lWRYpJ8hohDbtLTHMr0Uu9bQ9Gdj+zxmPvqSvjVaikyUYLo/ZU5uvTyKdcFZ84gTEHv89lGx24Lab52+thmL0IMnSCsKofa7X4Tb2RXhkr4X2U1z91HhbyiiWIQihYND+PR+YOqqufhMJlru08NVymSrCOWtP+rTjkMVfobj8b4Bmbrp1OsqUOUZh5mPEXKnXkVoWCygC6UnPZskMX7ms2pen1hlc3CYrNv/EVTRXmTDrfkpY7mT1cidx2JQR3D1omRw6Nu+q+RxvZdhzO0nckkvX0C0NmmgtQx+uVX7gDrkLrCSaP/547dpKQ==
+
+Block height: 82
+Parent hash: VgysHX7NTVmSEj73z38F6V4TUbxDlNORPsifLP7n6fU=
+Block hash: Kglw/A551QijEcIPXw3CVZSx72YVE410eLolE12GFa4=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: null
+Timestamp: 2021-10-18 18:56:28
+Contract class: contract.Contracts.Initialization_Contract
+Contract method: InitialzationEquip
+Contract parameters: 
+Contract result: null
+Contract signature: fJIbCriktoDGLh3n6yFOPtXsX4FKWgTICjantwd9jNMxoDNf8kOLzXiDZZ3n9IZ6Kn7ENb5a+OH+q5Jgt3wkGWxL4fvRJy4obZaAZZIW0/iCwlJ75DQ8ytcXRA4RO/nNR6e9p+p3ctvP4VkexYSD/uzTUxPZzNZNBgrgysEyoC5EFioLvqmVen8JCt7g7cOPwTyCBm2c303koufbwI22UKXYnnPsv2CyznvRd0AYBHKsAR+x6DYvbGKrfO37jdBL4kTttpPYhtHGjys6IC8zTMS5WjsrbFsLYOc7GKoFVhZVmczCF/lT09YS2vGLn1OAZ8PutzYUBJUWLGwCksW4Ew==
+
+Block height: 83
+Parent hash: Kglw/A551QijEcIPXw3CVZSx72YVE410eLolE12GFa4=
+Block hash: YBb59HG/QvozpHZoVeya/2j4GFHW828qVVUMXsRXJSw=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: null
+Timestamp: 2021-10-18 18:56:29
+Contract class: contract.Contracts.Initialization_Contract
+Contract method: InitialzationApply
+Contract parameters: 
+Contract result: null
+Contract signature: aHCvnyWfE1uFCUWMK2ryy/73o+lALFimjH74hyzhzwZsFqvYRLg61/BSUSSypm7o71SuaBTQ2FOpk7V9QPSOnz/KiwSCmvQTXr0gm81QzjSztV8HkpVLoDVu+WvkyUtOLMNxFCpIXpo9zEX5xHk5o7RUkLoR2jlejedOz8OKOqTGnKTzWhdcuzAS9t23+wfRTFgSrbfdEIoK6B75qj9xK/MJzhgJQo8snw1TzRpXOxuYCzzO4RvOyGyI3y5uMy51CBbTE8rHmwIkypFFqHRw5cWrutQNC+XNoG3NJAxjG3e/gDbbpBr3ftUgEYTU7pG5lNBnzhs8c6wtaWF/MzDoRg==
+
+Block height: 84
+Parent hash: YBb59HG/QvozpHZoVeya/2j4GFHW828qVVUMXsRXJSw=
+Block hash: eCgkfArexMEhcDX2tnZyw4ovox8YD66FtA73CXoPDT4=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: jkl
+Timestamp: 2021-10-18 19:04:42
+Contract class: contract.Contracts.User_Contract
+Contract method: userRegister
+Contract parameters: jkl 1 14 1 123 
+Contract result: 2021-10-18 19:04:42&jkl*在ip地址为10.0.0.1上申请注册，于2021-10-18 19:04:42注册失败*注册0
+Contract signature: W/s5G9BHr3oMbLKKy5KTwHWUHhx8f7eKgdhotzByFyQ5+RnLOeEVVFneInNyWZacrv1P8DZmxGscaJLBFluS73xEmz7cxyHzWEJkWWtG77pyFet4QeqM3eJLys8WvzRwz/uNZ6HIg7QiXRpWcsrXJGC8Y/V+Aoe1OsurxK3TOauzLfm8J3ndy6nc7yze2C988gpSQXfZRfAO0AuRJ/pgVh6If1J84k2X+bWEgHU0hMQc+ztcebrBOuUD6k1uddkQFxeAmuHyfMVHpNOi1BpUci3ao8NMFEIk1Z2rMzVGajNHY0WAyZyZw0J5yGMnWyVcYYr7kl+xetfeq2eGvk1jfA==
+
+Block height: 85
+Parent hash: eCgkfArexMEhcDX2tnZyw4ovox8YD66FtA73CXoPDT4=
+Block hash: 6kJhdTKze+LsdfthRjeXoYIP1azZj8NEd3WLbes7d98=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 19:05:35
+Contract class: contract.Contracts.User_Contract
+Contract method: userRegister
+Contract parameters: typeone 1 14 1 123 
+Contract result: 2021-10-18 19:05:35&typeone*在ip地址为10.0.0.1上申请注册，于2021-10-18 19:05:35注册成功*注册2
+Contract signature: GZyj1Pc953MMtSwqgD0Sh2+ar0eRsJn04cIV0Ue4OBvKEAgsuRJSk0PbaaNxWbn08RP2hfN6NUr/ojk2b/LdR/GACYDmK5x2tt4uSGa5ZPnyfpY4nLF92PJmRo7t/3c7J6VGDjOJDPoQEDUwWDWBZtMjpApB+YOcACjD9t8zMLI9HSDxUn+NMIZAwIlFxjxg9o1cD9t26x9cQw1AD7sny5a4qZcmjuab3h7ayMyLUrRHFE/qiONuyJZtjOji64SySOi6uw7f38JKzgkFPIM+z3P6cjKc3oGNWb7VlbjcOyI8jNUOSOi8qgHsGDjagXPHpGe5fffipM/3Cmfg7HWOTA==
+
+Block height: 86
+Parent hash: 6kJhdTKze+LsdfthRjeXoYIP1azZj8NEd3WLbes7d98=
+Block hash: mc31FIlX5J1waarw0ykfvAbuQadxGYhyCI8Xk2fzYSU=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 19:05:53
+Contract class: contract.Contracts.User_Contract
+Contract method: userLogin
+Contract parameters: typeone 14 123 
+Contract result: 2021-10-18 19:05:53&typeone*在ip地址为10.0.0.1上申请登录，于2021-10-18 19:05:53登录成功*登录0
+Contract signature: TsWu36SH/Yzn/lElJnRFJ1MXZyn+znsDnJXEOyHfmU/Mgs2aGguwg+dNvkhL6O5zYbPRwt2higfCYXSC/uTRfBJIVuPz2nrtY38Kn2K/+dElO8gcOWveua5nzHAMTc8ZUETKNaJV8II0QGKVm3zc059iqtnM+W5DlRWqw3gIMP4GYiAWgzbP6SjKTyGde7IqC3zReIJsFM5nHsMMJITLB7QWTyDwmp2t2ErwKb+nP+f1mOHOTzDlWtFLXm1aD41sEHbBI1hza2ph/26wh5M4E3iaWXC+BI6LDVrILw59IoJkbLTnKLGWgz3m8pqy5WuMPam2wINfar7s0GfrMdaeiw==
+
+Block height: 87
+Parent hash: mc31FIlX5J1waarw0ykfvAbuQadxGYhyCI8Xk2fzYSU=
+Block hash: MDlPdmxbAFJK2VIPqNiksD3aHysR+mkw0yuodkTHWIc=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 19:05:54
+Contract class: contract.Contracts.User_Contract
+Contract method: getUsereds
+Contract parameters: 
+Contract result: typeone;14;1;0;123;
+Contract signature: SX+QIaBwmskreP3GLnQW2xHckFIlRf0aFpGrdRvROFjH09F/k8mrpsnvhAa7BKmyLEKG2lPkCN68o0W8V+h9dBMf69RCPCSkZMi/Y/HuKHstTFSXXh4Pyo7G06z/zZOTQBHtgA8MOOP2WcuQh5gnZ17OfYnvmWvEgTrQ402B3wq/I23fKNHShckMxLXvrlzwE8ORpktrJejFzRm/BfEaEis5SYGQDiri/3JPx6A471+Gxdv4nmlrjptD8VMa2G7t8VZ9J5OSsKqWBfH8E+H+rTGHaGPxhLcSxtsigtJfKeH/I2X49670v//6+u2gSX+iDXAZisKLX5pram7KNO/QEA==
+
+Block height: 88
+Parent hash: MDlPdmxbAFJK2VIPqNiksD3aHysR+mkw0yuodkTHWIc=
+Block hash: sUQPcM42yBKev6PlTgbZBDK7UscA0OoxCvmZ9zJFXS4=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 19:06:03
+Contract class: contract.Contracts.User_Contract
+Contract method: getResource
+Contract parameters: 
+Contract result: 测试流程2;0;0.1;测试流程9;0;1.4;测试流程3;0;1.0.3;测试数据;1;1.0;测试数据;1;2.0;测试数据;1;3.0;测试数据;1;4.0;
+Contract signature: IPz4Ah5V8Rsu5i1D9TyFW+7vhAnyHPOQrhRzCg7f4mwj0Stbq+OPUATcVRXl1/OqnFZmdTWicM0lX6NTFAipip6bWSN2adWzLvPR9WIRf59PnK6CKOoj87twWcJ/Yq4NDneL8rUm0aS3sgDHpLy2W04PPneLji2xil3gfpQCzMIokoo6fJ37f+kzrEQnorofP42sq57xMfPDniKKc30FGMwdiOz+WJV0BTqZ2iP4V8WqBCmJSYITE5Ilt8luHQKfoIyhEHkHYxfz6qh6LgQYXgTIB8mzv5ESpZmFbofH8iDUVmk1kjBt7RBo0X4LCA3qLxHAQJdg3cLysfwhHuKthA==
+
+Block height: 89
+Parent hash: sUQPcM42yBKev6PlTgbZBDK7UscA0OoxCvmZ9zJFXS4=
+Block hash: LOZ0iZZrWBI8jWfZoZAQiO4SbwS2LdXto8MMad6mIMA=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 19:06:10
+Contract class: contract.Contracts.User_Contract
+Contract method: getResource
+Contract parameters: 
+Contract result: 测试流程2;0;0.1;测试流程9;0;1.4;测试流程3;0;1.0.3;测试数据;1;1.0;测试数据;1;2.0;测试数据;1;3.0;测试数据;1;4.0;
+Contract signature: sJDUyCtlm7jT5ixKu7Eiia0IHCM0d5nsVRGnwHfkOlo2BpryT0PpuBzR294+Daj6C5h/zKWzwT4sFQABkVB9hEneO8OFG2ScXIgeZQMSprImYbA+v8pAh0UQ3Q4dUxPT4z3ZIO0jaXkNe5QcuXiFRuoTk9KZsXlfTp0qANR3qamsW5n2Gx30EyHqLG/PnwzLt1a6Og28v5qmYIoZWXk0jI6XpQ8pSzHK6KrOSkyoIH4fQp74/248rFAQ7+ouOtQ5VulV0/8ecG0wLILnpngAxL1FTRoJ2mdUqHfm/zySGjb3wFXUOWBin8TPvl8GxYvHZFxeRCYY9D9CD9Rm08H9ig==
+
+Block height: 90
+Parent hash: LOZ0iZZrWBI8jWfZoZAQiO4SbwS2LdXto8MMad6mIMA=
+Block hash: 1/KQQsIYH6VILf+ViM3ev/bs4R3IaGa1qECXpupfbVw=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 19:06:12
+Contract class: contract.Contracts.User_Contract
+Contract method: getResource
+Contract parameters: 
+Contract result: 测试流程2;0;0.1;测试流程9;0;1.4;测试流程3;0;1.0.3;测试数据;1;1.0;测试数据;1;2.0;测试数据;1;3.0;测试数据;1;4.0;
+Contract signature: GGhXnfUyfC/bzoh4PzZQp2rjYbt4CNr3rFB1xOM1UilWKGnAdWvB5mVcYuXZpk4Kdsf61RBdXvxh8X/SPKc2h9WAWnC2UsGD9NXWAS8F18jwcS9qSmeLiGvMm8UorLEgXg+mU/ZpgOxGFfjW4WhUVXnhBOmPcg+lkb0EMKyXgX0mbxvTa21PwuMIm9ufWNpqdAKzoTFsn62GraHYow1Qvfm7bFE8WBGr7n6+ZYKs0aXAx+T2Kr+zO5JNjw4g58KG/inv1a4KJoC8SY4urrlj74yA2ahxiBJhmSw7O5VYCz+dYCkFk/kdnTM99B3XVJ1qhHExhPcbhbgHjqqMzikUMw==
+
+Block height: 91
+Parent hash: 1/KQQsIYH6VILf+ViM3ev/bs4R3IaGa1qECXpupfbVw=
+Block hash: yLoM1KL1TzOzMLIIQzcjSkA2DdN4KkX8zz4oBm6vNug=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 19:06:21
+Contract class: contract.Contracts.User_Contract
+Contract method: getResource
+Contract parameters: 
+Contract result: 测试流程2;0;0.1;测试流程9;0;1.4;测试流程3;0;1.0.3;测试数据;1;1.0;测试数据;1;2.0;测试数据;1;3.0;测试数据;1;4.0;
+Contract signature: TF0nuG/wUDJ5RYEHAWUj+fS9NubsruDzsZmOBrEXNZm2Wf6SPA8FWkg3J3eLnzEIUqp3N4yC3uJxxyHnwHrhLPOZTFhCQuhXwwntsnZKgGfpEEo+Ku7epIK5MYUNOX52gr2DKAOstW2ePb+iTxx8ubAzzRzhWQRl/pMxVV0qX6Lxh36MY82t/irH/SxksQozdKDe7WJJNsg0qwEuUI/87oYO0qbE0At0G0R/UQ2kPXiFyj0iSJyj3rWYYJn08ksiSpTu9Ag5kpW5ItoQa9t2iLXv/oo8qMUbFU3RwfAq7mvsJ3aebnXVt7wsi6mgbAYtGRX0MJmQ/rd81VlB1+kzrQ==
+
+Block height: 92
+Parent hash: yLoM1KL1TzOzMLIIQzcjSkA2DdN4KkX8zz4oBm6vNug=
+Block hash: DfggPjB3jCO96Mm9u/bx1nFS1P3IEBt0LyAclnA5Q0U=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 19:06:26
+Contract class: contract.Contracts.User_Contract
+Contract method: getResource
+Contract parameters: 
+Contract result: 测试流程2;0;0.1;测试流程9;0;1.4;测试流程3;0;1.0.3;测试数据;1;1.0;测试数据;1;2.0;测试数据;1;3.0;测试数据;1;4.0;
+Contract signature: H/gw4u/XL8cLsUjWS8nVympHaW8h5YSaQV6uEaGXkG+5LjEEXB2pDA06fyGGwvNEwy6i9EC3ig1fsVl87pYAEftcL2G6uiebTSs2CqsF/+zRz9xg5T85h+BWhGT80fui9ByDXE+VaIknoybXcn3J9ZYEz2cmSZj8w8pZ6fr4M1H2gibbCjCrm8TCzMsegHFoea7RgQELlo6nI2rQt1Fz+sW8X70wTaKJsaTUs0PydygUs1FRzS/0kfvuodov9ZE5SiB1BJvV+ZWg/jI8qQC9+C2WAVwUUp6IOacLRr6Ht2heMgS5C8hjDoKKknBcAYAHAIVOf2babQzW2aJHYrbPUQ==
+
+Block height: 93
+Parent hash: DfggPjB3jCO96Mm9u/bx1nFS1P3IEBt0LyAclnA5Q0U=
+Block hash: k0K1Bm7U0jUiS9w6iGNgqbXoWE33vetlQJXFlpqhN6g=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 19:06:29
+Contract class: contract.Contracts.User_Contract
+Contract method: getResource
+Contract parameters: 
+Contract result: 测试流程2;0;0.1;测试流程9;0;1.4;测试流程3;0;1.0.3;测试数据;1;1.0;测试数据;1;2.0;测试数据;1;3.0;测试数据;1;4.0;
+Contract signature: trwoq5lY7QjIl4rl6NBqseUiZT0kzoEa/tGRBCY7waGp7pmvDb/kmL7QSCc7ZXBOi4BfOVr12MOX2imgLOe6WOaZC75jSDZjdPVMrT/L2FfAipGU+H57wq/3U8WVqZHRXhOcW/f2MdxW5hleEkN76eqUOhCNoD1do82gwlgRBywUoY2qR8vqg3Vp6XC5HQop8zaw81azpB9XhPPeVlLWdmF56NVCSCoIQheUqYTwuTZMaCbtyxyzRAimE5pEa+FRTmv5uZ+F0799Ugo63Q78Z7t5hSrQX3a/gSjWFXc6nbOr7Qv4Uvec3XHILZBbEiVnmG2UfA7o7lP7JDthK7va1Q==
+
+Block height: 94
+Parent hash: k0K1Bm7U0jUiS9w6iGNgqbXoWE33vetlQJXFlpqhN6g=
+Block hash: /cGyHBt1r13/AeEUfCNav7A/cTn2r+xLP11Ymdt93dQ=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 19:06:31
+Contract class: contract.Contracts.User_Contract
+Contract method: getResource
+Contract parameters: 
+Contract result: 测试流程2;0;0.1;测试流程9;0;1.4;测试流程3;0;1.0.3;测试数据;1;1.0;测试数据;1;2.0;测试数据;1;3.0;测试数据;1;4.0;
+Contract signature: NFUV9HfVV1huonCQRn3htPSnxnoBCjSMFhUUqp02R0Noto69A+nQaY+zt9ABkS7Bc5d8hlHGx92BokTBDdDvxvF7ZfT5S+u2pdm3okzECB7cb3tyafqtIi8+59+XRbD4QlSXRI2wGRfh31Cm64ZXwqHhrKbUy3qeh5ZYpReHavcFhOPTp2lAsdymzhqz0Yli/wDhMb7WO4qmo6e58tt9OVhZO8/mbyuIFlaEi0gwOUhaYGGpk+5CE3cWgVPoJGvTJspe6Zux4kU1FZnqGogrMjSr1W+S9r/NBYEFGEWt8U1bZUoRiz6ZcHByj2ZmJgzspwtuTnaIbvahF2aVAQzWsg==
+
+Block height: 95
+Parent hash: /cGyHBt1r13/AeEUfCNav7A/cTn2r+xLP11Ymdt93dQ=
+Block hash: h4o6lPbwyeawRqmpoEcBSWjhAIp0AwR1rwj2yQkw66U=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 19:06:41
+Contract class: contract.Contracts.User_Contract
+Contract method: getResource
+Contract parameters: 
+Contract result: 测试流程2;0;0.1;测试流程9;0;1.4;测试流程3;0;1.0.3;测试数据;1;1.0;测试数据;1;2.0;测试数据;1;3.0;测试数据;1;4.0;
+Contract signature: CP/FQw7HzQgXV4HvR8nEuTEADcrIE9F7a/noDkjfFdunpihc4+FbW/h+OYewef+aAPYvAbkmAqCJIa+oksRAQIP26unn2l+Ve2QO6JaIA1DjKSWHZlJ/GRT+01iO82WYQ+umn/iIuOlgCx7FdZ6utsqjdyXPMRta9p6voyd7SZCdZNTgTFoaf8NHmvXyN5So4fi+fR1idgk1qK0rSvemEE1DLO+M+oc99iTOvOj7mZG/V2fa+colNl0R0glZYtQSvBkV48jKCeDL5/ahbTlGYCcJcpbTpXeiMN4wlACOurimHj08ehxrVFWgfj9OysoLr5jNFhnJMHdrGPTOxuvC0Q==
+
+Block height: 96
+Parent hash: h4o6lPbwyeawRqmpoEcBSWjhAIp0AwR1rwj2yQkw66U=
+Block hash: ypIHGESfjeENhGDrgV8P/2XtfkiVu2jqnoYZP22NOTs=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 19:06:43
+Contract class: contract.Contracts.User_Contract
+Contract method: getResource
+Contract parameters: 
+Contract result: 测试流程2;0;0.1;测试流程9;0;1.4;测试流程3;0;1.0.3;测试数据;1;1.0;测试数据;1;2.0;测试数据;1;3.0;测试数据;1;4.0;
+Contract signature: fiPLOC+oLVKWPRLanrSYL2up8Y3Qi+ZO6xPGuUojF6Ssv94UUd7pbjPn//46hCYLQr5yXN0Qzk/J1S2GcQxpU7TzPdA0UJtkcF5jYn9IJQ0lfgusv1EQxZvgM+YbDcIMMyYLzl5HXBidwagHRIbsUunmx7/5JMnOJpM9Y2r36+GUo68FjiRzeusFvW90NB1uXym89jZusU5yTrBqmGDRedp/Xsbfp2MduZ38JcCEUA23w98TopZBQQiAkS0FCT7aDkNNy4pS8FruSway8w0sezjwv2zG9U3VdQ7A92yuOBylKTuET5IJPS6pcmhwu9fDPZ7Rx4R+S/r+EQKH4AnxtQ==
+
+Block height: 97
+Parent hash: ypIHGESfjeENhGDrgV8P/2XtfkiVu2jqnoYZP22NOTs=
+Block hash: 95ojtHdyaXK6yiU97QACwHewJAoNyTa+CGMWB0ZgQng=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 19:07:45
+Contract class: contract.Contracts.User_Contract
+Contract method: userLogin
+Contract parameters: typeone 14 123 
+Contract result: 2021-10-18 19:07:45&typeone*在ip地址为10.0.0.1上申请登录，于2021-10-18 19:07:45登录成功*登录0
+Contract signature: GuL9RjF4WEzzOqkJeLaF8FGUUGJjXyrk3pZzh+ZXye1zYH7r2TKwcrAzOeEmjmM+eKn5IHKajAIoPiFsfyLtUPjHY6hhHwg+ueZJFz1TnEcOLJtbHo/OjJk1S0YA+wIW0EyYXXvt53R0w31xibIgD60qEjWRcto9oBTFR7NKAnHQUeOXvcR9u9NkVpu2XQOUX66zQpPPzsE1nBRBhgglxNeOMJVSG7/Pp7nWprYOWjKKn/I8Xgwq6dKRmKQtbgI1td3KzNvRBuhS2I9iZL/Sj/Kq+ya1siIQSPLjIzYsLPMZI2OlQ3RnoAU+u+/HgMoBPHeocQqT9sS97p28QphKyg==
+
+Block height: 98
+Parent hash: 95ojtHdyaXK6yiU97QACwHewJAoNyTa+CGMWB0ZgQng=
+Block hash: /VF4GvNYzFbOOZ8kn9d5n/pE7pGoj7MjwK4sKTGNaFc=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 19:07:46
+Contract class: contract.Contracts.User_Contract
+Contract method: getUsereds
+Contract parameters: 
+Contract result: typeone;14;1;0;123;
+Contract signature: Nwi3Orqmj3zGPFYRhDrCEKZlPB08qliHx8JzqscoqBUnFengzYjdGxU3gJWlUXiwBkqHaE0ubo36NVfWj/0suesxyxut9qHiWjVhcoIVzZZUqhdvZaVHIedJCFLxtNItRNq4lfTVLsPN8tO7uvGOCxO3gTu2piCpG3Z+NZXPyRTHpeN2CMRLCI2v9bGENLor6onbjmdW77mDfkTsieXcspcL6muzepJ+Ou/NifaNJIiQjN7hkP5QPBzbgAhifGukG+wkN6Qu1SAnLpt9oT3XhVqnwwPSSz3f7JZxQu4BA9REg2q8wH9qOZoYvSu2q/5JQ3ZuIWm68szqOIx6q07Ewg==
+
+Block height: 99
+Parent hash: /VF4GvNYzFbOOZ8kn9d5n/pE7pGoj7MjwK4sKTGNaFc=
+Block hash: /85U8ObdtjeFT2OKPHtmdOWTRNcHLFjpNZA5CtUojBQ=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 19:08:28
+Contract class: contract.Contracts.User_Contract
+Contract method: userout
+Contract parameters: typeone 1 
+Contract result: 2021-10-18 19:08:28&typeone*在ip地址为10.0.0.1上申请注销，于2021-10-18 19:08:28注销成功*注销1
+Contract signature: JfCNBmghb2lKxHx5m4mWjVeyl7aj2bWm/vrf0YyLnMs//A3FlDlTu5swmx/xzaWjmsbP5p+6rUGooKMDyEGCDk626hBJwbmKdTN7WjTto2VJZk+TgWJDlY21S5XFAT+wUyx1EZKS6+dq2RTo6oHJewynNcBxuD+psWY4nt3/HEUeBZd0Q2DVfOwFwcZT2Q1OElsOm4i05uEj8p2vsm2F+hVYln1Czw3YPbN3MTcjVf6HuHiSGoBXsjMhfXoQqLOFGf8on8qReDm+LvVZqFGabe/8+hFjTwCsq9SUFiFpV7oDDNJIJkUbASyzjjwQ7KHPCFpMunyQlg+zKNiZQuJ5UQ==
+
+Block height: 100
+Parent hash: /85U8ObdtjeFT2OKPHtmdOWTRNcHLFjpNZA5CtUojBQ=
+Block hash: tSio3nwuxbQODxuPIePoFzhtELiWfBTsWit1B6JiMpU=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: null
+Timestamp: 2021-10-18 19:09:00
+Contract class: contract.Contracts.Initialization_Contract
+Contract method: InitialzationUser
+Contract parameters: 
+Contract result: null
+Contract signature: gVoujyj0Zjt7DDLId++aU5I9VHutxccnUarjB5R+DoXvrb8yd68BhyX/pml0Aua3DQbl64Q8O+9ptoDh4tSPion/QWoeoutFkutEozugVXflGFtwRN7A6Jy3SshlnRXCSXBaj5RF7ePIH9oAU7iyfw57dhRwxU1a9mYuAIT4DCGjlD74VAlRC301G0NHFCj+orPzTyPdX4zmXztvytlp/Lct8keWwY34Zabr+8Dlieqs75i3UOpQotXuuEMW+/qDRYixAvfFvzKrqSPo60H7fN7g0A+LSjhxmGc07Cvq9KvkT1NJ3G1EUZqBemr6e2Ty4XeYmBMUmwJQjVF6dnSBEA==
+
+Block height: 101
+Parent hash: tSio3nwuxbQODxuPIePoFzhtELiWfBTsWit1B6JiMpU=
+Block hash: PZIM2ZwyGf/seba/ifnmp0pFuXSC1Ix/ULFGNxkSruk=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: null
+Timestamp: 2021-10-18 19:09:01
+Contract class: contract.Contracts.Initialization_Contract
+Contract method: InitialzationRes
+Contract parameters: 
+Contract result: null
+Contract signature: RaVjzlJZCB15/JpTw0g0v9rfWmSmnDYgOpiHbMnqXrntqHZMi/2qyi07X0P8UlATFEJT9rDrO+idGpAiznq51ZPiuhZjTiBg6qRjsJJ/yJ0aM/bgzg8fXRpMBI1IylrD5GdKkb6wPDzLPEecSUkrGuskFHFW+WvEEDTqS1CsTD+8sSUsAMYfhTveQEw/UHhaYIgQirkKhN/S3fe87xuHbkACrV01ChpHYjrJIqLkOymrpD216Cfyn9ewYrJWHk4hRM/NcNn0m+j50ECIkKPnGdClgoxaJuFLWxtoRwp+EdbvCXLB1PUqn8q4A6aundL1gogFrCHldrULbs6TSNwH8A==
+
+Block height: 102
+Parent hash: PZIM2ZwyGf/seba/ifnmp0pFuXSC1Ix/ULFGNxkSruk=
+Block hash: 00PGfMJ0OQvzaWkE/j/bnwQvZDt13yGn5H+qk7QBX8o=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: null
+Timestamp: 2021-10-18 19:09:02
+Contract class: contract.Contracts.Initialization_Contract
+Contract method: InitialzationEquip
+Contract parameters: 
+Contract result: null
+Contract signature: QzdfR8P5Xz5IMn/eOtHBqNh3Qpx58nruk5P3sQepyqwCJXPqV+cQqG0xYrqeRSMMXNykifO3RpLtI9Yx8RUM4vB/tnqJnEBTYkYi5g1O9GkFGoinHvUdSKPf6AG2HckZFHXrzpBNRxZv4FAXefDDRv+vpLe6TO+l4zlkG1+XeMzCQUDK07x104i3YsRzg6ZwB58zuAlWnJg20x/IpeYDSAT83kHVDOFRmx5jNnwQLiukyGx4i/olTrtQ5QbuR3+onCOcaCvvRjXYmF5MnexJen2fvyDsopvGnNTI+1/8E3uCaopAvZgQw9h16KVOfdMZ9qoPSH4w2CP3PE7EY4Z/vw==
+
+Block height: 103
+Parent hash: 00PGfMJ0OQvzaWkE/j/bnwQvZDt13yGn5H+qk7QBX8o=
+Block hash: LeGRVU7FQDbt2A/MzuTO11YqCAT/xT1jn7PgBSq6iuU=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: null
+Timestamp: 2021-10-18 19:09:03
+Contract class: contract.Contracts.Initialization_Contract
+Contract method: InitialzationApply
+Contract parameters: 
+Contract result: null
+Contract signature: Psr5I4NPaB7odHB8UwTGEU/S1TB2Z5gyqEZffsJ/jUPtFgD5BoCwqus6TZsHlYCnw9PENcudt0Gqjs10lOUePvk4ser/Qeqyysa9Yq++j7Poo1CFAHO7OXdy4KJVloUYVDEL4sPk+rqG8lkX/XF/ZRU4erymMQLSMUI1u7N4fvw2UpPaA533EGG2VrXqQUA0YCDw2fKdwhhKzQ31F0wZqbOAf7c/m5j7AsXDbLeSk6w6huqY/pKEdw5MzA22aCpRqDur8SJmEeRx9YvMkCbHbQyDuN9ceY8OfZ6bqCqSruU5uPCAMUw73hJ/hP+S1snPkt1aE1DNZcvR25rwQ+Rpgg==
+
+Block height: 104
+Parent hash: LeGRVU7FQDbt2A/MzuTO11YqCAT/xT1jn7PgBSq6iuU=
+Block hash: /5e9AST8NQApcEldD8bn8/y28Ys595JOUqY0W3VHb3U=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: mgmt
+Timestamp: 2021-10-18 19:09:32
+Contract class: contract.Contracts.User_Contract
+Contract method: userRegister
+Contract parameters: mgmt 1 13 1 123 
+Contract result: 2021-10-18 19:09:32&mgmt*在ip地址为10.0.0.1上申请注册，于2021-10-18 19:09:32注册成功*注册2
+Contract signature: qhRzeC0dadq+ffcqv80jYS/nRJ7wyptvAZbmlQy5iTKK7Q7CEiPjIZUO1osksNWDBwySiEe2syOV209Q/UbxAk5z+ivY+ShuXd2nBgQUZhvRrv6EYSkWxBkkKOly8GtaqwGmdr8dyRCql2WPQlx/AW5CwEgPlQcFN3B0wLt2/7/2xj3qpHlYhpQ+irQ7JkbgZ1XIHrh+mVRukmz2xvH8kvz5S345Ml6CGe8CLwiVfQCtP2l7lyZCD/oulQrSV9o44A1XP8+f6WUFeXOHLIyqVvsG1kc2tNVIO5dPKPr1yjeNVpBEh8W5OZpiKBCTWc0xDakZ6P3yoBXbExRDE7MfvQ==
+
+Block height: 105
+Parent hash: /5e9AST8NQApcEldD8bn8/y28Ys595JOUqY0W3VHb3U=
+Block hash: +J5AhHxKWdH9g53kHsMV1Sm3SWwsaVLxQXJNa/UBgVI=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: mgmt
+Timestamp: 2021-10-18 19:09:45
+Contract class: contract.Contracts.User_Contract
+Contract method: userLogin
+Contract parameters: mgmt 13 123 
+Contract result: 2021-10-18 19:09:45&mgmt*在ip地址为10.0.0.1上申请登录，于2021-10-18 19:09:45登录成功*登录3
+Contract signature: Kbv2B+YsYSEFkCQ3+9cm5R/hFl2ZaO8aw5rdrLbLhCRzzpRMJaO2WKqolEkGhH7t5zAjBi24qh6xYFQxGDeHJ/uyMWqjjYRDM8FrTTZAYihjtRjVlOSPsZ2k4VCqxtCT6i7dkodzbJ2zUBrDWs+UOFYX6xXfaBbhvZGU+V8BDEmzBWBZw7+ubFtoC+pjMk/tTaKeyTwJy8zbxc5UcKLOxP5OZvuewaMqB95Pj4thHxBwLOiteSEfvxkm2ljkkm46SZbAFMK3U7j0oAf92MeWIJ60EBRf4h7mNaG65+8yXUikDW+NzbBs/fVEB94gXKuNBZm4eWyYPGFaqw+aHv1S+g==
+
+Block height: 106
+Parent hash: +J5AhHxKWdH9g53kHsMV1Sm3SWwsaVLxQXJNa/UBgVI=
+Block hash: 5E7mGEcvdf5j8GtCWHhgjLUzXtROfRhDD0UwU/uOt48=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: mgmt
+Timestamp: 2021-10-18 19:09:46
+Contract class: contract.Contracts.User_Contract
+Contract method: getUsereds
+Contract parameters: 
+Contract result: mgmt;13;1;3;123;
+Contract signature: eV17ap8cTH8v2fD5jfaTVtEdJ2wnrB1wIGHULInYISP6vll2iaXBLD6Jg/FeEA3xF27+0SvSfHeapUnW6XM7pJyw1TwRY7scdfwUvG7IhPg9oTLAaY//uREK7UmiMYeLyu5rrUlgfFZXBQ9wUbv6YQFnNkDmmP9OfqzQWgOz4KKb3jTIXk6mPQ5Wjx0w2I6nBYhbIijMq1Z3DtZdxDKCDDjztDW9ISp9AaGdimKds9kMipXZ6G4h3Ln/V8S7trpl9hJLlKI3yJMQSfNLxY+FzUzyA65iUAe2130dO7A4FT96JyRI9nfq/YqQdWpqPmr5X9Cs8GUy9XKS3ZTeCaayhQ==
+
+Block height: 107
+Parent hash: 5E7mGEcvdf5j8GtCWHhgjLUzXtROfRhDD0UwU/uOt48=
+Block hash: vIpy9A5a3v+06gSZHQua3T0Y0LjSUj9cdAJjpC99fEo=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: mgmt
+Timestamp: 2021-10-18 19:11:14
+Contract class: contract.Contracts.User_Contract
+Contract method: getResource
+Contract parameters: 
+Contract result: 测试流程2;0;0.1;测试流程9;0;1.4;测试流程3;0;1.0.3;测试数据;1;1.0;测试数据;1;2.0;测试数据;1;3.0;测试数据;1;4.0;
+Contract signature: EgvSqjBI/nGxYEwIHEil0aLGZjlh2MwxLtm+3CgLXhjpVEjvod/+4KsSMzi08wU+Q65LuCdLl18VlSgqPK1154DQmyZiTKXQmRuStjzEOmVcio17TrDLFTzNzsPYSZcaC6fZIjLxfvlcUN19zqrUnWB2rJOnBu4dfZDmwPSX4lqgYthjtZJwDwtbPJ4vHrIK6sQgnJ5bCIvuL7iTM6PzGKx4JOVx7Cl4lFasSru9hekLTe864rRcupe6BNuX+WF3mTSJsxKBJGKhJmoIEJ2LXp8I7xzGeM6sSSIuZ5prfrgXYxDd33qfGFyjpE6mUHCXrcQmmWYXrDGHoG7GL8RHRA==
+
+Block height: 108
+Parent hash: vIpy9A5a3v+06gSZHQua3T0Y0LjSUj9cdAJjpC99fEo=
+Block hash: HOW/U/5jQNDRzTy038JOPxrN1ZUoBxoVkLYMdDB0ozM=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: mgmt
+Timestamp: 2021-10-18 19:11:43
+Contract class: contract.Contracts.User_Contract
+Contract method: getApplyMessages
+Contract parameters: 
+Contract result: 
+Contract signature: pz/zAPGChpkT1/MbXpWeU1m+ojyrd4jO1j76KmGyDwOcZrcwtMV1XqOUA4Ns22IbesnW/wXUISt+FmWEY0txqMfxZNXq6W5nRtVKe3CHhiwN3/URH1SYY94UM2otD87PZHNWZybJCL5VF9xfeg5v+uIqKSiAIgEnmVSMHX6GVPtREabJz+kCxt00uNoBxEF0nRtYWiKY35eZLosjF6rn+/tsmo/fbW5ZJypd5yL8EoTuIknBvdHT1nI2v6LaNVeM/QLkOlF7AaIPMeTtJCNey9XA9O0ZJ00KwWOaCtHXy8QAiJUccSnnFZYl96Ud/n5JBIkOpknt+kplytl8LkypDg==
+
+Block height: 109
+Parent hash: HOW/U/5jQNDRzTy038JOPxrN1ZUoBxoVkLYMdDB0ozM=
+Block hash: JixL2zpCaxh7vbasmLs46ZOYSnzNCiLxj93n8kJLzn0=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: mgmt
+Timestamp: 2021-10-18 19:11:46
+Contract class: contract.Contracts.User_Contract
+Contract method: getApplyMessages
+Contract parameters: 
+Contract result: 
+Contract signature: SgBstRfnj2WB8TbrpOTq4vxbcZoQd4Cunr4VJvHpu3wmdzOMjsI+XElbLr9Hw75I2qXwWb4SAiriy676gGvSpLRtAvKH4wvAJTCoK25fl8CVmf9ATOYeJEvP5equk30R5Efh1+SfDT1uvHEqv5Ts7D1oa9lQFmcFyV/urOeupwjyDh+lI/Dy3QRdj0TBSKzZTvle5EHdkVmoT+KuvNVcwldKH/5x/iWb90i5+Ss+zdNsu3FX7/bJAxE2aKUySgvyvM1XdP/NniU0Cmfeg4JzPHu+GGR+k8ZDB1oue0YbfgBeUp0swqq6/wRVhNo1NLJ7AfaJY3sr5MyVoECzoHM5/w==
+
+Block height: 110
+Parent hash: JixL2zpCaxh7vbasmLs46ZOYSnzNCiLxj93n8kJLzn0=
+Block hash: kla/2ul1/NkRlwCo/uT2wJvgj/S7p7brToMNkYIqtTg=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: mgmt
+Timestamp: 2021-10-18 19:11:56
+Contract class: contract.Contracts.User_Contract
+Contract method: applyRole
+Contract parameters: mgmt 13 3 1 
+Contract result: 2021-10-18 19:11:56&mgmt*在ip地址为10.0.0.1上申请权限变更为1失败*权限0
+Contract signature: VeN8A9v7QoRbSNfcb63dGgmoiTQaswaBCTQGNWQ3T3TqrR4UEUkZ3jvS8rO1xLTBttx7+QbOmZn0JrGOFRAI89PHLl23mSk6tJoVARL3hUj2IBTBfIIFwuyD2mm7ppL+/x/S+PjsCNnpiVBhqbp4QNLQl0/V7u2EEh6qCmTRxbr0Iqeszo1uil4+gjztTRTKe9egjkBcA9jCk+KmWV52n2voUFOVZM50w8k7Se5gIVv+SoizkbkDHp0SrNQVSw2bZ4e7+5zxG0PlbCPYgMuHybR4R80+Gwxj7YaSUtH+ycbEVQi3UAk+W64EGdHD13mN0ksQfrFRu4aCvK0qu8EvUA==
+
+Block height: 111
+Parent hash: kla/2ul1/NkRlwCo/uT2wJvgj/S7p7brToMNkYIqtTg=
+Block hash: JSglFY9hJ0FM7qbtX+EMsdXi2vO3vVbxJw7c0sZt+ig=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: mgmt
+Timestamp: 2021-10-18 19:12:01
+Contract class: contract.Contracts.User_Contract
+Contract method: applyRole
+Contract parameters: mgmt 13 3 0 
+Contract result: 2021-10-18 19:12:01&mgmt*在ip地址为10.0.0.1上申请权限变更为0失败*权限0
+Contract signature: lJ++e6vNflhcy98hgrrG0D5q0KFfR9YUKq6wmHYsdXLKOqUBzQKlUJKSkiUuyhGZFS2bQG9vmgF06TKygADBoXFa/w7natc6d6ThdKXhx0nui0ewXKPs6F3hUkBNuqTLj3PshljgBj2U1Hi5HvWykY3ru1vKuHhsFZR88ZV3NI2BSXt3KJiBSjEcY4Lwa1MMifusN5+Fzyqe/dpTnwNs1/VOFc1qvePPg0wLa0XEJmHwI5VdaMkt0kHeZyM6Gr1Rr6g2C9tazMsWLlMMYeBpWSi/8ebFcpwFWoB2omdW8z4tjc0ofOl0gO/81K44/XOdeIT1iEDcDr7IoSy+L5G89g==
+
+Block height: 112
+Parent hash: JSglFY9hJ0FM7qbtX+EMsdXi2vO3vVbxJw7c0sZt+ig=
+Block hash: /mG+zytWXQsbvJo9CrLPE4r8ORcZmBo1vG7sR4pLGgw=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: mgmt
+Timestamp: 2021-10-18 19:12:06
+Contract class: contract.Contracts.User_Contract
+Contract method: applyRole
+Contract parameters: mgmt 13 3 2 
+Contract result: 2021-10-18 19:12:06&mgmt*在ip地址为10.0.0.1上申请权限变更为2失败*权限0
+Contract signature: kxoiIykiMmUV0emJ1CSon4n7qEjYOEjO0CLZpgdsu4YstpJLxH3jDKYm2F4EJCdzzfqKWjQ28m5xCHiYJl5Yke0eEj0SmsfhO3fB+PyR5/eWf/4WZpQ3IphjPm0nvqZLalZ8XGHR8A11vuHjh5odwFZblaUy6Wiy5ylfLTJvy5PUw5Sec2NvDym5DgMKyPtF1l04mCRuexyYwB8NFQabus7ASWI/9kXUtv6QCw/DbKvRKUP1Pf/EaHWL93nvhmc/0XbY9b1L28ZYGhf9mqsPrWzFCnnaopH3VFEdikJKvDL1RcJIZdcm1Kstc4Kof+7PBGEJpgoez18QCWtrDa20lw==
+
+Block height: 113
+Parent hash: /mG+zytWXQsbvJo9CrLPE4r8ORcZmBo1vG7sR4pLGgw=
+Block hash: fsf3VZ+vPW6r8OgCN3JGwVEcaKXVZOd5ur6zGwcYS5c=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: mgmt
+Timestamp: 2021-10-18 19:12:59
+Contract class: contract.Contracts.User_Contract
+Contract method: userLogin
+Contract parameters: mgmt 14 123 
+Contract result: 2021-10-18 19:12:59&mgmt*在ip地址为10.0.0.1上申请登录，于2021-10-18 19:12:59登录失败,失败原因是用户信息有误*登录5
+Contract signature: S8KbjZf5SGAo4wHDCSivfbWEgu1gCw8rHXacIUA8hgLdp5Zw89q6zNdwCDh4euwFC1M6Msa1ujfK/SR7/TscdffO3rCg19d0mQrd5eTFZq7GZGTvTE9iL4LdGpjQRE9akwTVjEN7CvnrdGrmhjUGmAv11e1vZ4IInU2C2nZN6ZSHDWILqEcdDt+mC4x3UtxrSYlmZjUjT5zgPAE/QAWUPb2kUHDkvyoRm7oS2J+RvZ8vKxQqiJUY0yxD0mEaE/5KnAuTzQQ2LNxDXQ44dQG8UPaxYm9FDRR1fi14eckFKu32nGxVvnWvCnHg1KBCqt87v6FYszJ3MEcm8/DioPEYKg==
+
+Block height: 114
+Parent hash: fsf3VZ+vPW6r8OgCN3JGwVEcaKXVZOd5ur6zGwcYS5c=
+Block hash: C2p0mMK2ATUKAv0G+BfgAFoDZV/5QxtcYAN9gGAkE5Y=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: mgmt
+Timestamp: 2021-10-18 19:13:00
+Contract class: contract.Contracts.User_Contract
+Contract method: getUsereds
+Contract parameters: 
+Contract result: mgmt;13;1;3;123;
+Contract signature: Pwf3n/5Y9XFPcDVowTXQYbEBgeX6BcazoDIrUB9Hq6SbwF+4WzAbVQqN1aBIwC6aCNVxcoWsLvynf89tW1uAGSWwoIIazUftAWXkQDeuXtGXu1b24xf7775QPczNLoOsmRvzd8W4qZAxLGi+kUm3BQ2IlLs8ki2e7wY3mkXGTWlzr+Mr78YkJHbRIjeES5JW+fOPLGoEycnFHJ+ryTLQ1L3/E/a0kh7BrsWMAG1dWs5/WBsOEP+Jc7SBz1r4GSmBB+yVIa/r9mRwPjpbKKZX8jtWf8QnOCJNL9IWD3l6+Kyd2/9MT5ooDSDYEq7SYl0yGK/zLQfqq9zEceoZ0i7A9g==
+
+Block height: 115
+Parent hash: C2p0mMK2ATUKAv0G+BfgAFoDZV/5QxtcYAN9gGAkE5Y=
+Block hash: nYAVuwWsQ2q8PYSQoH9ulmxdZe9h2HI0nK8S+uXjBX0=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: mgmt
+Timestamp: 2021-10-18 19:13:18
+Contract class: contract.Contracts.User_Contract
+Contract method: userLogin
+Contract parameters: mgmt 13 123 
+Contract result: 2021-10-18 19:13:18&mgmt*在ip地址为10.0.0.1上申请登录，于2021-10-18 19:13:18登录成功*登录3
+Contract signature: lQkBofPHtF2dzoiyJtd4bnyD+hU3+442DT4iu/bao5C9p8IrMIYrzjEfNFOpdd87o1KujJ6EscyB6xkDP+1OXqh79mXaJaAK+qfjgw1bsI/VO88wlzI8M9bv4b5nrDQto45yIF7A1t66LcM2okg86kuJKOpIwCb27hGOaf6u3y3VsOK6yq/zxk8TVVPidwgq20rMC7uH0eSKTe7r//dX7PGYfFjN6aA7dCkAm55Br7XW0AgPnC2cJnSryDrwoIRWwyVchknQjTlpyMkMyehIxrRKEZYA6U/+/JGG05NGFq3DvdZDYqJRhhTAGk+8BwmL9a3z8LmfhE6M6ji52cCi3w==
+
+Block height: 116
+Parent hash: nYAVuwWsQ2q8PYSQoH9ulmxdZe9h2HI0nK8S+uXjBX0=
+Block hash: 3/UyQHDZ4VpSM5VeM3l+Po+qLJjNMc4SHYQRJiWrTSE=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: mgmt
+Timestamp: 2021-10-18 19:13:20
+Contract class: contract.Contracts.User_Contract
+Contract method: getUsereds
+Contract parameters: 
+Contract result: mgmt;13;1;3;123;
+Contract signature: Sfxz7t/ga90CWD9DmhO1YBpEd5DekstixxFxgutSudZO4NkkW/vw1GU0gE72qwqPvJcolpnkjTu+6dArv8hI142vYvL6FcIfRbrDr7DyKujCoVe/LfGm0si7c7UxpSfGVdf2G3+hdNNBxHclbJYE+CyS3uC/Tq32MyCO1HD1P0L+rh5fIMcVQiD7lYTq7fv2CsiYbb3BYBzTUmNN28gW+EBsuGM0UDnzn/Pi3BcC7Zn4Y0getjBe3pNGJC0Oqh61pRDCtUzElW1FhzWo9TerCmlHjlna5o2LW2W7HIh04v4v9PNDlbRmZwtFqazleQhZmsQVH/E3F5rYY6ptu4kW7A==
+
+Block height: 117
+Parent hash: 3/UyQHDZ4VpSM5VeM3l+Po+qLJjNMc4SHYQRJiWrTSE=
+Block hash: IyVYP7ce/TbeK+wS1XSk5dQhcAE72BqJbFKG0Usq6LM=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: mgmt
+Timestamp: 2021-10-18 19:14:29
+Contract class: contract.Contracts.User_Contract
+Contract method: userout
+Contract parameters: mgmt 1 
+Contract result: 2021-10-18 19:14:29&mgmt*在ip地址为10.0.0.1上申请注销，于2021-10-18 19:14:29注销成功*注销1
+Contract signature: Q3eJnkeEhv+VXzVjLl7hHDmdYywpDhlbYu7Ghe86y9UpsQAtmKmJN7AcRqhyr76gFdwcKWT3UtoDbv7EtrsG1CmjzL4PxM9cBagKjBjsdCMzwUdDPrb59WnmGZwSpdOJQ3NJvJRXz3FrIs9s1Qq51Z5pTVRrB74zVnCPVr9unaBE31qB9drpn3KVV1utej5roBd2vsxj3SqA/PEuLMfkuf/fYxzTtm9K58UgK2T5RC7MpiGDXgHXCg4oj6TmD3KDF/qStv0nsbcINdFB2j/BedWMW4eTFDWT7dfrqXz+cvUZEUE1+OTOJczPyER5BtWu8LFFQI+HMMVGzar6UAPQWA==
+
+Block height: 118
+Parent hash: IyVYP7ce/TbeK+wS1XSk5dQhcAE72BqJbFKG0Usq6LM=
+Block hash: pnS7e/wgNFdMvEsQlS5MNUQcnsxGV2V6HR7AI5Iu4uY=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: null
+Timestamp: 2021-10-18 19:16:01
+Contract class: contract.Contracts.Initialization_Contract
+Contract method: InitialzationUser
+Contract parameters: 
+Contract result: null
+Contract signature: cLZUw8YjtckFJ4XeK4xvg0Gcc7mkb0rBw6/kJkpqcw/ArohsWIypbLlBCkXYF9yYDdvmaelhvZURunr+LpAjzsr3S5upxpKQLq6xDp5WIgiObAVTt0cxbBO2TNzOLxeTW7pO5sI6FebzEd/9kai+P5I8S07Q5k4l0yJKZ13Xisl/liKxdREkVmKEg2IwpOmrcLXUhYdAIlLnLO/5x4rhXFnBtIf76QZ9TG42kzZBuDbvOGznK/tbFtrVfaxY276s/hy8sZoERM0ZPLn0Omehuz5/H0RVbDjTP6Hm29gt9O8JWCBxdKKfHxog4NsCdWDyu+icekHEdQjJF0K4d4TS6g==
+
+Block height: 119
+Parent hash: pnS7e/wgNFdMvEsQlS5MNUQcnsxGV2V6HR7AI5Iu4uY=
+Block hash: NfdgGGM6AVpCwXZb9caAkQ8hRmIwa8IFM79HTvCo/nc=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: null
+Timestamp: 2021-10-18 19:16:02
+Contract class: contract.Contracts.Initialization_Contract
+Contract method: InitialzationRes
+Contract parameters: 
+Contract result: null
+Contract signature: gPRbfRG9pck2lxl8P2R4KjYrZHG9gI83ONwNrAk9gImni6KH4m4Vow13nfr7mGVhER6cWbVw2+26BpE2TJCfbUWmUX1SQuEDHVYR08QpMsN17uMUwemuAc7M4+R7OICiixPWkxSjKBgLZLLnIgaqJ33ILwW2fSXw8Vt8YS2EHMixTO/ZlH7r0EbPHN8an2qi7Xqmk1oU8recL5cUNSLYq3AuuXntkwCIs1x4ydsEZfIgdXkXELdBj5+YUeFEmWT+uGO/GdJJa6V+yAczpCr0tilS0cU3cBAwcoMNkPI2ohNWe+H9V0CxqideZsFHWuAn7QYAI/RtTiEuklH3Fxj/TA==
+
+Block height: 120
+Parent hash: NfdgGGM6AVpCwXZb9caAkQ8hRmIwa8IFM79HTvCo/nc=
+Block hash: qPziwST7O6kuoLzi1Ku5M8xB9d96Nb+VdN5pRaBImhE=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: null
+Timestamp: 2021-10-18 19:16:03
+Contract class: contract.Contracts.Initialization_Contract
+Contract method: InitialzationEquip
+Contract parameters: 
+Contract result: null
+Contract signature: sfblGdj5JiFAO+pESSHrnb7ETwFBdGJpSmp+SjZA5PhQ0dxVA6QAIf2e+Bg+T3wTekYD8MPdbOMENGkFmd/oPQ0UwKgdLtsIqKN6twDZq94JPMM7PciuaFz/x1RRXSl3PrJIWPvPYe3lgGAI81pIZw3uGFmX/RzhVnvB89X7MvpiEWnyRgQuL+JsXup7MSbvQuHKSQ52dDLnRjQrG1enhPdKLMBLf0gxBdxw/Wr/oL+8NFECJ9TFec5f0Fj2PSkFlklwHyt4PD6U8l6jpiEl6m8QGYlrepcdSldTN3ULI+Mo3h/Ty9Uurgp91BbJE8aiqdiwi5DYH9ruyi7weGN3wA==
+
+Block height: 121
+Parent hash: qPziwST7O6kuoLzi1Ku5M8xB9d96Nb+VdN5pRaBImhE=
+Block hash: Dw8tegjoMen2VsIm3R6RQJ8Dxj6Zcts9HFbR2ua6MzA=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: null
+Timestamp: 2021-10-18 19:16:04
+Contract class: contract.Contracts.Initialization_Contract
+Contract method: InitialzationApply
+Contract parameters: 
+Contract result: null
+Contract signature: cEXAQ7VQWYJ/Qv22CM/5P8h4pztcYi6vtH6Dt2M3uyxAKIv3nv8uZFqITfOzFRUtGSXotY9UosrrNrLaGU6Vr+a2mOp49aHwpxi1VSTPMP3JQ+Vs/eAOXFnBtE1cU2x+Qo5eaSmCJaPM4I0Quaq844Axu4YeSwdn/COEcl48HL45Tp3uhw4KnkiersqFMzuJ39qcI1vfVM50b9CfNcPTs+jns/GBWgzUbYDULV/Ikc3pDUXYGQLxTBeZhbrCDEm/Fee+Q2DGS/Z8/yAk6iI/yIWrUVoSxEITXRogmhPoJMYNDXKvB+UCfKa6USQIVLI0USOtrZoX+npK1V5OZwX3Cg==
+
+Block height: 122
+Parent hash: Dw8tegjoMen2VsIm3R6RQJ8Dxj6Zcts9HFbR2ua6MzA=
+Block hash: 919gDbfnjI65LO0ACiy1TM1n94GuuXKwbj6/90WD2HM=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: ujk
+Timestamp: 2021-10-18 19:17:47
+Contract class: contract.Contracts.User_Contract
+Contract method: userRegister
+Contract parameters: ujk 13 123 11 123 
+Contract result: 2021-10-18 19:17:47&ujk*在ip地址为10.0.0.1上申请注册，于2021-10-18 19:17:47注册失败*注册0
+Contract signature: bD3O6iPKAkKuB3IhrPZmVNlVTOsSmttrEbR5iFAmo9uu5UIn0wcys2lEw8u56NFk77jelkmhp99tSdWvIscChWpTv4mfm+7qmfloCJZCa3ObC/v+lFBEFnAO7hGFnHZnyubrsAhA43LVgl8lLz/ojNqn5GL3mqZfhqijUf8e+cip5JdCstYF4F/FJtfZR4Sw+doSnWsq/d3RUvHtFsy6k1ylcjcd+Pfz/PCdqpkFGwwiZU2AGj2ffXF3pCNgMXok/VDu4QuGFEwX40dMV9ZHpvszEasoVitWXcdckrGqspy27sgGNe43XyTA40VBCP/PKV8tCjVg/EoSc8iH0TaUQQ==
+
+Block height: 123
+Parent hash: 919gDbfnjI65LO0ACiy1TM1n94GuuXKwbj6/90WD2HM=
+Block hash: S+KKmfpE0GzQDcCCOwfx7u9PfmLc8Gir3kC8zlyON9k=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: fuun
+Timestamp: 2021-10-18 19:18:19
+Contract class: contract.Contracts.User_Contract
+Contract method: userRegister
+Contract parameters: fuun 123 152 15 1 
+Contract result: 2021-10-18 19:18:19&fuun*在ip地址为10.0.0.1上申请注册，于2021-10-18 19:18:19注册失败*注册0
+Contract signature: rR0O3gvseHRd+vRX2IVA/GFzmGubGoK5Y11X1D5+ex7wtOJd6SX6h/vdfN7yuqM++SNcXYm1inIuDo2Gtu0xZLyLHvb86J8LbdkfZA/OpgXb3iA1Ia6I3Ry6UPNqX1+Do8hP1/WWPwuPnj5mkuFjQQH9d80+ovFkAD6WRWMqwkPNV8aJd8K9VcOUhwLvSnfsji7Hal55i8ZtwT569QBsBXdNOGa+sRVIGy6GqZAmDW73OjIi03kvqSQdjJpfnYUG0JrAVrwnK5Gzzz4XVkWFXFUft1O3RLxXsr9OUgAz+PaW8d+XfJXQGuOzC4Ni0aydPtBISGcs4bLQIa/i/525zw==
+
+Block height: 124
+Parent hash: S+KKmfpE0GzQDcCCOwfx7u9PfmLc8Gir3kC8zlyON9k=
+Block hash: G4xtmHFwXFQCEUQoENljlP8qU4/2XYEXVVs7SMJlhhg=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 19:19:11
+Contract class: contract.Contracts.User_Contract
+Contract method: userRegister
+Contract parameters: typeone 1 14 1 123 
+Contract result: 2021-10-18 19:19:11&typeone*在ip地址为10.0.0.1上申请注册，于2021-10-18 19:19:11注册成功*注册2
+Contract signature: hLKYeLfED2dFCrCk2i3plj1ZF6hr/nHG7bXa0BMrmWKCsphWW0aRPSOysEZTJvADiRZBX+RBRDmHSvdysnyrs22UkluWTAskjzmtRU8WAjpl2C4BdHGyNySEE89ic7D20FTUat+28O50bxa+9U4XhE56OralnHVzub1ZXhREB1la4aiNClFLVAsr3OLxD4bazprJNPRTyvev5yRF9jRqWbAgnLVyxk4cb+YqzNlEczt+9c82gFNWvIiPjhBBwIdRamdT2XdyVqCIWBLcXBIQMMWNtcylBDoVIMeO6QSII7SG7MkPy5eLW3ln2dI6zFakn2AdScH4ag7bKqTC6WrQjA==
+
+Block height: 125
+Parent hash: G4xtmHFwXFQCEUQoENljlP8qU4/2XYEXVVs7SMJlhhg=
+Block hash: fZDMvaD3UtUOx7pbP42cCYHo/rErhSglBs20iNtydqw=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 19:19:33
+Contract class: contract.Contracts.User_Contract
+Contract method: userLogin
+Contract parameters: typeone 11 123 
+Contract result: 2021-10-18 19:19:33&typeone*在ip地址为10.0.0.1上申请登录，于2021-10-18 19:19:33登录失败,失败原因是用户信息有误*登录5
+Contract signature: Fho9x9mWyep+M22Dez7NQtucqkoaLEhTzBD38Homz0L9t1CpDOzasm+f3KZ38SuCrTlznWliICtC/Ca0WtmanPgy2wP28rKRUV2PsYXFnVCBD1PtWRfvVr5OoF4pPqdTM/t1i1yHfzCET4oqxrSCq+UBkdHVZ/T96oZWfNvr8x/3rk/Vt6NluSr6Fk2hPc7ji2vygx+sOKkYZL0L4pkMxgutXF5ph6ed3kScMPYa+8EXiA+rT0H7Fg718Iwj2JDpKuUM+/47p8m/712sQ4sJwKU5CMOW64glvz3CqHLuwgf9mmG0YQV9AJDLJZPfpiJayWPLLEnLMFH/8OiiYLrOUw==
+
+Block height: 126
+Parent hash: fZDMvaD3UtUOx7pbP42cCYHo/rErhSglBs20iNtydqw=
+Block hash: xn4YJEI7wu0T0+uWbbVzh92Rd+/R26ZUj6Zx9O57ABA=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 19:19:34
+Contract class: contract.Contracts.User_Contract
+Contract method: getUsereds
+Contract parameters: 
+Contract result: typeone;14;1;0;123;
+Contract signature: B19aDV3ChnsagVHzxSgUPOfmDCEpoTEHjpz9P7fWElsrXQwYgDIQkUzEv0l4T93FdfrX8tc0nqKC6Mk5/rIZzpoa/xSpPgaZSSIZ0nsXzi2Oky4VO3qw+4RjNoQCepNz8X4pBnYcP1YeI1vvqzjkVrkIKRjYVpu1AIjGi/x1w1mBZnXyrfF4pR3K/InSWRfoYRH2JvoIB7zaulPmhRSgbR2R+HYCowsrLXOoZuNS4QZJqiN5hYDRHyc3LFtcj4TPG4aHbgbo1AGAvNHaMQTLOCjsQmmRptofQ+DQLS7udvwJXqqrNDfEqyrMP0qd1/eeQScmfp14UkbaEZo43owXJQ==
+
+Block height: 127
+Parent hash: xn4YJEI7wu0T0+uWbbVzh92Rd+/R26ZUj6Zx9O57ABA=
+Block hash: bYLv2ZvTamEpyGi4d5tAGtrOzMINynoBW4nBCxwtgGA=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 19:19:49
+Contract class: contract.Contracts.User_Contract
+Contract method: userLogin
+Contract parameters: typeone 14 123 
+Contract result: 2021-10-18 19:19:49&typeone*在ip地址为10.0.0.1上申请登录，于2021-10-18 19:19:49登录成功*登录0
+Contract signature: RoHif2pFc12s+N9r5aR/I8It8TjJwtAMrcdc/eKFPPE1vOpRtUt/lY7xWjhxtZlpKJIaPU//L7aE5wKdXqtDBH9ufCY+ZamBpZGJKM4GSrouO+RCNhZMIjDoVSDkUJIj1Re/CQPEggsH6KMLPo38yMmUhv05GJhdmjXca7V33sjqARcBa63SuTpSP9aYtvzyuW1PaEPm/mPzuKLcWzd17XNIj4Z6OsWKND9HXUwJmfQtCYRXt4PAFkld+SP7G1qq6S7LvjKYXaM/DGaDw3w1Rz7ag1tN+orkuHU+KEtZ41x7X7oQnfV/sMh08jrZJsc/YGIMQZ3SdSkMNM7CwcyeJQ==
+
+Block height: 128
+Parent hash: bYLv2ZvTamEpyGi4d5tAGtrOzMINynoBW4nBCxwtgGA=
+Block hash: 3tcaS3xjlfOj+EPlTDUPtsGymrVvx+e65ZNoz+OkpUk=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 19:19:50
+Contract class: contract.Contracts.User_Contract
+Contract method: getUsereds
+Contract parameters: 
+Contract result: typeone;14;1;0;123;
+Contract signature: BLl0X0KXJw0gM6lP7u2wSA0OXPtBOT7OaTNvhzVC4vhlZNQwlLFqazPm6QR7GUC1HDzy81Q17oBSjkh2w0KZOIBiMXb4/oPSzEhnJEFpcT0FUjDRs2wraWkhhy9n7L8jvITGdfOSFWWDAMJ8V5QR3LDQZ4NbCaiB2tjZm0TYkcpbcPmM0/kkbpmNoR2aFHkwL5sxbFI3m21CJmuBw2luaCwklrZlqcjEBkV0lDJf8Wsf4IYtmSlFVcN8KDnHZMA+iLmXdi4pwlXAT3/9kzC7GdcrxUfmSA/D5cOKxKuuupC62HI1NJ44P0kqYZjiaWnb/pZ7N1LwP68cADGIZ4klLQ==
+
+Block height: 129
+Parent hash: 3tcaS3xjlfOj+EPlTDUPtsGymrVvx+e65ZNoz+OkpUk=
+Block hash: lZESoHsK2SSs48uyDd/UqKOvmn+I6bDMsVBIOGPhL3c=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 19:20:00
+Contract class: contract.Contracts.User_Contract
+Contract method: getResource
+Contract parameters: 
+Contract result: 测试流程2;0;0.1;测试流程9;0;1.4;测试流程3;0;1.0.3;测试数据;1;1.0;测试数据;1;2.0;测试数据;1;3.0;测试数据;1;4.0;
+Contract signature: mutVX6E0422M2p51dSGR7h2K8KRGRGEmUZ4rJdNZGmMIxdIqb6ZFuQi8TKLKNWmG2kmGPWQxEOQoSDlKe3oPDBwnN9Lz/8Ayp3rVILExFlBZ33lV28/1nk9ee6fSISisZOHLrh+QweaFBES/WlD5zjcEsJNfPIP7rtDDxToaIJafZaIX/TU2r9EHO0tmwdJeBQ1XBLfJadA1bBiV8hTz0TnhWyWxZ63UmXdD3LovABAQdJWpugt4CnN0VBjQhg/+iH3WyT7Tvpy3s1/AiQkf4+CS8axdnmGbcRQrXvHbnWm+VPg1U2vUCN9QVFlDtfhAUyZ2rvivTazNirmpV7FCWQ==
+
+Block height: 130
+Parent hash: lZESoHsK2SSs48uyDd/UqKOvmn+I6bDMsVBIOGPhL3c=
+Block hash: Sc+CGqSRp3IN1+YJcR+RvoBDRRRyZx/SL2WUpCIL/d8=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 19:20:23
+Contract class: contract.Contracts.User_Contract
+Contract method: getResource
+Contract parameters: 
+Contract result: 测试流程2;0;0.1;测试流程9;0;1.4;测试流程3;0;1.0.3;测试数据;1;1.0;测试数据;1;2.0;测试数据;1;3.0;测试数据;1;4.0;
+Contract signature: s1Pa7jcfiRDBDijazAB+Ht5HCMOw0NzxkSC5Fr/xXrZbT1MD2rT3aHPRhkveYilt88Q0jG51/1OM/1a48BAtxHeTJu2simgZ7iWIgSN4Z9Y9yXqeYjXu1DO2aAatg74lPBqPp/9VhFv9+tIKrVQ6PnGThkUfaxAiGv6fvAyCbBWAvkhxnrmJvAZ12m08/WhX2xatJLJU3LP6bOzfqMr00yNG7fBuFCkw/z1TaM97bue5b9Blq4hUD6mWcPbgF1h/lkshx94ieDWItKvdwmMGkuXga9fZqH2OByfgvSi2OfhUFbNR/sIsx94h8b8QPGBbebwS4rhXforC6WRWd1FvTQ==
+
+Block height: 131
+Parent hash: Sc+CGqSRp3IN1+YJcR+RvoBDRRRyZx/SL2WUpCIL/d8=
+Block hash: TGTtUnhkO+dyH1pk6K4e9RnFzO2NXB51eW/tVBF81Oo=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 19:20:52
+Contract class: contract.Contracts.User_Contract
+Contract method: getResource
+Contract parameters: 
+Contract result: 测试流程2;0;0.1;测试流程9;0;1.4;测试流程3;0;1.0.3;测试数据;1;1.0;测试数据;1;2.0;测试数据;1;3.0;测试数据;1;4.0;
+Contract signature: KumvF1gGe4WYg5yqRac8osxEytuUxeEgGVR26MxZhlDAo9xSl03u8hW3TGRx67rW2aypeb5qfWBbxFAQTyG3+3to16Nn+PbhFay/gLgC0oOsQ/4JYcqk7uOyjph0FeiLhhiMxuWOK3KNtvTbDo6WTRk1CnYuKgPMSZwLGbA/qzMvZVHu5y5jNSL/7oVeZs5TGqua6Ape6NLpRRlpoJzZvVxb0/K2F0jUH92w+ZFgTvAoPlPE2vt0d5c6JliWq17n0DoEbyRkZfuFcAnHnT0BM0qNB+3aQz5B0K/KJSGpwz36AZkM393W6VUhMge6eGihtKlDx4colB2AwJkWV0AMXQ==
+
+Block height: 132
+Parent hash: TGTtUnhkO+dyH1pk6K4e9RnFzO2NXB51eW/tVBF81Oo=
+Block hash: IkJL/YdsTxrYqK9bAKxy25X43eKcLkzpRstA+mKZY7s=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 19:21:13
+Contract class: contract.Contracts.User_Contract
+Contract method: getResource
+Contract parameters: 
+Contract result: 测试流程2;0;0.1;测试流程9;0;1.4;测试流程3;0;1.0.3;测试数据;1;1.0;测试数据;1;2.0;测试数据;1;3.0;测试数据;1;4.0;
+Contract signature: I/nvWs3Xf8qa1MPk92zrK247q07eRF/KDAicpvlmAfjEWS15F92jyBjRxKJsZ7/+9VS9qkWg2f6zhEsoJIsHadIIEri7M/Q5hMz50MFKx/8SY/nT3f2C+m4qIaYRKy4z7kkI55t5TFgwy33h5S3vDoSz5T2J5fvhPNnahUXp1B8MbyXgdyRXl18kEtvI90/SV6/Sn9dYR5vzTyrzUiCUWjIqgj1D0oEo4k041S09fx5on850iYHwE2neWV4eFdnwWyi3D7rDwlNuCwA1UDj9HUWXFoWT6NvgGSvmD44y5l1uHbriuXCQBulsUQuXYU50x952BQUpfFFgudmbPfnh9g==
+
+Block height: 133
+Parent hash: IkJL/YdsTxrYqK9bAKxy25X43eKcLkzpRstA+mKZY7s=
+Block hash: qYr/LjVq7QimCauWSnEsdaxEgziv58GK7BxFoCqL6ls=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: typeone
+Timestamp: 2021-10-18 19:21:56
+Contract class: contract.Contracts.User_Contract
+Contract method: getResource
+Contract parameters: 
+Contract result: 测试流程2;0;0.1;测试流程9;0;1.4;测试流程3;0;1.0.3;测试数据;1;1.0;测试数据;1;2.0;测试数据;1;3.0;测试数据;1;4.0;
+Contract signature: rw0CH9V17RBeHneD8XqL+hHa5uqjcydSvnO6G2F9MUKex/nWveJxiLlbXrM0SiGFyE7OBYienq+x4F3NN7cpPgdYV8kOBGasgqloxwkHxbaW5w8O6+CSBuk8N9BB239ZuIeQT9+OqEGz6igX9OJJN97QPZzJzQvqUfzztggo3+TaeaMwm82wvLtkm2XNo/PNgUr0vFYoX17kZaHd9a4TJn8ci2ndTQkQFbYHR9mAjwhh2Mnain/XVFzqj1wRKPwlXVuu4MznE2lkXBfSFeETMA4jvT+wYdn9RXIjJyA8IETVodg5B3PL+Qea6XfrR3Cbfz5Jre1LyJrlo/Ld8YRlwQ==
+
+Block height: 134
+Parent hash: qYr/LjVq7QimCauWSnEsdaxEgziv58GK7BxFoCqL6ls=
+Block hash: oZerYUid7Nd/gyEUd6HL1fBeZtzRa2RzhjS942q/Was=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: null
+Timestamp: 2021-10-18 19:37:48
+Contract class: contract.Contracts.Initialization_Contract
+Contract method: InitialzationUser
+Contract parameters: 
+Contract result: null
+Contract signature: DAewSPO2q4rObm3ofp/rHj/Cx1/PmB4h8QwS2Upvh+I4hNo7WMByzew/eGH/HFhA3ykTRhWWhwsg9xM+q0AAEXLoPEh9W4eeXNqNJZincd/rmZkig5ht4atiJyikRi8uUBDpi5nX27OPg8w4ZTXvMWiBHG0nn9A5ubiDSJ+0teridqCnydAxl0LDQ18YakXv6KlmEOj54Mav3PyjcHryrhED8OI3nnb4blTm4o3rKJlrfpDElszQQHObhTRWkdhcttBPZE4bjiCWNaP2XDXo2bzy0pVPcrjhrf1Rko0mCNz2gQJ8QU41U2r1CqUlxSCD6wkNjQTH5xEDG8KB4OeVIg==
+
+Block height: 135
+Parent hash: oZerYUid7Nd/gyEUd6HL1fBeZtzRa2RzhjS942q/Was=
+Block hash: qcg6BtVxvP0DGjBh/+FhSFMmtXdm58Lp8DVEYMLxxHU=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: null
+Timestamp: 2021-10-18 19:38:28
+Contract class: contract.Contracts.Initialization_Contract
+Contract method: InitialzationRes
+Contract parameters: 
+Contract result: null
+Contract signature: oiNhY198v/lhXLaSBqhtw66vSQJ2qE0enqAqckb2HjeiJoGtXQjPCAKRz7JuBAnTer9RmMrYTP4ARqlqz2e9h2bDuRlW2itQ6yOazjfOH15Pyt/a30IEjB8otcd8XWLoIi3SyJ17YZdz+E57PdaLaGIGjhrTp3wAyhE0Phm1gTDsZq8NFz0+6e85+lBZKRtAZ+7KUveJDksn86c+L00w89ooADMlN+QsNNxWnJxQm7VWZn/A1BMu6SYtDjS+yby1h3WByRorHnKknCQFYSVn+E+A9kANC7oQy12St8CFhSjD901fifLmTrBZQqk9U6tZt8Sp+wn/e2TFewv6GiDuvQ==
+
+Block height: 136
+Parent hash: qcg6BtVxvP0DGjBh/+FhSFMmtXdm58Lp8DVEYMLxxHU=
+Block hash: zddmdUZrLibfFbvWd5mQ+ndVR7HVXFOKMcVYgPg75eg=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: null
+Timestamp: 2021-10-18 19:39:21
+Contract class: contract.Contracts.Initialization_Contract
+Contract method: InitialzationUser
+Contract parameters: 
+Contract result: null
+Contract signature: aJuppc3YRHBLDXIuXIzqV45XXZjX/oiS7tEl7MUQWSbLDOs20uv1HLGLHwSq0/1rMJt5yKK0qPyCytQKpsViZ2f9UiNwRQnJ5ZCUKqvZxl9hL3B1obZYVxi7trI6AoB+fWpmgzwucPtk5pIqyRxJM0gaZG3tN3qmsXlqxbM3uiihdy9z7rsl5V7bhRJj+Puq5Zy//UoewfbLE4hQk1xbmxoXXMxdrCL0IplCuPFdzZ303sljoOc9BDGAlxCHl5GnBdWsW6KKW7BFAxs9X10h1dygvrSRIhNxEucC7ctrQQBAPlsay9aq28VwYhmtIBHej7PsU9cXbT/OCCXpTX1XhQ==
+
+Block height: 137
+Parent hash: zddmdUZrLibfFbvWd5mQ+ndVR7HVXFOKMcVYgPg75eg=
+Block hash: 94NAPfwvkQC+VxdeC4Yvht4eribDV892aSm+j+GUsOA=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: null
+Timestamp: 2021-10-18 19:40:01
+Contract class: contract.Contracts.Initialization_Contract
+Contract method: InitialzationRes
+Contract parameters: 
+Contract result: null
+Contract signature: sgBhaeM0sppJwb7KFnF1XpuPblxgt7zxqrkiR3HQeWjZQzz/A6i8NtWoNrx8gYuDxNUNUcrT+0JUhCd5o6MTHitu4WOLAB/mvCj+9PPxxR723HdY1XzREa8XZmu/7wMWOamvFKfwY+vsrytfHRMFX9/7sb/GQcDY/21DRJSYzx3yO5XhiO30BVY7rdNelLdWPar5n1zaZd8E7BFSs0vEhP3rM1b+9M3CMxK/n4+Xt4PJxFJTvnPKoGOfCSyYiFp+djfflh71WBrgYDJn4/QnMwAeCvD3ShqvrXiayfzEXwyNWbHisR3sxY/rMac7sr7vsESW+K0huuR/sFhN2L9w7w==
+
+Block height: 138
+Parent hash: 94NAPfwvkQC+VxdeC4Yvht4eribDV892aSm+j+GUsOA=
+Block hash: pW7qx47GaVk99XwhEAUl67rSeKaQ85QgUOQ22ZAC0Rc=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: null
+Timestamp: 2021-10-18 19:40:41
+Contract class: contract.Contracts.Initialization_Contract
+Contract method: InitialzationEquip
+Contract parameters: 
+Contract result: null
+Contract signature: LXRpHJAT+S1SO+jlsHtFA5ihSdxkm9VoCPW2JZtNSKgJdlW/njya3c2Pd/GtOk+jdMPXtn7KtgXjCnZHPhEH265G2aVueaEFHp2Fp10FoHT4rlro95e3BgSeTdpbDe2EQCUB0m61lgX0WXIYPoHJog4x3Ootm+7m10EJmamzcLvngk7OQv+G3GwoLa+DYEmfJfnO2RlYvkJfAfE0YS5+aVcga8HxaBzuRioxKbZLp9Ung8PWyzhkwkXa8GIkslmtQFMHWghtCf46dgQg+tP3s1n3mcmnLetlHaKG0d3ernTPX/lbCZqUZkDajbnMFkrTglpJMdym4/Kdq80qDIreUA==
+
+Block height: 139
+Parent hash: pW7qx47GaVk99XwhEAUl67rSeKaQ85QgUOQ22ZAC0Rc=
+Block hash: IUz+eosf/zfVWkQjMrsKA8YtTABJVniVeh09RflQs2k=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: null
+Timestamp: 2021-10-18 19:41:21
+Contract class: contract.Contracts.Initialization_Contract
+Contract method: InitialzationApply
+Contract parameters: 
+Contract result: null
+Contract signature: nYIbZSxl4LkDUIDxGVZTDabTIu8AvDBra9+/Kz0l6CdEYxj7e1/gbUJ8o4AxhBVU1eM2qjrKEkMWXooGrIGqcDETfbn/2JAsJ3nzavht/GvB/M2OFdnoHNN/H3AWnM6EKuTN03m8UDUKmr2AXT00tdWKJ5Nomhgv461ozp7Q26y320IskQmtPpBx5L7uafJIMi3xvkMxWuvok2x/qfauAc70B2jINgx9CStf+BZOvCFiUV8vzUtkI0tmd2CEfoWJ526//SnXGZ4Kabvt/zGZBu0osWbZo0EEiOgejZxiFe5fIC20v97ISVjlIkddxXpwmD9dKm3jyqRPZkbzTXjkWA==
+
+Block height: 140
+Parent hash: IUz+eosf/zfVWkQjMrsKA8YtTABJVniVeh09RflQs2k=
+Block hash: TH70xtQB/BX9wezT1kzfGvsyKUnVNi8Y8l3CYFptvxE=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: null
+Timestamp: 2021-10-18 20:47:23
+Contract class: contract.Contracts.Initialization_Contract
+Contract method: InitialzationUser
+Contract parameters: 
+Contract result: null
+Contract signature: GOBwktkf2GDcxAJqhOKIMiA73Tv37+ib31xwBfJNQRFxNYi+pdHFcs6SvnMGS2nL8i3Zow8VxdxeZ3HxY4Gm9CgFcY3Wl3aRZ7zYQ5MmHbkMKkgttKB+4vga8EglpffsW9Z/O0NRmgQHZ1ghoJfsMG/grKhAFXMZroV7SxphExElflfoXI9EkbFKowqBi38AiuvhQY/tqp68txLgyxYHa0LaJRAH85zzva5MPooz8wfcdt3bY7qCk/DjYdzFttJ4dbhWrEP8ECYWmqV6Xz7v8nlspOt154bOpgj4pxcv4gMwmwciMq/+XjxvCZdy+rLbRgyJ4vw2HoFYX2OUM4c0EQ==
+
+Block height: 141
+Parent hash: TH70xtQB/BX9wezT1kzfGvsyKUnVNi8Y8l3CYFptvxE=
+Block hash: d7yOn6W/G3K/O1sdfFU237rAhsmOnsaIpjh6rZ5wvrc=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: null
+Timestamp: 2021-10-18 20:47:54
+Contract class: contract.Contracts.Initialization_Contract
+Contract method: InitialzationUser
+Contract parameters: 
+Contract result: null
+Contract signature: LKS4SKMfUaRo5KniP8+AJT5soZI7lBwbMwv0ZEdd+I4JiVUZvaYUA7ejhEczrQb9SjPKxwvGGes5Ms3X8y3bcnTgUVoFXuKx+MfFU0ibSONr3z0XgaBlyFktr+Xyo97lVg4e6z3uC+McbFpk8ojGaL8dF8zeNNG6Kqy1vMEkYzOsEpamjsRB0H9HreKKDOAjojfzF3VMDxFJiajJvkeoscPoLWREK0LTmN2OiEX5+FEydz4N2MgvL/AuzuQPC4AVkxGDgPNF6UU5tsGfM5FBwMe/zcCAdvrEckVWW1lBXG/nnTECnrhPpKgQsNElxcG6Lab9FCvhv/qgDd3zV0BPfQ==
+
+Block height: 142
+Parent hash: d7yOn6W/G3K/O1sdfFU237rAhsmOnsaIpjh6rZ5wvrc=
+Block hash: AO7GpUUDMhKj4VD1H+VQ0Elq9n//JHoHSkaCvc7wD5I=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: null
+Timestamp: 2021-10-18 20:48:34
+Contract class: contract.Contracts.Initialization_Contract
+Contract method: InitialzationRes
+Contract parameters: 
+Contract result: null
+Contract signature: ajURUQqw46XGbtAevy2X7KFMvKD6WVsKcIGL2aC3cKWE2EXLOJq+CqoqyG1WZQ3Isox66bgIrSrp+Yz2YAdy4msK4sJjEDLC4eS7Xra/brb4H2UVY2xI+Ern03OjVa7rMb924bXqE5/izkmhDgUvNZgS/+JzetzG1SXogmiK4yawCJs1HcbNbZKQJVlrdH2dmC0wQfPApJa3qKDvpSjnUgC7hZfKTiQVgjlWs+0PtuBMYmKmEIgnGtlc7l4uoKzo8xp/CTKNFHtLGvfxF8Vf+botzkpRNuKwSLXrnMxWTLDrJN88w4l8ZYKbX1KasIVUSZb8QB9euKdtCCnsNHUbUQ==
+
+Block height: 143
+Parent hash: AO7GpUUDMhKj4VD1H+VQ0Elq9n//JHoHSkaCvc7wD5I=
+Block hash: wJGkOzASINkuXKvYpsXiNicaZYgqmRkZWJCJuYghJN8=
+Root hash: I28QrP4lHIHeoSWt0a4WwkSoXcQfi0T7opvjubLMPhs=
+Device ID: 10.0.0.1
+User name: null
+Timestamp: 2021-10-18 20:48:55
+Contract class: contract.Contracts.Initialization_Contract
+Contract method: InitialzationUser
+Contract parameters: 
+Contract result: null
+Contract signature: Q6FMaE7AUKTVJsS2hekDSUOqq7ntTCCR14L/mc2pxBwYHFfsQrz8ntoq5GENfMWdqDAcLgqeQcWUeXtPRC0gVA4toxmP4BPXazyDD5zvj3ymB5Klj3Sa9flTuFZdRs2OcYNySUtq4MWCnCfv3nqph11KA5IerxKksDl/D+taiI/chc+GtqVZaq23qiZtRZxUvrLxwkDIfmLqZt7lca8JmbXZsnczSET2Fb4t5NfGKp3+VMsp6nKYauH8KGf8+Qnw0W1PsmNy5Y59Kem98qOL4QOQdd1h3CdZGIeZyLm9f9SGglYsO9pPAv54wnuaJZ9Hb027dsieNniRrgoRm6tCzQ==
+

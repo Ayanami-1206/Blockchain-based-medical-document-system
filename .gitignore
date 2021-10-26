@@ -49,3 +49,7 @@ env/*/config/system.config
 event.txt
 
 rungui
+
+docfiles/
+
+times*

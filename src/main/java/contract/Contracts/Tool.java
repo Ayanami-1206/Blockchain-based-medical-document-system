@@ -175,7 +175,11 @@ public class Tool {
             t1=System.nanoTime();
             byte[] reply = serviceProxy.invokeOrdered(byteOut.toByteArray());
             t2=System.nanoTime();
-            logTime(t2-t1);
+            long method_type=2;
+            if(methodName.equals("userRegister")||methodName.equals("userLogin")||methodName.equals("userout")){
+                method_type=1;
+            }
+            logTime(t2-t1,method_type);
             if (reply.length == 0)
                 return null;
             try (ByteArrayInputStream byteIn = new ByteArrayInputStream(reply);
@@ -189,8 +193,17 @@ public class Tool {
     }
     
     //x: nanoseconds
-    static public void logTime(long x){
-        try(PrintStream ps = new PrintStream(new FileOutputStream("../../times", true))){
+    static public void logTime(long x,long type){
+        //type=1 认证
+        //type=2 授权
+        String filename="";
+        if(type==1){
+            filename="../../times_renzheng";
+        }
+        else{
+            filename="../../times_shouquan";
+        }
+        try(PrintStream ps = new PrintStream(new FileOutputStream(filename, true))){
             ps.printf("%d\n",x); // %d works for all integer types, including int/long
         }
         catch(Exception e){
