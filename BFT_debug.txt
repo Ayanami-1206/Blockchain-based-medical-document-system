@@ -1,0 +1,1400 @@
+2021-10-26 16:55:21.675 [main] INFO  b.r.ServerViewController - Creating current view from configuration file
+2021-10-26 16:55:23.271 [Thread-1] DEBUG b.c.server.ServersCommunicationLayer - Trying establish connection with Replica: 1
+2021-10-26 16:55:23.273 [main] INFO  b.c.c.n.NettyClientServerCommunicationSystemServerSide - ID = 0
+2021-10-26 16:55:23.274 [Thread-1] DEBUG b.c.server.ServersCommunicationLayer - ReConnecting with replica: 1
+2021-10-26 16:55:23.274 [main] INFO  b.c.c.n.NettyClientServerCommunicationSystemServerSide - N = 7
+2021-10-26 16:55:23.275 [main] INFO  b.c.c.n.NettyClientServerCommunicationSystemServerSide - F = 2
+2021-10-26 16:55:23.275 [main] INFO  b.c.c.n.NettyClientServerCommunicationSystemServerSide - Port (client <-> server) = 11000
+2021-10-26 16:55:23.275 [main] INFO  b.c.c.n.NettyClientServerCommunicationSystemServerSide - Port (server <-> server) = 11001
+2021-10-26 16:55:23.275 [main] INFO  b.c.c.n.NettyClientServerCommunicationSystemServerSide - requestTimeout = 2000
+2021-10-26 16:55:23.275 [main] INFO  b.c.c.n.NettyClientServerCommunicationSystemServerSide - maxBatch = 1024
+2021-10-26 16:55:23.275 [main] INFO  b.c.c.n.NettyClientServerCommunicationSystemServerSide - Binded replica to IP address 0.0.0.0
+2021-10-26 16:55:23.275 [main] INFO  b.c.c.n.NettyClientServerCommunicationSystemServerSide - SSL/TLS enabled, protocol version: TLSv1.2
+2021-10-26 16:55:23.275 [main] INFO  bftsmart.tom.ServiceReplica - In current view: ID:0; F:2; Processes:0(/10.0.0.1:11000),1(/10.0.0.3:11000),2(/10.0.0.60:11000),3(/10.0.0.107:11000),4(/10.0.0.109:11000),5(/10.0.0.127:11000),6(/10.0.0.195:11000),
+2021-10-26 16:55:23.331 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - Running.
+2021-10-26 16:55:23.331 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - Next leader for CID=0: 0
+2021-10-26 16:55:23.331 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - I'm the leader.
+2021-10-26 16:55:23.331 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - Waiting for enough requests
+2021-10-26 16:55:23.369 [main] DEBUG b.s.standard.StandardStateManager - Sending CID query with ID -1 to replicas [1, 2, 3, 4, 5, 6]
+2021-10-26 16:55:23.370 [main] DEBUG b.c.ServerCommunicationSystem - --> sending message from: [1, 2, 3, 4, 5, 6] -> {}0
+2021-10-26 16:55:23.381 [main] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:4.
+2021-10-26 16:55:23.381 [main] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:2.
+2021-10-26 16:55:23.381 [main] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:5.
+2021-10-26 16:55:23.381 [main] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:3.
+2021-10-26 16:55:23.382 [main] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:1.
+2021-10-26 16:55:23.382 [main] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:6.
+2021-10-26 16:55:23.413 [Thread-1] DEBUG b.c.server.ServersCommunicationLayer - Trying establish connection with Replica: 2
+2021-10-26 16:55:23.414 [Thread-1] DEBUG b.c.server.ServersCommunicationLayer - ReConnecting with replica: 2
+2021-10-26 16:55:23.536 [Thread-1] DEBUG b.c.server.ServersCommunicationLayer - Trying establish connection with Replica: 5
+2021-10-26 16:55:23.536 [Thread-1] DEBUG b.c.server.ServersCommunicationLayer - ReConnecting with replica: 5
+2021-10-26 16:55:23.652 [Thread-1] DEBUG b.c.server.ServersCommunicationLayer - Trying establish connection with Replica: 3
+2021-10-26 16:55:23.652 [Thread-1] DEBUG b.c.server.ServersCommunicationLayer - ReConnecting with replica: 3
+2021-10-26 16:55:23.755 [Thread-1] DEBUG b.c.server.ServersCommunicationLayer - Trying establish connection with Replica: 4
+2021-10-26 16:55:23.756 [Thread-1] DEBUG b.c.server.ServersCommunicationLayer - ReConnecting with replica: 4
+2021-10-26 16:55:23.843 [Thread-1] DEBUG b.c.server.ServersCommunicationLayer - Trying establish connection with Replica: 6
+2021-10-26 16:55:23.843 [Thread-1] DEBUG b.c.server.ServersCommunicationLayer - ReConnecting with replica: 6
+2021-10-26 16:55:24.382 [main] DEBUG b.s.standard.StandardStateManager - Sending CID query with ID 0 to replicas [1, 2, 3, 4, 5, 6]
+2021-10-26 16:55:24.382 [main] DEBUG b.c.ServerCommunicationSystem - --> sending message from: [1, 2, 3, 4, 5, 6] -> {}0
+2021-10-26 16:55:24.383 [main] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:5.
+2021-10-26 16:55:24.383 [main] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:1.
+2021-10-26 16:55:24.383 [main] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:6.
+2021-10-26 16:55:24.383 [main] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:3.
+2021-10-26 16:55:24.383 [main] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:4.
+2021-10-26 16:55:24.383 [main] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:2.
+2021-10-26 16:55:25.384 [main] DEBUG b.s.standard.StandardStateManager - Sending CID query with ID 1 to replicas [1, 2, 3, 4, 5, 6]
+2021-10-26 16:55:25.384 [main] DEBUG b.c.ServerCommunicationSystem - --> sending message from: [1, 2, 3, 4, 5, 6] -> {}0
+2021-10-26 16:55:25.385 [main] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:5.
+2021-10-26 16:55:25.385 [main] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:4.
+2021-10-26 16:55:25.385 [main] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:3.
+2021-10-26 16:55:25.385 [main] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:2.
+2021-10-26 16:55:25.385 [main] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:1.
+2021-10-26 16:55:25.385 [main] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:6.
+2021-10-26 16:55:26.385 [main] DEBUG b.s.standard.StandardStateManager - Sending CID query with ID 2 to replicas [1, 2, 3, 4, 5, 6]
+2021-10-26 16:55:26.386 [main] DEBUG b.c.ServerCommunicationSystem - --> sending message from: [1, 2, 3, 4, 5, 6] -> {}0
+2021-10-26 16:55:26.386 [main] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:1.
+2021-10-26 16:55:26.386 [main] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:4.
+2021-10-26 16:55:26.386 [main] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:5.
+2021-10-26 16:55:26.387 [main] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:6.
+2021-10-26 16:55:26.387 [main] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:3.
+2021-10-26 16:55:26.387 [main] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:2.
+2021-10-26 16:55:27.054 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:bftsmart.statemanagement.standard.StandardSMMessage@1cc0b3ca
+2021-10-26 16:55:27.056 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received CID query from 2 with ID 0
+2021-10-26 16:55:27.057 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - --> sending message from: [2] -> {}0
+2021-10-26 16:55:27.060 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:2.
+2021-10-26 16:55:27.060 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Sent CID reply to replica 2 with ID 0
+2021-10-26 16:55:27.063 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:bftsmart.statemanagement.standard.StandardSMMessage@3315ab56
+2021-10-26 16:55:27.063 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received CID query from 3 with ID 0
+2021-10-26 16:55:27.064 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - --> sending message from: [3] -> {}0
+2021-10-26 16:55:27.064 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:3.
+2021-10-26 16:55:27.064 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Sent CID reply to replica 3 with ID 0
+2021-10-26 16:55:27.064 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:bftsmart.statemanagement.standard.StandardSMMessage@290a258e
+2021-10-26 16:55:27.065 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received CID query from 6 with ID 0
+2021-10-26 16:55:27.065 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - --> sending message from: [6] -> {}0
+2021-10-26 16:55:27.065 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:6.
+2021-10-26 16:55:27.065 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Sent CID reply to replica 6 with ID 0
+2021-10-26 16:55:27.065 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:bftsmart.statemanagement.standard.StandardSMMessage@d2f1f40
+2021-10-26 16:55:27.065 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received CID query from 4 with ID 0
+2021-10-26 16:55:27.066 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - --> sending message from: [4] -> {}0
+2021-10-26 16:55:27.066 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:4.
+2021-10-26 16:55:27.066 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Sent CID reply to replica 4 with ID 0
+2021-10-26 16:55:27.066 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:bftsmart.statemanagement.standard.StandardSMMessage@5be7d127
+2021-10-26 16:55:27.066 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received CID query from 5 with ID 0
+2021-10-26 16:55:27.066 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - --> sending message from: [5] -> {}0
+2021-10-26 16:55:27.067 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:5.
+2021-10-26 16:55:27.067 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Sent CID reply to replica 5 with ID 0
+2021-10-26 16:55:27.067 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:bftsmart.statemanagement.standard.StandardSMMessage@468ef836
+2021-10-26 16:55:27.067 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received CID query from 2 with ID 1
+2021-10-26 16:55:27.067 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - --> sending message from: [2] -> {}0
+2021-10-26 16:55:27.068 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:2.
+2021-10-26 16:55:27.068 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Sent CID reply to replica 2 with ID 1
+2021-10-26 16:55:27.068 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:bftsmart.statemanagement.standard.StandardSMMessage@6d2ec8c0
+2021-10-26 16:55:27.068 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received CID query from 6 with ID 1
+2021-10-26 16:55:27.068 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - --> sending message from: [6] -> {}0
+2021-10-26 16:55:27.068 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:6.
+2021-10-26 16:55:27.069 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Sent CID reply to replica 6 with ID 1
+2021-10-26 16:55:27.069 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:bftsmart.statemanagement.standard.StandardSMMessage@41064b1a
+2021-10-26 16:55:27.069 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received CID query from 3 with ID 1
+2021-10-26 16:55:27.069 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - --> sending message from: [3] -> {}0
+2021-10-26 16:55:27.069 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:3.
+2021-10-26 16:55:27.069 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Sent CID reply to replica 3 with ID 1
+2021-10-26 16:55:27.069 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:bftsmart.statemanagement.standard.StandardSMMessage@76297085
+2021-10-26 16:55:27.070 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received CID query from 5 with ID 1
+2021-10-26 16:55:27.070 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - --> sending message from: [5] -> {}0
+2021-10-26 16:55:27.070 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:5.
+2021-10-26 16:55:27.070 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Sent CID reply to replica 5 with ID 1
+2021-10-26 16:55:27.070 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:bftsmart.statemanagement.standard.StandardSMMessage@d1c9c14
+2021-10-26 16:55:27.070 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received CID query from 4 with ID 1
+2021-10-26 16:55:27.071 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - --> sending message from: [4] -> {}0
+2021-10-26 16:55:27.071 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:4.
+2021-10-26 16:55:27.071 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Sent CID reply to replica 4 with ID 1
+2021-10-26 16:55:27.071 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:bftsmart.statemanagement.standard.StandardSMMessage@9530d13
+2021-10-26 16:55:27.071 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received CID query from 2 with ID 2
+2021-10-26 16:55:27.071 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - --> sending message from: [2] -> {}0
+2021-10-26 16:55:27.072 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:2.
+2021-10-26 16:55:27.072 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Sent CID reply to replica 2 with ID 2
+2021-10-26 16:55:27.072 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:bftsmart.statemanagement.standard.StandardSMMessage@17b030e6
+2021-10-26 16:55:27.072 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received CID query from 3 with ID 2
+2021-10-26 16:55:27.072 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - --> sending message from: [3] -> {}0
+2021-10-26 16:55:27.072 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:3.
+2021-10-26 16:55:27.072 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Sent CID reply to replica 3 with ID 2
+2021-10-26 16:55:27.072 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:bftsmart.statemanagement.standard.StandardSMMessage@3268fb39
+2021-10-26 16:55:27.072 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received CID query from 4 with ID 2
+2021-10-26 16:55:27.073 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - --> sending message from: [4] -> {}0
+2021-10-26 16:55:27.073 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:4.
+2021-10-26 16:55:27.073 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Sent CID reply to replica 4 with ID 2
+2021-10-26 16:55:27.073 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:bftsmart.statemanagement.standard.StandardSMMessage@71f8f683
+2021-10-26 16:55:27.073 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received CID query from 5 with ID 2
+2021-10-26 16:55:27.073 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - --> sending message from: [5] -> {}0
+2021-10-26 16:55:27.073 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:5.
+2021-10-26 16:55:27.074 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Sent CID reply to replica 5 with ID 2
+2021-10-26 16:55:27.074 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:bftsmart.statemanagement.standard.StandardSMMessage@30953405
+2021-10-26 16:55:27.074 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received  CID reply from replica 1 with ID 0 (expecting ID 3)
+2021-10-26 16:55:27.074 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Ignoring CID query from 1 with ID 0
+2021-10-26 16:55:27.074 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:bftsmart.statemanagement.standard.StandardSMMessage@66f907a
+2021-10-26 16:55:27.074 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received CID query from 1 with ID 0
+2021-10-26 16:55:27.074 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - --> sending message from: [1] -> {}0
+2021-10-26 16:55:27.077 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:1.
+2021-10-26 16:55:27.077 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Sent CID reply to replica 1 with ID 0
+2021-10-26 16:55:27.077 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:bftsmart.statemanagement.standard.StandardSMMessage@4f5edd2c
+2021-10-26 16:55:27.077 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received  CID reply from replica 1 with ID 1 (expecting ID 3)
+2021-10-26 16:55:27.077 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Ignoring CID query from 1 with ID 1
+2021-10-26 16:55:27.077 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:bftsmart.statemanagement.standard.StandardSMMessage@354868fd
+2021-10-26 16:55:27.077 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received CID query from 1 with ID 1
+2021-10-26 16:55:27.077 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - --> sending message from: [1] -> {}0
+2021-10-26 16:55:27.078 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:1.
+2021-10-26 16:55:27.079 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Sent CID reply to replica 1 with ID 1
+2021-10-26 16:55:27.079 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:bftsmart.statemanagement.standard.StandardSMMessage@21115b80
+2021-10-26 16:55:27.079 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received  CID reply from replica 1 with ID 2 (expecting ID 3)
+2021-10-26 16:55:27.079 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Ignoring CID query from 1 with ID 2
+2021-10-26 16:55:27.079 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:bftsmart.statemanagement.standard.StandardSMMessage@5768c0df
+2021-10-26 16:55:27.079 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received CID query from 1 with ID 2
+2021-10-26 16:55:27.079 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - --> sending message from: [1] -> {}0
+2021-10-26 16:55:27.080 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:1.
+2021-10-26 16:55:27.080 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Sent CID reply to replica 1 with ID 2
+2021-10-26 16:55:27.080 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:bftsmart.statemanagement.standard.StandardSMMessage@18ed5f4a
+2021-10-26 16:55:27.080 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received  CID reply from replica 1 with ID 3 (expecting ID 3)
+2021-10-26 16:55:27.080 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received 1 replies for query ID 3
+2021-10-26 16:55:27.081 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:bftsmart.statemanagement.standard.StandardSMMessage@9120ab0
+2021-10-26 16:55:27.081 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received CID query from 1 with ID 3
+2021-10-26 16:55:27.081 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - --> sending message from: [1] -> {}0
+2021-10-26 16:55:27.081 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:1.
+2021-10-26 16:55:27.081 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Sent CID reply to replica 1 with ID 3
+2021-10-26 16:55:27.231 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:bftsmart.statemanagement.standard.StandardSMMessage@772defaf
+2021-10-26 16:55:27.231 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received CID query from 2 with ID 3
+2021-10-26 16:55:27.231 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - --> sending message from: [2] -> {}0
+2021-10-26 16:55:27.232 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:2.
+2021-10-26 16:55:27.232 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Sent CID reply to replica 2 with ID 3
+2021-10-26 16:55:27.353 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:bftsmart.statemanagement.standard.StandardSMMessage@4afb928c
+2021-10-26 16:55:27.353 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received CID query from 6 with ID 2
+2021-10-26 16:55:27.353 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - --> sending message from: [6] -> {}0
+2021-10-26 16:55:27.353 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:6.
+2021-10-26 16:55:27.353 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Sent CID reply to replica 6 with ID 2
+2021-10-26 16:55:27.387 [main] DEBUG b.s.standard.StandardStateManager - Sending CID query with ID 3 to replicas [1, 2, 3, 4, 5, 6]
+2021-10-26 16:55:27.387 [main] DEBUG b.c.ServerCommunicationSystem - --> sending message from: [1, 2, 3, 4, 5, 6] -> {}0
+2021-10-26 16:55:27.388 [main] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:4.
+2021-10-26 16:55:27.388 [main] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:2.
+2021-10-26 16:55:27.388 [main] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:5.
+2021-10-26 16:55:27.388 [main] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:1.
+2021-10-26 16:55:27.388 [main] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:3.
+2021-10-26 16:55:27.388 [main] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:6.
+2021-10-26 16:55:27.392 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:bftsmart.statemanagement.standard.StandardSMMessage@753e8224
+2021-10-26 16:55:27.393 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received  CID reply from replica 1 with ID 4 (expecting ID 4)
+2021-10-26 16:55:27.393 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received 1 replies for query ID 4
+2021-10-26 16:55:27.587 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:bftsmart.statemanagement.standard.StandardSMMessage@63c711fd
+2021-10-26 16:55:27.587 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received CID query from 3 with ID 3
+2021-10-26 16:55:27.587 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - --> sending message from: [3] -> {}0
+2021-10-26 16:55:27.588 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:3.
+2021-10-26 16:55:27.588 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Sent CID reply to replica 3 with ID 3
+2021-10-26 16:55:27.909 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:bftsmart.statemanagement.standard.StandardSMMessage@2c74b53f
+2021-10-26 16:55:27.909 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received CID query from 4 with ID 3
+2021-10-26 16:55:27.909 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - --> sending message from: [4] -> {}0
+2021-10-26 16:55:27.910 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:4.
+2021-10-26 16:55:27.910 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Sent CID reply to replica 4 with ID 3
+2021-10-26 16:55:27.916 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:bftsmart.statemanagement.standard.StandardSMMessage@7eecbdd5
+2021-10-26 16:55:27.916 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received CID query from 1 with ID 4
+2021-10-26 16:55:27.916 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - --> sending message from: [1] -> {}0
+2021-10-26 16:55:27.917 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:1.
+2021-10-26 16:55:27.917 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Sent CID reply to replica 1 with ID 4
+2021-10-26 16:55:27.988 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:bftsmart.statemanagement.standard.StandardSMMessage@2b390d7e
+2021-10-26 16:55:27.989 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received CID query from 5 with ID 3
+2021-10-26 16:55:27.989 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - --> sending message from: [5] -> {}0
+2021-10-26 16:55:27.989 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:5.
+2021-10-26 16:55:27.989 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Sent CID reply to replica 5 with ID 3
+2021-10-26 16:55:28.232 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:bftsmart.statemanagement.standard.StandardSMMessage@550f56f4
+2021-10-26 16:55:28.232 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received CID query from 2 with ID 4
+2021-10-26 16:55:28.232 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - --> sending message from: [2] -> {}0
+2021-10-26 16:55:28.233 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:2.
+2021-10-26 16:55:28.233 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Sent CID reply to replica 2 with ID 4
+2021-10-26 16:55:28.353 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:bftsmart.statemanagement.standard.StandardSMMessage@6e873bf8
+2021-10-26 16:55:28.353 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received CID query from 6 with ID 3
+2021-10-26 16:55:28.353 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - --> sending message from: [6] -> {}0
+2021-10-26 16:55:28.354 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:6.
+2021-10-26 16:55:28.354 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Sent CID reply to replica 6 with ID 3
+2021-10-26 16:55:28.388 [main] DEBUG b.s.standard.StandardStateManager - Sending CID query with ID 4 to replicas [1, 2, 3, 4, 5, 6]
+2021-10-26 16:55:28.389 [main] DEBUG b.c.ServerCommunicationSystem - --> sending message from: [1, 2, 3, 4, 5, 6] -> {}0
+2021-10-26 16:55:28.389 [main] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:6.
+2021-10-26 16:55:28.389 [main] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:1.
+2021-10-26 16:55:28.390 [main] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:3.
+2021-10-26 16:55:28.390 [main] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:2.
+2021-10-26 16:55:28.390 [main] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:4.
+2021-10-26 16:55:28.390 [main] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:5.
+2021-10-26 16:55:28.393 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:bftsmart.statemanagement.standard.StandardSMMessage@5c42788
+2021-10-26 16:55:28.393 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received  CID reply from replica 6 with ID 5 (expecting ID 5)
+2021-10-26 16:55:28.393 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received 1 replies for query ID 5
+2021-10-26 16:55:28.393 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:bftsmart.statemanagement.standard.StandardSMMessage@524b8433
+2021-10-26 16:55:28.393 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received  CID reply from replica 1 with ID 5 (expecting ID 5)
+2021-10-26 16:55:28.393 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received 2 replies for query ID 5
+2021-10-26 16:55:28.394 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:bftsmart.statemanagement.standard.StandardSMMessage@1058f768
+2021-10-26 16:55:28.395 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received  CID reply from replica 5 with ID 5 (expecting ID 5)
+2021-10-26 16:55:28.395 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received 3 replies for query ID 5
+2021-10-26 16:55:28.395 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:bftsmart.statemanagement.standard.StandardSMMessage@18bdf305
+2021-10-26 16:55:28.395 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received  CID reply from replica 2 with ID 5 (expecting ID 5)
+2021-10-26 16:55:28.396 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received 4 replies for query ID 5
+2021-10-26 16:55:28.397 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:bftsmart.statemanagement.standard.StandardSMMessage@3c617ffd
+2021-10-26 16:55:28.397 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received  CID reply from replica 3 with ID 5 (expecting ID 5)
+2021-10-26 16:55:28.397 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received 5 replies for query ID 5
+2021-10-26 16:55:28.397 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received quorum of replies for query ID 5
+2021-10-26 16:55:28.397 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - CID -1 came from 5 replicas
+2021-10-26 16:55:28.397 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - There is a quorum for CID -1
+2021-10-26 16:55:28.398 [Server Comm. System] INFO  b.s.standard.StandardStateManager - Replica state is up to date
+2021-10-26 16:55:28.398 [Delivery Thread] DEBUG bftsmart.tom.core.DeliveryThread - Current size of the decided queue: 0
+2021-10-26 16:55:28.398 [Delivery Thread] INFO  bftsmart.tom.core.DeliveryThread - Retrieving State
+2021-10-26 16:55:28.398 [Server Comm. System] DEBUG bftsmart.tom.core.TOMLayer - Setting last exec to -1
+2021-10-26 16:55:28.399 [Delivery Thread] INFO  bftsmart.tom.core.DeliveryThread - 
+		###################################
+		    Ready to process operations    
+		###################################
+2021-10-26 16:55:28.401 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:bftsmart.statemanagement.standard.StandardSMMessage@32851e5e
+2021-10-26 16:55:28.401 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received  CID reply from replica 4 with ID 5 (expecting ID 5)
+2021-10-26 16:55:28.401 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Ignoring CID query from 4 with ID 5
+2021-10-26 16:55:28.587 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:bftsmart.statemanagement.standard.StandardSMMessage@65314cd1
+2021-10-26 16:55:28.588 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received CID query from 3 with ID 4
+2021-10-26 16:55:28.588 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - --> sending message from: [3] -> {}0
+2021-10-26 16:55:28.589 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:3.
+2021-10-26 16:55:28.589 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Sent CID reply to replica 3 with ID 4
+2021-10-26 16:55:28.910 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:bftsmart.statemanagement.standard.StandardSMMessage@3f273896
+2021-10-26 16:55:28.910 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received CID query from 4 with ID 4
+2021-10-26 16:55:28.910 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - --> sending message from: [4] -> {}0
+2021-10-26 16:55:28.911 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:4.
+2021-10-26 16:55:28.911 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Sent CID reply to replica 4 with ID 4
+2021-10-26 16:55:28.917 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:bftsmart.statemanagement.standard.StandardSMMessage@2f10f689
+2021-10-26 16:55:28.918 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received CID query from 1 with ID 5
+2021-10-26 16:55:28.918 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - --> sending message from: [1] -> {}0
+2021-10-26 16:55:28.918 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:1.
+2021-10-26 16:55:28.918 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Sent CID reply to replica 1 with ID 5
+2021-10-26 16:55:28.989 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:bftsmart.statemanagement.standard.StandardSMMessage@6d7a5c89
+2021-10-26 16:55:28.990 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received CID query from 5 with ID 4
+2021-10-26 16:55:28.990 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - --> sending message from: [5] -> {}0
+2021-10-26 16:55:28.990 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:5.
+2021-10-26 16:55:28.991 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Sent CID reply to replica 5 with ID 4
+2021-10-26 16:55:29.234 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:bftsmart.statemanagement.standard.StandardSMMessage@67ebe1ff
+2021-10-26 16:55:29.234 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received CID query from 2 with ID 5
+2021-10-26 16:55:29.235 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - --> sending message from: [2] -> {}0
+2021-10-26 16:55:29.235 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:2.
+2021-10-26 16:55:29.235 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Sent CID reply to replica 2 with ID 5
+2021-10-26 16:55:29.353 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:bftsmart.statemanagement.standard.StandardSMMessage@4593ebc9
+2021-10-26 16:55:29.353 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Received CID query from 6 with ID 4
+2021-10-26 16:55:29.354 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - --> sending message from: [6] -> {}0
+2021-10-26 16:55:29.354 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:6.
+2021-10-26 16:55:29.354 [Server Comm. System] DEBUG b.s.standard.StandardStateManager - Sent CID reply to replica 6 with ID 4
+2021-10-26 16:55:30.855 [main] DEBUG b.c.c.n.NettyClientServerCommunicationSystemClientSide - ClientID 0, connecting to replica 0, at address: /10.0.0.1:11000
+2021-10-26 16:55:30.860 [nioEventLoopGroup-4-1] DEBUG b.c.c.netty.NettyTOMMessageDecoder - new NettyTOMMessageDecoder!!, isClient=true
+2021-10-26 16:55:30.869 [nioEventLoopGroup-4-1] DEBUG b.c.c.n.NettyClientServerCommunicationSystemClientSide - Channel active
+2021-10-26 16:55:30.876 [nioEventLoopGroup-3-1] DEBUG b.c.c.netty.NettyTOMMessageDecoder - new NettyTOMMessageDecoder!!, isClient=false
+2021-10-26 16:55:30.877 [nioEventLoopGroup-3-1] INFO  b.c.c.n.NettyClientServerCommunicationSystemServerSide - Session Created, active clients=0
+2021-10-26 16:55:30.881 [main] DEBUG b.c.c.n.NettyClientServerCommunicationSystemClientSide - ClientID 0, connecting to replica 1, at address: /10.0.0.3:11000
+2021-10-26 16:55:30.883 [nioEventLoopGroup-4-2] DEBUG b.c.c.netty.NettyTOMMessageDecoder - new NettyTOMMessageDecoder!!, isClient=true
+2021-10-26 16:55:30.884 [nioEventLoopGroup-4-2] DEBUG b.c.c.n.NettyClientServerCommunicationSystemClientSide - Channel active
+2021-10-26 16:55:30.890 [main] DEBUG b.c.c.n.NettyClientServerCommunicationSystemClientSide - ClientID 0, connecting to replica 2, at address: /10.0.0.60:11000
+2021-10-26 16:55:30.891 [nioEventLoopGroup-4-3] DEBUG b.c.c.netty.NettyTOMMessageDecoder - new NettyTOMMessageDecoder!!, isClient=true
+2021-10-26 16:55:30.893 [nioEventLoopGroup-4-3] DEBUG b.c.c.n.NettyClientServerCommunicationSystemClientSide - Channel active
+2021-10-26 16:55:30.899 [main] DEBUG b.c.c.n.NettyClientServerCommunicationSystemClientSide - ClientID 0, connecting to replica 3, at address: /10.0.0.107:11000
+2021-10-26 16:55:30.904 [nioEventLoopGroup-4-4] DEBUG b.c.c.netty.NettyTOMMessageDecoder - new NettyTOMMessageDecoder!!, isClient=true
+2021-10-26 16:55:30.907 [nioEventLoopGroup-4-4] DEBUG b.c.c.n.NettyClientServerCommunicationSystemClientSide - Channel active
+2021-10-26 16:55:30.914 [main] DEBUG b.c.c.n.NettyClientServerCommunicationSystemClientSide - ClientID 0, connecting to replica 4, at address: /10.0.0.109:11000
+2021-10-26 16:55:30.916 [nioEventLoopGroup-4-5] DEBUG b.c.c.netty.NettyTOMMessageDecoder - new NettyTOMMessageDecoder!!, isClient=true
+2021-10-26 16:55:30.917 [nioEventLoopGroup-4-5] DEBUG b.c.c.n.NettyClientServerCommunicationSystemClientSide - Channel active
+2021-10-26 16:55:30.923 [main] DEBUG b.c.c.n.NettyClientServerCommunicationSystemClientSide - ClientID 0, connecting to replica 5, at address: /10.0.0.127:11000
+2021-10-26 16:55:30.924 [nioEventLoopGroup-4-6] DEBUG b.c.c.netty.NettyTOMMessageDecoder - new NettyTOMMessageDecoder!!, isClient=true
+2021-10-26 16:55:30.926 [nioEventLoopGroup-4-6] DEBUG b.c.c.n.NettyClientServerCommunicationSystemClientSide - Channel active
+2021-10-26 16:55:30.931 [main] DEBUG b.c.c.n.NettyClientServerCommunicationSystemClientSide - ClientID 0, connecting to replica 6, at address: /10.0.0.195:11000
+2021-10-26 16:55:30.932 [nioEventLoopGroup-4-7] DEBUG b.c.c.netty.NettyTOMMessageDecoder - new NettyTOMMessageDecoder!!, isClient=true
+2021-10-26 16:55:30.934 [nioEventLoopGroup-4-7] DEBUG b.c.c.n.NettyClientServerCommunicationSystemClientSide - Channel active
+2021-10-26 16:55:31.475 [nioEventLoopGroup-3-2] DEBUG b.c.c.netty.NettyTOMMessageDecoder - new NettyTOMMessageDecoder!!, isClient=false
+2021-10-26 16:55:31.476 [nioEventLoopGroup-3-2] INFO  b.c.c.n.NettyClientServerCommunicationSystemServerSide - Session Created, active clients=0
+2021-10-26 16:55:31.639 [nioEventLoopGroup-3-3] DEBUG b.c.c.netty.NettyTOMMessageDecoder - new NettyTOMMessageDecoder!!, isClient=false
+2021-10-26 16:55:31.640 [nioEventLoopGroup-3-3] INFO  b.c.c.n.NettyClientServerCommunicationSystemServerSide - Session Created, active clients=0
+2021-10-26 16:55:31.649 [nioEventLoopGroup-3-4] DEBUG b.c.c.netty.NettyTOMMessageDecoder - new NettyTOMMessageDecoder!!, isClient=false
+2021-10-26 16:55:31.650 [nioEventLoopGroup-3-4] INFO  b.c.c.n.NettyClientServerCommunicationSystemServerSide - Session Created, active clients=0
+2021-10-26 16:55:31.686 [nioEventLoopGroup-3-5] DEBUG b.c.c.netty.NettyTOMMessageDecoder - new NettyTOMMessageDecoder!!, isClient=false
+2021-10-26 16:55:31.686 [nioEventLoopGroup-3-5] INFO  b.c.c.n.NettyClientServerCommunicationSystemServerSide - Session Created, active clients=0
+2021-10-26 16:55:31.880 [nioEventLoopGroup-3-6] DEBUG b.c.c.netty.NettyTOMMessageDecoder - new NettyTOMMessageDecoder!!, isClient=false
+2021-10-26 16:55:31.881 [nioEventLoopGroup-3-6] INFO  b.c.c.n.NettyClientServerCommunicationSystemServerSide - Session Created, active clients=0
+2021-10-26 16:55:31.900 [nioEventLoopGroup-3-7] DEBUG b.c.c.netty.NettyTOMMessageDecoder - new NettyTOMMessageDecoder!!, isClient=false
+2021-10-26 16:55:31.901 [nioEventLoopGroup-3-7] INFO  b.c.c.n.NettyClientServerCommunicationSystemServerSide - Session Created, active clients=0
+2021-10-26 16:55:40.939 [main] DEBUG b.c.c.n.NettyClientServerCommunicationSystemClientSide - All channel operations completed or timed out
+2021-10-26 16:55:40.939 [main] DEBUG b.c.c.n.NettyClientServerCommunicationSystemClientSide - Sending request from 0 with sequence number 0 to [2, 1, 3, 5, 6, 0, 4]
+2021-10-26 16:55:40.946 [main] DEBUG bftsmart.tom.ServiceProxy - Sending request (ORDERED_REQUEST) with reqId=0
+2021-10-26 16:55:40.946 [main] DEBUG bftsmart.tom.ServiceProxy - Expected number of matching replies: 5
+2021-10-26 16:55:40.965 [nioEventLoopGroup-4-2] DEBUG b.c.c.n.NettyClientServerCommunicationSystemClientSide - 4 channel operations remaining to complete
+2021-10-26 16:55:40.965 [nioEventLoopGroup-4-3] DEBUG b.c.c.n.NettyClientServerCommunicationSystemClientSide - 3 channel operations remaining to complete
+2021-10-26 16:55:40.965 [nioEventLoopGroup-4-5] DEBUG b.c.c.n.NettyClientServerCommunicationSystemClientSide - 2 channel operations remaining to complete
+2021-10-26 16:55:40.965 [nioEventLoopGroup-4-6] DEBUG b.c.c.n.NettyClientServerCommunicationSystemClientSide - 1 channel operations remaining to complete
+2021-10-26 16:55:40.965 [nioEventLoopGroup-4-7] DEBUG b.c.c.n.NettyClientServerCommunicationSystemClientSide - 0 channel operations remaining to complete
+2021-10-26 16:55:40.966 [nioEventLoopGroup-4-4] DEBUG b.c.c.n.NettyClientServerCommunicationSystemClientSide - -1 channel operations remaining to complete
+2021-10-26 16:55:40.966 [nioEventLoopGroup-4-1] DEBUG b.c.c.n.NettyClientServerCommunicationSystemClientSide - -2 channel operations remaining to complete
+2021-10-26 16:55:40.969 [nioEventLoopGroup-3-1] DEBUG b.c.c.netty.NettyTOMMessageDecoder - Active clients: 1
+2021-10-26 16:55:40.969 [nioEventLoopGroup-3-1] DEBUG b.c.c.netty.NettyTOMMessageDecoder - Decoded reply from 0 with sequence number 0
+2021-10-26 16:55:40.970 [nioEventLoopGroup-3-1] DEBUG bftsmart.tom.core.TOMLayer - Received TOMMessage from client 0 with sequence number 0 for session -2037747149
+2021-10-26 16:55:40.970 [nioEventLoopGroup-3-1] DEBUG b.clientsmanagement.ClientsManager - Creating new client data, client id=0
+2021-10-26 16:55:41.016 [nioEventLoopGroup-3-1] DEBUG b.clientsmanagement.ClientsManager - Message from client 0 is valid
+2021-10-26 16:55:41.023 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - Got enough requests
+2021-10-26 16:55:41.023 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - There are requests to be ordered. I will propose.
+2021-10-26 16:55:41.023 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - Modifying inExec from -1 to 0
+2021-10-26 16:55:41.025 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of active clients: 1
+2021-10-26 16:55:41.025 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Fetching requests with internal index 0
+2021-10-26 16:55:41.025 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of pending requests for client 0: 1.
+2021-10-26 16:55:41.025 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Selected request with sequence number 0 from client 0
+2021-10-26 16:55:41.025 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Fetching requests with internal index 1
+2021-10-26 16:55:41.025 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of pending requests for client 0: 1.
+2021-10-26 16:55:41.025 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - Number of pending requets to propose in consensus 0: 1
+2021-10-26 16:55:41.025 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - Creating a PROPOSE with 1 msgs
+2021-10-26 16:55:41.025 [TOM Layer] DEBUG bftsmart.tom.util.BatchBuilder - Adding request from client 0 with sequence number 0 for session -2037747149 to PROPOSE
+2021-10-26 16:55:41.026 [TOM Layer] DEBUG b.c.ServerCommunicationSystem - --> sending message from: [0, 1, 2, 3, 4, 5, 6] -> {}0
+2021-10-26 16:55:41.027 [TOM Layer] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:1.
+2021-10-26 16:55:41.027 [TOM Layer] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:2.
+2021-10-26 16:55:41.027 [TOM Layer] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:6.
+2021-10-26 16:55:41.027 [TOM Layer] DEBUG b.c.server.ServersCommunicationLayer - Queueing (delivering) my own message, me:0
+2021-10-26 16:55:41.027 [TOM Layer] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:3.
+2021-10-26 16:55:41.027 [TOM Layer] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:4.
+2021-10-26 16:55:41.027 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=PROPOSE, number=0, epoch=0, from=0
+2021-10-26 16:55:41.027 [TOM Layer] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:5.
+2021-10-26 16:55:41.027 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=PROPOSE, number=0, epoch=0, from=0
+2021-10-26 16:55:41.027 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - Next leader for CID=0: 0
+2021-10-26 16:55:41.027 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 0 and my last consensus is -1
+2021-10-26 16:55:41.027 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - Waiting for consensus 0 termination.
+2021-10-26 16:55:41.027 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 0 can be processed
+2021-10-26 16:55:41.027 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 0
+2021-10-26 16:55:41.028 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - PROPOSE received from:0, for consensus cId:0, I am:0
+2021-10-26 16:55:41.028 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Executing propose for cId:0, Epoch Timestamp:0
+2021-10-26 16:55:41.028 [Server Comm. System] DEBUG bftsmart.tom.core.TOMLayer - Modifying inExec from 0 to 0
+2021-10-26 16:55:41.028 [Server Comm. System] DEBUG bftsmart.tom.core.TOMLayer - Checking proposed value
+2021-10-26 16:55:41.030 [Server Comm. System] DEBUG bftsmart.tom.core.TOMLayer - Successfully deserialized batch
+2021-10-26 16:55:41.030 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Sending WRITE for 0
+2021-10-26 16:55:41.031 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Sending WRITE for cId:0, I am:0
+2021-10-26 16:55:41.031 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - --> sending message from: [1, 2, 3, 4, 5, 6] -> {}0
+2021-10-26 16:55:41.031 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:6.
+2021-10-26 16:55:41.031 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:4.
+2021-10-26 16:55:41.031 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:3.
+2021-10-26 16:55:41.031 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:2.
+2021-10-26 16:55:41.031 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:5.
+2021-10-26 16:55:41.031 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:1.
+2021-10-26 16:55:41.031 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 1, WRITE's for cId:0, Epoch timestamp:0,
+2021-10-26 16:55:41.032 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - WRITE computed for cId:0, I am:0
+2021-10-26 16:55:41.032 [pool-1-thread-1] DEBUG bftsmart.consensus.roles.Acceptor - Creating cryptographic proof for speculative ACCEPT message from consensus 0
+2021-10-26 16:55:41.034 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=WRITE, number=0, epoch=0, from=4
+2021-10-26 16:55:41.034 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=WRITE, number=0, epoch=0, from=4
+2021-10-26 16:55:41.034 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 0 and my last consensus is -1
+2021-10-26 16:55:41.035 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 0 can be processed
+2021-10-26 16:55:41.035 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 0
+2021-10-26 16:55:41.035 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - WRITE received from:4, for consensus cId:0
+2021-10-26 16:55:41.035 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 2, WRITE's for cId:0, Epoch timestamp:0,
+2021-10-26 16:55:41.035 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=WRITE, number=0, epoch=0, from=6
+2021-10-26 16:55:41.035 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=WRITE, number=0, epoch=0, from=6
+2021-10-26 16:55:41.035 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 0 and my last consensus is -1
+2021-10-26 16:55:41.035 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 0 can be processed
+2021-10-26 16:55:41.035 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 0
+2021-10-26 16:55:41.035 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - WRITE received from:6, for consensus cId:0
+2021-10-26 16:55:41.035 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 3, WRITE's for cId:0, Epoch timestamp:0,
+2021-10-26 16:55:41.036 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=WRITE, number=0, epoch=0, from=3
+2021-10-26 16:55:41.036 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=WRITE, number=0, epoch=0, from=3
+2021-10-26 16:55:41.036 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 0 and my last consensus is -1
+2021-10-26 16:55:41.036 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 0 can be processed
+2021-10-26 16:55:41.036 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 0
+2021-10-26 16:55:41.036 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - WRITE received from:3, for consensus cId:0
+2021-10-26 16:55:41.036 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 4, WRITE's for cId:0, Epoch timestamp:0,
+2021-10-26 16:55:41.037 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=WRITE, number=0, epoch=0, from=5
+2021-10-26 16:55:41.037 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=WRITE, number=0, epoch=0, from=5
+2021-10-26 16:55:41.037 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 0 and my last consensus is -1
+2021-10-26 16:55:41.037 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 0 can be processed
+2021-10-26 16:55:41.037 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 0
+2021-10-26 16:55:41.037 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - WRITE received from:5, for consensus cId:0
+2021-10-26 16:55:41.037 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 5, WRITE's for cId:0, Epoch timestamp:0,
+2021-10-26 16:55:41.037 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Sending ACCEPT message, cId:0, I am:0
+2021-10-26 16:55:41.037 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Setting consensus 0 QuorumWrite tiemstamp to 0 and value [9, 80, 100, 23, 19, 76, -100, 5, -51, -87, 15, -26, -20, 122, 112, -88, 126, -116, -35, -61, 4, 14, 123, -52, -45, 65, -43, 14, 111, 84, 105, -15]
+2021-10-26 16:55:41.069 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Speculative ACCEPT message for consensus 0 matches the written value, sending it to the other replicas
+2021-10-26 16:55:41.070 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Queueing (delivering) my own message, me:0
+2021-10-26 16:55:41.070 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:6.
+2021-10-26 16:55:41.070 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:2.
+2021-10-26 16:55:41.070 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:5.
+2021-10-26 16:55:41.070 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:1.
+2021-10-26 16:55:41.070 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:3.
+2021-10-26 16:55:41.070 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:4.
+2021-10-26 16:55:41.070 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=ACCEPT, number=0, epoch=0, from=6
+2021-10-26 16:55:41.070 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=ACCEPT, number=0, epoch=0, from=6
+2021-10-26 16:55:41.070 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 0 and my last consensus is -1
+2021-10-26 16:55:41.070 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 0 can be processed
+2021-10-26 16:55:41.070 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 0
+2021-10-26 16:55:41.070 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - ACCEPT from 6 for consensus 0
+2021-10-26 16:55:41.070 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 1 ACCEPTs for cId:0, Timestamp:0 
+2021-10-26 16:55:41.070 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=WRITE, number=0, epoch=0, from=1
+2021-10-26 16:55:41.070 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=WRITE, number=0, epoch=0, from=1
+2021-10-26 16:55:41.070 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 0 and my last consensus is -1
+2021-10-26 16:55:41.070 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 0 can be processed
+2021-10-26 16:55:41.070 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 0
+2021-10-26 16:55:41.070 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - WRITE received from:1, for consensus cId:0
+2021-10-26 16:55:41.070 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 6, WRITE's for cId:0, Epoch timestamp:0,
+2021-10-26 16:55:41.070 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=WRITE, number=0, epoch=0, from=2
+2021-10-26 16:55:41.070 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=WRITE, number=0, epoch=0, from=2
+2021-10-26 16:55:41.070 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 0 and my last consensus is -1
+2021-10-26 16:55:41.070 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 0 can be processed
+2021-10-26 16:55:41.070 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 0
+2021-10-26 16:55:41.070 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - WRITE received from:2, for consensus cId:0
+2021-10-26 16:55:41.070 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 7, WRITE's for cId:0, Epoch timestamp:0,
+2021-10-26 16:55:41.070 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=ACCEPT, number=0, epoch=0, from=5
+2021-10-26 16:55:41.070 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=ACCEPT, number=0, epoch=0, from=5
+2021-10-26 16:55:41.070 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 0 and my last consensus is -1
+2021-10-26 16:55:41.070 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 0 can be processed
+2021-10-26 16:55:41.070 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 0
+2021-10-26 16:55:41.070 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - ACCEPT from 5 for consensus 0
+2021-10-26 16:55:41.070 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 2 ACCEPTs for cId:0, Timestamp:0 
+2021-10-26 16:55:41.070 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=ACCEPT, number=0, epoch=0, from=0
+2021-10-26 16:55:41.070 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=ACCEPT, number=0, epoch=0, from=0
+2021-10-26 16:55:41.070 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 0 and my last consensus is -1
+2021-10-26 16:55:41.070 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 0 can be processed
+2021-10-26 16:55:41.070 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 0
+2021-10-26 16:55:41.070 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - ACCEPT from 0 for consensus 0
+2021-10-26 16:55:41.070 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 3 ACCEPTs for cId:0, Timestamp:0 
+2021-10-26 16:55:41.072 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=ACCEPT, number=0, epoch=0, from=2
+2021-10-26 16:55:41.072 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=ACCEPT, number=0, epoch=0, from=2
+2021-10-26 16:55:41.072 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 0 and my last consensus is -1
+2021-10-26 16:55:41.072 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 0 can be processed
+2021-10-26 16:55:41.072 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 0
+2021-10-26 16:55:41.072 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - ACCEPT from 2 for consensus 0
+2021-10-26 16:55:41.072 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 4 ACCEPTs for cId:0, Timestamp:0 
+2021-10-26 16:55:41.076 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=ACCEPT, number=0, epoch=0, from=4
+2021-10-26 16:55:41.076 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=ACCEPT, number=0, epoch=0, from=4
+2021-10-26 16:55:41.076 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 0 and my last consensus is -1
+2021-10-26 16:55:41.076 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 0 can be processed
+2021-10-26 16:55:41.076 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 0
+2021-10-26 16:55:41.076 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - ACCEPT from 4 for consensus 0
+2021-10-26 16:55:41.076 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 5 ACCEPTs for cId:0, Timestamp:0 
+2021-10-26 16:55:41.076 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Deciding consensus 0
+2021-10-26 16:55:41.076 [Server Comm. System] DEBUG bftsmart.consensus.Consensus - Delivering decision from consensus 0 to the TOMLayer/DeliveryThread
+2021-10-26 16:55:41.076 [Server Comm. System] DEBUG bftsmart.tom.core.DeliveryThread - Using cached requests from the propose.
+2021-10-26 16:55:41.076 [Server Comm. System] DEBUG b.clientsmanagement.ClientsManager - Updating client manager
+2021-10-26 16:55:41.076 [Server Comm. System] DEBUG b.clientsmanagement.ClientsManager - Finished updating client manager
+2021-10-26 16:55:41.076 [Server Comm. System] DEBUG bftsmart.tom.core.DeliveryThread - Consensus 0 finished. Decided size=1
+2021-10-26 16:55:41.076 [Server Comm. System] DEBUG bftsmart.tom.core.DeliveryThread - Decision from consensus 0 does not contain reconfiguration
+2021-10-26 16:55:41.076 [Server Comm. System] DEBUG bftsmart.tom.core.TOMLayer - Setting last exec to 0
+2021-10-26 16:55:41.076 [Server Comm. System] DEBUG bftsmart.tom.core.TOMLayer - Modifying inExec from 0 to -1
+2021-10-26 16:55:41.076 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - I'm the leader.
+2021-10-26 16:55:41.076 [Delivery Thread] DEBUG bftsmart.tom.core.DeliveryThread - Current size of the decided queue: 1
+2021-10-26 16:55:41.076 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - Waiting for enough requests
+2021-10-26 16:55:41.076 [Delivery Thread] DEBUG bftsmart.tom.core.DeliveryThread - Using cached requests from the propose.
+2021-10-26 16:55:41.077 [Delivery Thread] DEBUG bftsmart.tom.ServiceReplica - Processing TOMMessage from client 0 with sequence number 0 for session -2037747149 decided in consensus 0
+2021-10-26 16:55:41.077 [Delivery Thread] DEBUG bftsmart.tom.ServiceReplica - Delivering request from 0 via SingleExecutable
+2021-10-26 16:55:41.081 [Delivery Thread] DEBUG bftsmart.tom.ServiceReplica - sending reply to 0
+2021-10-26 16:55:41.082 [nioEventLoopGroup-4-1] DEBUG b.c.c.netty.NettyTOMMessageDecoder - Decoded reply from 0 with sequence number 0
+2021-10-26 16:55:41.083 [nioEventLoopGroup-4-1] DEBUG b.c.c.n.NettyClientServerCommunicationSystemClientSide - channelRead0(ChannelHandlerContext ctx, TOMMessage sm).
+2021-10-26 16:55:41.083 [nioEventLoopGroup-4-1] DEBUG bftsmart.tom.ServiceProxy - Synchronously received reply from 0 with sequence number 0
+2021-10-26 16:55:41.083 [nioEventLoopGroup-4-1] DEBUG bftsmart.tom.ServiceProxy - Receiving reply from 0 with reqId:0. Putting on pos=0
+2021-10-26 16:55:41.083 [nioEventLoopGroup-4-7] DEBUG b.c.c.netty.NettyTOMMessageDecoder - Decoded reply from 6 with sequence number 0
+2021-10-26 16:55:41.083 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=ACCEPT, number=0, epoch=0, from=3
+2021-10-26 16:55:41.083 [nioEventLoopGroup-4-7] DEBUG b.c.c.n.NettyClientServerCommunicationSystemClientSide - channelRead0(ChannelHandlerContext ctx, TOMMessage sm).
+2021-10-26 16:55:41.083 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=ACCEPT, number=0, epoch=0, from=3
+2021-10-26 16:55:41.083 [nioEventLoopGroup-4-7] DEBUG bftsmart.tom.ServiceProxy - Synchronously received reply from 6 with sequence number 0
+2021-10-26 16:55:41.083 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus -1 and my last consensus is 0
+2021-10-26 16:55:41.083 [nioEventLoopGroup-4-7] DEBUG bftsmart.tom.ServiceProxy - Receiving reply from 6 with reqId:0. Putting on pos=6
+2021-10-26 16:55:41.083 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Out of context msg with id 0
+2021-10-26 16:55:41.085 [nioEventLoopGroup-4-5] DEBUG b.c.c.netty.NettyTOMMessageDecoder - Decoded reply from 4 with sequence number 0
+2021-10-26 16:55:41.085 [nioEventLoopGroup-4-5] DEBUG b.c.c.n.NettyClientServerCommunicationSystemClientSide - channelRead0(ChannelHandlerContext ctx, TOMMessage sm).
+2021-10-26 16:55:41.085 [nioEventLoopGroup-4-5] DEBUG bftsmart.tom.ServiceProxy - Synchronously received reply from 4 with sequence number 0
+2021-10-26 16:55:41.085 [nioEventLoopGroup-4-5] DEBUG bftsmart.tom.ServiceProxy - Receiving reply from 4 with reqId:0. Putting on pos=4
+2021-10-26 16:55:41.088 [nioEventLoopGroup-4-3] DEBUG b.c.c.netty.NettyTOMMessageDecoder - Decoded reply from 2 with sequence number 0
+2021-10-26 16:55:41.088 [nioEventLoopGroup-4-3] DEBUG b.c.c.n.NettyClientServerCommunicationSystemClientSide - channelRead0(ChannelHandlerContext ctx, TOMMessage sm).
+2021-10-26 16:55:41.088 [nioEventLoopGroup-4-3] DEBUG bftsmart.tom.ServiceProxy - Synchronously received reply from 2 with sequence number 0
+2021-10-26 16:55:41.088 [nioEventLoopGroup-4-3] DEBUG bftsmart.tom.ServiceProxy - Receiving reply from 2 with reqId:0. Putting on pos=2
+2021-10-26 16:55:41.090 [nioEventLoopGroup-4-4] DEBUG b.c.c.netty.NettyTOMMessageDecoder - Decoded reply from 3 with sequence number 0
+2021-10-26 16:55:41.090 [nioEventLoopGroup-4-4] DEBUG b.c.c.n.NettyClientServerCommunicationSystemClientSide - channelRead0(ChannelHandlerContext ctx, TOMMessage sm).
+2021-10-26 16:55:41.090 [nioEventLoopGroup-4-4] DEBUG bftsmart.tom.ServiceProxy - Synchronously received reply from 3 with sequence number 0
+2021-10-26 16:55:41.090 [nioEventLoopGroup-4-4] DEBUG bftsmart.tom.ServiceProxy - Receiving reply from 3 with reqId:0. Putting on pos=3
+2021-10-26 16:55:41.101 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=ACCEPT, number=0, epoch=0, from=1
+2021-10-26 16:55:41.101 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=ACCEPT, number=0, epoch=0, from=1
+2021-10-26 16:55:41.101 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus -1 and my last consensus is 0
+2021-10-26 16:55:41.101 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Out of context msg with id 0
+2021-10-26 16:55:41.105 [nioEventLoopGroup-4-6] DEBUG b.c.c.netty.NettyTOMMessageDecoder - Decoded reply from 5 with sequence number 0
+2021-10-26 16:55:41.105 [nioEventLoopGroup-4-6] DEBUG b.c.c.n.NettyClientServerCommunicationSystemClientSide - channelRead0(ChannelHandlerContext ctx, TOMMessage sm).
+2021-10-26 16:55:41.105 [nioEventLoopGroup-4-6] DEBUG bftsmart.tom.ServiceProxy - Synchronously received reply from 5 with sequence number 0
+2021-10-26 16:55:41.105 [nioEventLoopGroup-4-6] DEBUG bftsmart.tom.ServiceProxy - Receiving reply from 5 with reqId:0. Putting on pos=5
+2021-10-26 16:55:41.105 [main] DEBUG bftsmart.tom.ServiceProxy - Response extracted = [5:-2037747149:0]
+2021-10-26 16:55:41.108 [nioEventLoopGroup-4-2] DEBUG b.c.c.netty.NettyTOMMessageDecoder - Decoded reply from 1 with sequence number 0
+2021-10-26 16:55:41.108 [nioEventLoopGroup-4-2] DEBUG b.c.c.n.NettyClientServerCommunicationSystemClientSide - channelRead0(ChannelHandlerContext ctx, TOMMessage sm).
+2021-10-26 16:55:41.108 [nioEventLoopGroup-4-2] DEBUG bftsmart.tom.ServiceProxy - Synchronously received reply from 1 with sequence number 0
+2021-10-26 16:55:41.108 [nioEventLoopGroup-4-2] DEBUG bftsmart.tom.ServiceProxy - throwing out request: sender=1 reqId=0
+2021-10-26 16:55:41.527 [nioEventLoopGroup-3-2] DEBUG b.c.c.netty.NettyTOMMessageDecoder - Active clients: 2
+2021-10-26 16:55:41.527 [nioEventLoopGroup-3-2] DEBUG b.c.c.netty.NettyTOMMessageDecoder - Decoded reply from 3 with sequence number 0
+2021-10-26 16:55:41.528 [nioEventLoopGroup-3-2] DEBUG bftsmart.tom.core.TOMLayer - Received TOMMessage from client 3 with sequence number 0 for session 2140248922
+2021-10-26 16:55:41.529 [nioEventLoopGroup-3-2] DEBUG b.clientsmanagement.ClientsManager - Creating new client data, client id=3
+2021-10-26 16:55:41.530 [nioEventLoopGroup-3-2] DEBUG b.clientsmanagement.ClientsManager - Message from client 3 is valid
+2021-10-26 16:55:41.530 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - Got enough requests
+2021-10-26 16:55:41.530 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - There are requests to be ordered. I will propose.
+2021-10-26 16:55:41.530 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - Modifying inExec from -1 to 1
+2021-10-26 16:55:41.530 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of active clients: 2
+2021-10-26 16:55:41.530 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Fetching requests with internal index 0
+2021-10-26 16:55:41.530 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of pending requests for client 0: 0.
+2021-10-26 16:55:41.530 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of pending requests for client 3: 1.
+2021-10-26 16:55:41.530 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Selected request with sequence number 0 from client 3
+2021-10-26 16:55:41.531 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Fetching requests with internal index 1
+2021-10-26 16:55:41.531 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of pending requests for client 0: 0.
+2021-10-26 16:55:41.531 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of pending requests for client 3: 1.
+2021-10-26 16:55:41.531 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - Number of pending requets to propose in consensus 1: 1
+2021-10-26 16:55:41.531 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - Creating a PROPOSE with 1 msgs
+2021-10-26 16:55:41.531 [TOM Layer] DEBUG bftsmart.tom.util.BatchBuilder - Adding request from client 3 with sequence number 0 for session 2140248922 to PROPOSE
+2021-10-26 16:55:41.531 [TOM Layer] DEBUG b.c.ServerCommunicationSystem - --> sending message from: [0, 1, 2, 3, 4, 5, 6] -> {}0
+2021-10-26 16:55:41.531 [TOM Layer] DEBUG b.c.server.ServersCommunicationLayer - Queueing (delivering) my own message, me:0
+2021-10-26 16:55:41.532 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=PROPOSE, number=1, epoch=0, from=0
+2021-10-26 16:55:41.532 [TOM Layer] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:2.
+2021-10-26 16:55:41.532 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=PROPOSE, number=1, epoch=0, from=0
+2021-10-26 16:55:41.532 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 1 and my last consensus is 0
+2021-10-26 16:55:41.532 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 1 can be processed
+2021-10-26 16:55:41.532 [TOM Layer] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:4.
+2021-10-26 16:55:41.532 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 1
+2021-10-26 16:55:41.532 [TOM Layer] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:6.
+2021-10-26 16:55:41.532 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - PROPOSE received from:0, for consensus cId:1, I am:0
+2021-10-26 16:55:41.532 [TOM Layer] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:1.
+2021-10-26 16:55:41.532 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Executing propose for cId:1, Epoch Timestamp:0
+2021-10-26 16:55:41.532 [TOM Layer] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:5.
+2021-10-26 16:55:41.532 [TOM Layer] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:3.
+2021-10-26 16:55:41.532 [Server Comm. System] DEBUG bftsmart.tom.core.TOMLayer - Modifying inExec from 1 to 1
+2021-10-26 16:55:41.532 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - Next leader for CID=1: 0
+2021-10-26 16:55:41.532 [Server Comm. System] DEBUG bftsmart.tom.core.TOMLayer - Checking proposed value
+2021-10-26 16:55:41.532 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - Waiting for consensus 1 termination.
+2021-10-26 16:55:41.534 [Server Comm. System] DEBUG bftsmart.tom.core.TOMLayer - Successfully deserialized batch
+2021-10-26 16:55:41.534 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Sending WRITE for 1
+2021-10-26 16:55:41.534 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Sending WRITE for cId:1, I am:0
+2021-10-26 16:55:41.534 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - --> sending message from: [1, 2, 3, 4, 5, 6] -> {}0
+2021-10-26 16:55:41.535 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:5.
+2021-10-26 16:55:41.535 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:4.
+2021-10-26 16:55:41.535 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:3.
+2021-10-26 16:55:41.535 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:2.
+2021-10-26 16:55:41.535 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:6.
+2021-10-26 16:55:41.535 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:1.
+2021-10-26 16:55:41.535 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 1, WRITE's for cId:1, Epoch timestamp:0,
+2021-10-26 16:55:41.535 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - WRITE computed for cId:1, I am:0
+2021-10-26 16:55:41.535 [pool-1-thread-1] DEBUG bftsmart.consensus.roles.Acceptor - Creating cryptographic proof for speculative ACCEPT message from consensus 1
+2021-10-26 16:55:41.536 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=WRITE, number=1, epoch=0, from=2
+2021-10-26 16:55:41.536 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=WRITE, number=1, epoch=0, from=2
+2021-10-26 16:55:41.536 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 1 and my last consensus is 0
+2021-10-26 16:55:41.536 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 1 can be processed
+2021-10-26 16:55:41.537 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 1
+2021-10-26 16:55:41.537 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - WRITE received from:2, for consensus cId:1
+2021-10-26 16:55:41.537 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 2, WRITE's for cId:1, Epoch timestamp:0,
+2021-10-26 16:55:41.571 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=WRITE, number=1, epoch=0, from=1
+2021-10-26 16:55:41.571 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=WRITE, number=1, epoch=0, from=1
+2021-10-26 16:55:41.571 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 1 and my last consensus is 0
+2021-10-26 16:55:41.571 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 1 can be processed
+2021-10-26 16:55:41.571 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 1
+2021-10-26 16:55:41.571 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - WRITE received from:1, for consensus cId:1
+2021-10-26 16:55:41.571 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 3, WRITE's for cId:1, Epoch timestamp:0,
+2021-10-26 16:55:41.572 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=WRITE, number=1, epoch=0, from=4
+2021-10-26 16:55:41.572 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=WRITE, number=1, epoch=0, from=4
+2021-10-26 16:55:41.572 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 1 and my last consensus is 0
+2021-10-26 16:55:41.572 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 1 can be processed
+2021-10-26 16:55:41.572 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 1
+2021-10-26 16:55:41.572 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - WRITE received from:4, for consensus cId:1
+2021-10-26 16:55:41.572 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 4, WRITE's for cId:1, Epoch timestamp:0,
+2021-10-26 16:55:41.575 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=ACCEPT, number=1, epoch=0, from=2
+2021-10-26 16:55:41.575 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=ACCEPT, number=1, epoch=0, from=2
+2021-10-26 16:55:41.575 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 1 and my last consensus is 0
+2021-10-26 16:55:41.575 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 1 can be processed
+2021-10-26 16:55:41.575 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 1
+2021-10-26 16:55:41.575 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - ACCEPT from 2 for consensus 1
+2021-10-26 16:55:41.575 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 1 ACCEPTs for cId:1, Timestamp:0 
+2021-10-26 16:55:41.575 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=ACCEPT, number=1, epoch=0, from=1
+2021-10-26 16:55:41.575 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=ACCEPT, number=1, epoch=0, from=1
+2021-10-26 16:55:41.575 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 1 and my last consensus is 0
+2021-10-26 16:55:41.575 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 1 can be processed
+2021-10-26 16:55:41.575 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 1
+2021-10-26 16:55:41.575 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - ACCEPT from 1 for consensus 1
+2021-10-26 16:55:41.575 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 2 ACCEPTs for cId:1, Timestamp:0 
+2021-10-26 16:55:41.575 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=WRITE, number=1, epoch=0, from=6
+2021-10-26 16:55:41.575 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=WRITE, number=1, epoch=0, from=6
+2021-10-26 16:55:41.575 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 1 and my last consensus is 0
+2021-10-26 16:55:41.575 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 1 can be processed
+2021-10-26 16:55:41.575 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 1
+2021-10-26 16:55:41.575 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - WRITE received from:6, for consensus cId:1
+2021-10-26 16:55:41.575 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 5, WRITE's for cId:1, Epoch timestamp:0,
+2021-10-26 16:55:41.575 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Sending ACCEPT message, cId:1, I am:0
+2021-10-26 16:55:41.575 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Setting consensus 1 QuorumWrite tiemstamp to 0 and value [40, -60, 16, -80, -62, 61, -92, -31, 119, 17, 67, 5, 76, -61, 58, -122, -124, 89, 105, -92, -35, -115, -17, 53, -69, -58, -116, 96, 67, -29, 7, -83]
+2021-10-26 16:55:41.576 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Speculative ACCEPT message for consensus 1 matches the written value, sending it to the other replicas
+2021-10-26 16:55:41.576 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:2.
+2021-10-26 16:55:41.576 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:1.
+2021-10-26 16:55:41.576 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:4.
+2021-10-26 16:55:41.576 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Queueing (delivering) my own message, me:0
+2021-10-26 16:55:41.576 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:3.
+2021-10-26 16:55:41.576 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:6.
+2021-10-26 16:55:41.576 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:5.
+2021-10-26 16:55:41.576 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=WRITE, number=1, epoch=0, from=3
+2021-10-26 16:55:41.576 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=WRITE, number=1, epoch=0, from=3
+2021-10-26 16:55:41.576 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 1 and my last consensus is 0
+2021-10-26 16:55:41.576 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 1 can be processed
+2021-10-26 16:55:41.576 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 1
+2021-10-26 16:55:41.577 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - WRITE received from:3, for consensus cId:1
+2021-10-26 16:55:41.577 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 6, WRITE's for cId:1, Epoch timestamp:0,
+2021-10-26 16:55:41.577 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=WRITE, number=1, epoch=0, from=5
+2021-10-26 16:55:41.577 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=WRITE, number=1, epoch=0, from=5
+2021-10-26 16:55:41.577 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 1 and my last consensus is 0
+2021-10-26 16:55:41.577 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 1 can be processed
+2021-10-26 16:55:41.578 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 1
+2021-10-26 16:55:41.578 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - WRITE received from:5, for consensus cId:1
+2021-10-26 16:55:41.578 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 7, WRITE's for cId:1, Epoch timestamp:0,
+2021-10-26 16:55:41.578 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=ACCEPT, number=1, epoch=0, from=3
+2021-10-26 16:55:41.578 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=ACCEPT, number=1, epoch=0, from=3
+2021-10-26 16:55:41.578 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 1 and my last consensus is 0
+2021-10-26 16:55:41.578 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 1 can be processed
+2021-10-26 16:55:41.578 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 1
+2021-10-26 16:55:41.578 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - ACCEPT from 3 for consensus 1
+2021-10-26 16:55:41.578 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 3 ACCEPTs for cId:1, Timestamp:0 
+2021-10-26 16:55:41.578 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=ACCEPT, number=1, epoch=0, from=5
+2021-10-26 16:55:41.578 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=ACCEPT, number=1, epoch=0, from=5
+2021-10-26 16:55:41.578 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 1 and my last consensus is 0
+2021-10-26 16:55:41.578 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 1 can be processed
+2021-10-26 16:55:41.578 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 1
+2021-10-26 16:55:41.578 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - ACCEPT from 5 for consensus 1
+2021-10-26 16:55:41.578 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 4 ACCEPTs for cId:1, Timestamp:0 
+2021-10-26 16:55:41.578 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=ACCEPT, number=1, epoch=0, from=0
+2021-10-26 16:55:41.578 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=ACCEPT, number=1, epoch=0, from=0
+2021-10-26 16:55:41.578 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 1 and my last consensus is 0
+2021-10-26 16:55:41.578 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 1 can be processed
+2021-10-26 16:55:41.578 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 1
+2021-10-26 16:55:41.578 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - ACCEPT from 0 for consensus 1
+2021-10-26 16:55:41.578 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 5 ACCEPTs for cId:1, Timestamp:0 
+2021-10-26 16:55:41.578 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Deciding consensus 1
+2021-10-26 16:55:41.578 [Server Comm. System] DEBUG bftsmart.consensus.Consensus - Delivering decision from consensus 1 to the TOMLayer/DeliveryThread
+2021-10-26 16:55:41.578 [Server Comm. System] DEBUG bftsmart.tom.core.DeliveryThread - Using cached requests from the propose.
+2021-10-26 16:55:41.578 [Server Comm. System] DEBUG b.clientsmanagement.ClientsManager - Updating client manager
+2021-10-26 16:55:41.578 [Server Comm. System] DEBUG b.clientsmanagement.ClientsManager - Finished updating client manager
+2021-10-26 16:55:41.578 [Server Comm. System] DEBUG bftsmart.tom.core.DeliveryThread - Consensus 1 finished. Decided size=1
+2021-10-26 16:55:41.578 [Server Comm. System] DEBUG bftsmart.tom.core.DeliveryThread - Decision from consensus 1 does not contain reconfiguration
+2021-10-26 16:55:41.578 [Server Comm. System] DEBUG bftsmart.tom.core.TOMLayer - Setting last exec to 1
+2021-10-26 16:55:41.578 [Server Comm. System] DEBUG bftsmart.tom.core.TOMLayer - Modifying inExec from 1 to -1
+2021-10-26 16:55:41.578 [Delivery Thread] DEBUG bftsmart.tom.core.DeliveryThread - Current size of the decided queue: 1
+2021-10-26 16:55:41.578 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - I'm the leader.
+2021-10-26 16:55:41.578 [Delivery Thread] DEBUG bftsmart.tom.core.DeliveryThread - Using cached requests from the propose.
+2021-10-26 16:55:41.578 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - Waiting for enough requests
+2021-10-26 16:55:41.578 [Delivery Thread] DEBUG bftsmart.tom.ServiceReplica - Processing TOMMessage from client 3 with sequence number 0 for session 2140248922 decided in consensus 1
+2021-10-26 16:55:41.578 [Delivery Thread] DEBUG bftsmart.tom.ServiceReplica - Delivering request from 3 via SingleExecutable
+2021-10-26 16:55:41.579 [Delivery Thread] DEBUG bftsmart.tom.ServiceReplica - sending reply to 3
+2021-10-26 16:55:41.585 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=ACCEPT, number=1, epoch=0, from=6
+2021-10-26 16:55:41.585 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=ACCEPT, number=1, epoch=0, from=6
+2021-10-26 16:55:41.585 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus -1 and my last consensus is 1
+2021-10-26 16:55:41.585 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Out of context msg with id 1
+2021-10-26 16:55:41.586 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=ACCEPT, number=1, epoch=0, from=4
+2021-10-26 16:55:41.586 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=ACCEPT, number=1, epoch=0, from=4
+2021-10-26 16:55:41.586 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus -1 and my last consensus is 1
+2021-10-26 16:55:41.586 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Out of context msg with id 1
+2021-10-26 16:55:41.622 [nioEventLoopGroup-3-1] DEBUG b.c.c.n.NettyClientServerCommunicationSystemServerSide - Channel Inactive
+2021-10-26 16:55:41.623 [nioEventLoopGroup-3-1] DEBUG b.c.c.n.NettyClientServerCommunicationSystemServerSide - SessionReplicaToClient: Key:0, Value:bftsmart.communication.client.netty.NettyClientServerSession@5adc3f3d
+2021-10-26 16:55:41.623 [nioEventLoopGroup-3-1] DEBUG b.c.c.n.NettyClientServerCommunicationSystemServerSide - SessionReplicaToClient: Key:3, Value:bftsmart.communication.client.netty.NettyClientServerSession@20ee9c53
+2021-10-26 16:55:41.623 [nioEventLoopGroup-3-1] DEBUG b.c.c.n.NettyClientServerCommunicationSystemServerSide - Removing client channel with ID = 0
+2021-10-26 16:55:41.623 [nioEventLoopGroup-3-1] DEBUG b.c.c.n.NettyClientServerCommunicationSystemServerSide - Session Closed, active clients=1
+2021-10-26 16:55:41.693 [nioEventLoopGroup-3-3] DEBUG b.c.c.netty.NettyTOMMessageDecoder - Active clients: 2
+2021-10-26 16:55:41.693 [nioEventLoopGroup-3-3] DEBUG b.c.c.netty.NettyTOMMessageDecoder - Decoded reply from 4 with sequence number 0
+2021-10-26 16:55:41.693 [nioEventLoopGroup-3-3] DEBUG bftsmart.tom.core.TOMLayer - Received TOMMessage from client 4 with sequence number 0 for session -1954043251
+2021-10-26 16:55:41.693 [nioEventLoopGroup-3-3] DEBUG b.clientsmanagement.ClientsManager - Creating new client data, client id=4
+2021-10-26 16:55:41.694 [nioEventLoopGroup-3-3] DEBUG b.clientsmanagement.ClientsManager - Message from client 4 is valid
+2021-10-26 16:55:41.694 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - Got enough requests
+2021-10-26 16:55:41.694 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - There are requests to be ordered. I will propose.
+2021-10-26 16:55:41.694 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - Modifying inExec from -1 to 2
+2021-10-26 16:55:41.694 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of active clients: 3
+2021-10-26 16:55:41.694 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Fetching requests with internal index 0
+2021-10-26 16:55:41.694 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of pending requests for client 0: 0.
+2021-10-26 16:55:41.694 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of pending requests for client 3: 0.
+2021-10-26 16:55:41.694 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of pending requests for client 4: 1.
+2021-10-26 16:55:41.694 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Selected request with sequence number 0 from client 4
+2021-10-26 16:55:41.694 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Fetching requests with internal index 1
+2021-10-26 16:55:41.694 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of pending requests for client 0: 0.
+2021-10-26 16:55:41.694 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of pending requests for client 3: 0.
+2021-10-26 16:55:41.694 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of pending requests for client 4: 1.
+2021-10-26 16:55:41.695 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - Number of pending requets to propose in consensus 2: 1
+2021-10-26 16:55:41.695 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - Creating a PROPOSE with 1 msgs
+2021-10-26 16:55:41.695 [TOM Layer] DEBUG bftsmart.tom.util.BatchBuilder - Adding request from client 4 with sequence number 0 for session -1954043251 to PROPOSE
+2021-10-26 16:55:41.695 [TOM Layer] DEBUG b.c.ServerCommunicationSystem - --> sending message from: [0, 1, 2, 3, 4, 5, 6] -> {}0
+2021-10-26 16:55:41.695 [TOM Layer] DEBUG b.c.server.ServersCommunicationLayer - Queueing (delivering) my own message, me:0
+2021-10-26 16:55:41.695 [TOM Layer] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:3.
+2021-10-26 16:55:41.695 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=PROPOSE, number=2, epoch=0, from=0
+2021-10-26 16:55:41.695 [TOM Layer] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:4.
+2021-10-26 16:55:41.695 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=PROPOSE, number=2, epoch=0, from=0
+2021-10-26 16:55:41.695 [TOM Layer] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:6.
+2021-10-26 16:55:41.695 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 2 and my last consensus is 1
+2021-10-26 16:55:41.695 [TOM Layer] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:5.
+2021-10-26 16:55:41.695 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 2 can be processed
+2021-10-26 16:55:41.695 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 2
+2021-10-26 16:55:41.695 [TOM Layer] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:1.
+2021-10-26 16:55:41.695 [TOM Layer] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:2.
+2021-10-26 16:55:41.695 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - Next leader for CID=2: 0
+2021-10-26 16:55:41.695 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - PROPOSE received from:0, for consensus cId:2, I am:0
+2021-10-26 16:55:41.695 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - Waiting for consensus 2 termination.
+2021-10-26 16:55:41.695 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Executing propose for cId:2, Epoch Timestamp:0
+2021-10-26 16:55:41.696 [Server Comm. System] DEBUG bftsmart.tom.core.TOMLayer - Modifying inExec from 2 to 2
+2021-10-26 16:55:41.696 [Server Comm. System] DEBUG bftsmart.tom.core.TOMLayer - Checking proposed value
+2021-10-26 16:55:41.696 [Server Comm. System] DEBUG bftsmart.tom.core.TOMLayer - Successfully deserialized batch
+2021-10-26 16:55:41.696 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Sending WRITE for 2
+2021-10-26 16:55:41.696 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Sending WRITE for cId:2, I am:0
+2021-10-26 16:55:41.696 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - --> sending message from: [1, 2, 3, 4, 5, 6] -> {}0
+2021-10-26 16:55:41.696 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:2.
+2021-10-26 16:55:41.696 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:6.
+2021-10-26 16:55:41.696 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:5.
+2021-10-26 16:55:41.696 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:4.
+2021-10-26 16:55:41.697 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:1.
+2021-10-26 16:55:41.697 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:3.
+2021-10-26 16:55:41.697 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 1, WRITE's for cId:2, Epoch timestamp:0,
+2021-10-26 16:55:41.697 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - WRITE computed for cId:2, I am:0
+2021-10-26 16:55:41.697 [pool-1-thread-1] DEBUG bftsmart.consensus.roles.Acceptor - Creating cryptographic proof for speculative ACCEPT message from consensus 2
+2021-10-26 16:55:41.698 [nioEventLoopGroup-3-4] DEBUG b.c.c.netty.NettyTOMMessageDecoder - Active clients: 3
+2021-10-26 16:55:41.698 [nioEventLoopGroup-3-4] DEBUG b.c.c.netty.NettyTOMMessageDecoder - Decoded reply from 1 with sequence number 0
+2021-10-26 16:55:41.698 [nioEventLoopGroup-3-4] DEBUG bftsmart.tom.core.TOMLayer - Received TOMMessage from client 1 with sequence number 0 for session -1513991798
+2021-10-26 16:55:41.698 [nioEventLoopGroup-3-4] DEBUG b.clientsmanagement.ClientsManager - Creating new client data, client id=1
+2021-10-26 16:55:41.699 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=WRITE, number=2, epoch=0, from=5
+2021-10-26 16:55:41.699 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=WRITE, number=2, epoch=0, from=5
+2021-10-26 16:55:41.699 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 2 and my last consensus is 1
+2021-10-26 16:55:41.699 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 2 can be processed
+2021-10-26 16:55:41.699 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 2
+2021-10-26 16:55:41.699 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - WRITE received from:5, for consensus cId:2
+2021-10-26 16:55:41.699 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 2, WRITE's for cId:2, Epoch timestamp:0,
+2021-10-26 16:55:41.699 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=WRITE, number=2, epoch=0, from=6
+2021-10-26 16:55:41.700 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=WRITE, number=2, epoch=0, from=6
+2021-10-26 16:55:41.700 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 2 and my last consensus is 1
+2021-10-26 16:55:41.700 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 2 can be processed
+2021-10-26 16:55:41.700 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 2
+2021-10-26 16:55:41.700 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - WRITE received from:6, for consensus cId:2
+2021-10-26 16:55:41.700 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 3, WRITE's for cId:2, Epoch timestamp:0,
+2021-10-26 16:55:41.700 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=WRITE, number=2, epoch=0, from=3
+2021-10-26 16:55:41.700 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=WRITE, number=2, epoch=0, from=3
+2021-10-26 16:55:41.700 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 2 and my last consensus is 1
+2021-10-26 16:55:41.700 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 2 can be processed
+2021-10-26 16:55:41.700 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 2
+2021-10-26 16:55:41.700 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - WRITE received from:3, for consensus cId:2
+2021-10-26 16:55:41.700 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 4, WRITE's for cId:2, Epoch timestamp:0,
+2021-10-26 16:55:41.700 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=WRITE, number=2, epoch=0, from=4
+2021-10-26 16:55:41.700 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=WRITE, number=2, epoch=0, from=4
+2021-10-26 16:55:41.700 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 2 and my last consensus is 1
+2021-10-26 16:55:41.735 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 2 can be processed
+2021-10-26 16:55:41.736 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 2
+2021-10-26 16:55:41.736 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - WRITE received from:4, for consensus cId:2
+2021-10-26 16:55:41.736 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 5, WRITE's for cId:2, Epoch timestamp:0,
+2021-10-26 16:55:41.736 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Sending ACCEPT message, cId:2, I am:0
+2021-10-26 16:55:41.736 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Setting consensus 2 QuorumWrite tiemstamp to 0 and value [117, -120, -21, -81, 52, 68, -109, -68, 115, 81, -11, 30, 60, 117, 15, -55, 3, 84, -59, 45, 38, 21, 103, -70, 58, 75, -83, -40, -13, -81, 107, -125]
+2021-10-26 16:55:41.736 [nioEventLoopGroup-3-4] DEBUG b.clientsmanagement.ClientsManager - Message from client 1 is valid
+2021-10-26 16:55:41.736 [nioEventLoopGroup-3-5] DEBUG b.c.c.netty.NettyTOMMessageDecoder - Active clients: 4
+2021-10-26 16:55:41.736 [nioEventLoopGroup-3-5] DEBUG b.c.c.netty.NettyTOMMessageDecoder - Decoded reply from 5 with sequence number 0
+2021-10-26 16:55:41.736 [nioEventLoopGroup-3-5] DEBUG bftsmart.tom.core.TOMLayer - Received TOMMessage from client 5 with sequence number 0 for session 1843305570
+2021-10-26 16:55:41.736 [nioEventLoopGroup-3-5] DEBUG b.clientsmanagement.ClientsManager - Creating new client data, client id=5
+2021-10-26 16:55:41.737 [nioEventLoopGroup-3-5] DEBUG b.clientsmanagement.ClientsManager - Message from client 5 is valid
+2021-10-26 16:55:41.738 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Speculative ACCEPT message for consensus 2 matches the written value, sending it to the other replicas
+2021-10-26 16:55:41.738 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:5.
+2021-10-26 16:55:41.738 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:1.
+2021-10-26 16:55:41.738 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:2.
+2021-10-26 16:55:41.738 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:6.
+2021-10-26 16:55:41.738 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:3.
+2021-10-26 16:55:41.738 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:4.
+2021-10-26 16:55:41.738 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Queueing (delivering) my own message, me:0
+2021-10-26 16:55:41.738 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=WRITE, number=2, epoch=0, from=2
+2021-10-26 16:55:41.738 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=WRITE, number=2, epoch=0, from=2
+2021-10-26 16:55:41.738 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 2 and my last consensus is 1
+2021-10-26 16:55:41.738 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 2 can be processed
+2021-10-26 16:55:41.738 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 2
+2021-10-26 16:55:41.738 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - WRITE received from:2, for consensus cId:2
+2021-10-26 16:55:41.738 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 6, WRITE's for cId:2, Epoch timestamp:0,
+2021-10-26 16:55:41.738 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=ACCEPT, number=2, epoch=0, from=6
+2021-10-26 16:55:41.738 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=ACCEPT, number=2, epoch=0, from=6
+2021-10-26 16:55:41.738 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 2 and my last consensus is 1
+2021-10-26 16:55:41.738 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 2 can be processed
+2021-10-26 16:55:41.738 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 2
+2021-10-26 16:55:41.738 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - ACCEPT from 6 for consensus 2
+2021-10-26 16:55:41.738 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 1 ACCEPTs for cId:2, Timestamp:0 
+2021-10-26 16:55:41.738 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=ACCEPT, number=2, epoch=0, from=2
+2021-10-26 16:55:41.738 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=ACCEPT, number=2, epoch=0, from=2
+2021-10-26 16:55:41.738 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 2 and my last consensus is 1
+2021-10-26 16:55:41.738 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 2 can be processed
+2021-10-26 16:55:41.738 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 2
+2021-10-26 16:55:41.738 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - ACCEPT from 2 for consensus 2
+2021-10-26 16:55:41.738 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 2 ACCEPTs for cId:2, Timestamp:0 
+2021-10-26 16:55:41.738 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=ACCEPT, number=2, epoch=0, from=4
+2021-10-26 16:55:41.738 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=ACCEPT, number=2, epoch=0, from=4
+2021-10-26 16:55:41.738 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 2 and my last consensus is 1
+2021-10-26 16:55:41.738 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 2 can be processed
+2021-10-26 16:55:41.738 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 2
+2021-10-26 16:55:41.738 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - ACCEPT from 4 for consensus 2
+2021-10-26 16:55:41.738 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 3 ACCEPTs for cId:2, Timestamp:0 
+2021-10-26 16:55:41.738 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=ACCEPT, number=2, epoch=0, from=5
+2021-10-26 16:55:41.738 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=ACCEPT, number=2, epoch=0, from=5
+2021-10-26 16:55:41.738 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 2 and my last consensus is 1
+2021-10-26 16:55:41.738 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 2 can be processed
+2021-10-26 16:55:41.738 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 2
+2021-10-26 16:55:41.738 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - ACCEPT from 5 for consensus 2
+2021-10-26 16:55:41.738 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 4 ACCEPTs for cId:2, Timestamp:0 
+2021-10-26 16:55:41.738 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=WRITE, number=2, epoch=0, from=1
+2021-10-26 16:55:41.739 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=WRITE, number=2, epoch=0, from=1
+2021-10-26 16:55:41.739 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 2 and my last consensus is 1
+2021-10-26 16:55:41.739 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 2 can be processed
+2021-10-26 16:55:41.739 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 2
+2021-10-26 16:55:41.739 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - WRITE received from:1, for consensus cId:2
+2021-10-26 16:55:41.739 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 7, WRITE's for cId:2, Epoch timestamp:0,
+2021-10-26 16:55:41.739 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=ACCEPT, number=2, epoch=0, from=1
+2021-10-26 16:55:41.739 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=ACCEPT, number=2, epoch=0, from=1
+2021-10-26 16:55:41.739 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 2 and my last consensus is 1
+2021-10-26 16:55:41.739 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 2 can be processed
+2021-10-26 16:55:41.739 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 2
+2021-10-26 16:55:41.739 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - ACCEPT from 1 for consensus 2
+2021-10-26 16:55:41.739 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 5 ACCEPTs for cId:2, Timestamp:0 
+2021-10-26 16:55:41.739 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Deciding consensus 2
+2021-10-26 16:55:41.739 [Server Comm. System] DEBUG bftsmart.consensus.Consensus - Delivering decision from consensus 2 to the TOMLayer/DeliveryThread
+2021-10-26 16:55:41.739 [Server Comm. System] DEBUG bftsmart.tom.core.DeliveryThread - Using cached requests from the propose.
+2021-10-26 16:55:41.739 [Server Comm. System] DEBUG b.clientsmanagement.ClientsManager - Updating client manager
+2021-10-26 16:55:41.739 [Server Comm. System] DEBUG b.clientsmanagement.ClientsManager - Finished updating client manager
+2021-10-26 16:55:41.739 [Server Comm. System] DEBUG bftsmart.tom.core.DeliveryThread - Consensus 2 finished. Decided size=1
+2021-10-26 16:55:41.739 [Server Comm. System] DEBUG bftsmart.tom.core.DeliveryThread - Decision from consensus 2 does not contain reconfiguration
+2021-10-26 16:55:41.739 [Server Comm. System] DEBUG bftsmart.tom.core.TOMLayer - Setting last exec to 2
+2021-10-26 16:55:41.739 [Server Comm. System] DEBUG bftsmart.tom.core.TOMLayer - Modifying inExec from 2 to -1
+2021-10-26 16:55:41.739 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=ACCEPT, number=2, epoch=0, from=0
+2021-10-26 16:55:41.739 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=ACCEPT, number=2, epoch=0, from=0
+2021-10-26 16:55:41.739 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus -1 and my last consensus is 2
+2021-10-26 16:55:41.739 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Out of context msg with id 2
+2021-10-26 16:55:41.739 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - I'm the leader.
+2021-10-26 16:55:41.739 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - There are requests to be ordered. I will propose.
+2021-10-26 16:55:41.739 [Delivery Thread] DEBUG bftsmart.tom.core.DeliveryThread - Current size of the decided queue: 1
+2021-10-26 16:55:41.739 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - Modifying inExec from -1 to 3
+2021-10-26 16:55:41.739 [Delivery Thread] DEBUG bftsmart.tom.core.DeliveryThread - Using cached requests from the propose.
+2021-10-26 16:55:41.739 [Delivery Thread] DEBUG bftsmart.tom.ServiceReplica - Processing TOMMessage from client 4 with sequence number 0 for session -1954043251 decided in consensus 2
+2021-10-26 16:55:41.739 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of active clients: 5
+2021-10-26 16:55:41.739 [Delivery Thread] DEBUG bftsmart.tom.ServiceReplica - Delivering request from 4 via SingleExecutable
+2021-10-26 16:55:41.739 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Fetching requests with internal index 0
+2021-10-26 16:55:41.739 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of pending requests for client 0: 0.
+2021-10-26 16:55:41.739 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of pending requests for client 1: 1.
+2021-10-26 16:55:41.739 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Selected request with sequence number 0 from client 1
+2021-10-26 16:55:41.739 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of pending requests for client 3: 0.
+2021-10-26 16:55:41.739 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of pending requests for client 4: 0.
+2021-10-26 16:55:41.739 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of pending requests for client 5: 1.
+2021-10-26 16:55:41.739 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Selected request with sequence number 0 from client 5
+2021-10-26 16:55:41.739 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Fetching requests with internal index 1
+2021-10-26 16:55:41.739 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of pending requests for client 0: 0.
+2021-10-26 16:55:41.739 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of pending requests for client 1: 1.
+2021-10-26 16:55:41.739 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of pending requests for client 3: 0.
+2021-10-26 16:55:41.739 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of pending requests for client 4: 0.
+2021-10-26 16:55:41.739 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of pending requests for client 5: 1.
+2021-10-26 16:55:41.739 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - Number of pending requets to propose in consensus 3: 2
+2021-10-26 16:55:41.739 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - Creating a PROPOSE with 2 msgs
+2021-10-26 16:55:41.739 [TOM Layer] DEBUG bftsmart.tom.util.BatchBuilder - Adding request from client 1 with sequence number 0 for session -1513991798 to PROPOSE
+2021-10-26 16:55:41.739 [TOM Layer] DEBUG bftsmart.tom.util.BatchBuilder - Adding request from client 5 with sequence number 0 for session 1843305570 to PROPOSE
+2021-10-26 16:55:41.739 [Delivery Thread] DEBUG bftsmart.tom.ServiceReplica - sending reply to 4
+2021-10-26 16:55:41.739 [TOM Layer] DEBUG b.c.ServerCommunicationSystem - --> sending message from: [0, 1, 2, 3, 4, 5, 6] -> {}0
+2021-10-26 16:55:41.740 [TOM Layer] DEBUG b.c.server.ServersCommunicationLayer - Queueing (delivering) my own message, me:0
+2021-10-26 16:55:41.740 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=PROPOSE, number=3, epoch=0, from=0
+2021-10-26 16:55:41.740 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=PROPOSE, number=3, epoch=0, from=0
+2021-10-26 16:55:41.740 [TOM Layer] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:6.
+2021-10-26 16:55:41.740 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 3 and my last consensus is 2
+2021-10-26 16:55:41.740 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 3 can be processed
+2021-10-26 16:55:41.740 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 3
+2021-10-26 16:55:41.740 [TOM Layer] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:1.
+2021-10-26 16:55:41.740 [TOM Layer] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:5.
+2021-10-26 16:55:41.740 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - PROPOSE received from:0, for consensus cId:3, I am:0
+2021-10-26 16:55:41.740 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Executing propose for cId:3, Epoch Timestamp:0
+2021-10-26 16:55:41.740 [TOM Layer] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:2.
+2021-10-26 16:55:41.740 [TOM Layer] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:3.
+2021-10-26 16:55:41.740 [Server Comm. System] DEBUG bftsmart.tom.core.TOMLayer - Modifying inExec from 3 to 3
+2021-10-26 16:55:41.740 [TOM Layer] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:4.
+2021-10-26 16:55:41.740 [Server Comm. System] DEBUG bftsmart.tom.core.TOMLayer - Checking proposed value
+2021-10-26 16:55:41.740 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - Next leader for CID=3: 0
+2021-10-26 16:55:41.740 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - Waiting for consensus 3 termination.
+2021-10-26 16:55:41.741 [Server Comm. System] DEBUG bftsmart.tom.core.TOMLayer - Successfully deserialized batch
+2021-10-26 16:55:41.741 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Sending WRITE for 3
+2021-10-26 16:55:41.741 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Sending WRITE for cId:3, I am:0
+2021-10-26 16:55:41.741 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - --> sending message from: [1, 2, 3, 4, 5, 6] -> {}0
+2021-10-26 16:55:41.741 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:6.
+2021-10-26 16:55:41.741 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:1.
+2021-10-26 16:55:41.741 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:4.
+2021-10-26 16:55:41.741 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:5.
+2021-10-26 16:55:41.741 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:2.
+2021-10-26 16:55:41.741 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:3.
+2021-10-26 16:55:41.741 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 1, WRITE's for cId:3, Epoch timestamp:0,
+2021-10-26 16:55:41.741 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - WRITE computed for cId:3, I am:0
+2021-10-26 16:55:41.742 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=ACCEPT, number=2, epoch=0, from=3
+2021-10-26 16:55:41.742 [pool-1-thread-1] DEBUG bftsmart.consensus.roles.Acceptor - Creating cryptographic proof for speculative ACCEPT message from consensus 3
+2021-10-26 16:55:41.742 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=ACCEPT, number=2, epoch=0, from=3
+2021-10-26 16:55:41.742 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 3 and my last consensus is 2
+2021-10-26 16:55:41.742 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Out of context msg with id 2
+2021-10-26 16:55:41.771 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=WRITE, number=3, epoch=0, from=2
+2021-10-26 16:55:41.771 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=WRITE, number=3, epoch=0, from=2
+2021-10-26 16:55:41.771 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 3 and my last consensus is 2
+2021-10-26 16:55:41.771 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 3 can be processed
+2021-10-26 16:55:41.771 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 3
+2021-10-26 16:55:41.771 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - WRITE received from:2, for consensus cId:3
+2021-10-26 16:55:41.771 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 2, WRITE's for cId:3, Epoch timestamp:0,
+2021-10-26 16:55:41.771 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=WRITE, number=3, epoch=0, from=6
+2021-10-26 16:55:41.771 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=WRITE, number=3, epoch=0, from=6
+2021-10-26 16:55:41.771 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 3 and my last consensus is 2
+2021-10-26 16:55:41.771 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 3 can be processed
+2021-10-26 16:55:41.771 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 3
+2021-10-26 16:55:41.771 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - WRITE received from:6, for consensus cId:3
+2021-10-26 16:55:41.772 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 3, WRITE's for cId:3, Epoch timestamp:0,
+2021-10-26 16:55:41.772 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=WRITE, number=3, epoch=0, from=4
+2021-10-26 16:55:41.772 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=WRITE, number=3, epoch=0, from=4
+2021-10-26 16:55:41.772 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 3 and my last consensus is 2
+2021-10-26 16:55:41.772 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 3 can be processed
+2021-10-26 16:55:41.772 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 3
+2021-10-26 16:55:41.772 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - WRITE received from:4, for consensus cId:3
+2021-10-26 16:55:41.772 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 4, WRITE's for cId:3, Epoch timestamp:0,
+2021-10-26 16:55:41.772 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=WRITE, number=3, epoch=0, from=3
+2021-10-26 16:55:41.772 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=WRITE, number=3, epoch=0, from=3
+2021-10-26 16:55:41.772 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 3 and my last consensus is 2
+2021-10-26 16:55:41.772 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 3 can be processed
+2021-10-26 16:55:41.772 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 3
+2021-10-26 16:55:41.772 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - WRITE received from:3, for consensus cId:3
+2021-10-26 16:55:41.772 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 5, WRITE's for cId:3, Epoch timestamp:0,
+2021-10-26 16:55:41.772 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Sending ACCEPT message, cId:3, I am:0
+2021-10-26 16:55:41.772 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Setting consensus 3 QuorumWrite tiemstamp to 0 and value [72, 103, -74, -37, 9, 127, -96, -79, 106, -60, 84, 96, 123, 33, -19, -26, 88, 53, -11, -123, -72, -102, -70, -109, 103, 56, -118, 78, 62, -120, 126, -14]
+2021-10-26 16:55:41.772 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Speculative ACCEPT message for consensus 3 matches the written value, sending it to the other replicas
+2021-10-26 16:55:41.773 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:4.
+2021-10-26 16:55:41.773 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:1.
+2021-10-26 16:55:41.773 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:2.
+2021-10-26 16:55:41.773 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:5.
+2021-10-26 16:55:41.773 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:6.
+2021-10-26 16:55:41.773 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:3.
+2021-10-26 16:55:41.773 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Queueing (delivering) my own message, me:0
+2021-10-26 16:55:41.773 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=WRITE, number=3, epoch=0, from=1
+2021-10-26 16:55:41.773 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=WRITE, number=3, epoch=0, from=1
+2021-10-26 16:55:41.773 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 3 and my last consensus is 2
+2021-10-26 16:55:41.773 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 3 can be processed
+2021-10-26 16:55:41.773 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 3
+2021-10-26 16:55:41.773 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - WRITE received from:1, for consensus cId:3
+2021-10-26 16:55:41.773 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 6, WRITE's for cId:3, Epoch timestamp:0,
+2021-10-26 16:55:41.773 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=ACCEPT, number=3, epoch=0, from=1
+2021-10-26 16:55:41.773 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=ACCEPT, number=3, epoch=0, from=1
+2021-10-26 16:55:41.773 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 3 and my last consensus is 2
+2021-10-26 16:55:41.773 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 3 can be processed
+2021-10-26 16:55:41.773 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 3
+2021-10-26 16:55:41.773 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - ACCEPT from 1 for consensus 3
+2021-10-26 16:55:41.773 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 1 ACCEPTs for cId:3, Timestamp:0 
+2021-10-26 16:55:41.773 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=ACCEPT, number=3, epoch=0, from=0
+2021-10-26 16:55:41.773 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=ACCEPT, number=3, epoch=0, from=0
+2021-10-26 16:55:41.773 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 3 and my last consensus is 2
+2021-10-26 16:55:41.773 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 3 can be processed
+2021-10-26 16:55:41.773 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 3
+2021-10-26 16:55:41.773 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - ACCEPT from 0 for consensus 3
+2021-10-26 16:55:41.773 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 2 ACCEPTs for cId:3, Timestamp:0 
+2021-10-26 16:55:41.774 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=ACCEPT, number=3, epoch=0, from=2
+2021-10-26 16:55:41.775 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=ACCEPT, number=3, epoch=0, from=2
+2021-10-26 16:55:41.775 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 3 and my last consensus is 2
+2021-10-26 16:55:41.775 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 3 can be processed
+2021-10-26 16:55:41.775 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 3
+2021-10-26 16:55:41.775 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - ACCEPT from 2 for consensus 3
+2021-10-26 16:55:41.775 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 3 ACCEPTs for cId:3, Timestamp:0 
+2021-10-26 16:55:41.776 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=WRITE, number=3, epoch=0, from=5
+2021-10-26 16:55:41.776 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=WRITE, number=3, epoch=0, from=5
+2021-10-26 16:55:41.776 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 3 and my last consensus is 2
+2021-10-26 16:55:41.776 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 3 can be processed
+2021-10-26 16:55:41.776 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 3
+2021-10-26 16:55:41.776 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - WRITE received from:5, for consensus cId:3
+2021-10-26 16:55:41.776 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 7, WRITE's for cId:3, Epoch timestamp:0,
+2021-10-26 16:55:41.778 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=ACCEPT, number=3, epoch=0, from=5
+2021-10-26 16:55:41.778 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=ACCEPT, number=3, epoch=0, from=5
+2021-10-26 16:55:41.778 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 3 and my last consensus is 2
+2021-10-26 16:55:41.778 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 3 can be processed
+2021-10-26 16:55:41.778 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 3
+2021-10-26 16:55:41.778 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - ACCEPT from 5 for consensus 3
+2021-10-26 16:55:41.778 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 4 ACCEPTs for cId:3, Timestamp:0 
+2021-10-26 16:55:41.791 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=ACCEPT, number=3, epoch=0, from=6
+2021-10-26 16:55:41.793 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=ACCEPT, number=3, epoch=0, from=6
+2021-10-26 16:55:41.793 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 3 and my last consensus is 2
+2021-10-26 16:55:41.793 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 3 can be processed
+2021-10-26 16:55:41.793 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 3
+2021-10-26 16:55:41.793 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - ACCEPT from 6 for consensus 3
+2021-10-26 16:55:41.793 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 5 ACCEPTs for cId:3, Timestamp:0 
+2021-10-26 16:55:41.793 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Deciding consensus 3
+2021-10-26 16:55:41.793 [Server Comm. System] DEBUG bftsmart.consensus.Consensus - Delivering decision from consensus 3 to the TOMLayer/DeliveryThread
+2021-10-26 16:55:41.793 [Server Comm. System] DEBUG bftsmart.tom.core.DeliveryThread - Using cached requests from the propose.
+2021-10-26 16:55:41.793 [Server Comm. System] DEBUG b.clientsmanagement.ClientsManager - Updating client manager
+2021-10-26 16:55:41.793 [Server Comm. System] DEBUG b.clientsmanagement.ClientsManager - Finished updating client manager
+2021-10-26 16:55:41.793 [Server Comm. System] DEBUG bftsmart.tom.core.DeliveryThread - Consensus 3 finished. Decided size=1
+2021-10-26 16:55:41.793 [Server Comm. System] DEBUG bftsmart.tom.core.DeliveryThread - Decision from consensus 3 does not contain reconfiguration
+2021-10-26 16:55:41.793 [Server Comm. System] DEBUG bftsmart.tom.core.TOMLayer - Setting last exec to 3
+2021-10-26 16:55:41.793 [Server Comm. System] DEBUG bftsmart.tom.core.TOMLayer - Modifying inExec from 3 to -1
+2021-10-26 16:55:41.793 [Delivery Thread] DEBUG bftsmart.tom.core.DeliveryThread - Current size of the decided queue: 1
+2021-10-26 16:55:41.793 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - I'm the leader.
+2021-10-26 16:55:41.793 [Delivery Thread] DEBUG bftsmart.tom.core.DeliveryThread - Using cached requests from the propose.
+2021-10-26 16:55:41.793 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - Waiting for enough requests
+2021-10-26 16:55:41.793 [Delivery Thread] DEBUG bftsmart.tom.ServiceReplica - Processing TOMMessage from client 1 with sequence number 0 for session -1513991798 decided in consensus 3
+2021-10-26 16:55:41.793 [Delivery Thread] DEBUG bftsmart.tom.ServiceReplica - Delivering request from 1 via SingleExecutable
+2021-10-26 16:55:41.793 [Delivery Thread] DEBUG bftsmart.tom.ServiceReplica - sending reply to 1
+2021-10-26 16:55:41.793 [Delivery Thread] DEBUG bftsmart.tom.ServiceReplica - Processing TOMMessage from client 5 with sequence number 0 for session 1843305570 decided in consensus 3
+2021-10-26 16:55:41.793 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=ACCEPT, number=3, epoch=0, from=4
+2021-10-26 16:55:41.793 [Delivery Thread] DEBUG bftsmart.tom.ServiceReplica - Delivering request from 5 via SingleExecutable
+2021-10-26 16:55:41.793 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=ACCEPT, number=3, epoch=0, from=4
+2021-10-26 16:55:41.793 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus -1 and my last consensus is 3
+2021-10-26 16:55:41.793 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Out of context msg with id 3
+2021-10-26 16:55:41.794 [Delivery Thread] DEBUG bftsmart.tom.ServiceReplica - sending reply to 5
+2021-10-26 16:55:41.798 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=ACCEPT, number=3, epoch=0, from=3
+2021-10-26 16:55:41.798 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=ACCEPT, number=3, epoch=0, from=3
+2021-10-26 16:55:41.798 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus -1 and my last consensus is 3
+2021-10-26 16:55:41.798 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Out of context msg with id 3
+2021-10-26 16:55:41.934 [nioEventLoopGroup-3-6] DEBUG b.c.c.netty.NettyTOMMessageDecoder - Active clients: 5
+2021-10-26 16:55:41.934 [nioEventLoopGroup-3-6] DEBUG b.c.c.netty.NettyTOMMessageDecoder - Decoded reply from 2 with sequence number 0
+2021-10-26 16:55:41.934 [nioEventLoopGroup-3-6] DEBUG bftsmart.tom.core.TOMLayer - Received TOMMessage from client 2 with sequence number 0 for session -2089404490
+2021-10-26 16:55:41.934 [nioEventLoopGroup-3-6] DEBUG b.clientsmanagement.ClientsManager - Creating new client data, client id=2
+2021-10-26 16:55:41.935 [nioEventLoopGroup-3-6] DEBUG b.clientsmanagement.ClientsManager - Message from client 2 is valid
+2021-10-26 16:55:41.935 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - Got enough requests
+2021-10-26 16:55:41.935 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - There are requests to be ordered. I will propose.
+2021-10-26 16:55:41.935 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - Modifying inExec from -1 to 4
+2021-10-26 16:55:41.935 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of active clients: 6
+2021-10-26 16:55:41.935 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Fetching requests with internal index 0
+2021-10-26 16:55:41.935 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of pending requests for client 0: 0.
+2021-10-26 16:55:41.936 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of pending requests for client 1: 0.
+2021-10-26 16:55:41.936 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of pending requests for client 2: 1.
+2021-10-26 16:55:41.936 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Selected request with sequence number 0 from client 2
+2021-10-26 16:55:41.936 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of pending requests for client 3: 0.
+2021-10-26 16:55:41.936 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of pending requests for client 4: 0.
+2021-10-26 16:55:41.936 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of pending requests for client 5: 0.
+2021-10-26 16:55:41.936 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Fetching requests with internal index 1
+2021-10-26 16:55:41.936 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of pending requests for client 0: 0.
+2021-10-26 16:55:41.936 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of pending requests for client 1: 0.
+2021-10-26 16:55:41.936 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of pending requests for client 2: 1.
+2021-10-26 16:55:41.936 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of pending requests for client 3: 0.
+2021-10-26 16:55:41.936 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of pending requests for client 4: 0.
+2021-10-26 16:55:41.936 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of pending requests for client 5: 0.
+2021-10-26 16:55:41.936 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - Number of pending requets to propose in consensus 4: 1
+2021-10-26 16:55:41.936 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - Creating a PROPOSE with 1 msgs
+2021-10-26 16:55:41.936 [TOM Layer] DEBUG bftsmart.tom.util.BatchBuilder - Adding request from client 2 with sequence number 0 for session -2089404490 to PROPOSE
+2021-10-26 16:55:41.936 [TOM Layer] DEBUG b.c.ServerCommunicationSystem - --> sending message from: [0, 1, 2, 3, 4, 5, 6] -> {}0
+2021-10-26 16:55:41.936 [TOM Layer] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:2.
+2021-10-26 16:55:41.936 [TOM Layer] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:4.
+2021-10-26 16:55:41.936 [TOM Layer] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:6.
+2021-10-26 16:55:41.936 [TOM Layer] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:3.
+2021-10-26 16:55:41.936 [TOM Layer] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:1.
+2021-10-26 16:55:41.937 [TOM Layer] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:5.
+2021-10-26 16:55:41.937 [TOM Layer] DEBUG b.c.server.ServersCommunicationLayer - Queueing (delivering) my own message, me:0
+2021-10-26 16:55:41.937 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - Next leader for CID=4: 0
+2021-10-26 16:55:41.937 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=PROPOSE, number=4, epoch=0, from=0
+2021-10-26 16:55:41.937 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - Waiting for consensus 4 termination.
+2021-10-26 16:55:41.937 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=PROPOSE, number=4, epoch=0, from=0
+2021-10-26 16:55:41.937 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 4 and my last consensus is 3
+2021-10-26 16:55:41.937 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 4 can be processed
+2021-10-26 16:55:41.937 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 4
+2021-10-26 16:55:41.937 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - PROPOSE received from:0, for consensus cId:4, I am:0
+2021-10-26 16:55:41.937 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Executing propose for cId:4, Epoch Timestamp:0
+2021-10-26 16:55:41.937 [Server Comm. System] DEBUG bftsmart.tom.core.TOMLayer - Modifying inExec from 4 to 4
+2021-10-26 16:55:41.937 [Server Comm. System] DEBUG bftsmart.tom.core.TOMLayer - Checking proposed value
+2021-10-26 16:55:41.937 [Server Comm. System] DEBUG bftsmart.tom.core.TOMLayer - Successfully deserialized batch
+2021-10-26 16:55:41.937 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Sending WRITE for 4
+2021-10-26 16:55:41.937 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Sending WRITE for cId:4, I am:0
+2021-10-26 16:55:41.937 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - --> sending message from: [1, 2, 3, 4, 5, 6] -> {}0
+2021-10-26 16:55:41.937 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:4.
+2021-10-26 16:55:41.938 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:1.
+2021-10-26 16:55:41.938 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:3.
+2021-10-26 16:55:41.938 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:5.
+2021-10-26 16:55:41.938 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:2.
+2021-10-26 16:55:41.938 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:6.
+2021-10-26 16:55:41.938 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 1, WRITE's for cId:4, Epoch timestamp:0,
+2021-10-26 16:55:41.938 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - WRITE computed for cId:4, I am:0
+2021-10-26 16:55:41.938 [pool-1-thread-1] DEBUG bftsmart.consensus.roles.Acceptor - Creating cryptographic proof for speculative ACCEPT message from consensus 4
+2021-10-26 16:55:41.940 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=WRITE, number=4, epoch=0, from=4
+2021-10-26 16:55:41.940 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=WRITE, number=4, epoch=0, from=4
+2021-10-26 16:55:41.940 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 4 and my last consensus is 3
+2021-10-26 16:55:41.940 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 4 can be processed
+2021-10-26 16:55:41.940 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 4
+2021-10-26 16:55:41.940 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - WRITE received from:4, for consensus cId:4
+2021-10-26 16:55:41.940 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 2, WRITE's for cId:4, Epoch timestamp:0,
+2021-10-26 16:55:41.959 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=WRITE, number=4, epoch=0, from=1
+2021-10-26 16:55:41.960 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=WRITE, number=4, epoch=0, from=1
+2021-10-26 16:55:41.960 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 4 and my last consensus is 3
+2021-10-26 16:55:41.960 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 4 can be processed
+2021-10-26 16:55:41.960 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 4
+2021-10-26 16:55:41.960 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - WRITE received from:1, for consensus cId:4
+2021-10-26 16:55:41.960 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 3, WRITE's for cId:4, Epoch timestamp:0,
+2021-10-26 16:55:41.960 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=WRITE, number=4, epoch=0, from=6
+2021-10-26 16:55:41.960 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=WRITE, number=4, epoch=0, from=6
+2021-10-26 16:55:41.960 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 4 and my last consensus is 3
+2021-10-26 16:55:41.960 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 4 can be processed
+2021-10-26 16:55:41.960 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 4
+2021-10-26 16:55:41.960 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - WRITE received from:6, for consensus cId:4
+2021-10-26 16:55:41.960 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 4, WRITE's for cId:4, Epoch timestamp:0,
+2021-10-26 16:55:41.960 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=WRITE, number=4, epoch=0, from=5
+2021-10-26 16:55:41.960 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=WRITE, number=4, epoch=0, from=5
+2021-10-26 16:55:41.960 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 4 and my last consensus is 3
+2021-10-26 16:55:41.960 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 4 can be processed
+2021-10-26 16:55:41.960 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 4
+2021-10-26 16:55:41.960 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - WRITE received from:5, for consensus cId:4
+2021-10-26 16:55:41.960 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 5, WRITE's for cId:4, Epoch timestamp:0,
+2021-10-26 16:55:41.960 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Sending ACCEPT message, cId:4, I am:0
+2021-10-26 16:55:41.960 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Setting consensus 4 QuorumWrite tiemstamp to 0 and value [103, 84, -126, 88, -49, 77, 105, -59, -99, -54, -32, -58, 107, 55, 74, 16, -43, 103, 15, 72, 25, -103, -47, -69, -18, 92, 127, 16, 43, -46, -60, -90]
+2021-10-26 16:55:41.962 [nioEventLoopGroup-3-7] DEBUG b.c.c.netty.NettyTOMMessageDecoder - Active clients: 6
+2021-10-26 16:55:41.963 [nioEventLoopGroup-3-7] DEBUG b.c.c.netty.NettyTOMMessageDecoder - Decoded reply from 6 with sequence number 0
+2021-10-26 16:55:41.963 [nioEventLoopGroup-3-7] DEBUG bftsmart.tom.core.TOMLayer - Received TOMMessage from client 6 with sequence number 0 for session -840494318
+2021-10-26 16:55:41.963 [nioEventLoopGroup-3-7] DEBUG b.clientsmanagement.ClientsManager - Creating new client data, client id=6
+2021-10-26 16:55:41.963 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Speculative ACCEPT message for consensus 4 matches the written value, sending it to the other replicas
+2021-10-26 16:55:41.963 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:1.
+2021-10-26 16:55:41.963 [nioEventLoopGroup-3-7] DEBUG b.clientsmanagement.ClientsManager - Message from client 6 is valid
+2021-10-26 16:55:41.963 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:2.
+2021-10-26 16:55:41.963 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:4.
+2021-10-26 16:55:41.964 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:3.
+2021-10-26 16:55:41.964 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Queueing (delivering) my own message, me:0
+2021-10-26 16:55:41.964 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:5.
+2021-10-26 16:55:41.964 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:6.
+2021-10-26 16:55:41.964 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=WRITE, number=4, epoch=0, from=2
+2021-10-26 16:55:41.964 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=WRITE, number=4, epoch=0, from=2
+2021-10-26 16:55:41.964 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 4 and my last consensus is 3
+2021-10-26 16:55:41.964 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 4 can be processed
+2021-10-26 16:55:41.964 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 4
+2021-10-26 16:55:41.964 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - WRITE received from:2, for consensus cId:4
+2021-10-26 16:55:41.964 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 6, WRITE's for cId:4, Epoch timestamp:0,
+2021-10-26 16:55:41.964 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=WRITE, number=4, epoch=0, from=3
+2021-10-26 16:55:41.964 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=WRITE, number=4, epoch=0, from=3
+2021-10-26 16:55:41.964 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 4 and my last consensus is 3
+2021-10-26 16:55:41.964 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 4 can be processed
+2021-10-26 16:55:41.964 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 4
+2021-10-26 16:55:41.964 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - WRITE received from:3, for consensus cId:4
+2021-10-26 16:55:41.964 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 7, WRITE's for cId:4, Epoch timestamp:0,
+2021-10-26 16:55:41.964 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=ACCEPT, number=4, epoch=0, from=3
+2021-10-26 16:55:41.964 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=ACCEPT, number=4, epoch=0, from=3
+2021-10-26 16:55:41.964 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 4 and my last consensus is 3
+2021-10-26 16:55:41.964 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 4 can be processed
+2021-10-26 16:55:41.964 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 4
+2021-10-26 16:55:41.964 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - ACCEPT from 3 for consensus 4
+2021-10-26 16:55:41.964 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 1 ACCEPTs for cId:4, Timestamp:0 
+2021-10-26 16:55:41.964 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=ACCEPT, number=4, epoch=0, from=0
+2021-10-26 16:55:41.964 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=ACCEPT, number=4, epoch=0, from=0
+2021-10-26 16:55:41.964 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 4 and my last consensus is 3
+2021-10-26 16:55:41.964 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 4 can be processed
+2021-10-26 16:55:41.964 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 4
+2021-10-26 16:55:41.964 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - ACCEPT from 0 for consensus 4
+2021-10-26 16:55:41.964 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 2 ACCEPTs for cId:4, Timestamp:0 
+2021-10-26 16:55:41.965 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=ACCEPT, number=4, epoch=0, from=1
+2021-10-26 16:55:41.965 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=ACCEPT, number=4, epoch=0, from=1
+2021-10-26 16:55:41.965 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 4 and my last consensus is 3
+2021-10-26 16:55:41.965 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 4 can be processed
+2021-10-26 16:55:41.965 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 4
+2021-10-26 16:55:41.965 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - ACCEPT from 1 for consensus 4
+2021-10-26 16:55:41.965 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 3 ACCEPTs for cId:4, Timestamp:0 
+2021-10-26 16:55:41.966 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=ACCEPT, number=4, epoch=0, from=6
+2021-10-26 16:55:41.967 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=ACCEPT, number=4, epoch=0, from=6
+2021-10-26 16:55:41.967 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 4 and my last consensus is 3
+2021-10-26 16:55:41.967 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 4 can be processed
+2021-10-26 16:55:41.967 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 4
+2021-10-26 16:55:41.967 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - ACCEPT from 6 for consensus 4
+2021-10-26 16:55:41.967 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 4 ACCEPTs for cId:4, Timestamp:0 
+2021-10-26 16:55:41.969 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=ACCEPT, number=4, epoch=0, from=4
+2021-10-26 16:55:41.970 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=ACCEPT, number=4, epoch=0, from=4
+2021-10-26 16:55:41.970 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 4 and my last consensus is 3
+2021-10-26 16:55:41.970 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 4 can be processed
+2021-10-26 16:55:41.970 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 4
+2021-10-26 16:55:41.970 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - ACCEPT from 4 for consensus 4
+2021-10-26 16:55:41.970 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 5 ACCEPTs for cId:4, Timestamp:0 
+2021-10-26 16:55:41.970 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Deciding consensus 4
+2021-10-26 16:55:41.970 [Server Comm. System] DEBUG bftsmart.consensus.Consensus - Delivering decision from consensus 4 to the TOMLayer/DeliveryThread
+2021-10-26 16:55:41.970 [Server Comm. System] DEBUG bftsmart.tom.core.DeliveryThread - Using cached requests from the propose.
+2021-10-26 16:55:41.970 [Server Comm. System] DEBUG b.clientsmanagement.ClientsManager - Updating client manager
+2021-10-26 16:55:41.970 [Server Comm. System] DEBUG b.clientsmanagement.ClientsManager - Finished updating client manager
+2021-10-26 16:55:41.970 [Delivery Thread] DEBUG bftsmart.tom.core.DeliveryThread - Current size of the decided queue: 1
+2021-10-26 16:55:41.970 [Delivery Thread] DEBUG bftsmart.tom.core.DeliveryThread - Using cached requests from the propose.
+2021-10-26 16:55:41.970 [Delivery Thread] DEBUG bftsmart.tom.ServiceReplica - Processing TOMMessage from client 2 with sequence number 0 for session -2089404490 decided in consensus 4
+2021-10-26 16:55:41.970 [Delivery Thread] DEBUG bftsmart.tom.ServiceReplica - Delivering request from 2 via SingleExecutable
+2021-10-26 16:55:41.970 [Delivery Thread] DEBUG bftsmart.tom.ServiceReplica - sending reply to 2
+2021-10-26 16:55:41.970 [Server Comm. System] DEBUG bftsmart.tom.core.DeliveryThread - Consensus 4 finished. Decided size=0
+2021-10-26 16:55:41.970 [Server Comm. System] DEBUG bftsmart.tom.core.DeliveryThread - Decision from consensus 4 does not contain reconfiguration
+2021-10-26 16:55:41.970 [Server Comm. System] DEBUG bftsmart.tom.core.TOMLayer - Setting last exec to 4
+2021-10-26 16:55:41.970 [Server Comm. System] DEBUG bftsmart.tom.core.TOMLayer - Modifying inExec from 4 to -1
+2021-10-26 16:55:41.970 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - I'm the leader.
+2021-10-26 16:55:41.970 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - There are requests to be ordered. I will propose.
+2021-10-26 16:55:41.971 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - Modifying inExec from -1 to 5
+2021-10-26 16:55:41.971 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of active clients: 7
+2021-10-26 16:55:41.971 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Fetching requests with internal index 0
+2021-10-26 16:55:41.971 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of pending requests for client 0: 0.
+2021-10-26 16:55:41.971 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of pending requests for client 1: 0.
+2021-10-26 16:55:41.971 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of pending requests for client 2: 0.
+2021-10-26 16:55:41.971 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of pending requests for client 3: 0.
+2021-10-26 16:55:41.971 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of pending requests for client 4: 0.
+2021-10-26 16:55:41.971 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of pending requests for client 5: 0.
+2021-10-26 16:55:41.971 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of pending requests for client 6: 1.
+2021-10-26 16:55:41.971 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Selected request with sequence number 0 from client 6
+2021-10-26 16:55:41.971 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Fetching requests with internal index 1
+2021-10-26 16:55:41.971 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of pending requests for client 0: 0.
+2021-10-26 16:55:41.971 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of pending requests for client 1: 0.
+2021-10-26 16:55:41.971 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of pending requests for client 2: 0.
+2021-10-26 16:55:41.971 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of pending requests for client 3: 0.
+2021-10-26 16:55:41.971 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of pending requests for client 4: 0.
+2021-10-26 16:55:41.971 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of pending requests for client 5: 0.
+2021-10-26 16:55:41.971 [TOM Layer] DEBUG b.clientsmanagement.ClientsManager - Number of pending requests for client 6: 1.
+2021-10-26 16:55:41.971 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - Number of pending requets to propose in consensus 5: 1
+2021-10-26 16:55:41.971 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - Creating a PROPOSE with 1 msgs
+2021-10-26 16:55:41.971 [TOM Layer] DEBUG bftsmart.tom.util.BatchBuilder - Adding request from client 6 with sequence number 0 for session -840494318 to PROPOSE
+2021-10-26 16:55:41.971 [TOM Layer] DEBUG b.c.ServerCommunicationSystem - --> sending message from: [0, 1, 2, 3, 4, 5, 6] -> {}0
+2021-10-26 16:55:41.971 [TOM Layer] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:1.
+2021-10-26 16:55:41.971 [TOM Layer] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:3.
+2021-10-26 16:55:41.971 [TOM Layer] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:2.
+2021-10-26 16:55:41.971 [TOM Layer] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:4.
+2021-10-26 16:55:41.971 [TOM Layer] DEBUG b.c.server.ServersCommunicationLayer - Queueing (delivering) my own message, me:0
+2021-10-26 16:55:41.971 [TOM Layer] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:6.
+2021-10-26 16:55:41.971 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=PROPOSE, number=5, epoch=0, from=0
+2021-10-26 16:55:41.971 [TOM Layer] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:5.
+2021-10-26 16:55:41.971 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=PROPOSE, number=5, epoch=0, from=0
+2021-10-26 16:55:41.971 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 5 and my last consensus is 4
+2021-10-26 16:55:41.971 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - Next leader for CID=5: 0
+2021-10-26 16:55:41.971 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 5 can be processed
+2021-10-26 16:55:41.971 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - Waiting for consensus 5 termination.
+2021-10-26 16:55:41.971 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 5
+2021-10-26 16:55:41.971 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - PROPOSE received from:0, for consensus cId:5, I am:0
+2021-10-26 16:55:41.971 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Executing propose for cId:5, Epoch Timestamp:0
+2021-10-26 16:55:41.972 [Server Comm. System] DEBUG bftsmart.tom.core.TOMLayer - Modifying inExec from 5 to 5
+2021-10-26 16:55:41.972 [Server Comm. System] DEBUG bftsmart.tom.core.TOMLayer - Checking proposed value
+2021-10-26 16:55:41.972 [Server Comm. System] DEBUG bftsmart.tom.core.TOMLayer - Successfully deserialized batch
+2021-10-26 16:55:41.972 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Sending WRITE for 5
+2021-10-26 16:55:41.972 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Sending WRITE for cId:5, I am:0
+2021-10-26 16:55:41.972 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - --> sending message from: [1, 2, 3, 4, 5, 6] -> {}0
+2021-10-26 16:55:41.972 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:4.
+2021-10-26 16:55:41.972 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:5.
+2021-10-26 16:55:41.972 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:3.
+2021-10-26 16:55:41.972 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:1.
+2021-10-26 16:55:41.972 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:6.
+2021-10-26 16:55:41.972 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:2.
+2021-10-26 16:55:41.972 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 1, WRITE's for cId:5, Epoch timestamp:0,
+2021-10-26 16:55:41.972 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - WRITE computed for cId:5, I am:0
+2021-10-26 16:55:41.972 [pool-1-thread-1] DEBUG bftsmart.consensus.roles.Acceptor - Creating cryptographic proof for speculative ACCEPT message from consensus 5
+2021-10-26 16:55:41.973 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=WRITE, number=5, epoch=0, from=4
+2021-10-26 16:55:41.993 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=WRITE, number=5, epoch=0, from=4
+2021-10-26 16:55:41.993 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 5 and my last consensus is 4
+2021-10-26 16:55:41.993 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 5 can be processed
+2021-10-26 16:55:41.993 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 5
+2021-10-26 16:55:41.993 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - WRITE received from:4, for consensus cId:5
+2021-10-26 16:55:41.993 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 2, WRITE's for cId:5, Epoch timestamp:0,
+2021-10-26 16:55:41.993 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=WRITE, number=5, epoch=0, from=6
+2021-10-26 16:55:41.993 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=WRITE, number=5, epoch=0, from=6
+2021-10-26 16:55:41.993 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 5 and my last consensus is 4
+2021-10-26 16:55:41.993 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 5 can be processed
+2021-10-26 16:55:41.993 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 5
+2021-10-26 16:55:41.993 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - WRITE received from:6, for consensus cId:5
+2021-10-26 16:55:41.993 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 3, WRITE's for cId:5, Epoch timestamp:0,
+2021-10-26 16:55:41.994 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=WRITE, number=5, epoch=0, from=3
+2021-10-26 16:55:41.994 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=WRITE, number=5, epoch=0, from=3
+2021-10-26 16:55:41.994 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 5 and my last consensus is 4
+2021-10-26 16:55:41.994 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 5 can be processed
+2021-10-26 16:55:41.994 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 5
+2021-10-26 16:55:41.994 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - WRITE received from:3, for consensus cId:5
+2021-10-26 16:55:41.994 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 4, WRITE's for cId:5, Epoch timestamp:0,
+2021-10-26 16:55:41.994 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=ACCEPT, number=4, epoch=0, from=5
+2021-10-26 16:55:41.994 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=ACCEPT, number=4, epoch=0, from=5
+2021-10-26 16:55:41.994 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 5 and my last consensus is 4
+2021-10-26 16:55:41.994 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Out of context msg with id 4
+2021-10-26 16:55:41.994 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=WRITE, number=5, epoch=0, from=1
+2021-10-26 16:55:41.994 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=WRITE, number=5, epoch=0, from=1
+2021-10-26 16:55:41.994 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 5 and my last consensus is 4
+2021-10-26 16:55:41.994 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 5 can be processed
+2021-10-26 16:55:41.994 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 5
+2021-10-26 16:55:41.994 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - WRITE received from:1, for consensus cId:5
+2021-10-26 16:55:41.994 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 5, WRITE's for cId:5, Epoch timestamp:0,
+2021-10-26 16:55:41.994 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Sending ACCEPT message, cId:5, I am:0
+2021-10-26 16:55:41.994 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Setting consensus 5 QuorumWrite tiemstamp to 0 and value [11, -47, -109, 47, 5, -49, 90, -114, -121, 110, -124, -57, -28, 44, -24, 85, 119, 73, -91, -101, 113, 9, 23, 55, 87, 3, -128, 65, -55, 112, 31, 39]
+2021-10-26 16:55:42.013 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Speculative ACCEPT message for consensus 5 matches the written value, sending it to the other replicas
+2021-10-26 16:55:42.013 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:4.
+2021-10-26 16:55:42.013 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:5.
+2021-10-26 16:55:42.014 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Queueing (delivering) my own message, me:0
+2021-10-26 16:55:42.014 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:3.
+2021-10-26 16:55:42.014 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:2.
+2021-10-26 16:55:42.014 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:1.
+2021-10-26 16:55:42.014 [Server Comm. System] DEBUG b.c.server.ServersCommunicationLayer - Sending message from:0 -> to:6.
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=ACCEPT, number=5, epoch=0, from=6
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=ACCEPT, number=5, epoch=0, from=6
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 5 and my last consensus is 4
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 5 can be processed
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 5
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - ACCEPT from 6 for consensus 5
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 1 ACCEPTs for cId:5, Timestamp:0 
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=WRITE, number=5, epoch=0, from=5
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=WRITE, number=5, epoch=0, from=5
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 5 and my last consensus is 4
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 5 can be processed
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 5
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - WRITE received from:5, for consensus cId:5
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 6, WRITE's for cId:5, Epoch timestamp:0,
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=ACCEPT, number=5, epoch=0, from=3
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=ACCEPT, number=5, epoch=0, from=3
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 5 and my last consensus is 4
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 5 can be processed
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 5
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - ACCEPT from 3 for consensus 5
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 2 ACCEPTs for cId:5, Timestamp:0 
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=ACCEPT, number=5, epoch=0, from=1
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=ACCEPT, number=5, epoch=0, from=1
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 5 and my last consensus is 4
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 5 can be processed
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 5
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - ACCEPT from 1 for consensus 5
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 3 ACCEPTs for cId:5, Timestamp:0 
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=ACCEPT, number=4, epoch=0, from=2
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=ACCEPT, number=4, epoch=0, from=2
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 5 and my last consensus is 4
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Out of context msg with id 4
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=WRITE, number=5, epoch=0, from=2
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=WRITE, number=5, epoch=0, from=2
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 5 and my last consensus is 4
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 5 can be processed
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 5
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - WRITE received from:2, for consensus cId:5
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 7, WRITE's for cId:5, Epoch timestamp:0,
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=ACCEPT, number=5, epoch=0, from=4
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=ACCEPT, number=5, epoch=0, from=4
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 5 and my last consensus is 4
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 5 can be processed
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 5
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - ACCEPT from 4 for consensus 5
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 4 ACCEPTs for cId:5, Timestamp:0 
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=ACCEPT, number=5, epoch=0, from=5
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=ACCEPT, number=5, epoch=0, from=5
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus 5 and my last consensus is 4
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Message for consensus 5 can be processed
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Processing paxos msg with id 5
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - ACCEPT from 5 for consensus 5
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - I have 5 ACCEPTs for cId:5, Timestamp:0 
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Deciding consensus 5
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG bftsmart.consensus.Consensus - Delivering decision from consensus 5 to the TOMLayer/DeliveryThread
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG bftsmart.tom.core.DeliveryThread - Using cached requests from the propose.
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG b.clientsmanagement.ClientsManager - Updating client manager
+2021-10-26 16:55:42.015 [Server Comm. System] DEBUG b.clientsmanagement.ClientsManager - Finished updating client manager
+2021-10-26 16:55:42.015 [Delivery Thread] DEBUG bftsmart.tom.core.DeliveryThread - Current size of the decided queue: 1
+2021-10-26 16:55:42.015 [Delivery Thread] DEBUG bftsmart.tom.core.DeliveryThread - Using cached requests from the propose.
+2021-10-26 16:55:42.015 [Delivery Thread] DEBUG bftsmart.tom.ServiceReplica - Processing TOMMessage from client 6 with sequence number 0 for session -840494318 decided in consensus 5
+2021-10-26 16:55:42.015 [Delivery Thread] DEBUG bftsmart.tom.ServiceReplica - Delivering request from 6 via SingleExecutable
+2021-10-26 16:55:42.016 [Delivery Thread] DEBUG bftsmart.tom.ServiceReplica - sending reply to 6
+2021-10-26 16:55:42.017 [Server Comm. System] DEBUG bftsmart.tom.core.DeliveryThread - Consensus 5 finished. Decided size=0
+2021-10-26 16:55:42.019 [Server Comm. System] DEBUG bftsmart.tom.core.DeliveryThread - Decision from consensus 5 does not contain reconfiguration
+2021-10-26 16:55:42.019 [Server Comm. System] DEBUG bftsmart.tom.core.TOMLayer - Setting last exec to 5
+2021-10-26 16:55:42.019 [Server Comm. System] DEBUG bftsmart.tom.core.TOMLayer - Modifying inExec from 5 to -1
+2021-10-26 16:55:42.019 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=ACCEPT, number=5, epoch=0, from=2
+2021-10-26 16:55:42.019 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - I'm the leader.
+2021-10-26 16:55:42.019 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=ACCEPT, number=5, epoch=0, from=2
+2021-10-26 16:55:42.019 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus -1 and my last consensus is 5
+2021-10-26 16:55:42.019 [TOM Layer] DEBUG bftsmart.tom.core.TOMLayer - Waiting for enough requests
+2021-10-26 16:55:42.019 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Out of context msg with id 5
+2021-10-26 16:55:42.019 [Server Comm. System] DEBUG b.c.ServerCommunicationSystem - <-- receiving, msg:type=ACCEPT, number=5, epoch=0, from=0
+2021-10-26 16:55:42.019 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - Received message  type=ACCEPT, number=5, epoch=0, from=0
+2021-10-26 16:55:42.019 [Server Comm. System] DEBUG bftsmart.tom.core.ExecutionManager - I'm at consensus -1 and my last consensus is 5
+2021-10-26 16:55:42.020 [Server Comm. System] DEBUG bftsmart.consensus.roles.Acceptor - Out of context msg with id 5
+2021-10-26 16:55:42.653 [nioEventLoopGroup-3-2] DEBUG b.c.c.n.NettyClientServerCommunicationSystemServerSide - Channel Inactive
+2021-10-26 16:55:42.654 [nioEventLoopGroup-3-2] DEBUG b.c.c.n.NettyClientServerCommunicationSystemServerSide - SessionReplicaToClient: Key:1, Value:bftsmart.communication.client.netty.NettyClientServerSession@557e44cf
+2021-10-26 16:55:42.655 [nioEventLoopGroup-3-2] DEBUG b.c.c.n.NettyClientServerCommunicationSystemServerSide - SessionReplicaToClient: Key:2, Value:bftsmart.communication.client.netty.NettyClientServerSession@3a78ea13
+2021-10-26 16:55:42.655 [nioEventLoopGroup-3-2] DEBUG b.c.c.n.NettyClientServerCommunicationSystemServerSide - SessionReplicaToClient: Key:3, Value:bftsmart.communication.client.netty.NettyClientServerSession@20ee9c53
+2021-10-26 16:55:42.655 [nioEventLoopGroup-3-2] DEBUG b.c.c.n.NettyClientServerCommunicationSystemServerSide - SessionReplicaToClient: Key:4, Value:bftsmart.communication.client.netty.NettyClientServerSession@2dd557fa
+2021-10-26 16:55:42.655 [nioEventLoopGroup-3-2] DEBUG b.c.c.n.NettyClientServerCommunicationSystemServerSide - SessionReplicaToClient: Key:5, Value:bftsmart.communication.client.netty.NettyClientServerSession@6b1658da
+2021-10-26 16:55:42.655 [nioEventLoopGroup-3-2] DEBUG b.c.c.n.NettyClientServerCommunicationSystemServerSide - SessionReplicaToClient: Key:6, Value:bftsmart.communication.client.netty.NettyClientServerSession@4c69214b
+2021-10-26 16:55:42.655 [nioEventLoopGroup-3-2] DEBUG b.c.c.n.NettyClientServerCommunicationSystemServerSide - Removing client channel with ID = 3
+2021-10-26 16:55:42.655 [nioEventLoopGroup-3-2] DEBUG b.c.c.n.NettyClientServerCommunicationSystemServerSide - Session Closed, active clients=5
+2021-10-26 16:55:42.973 [nioEventLoopGroup-3-3] DEBUG b.c.c.n.NettyClientServerCommunicationSystemServerSide - Channel Inactive
+2021-10-26 16:55:42.973 [nioEventLoopGroup-3-3] DEBUG b.c.c.n.NettyClientServerCommunicationSystemServerSide - SessionReplicaToClient: Key:1, Value:bftsmart.communication.client.netty.NettyClientServerSession@557e44cf
+2021-10-26 16:55:42.974 [nioEventLoopGroup-3-3] DEBUG b.c.c.n.NettyClientServerCommunicationSystemServerSide - SessionReplicaToClient: Key:2, Value:bftsmart.communication.client.netty.NettyClientServerSession@3a78ea13
+2021-10-26 16:55:42.974 [nioEventLoopGroup-3-3] DEBUG b.c.c.n.NettyClientServerCommunicationSystemServerSide - SessionReplicaToClient: Key:4, Value:bftsmart.communication.client.netty.NettyClientServerSession@2dd557fa
+2021-10-26 16:55:42.974 [nioEventLoopGroup-3-3] DEBUG b.c.c.n.NettyClientServerCommunicationSystemServerSide - SessionReplicaToClient: Key:5, Value:bftsmart.communication.client.netty.NettyClientServerSession@6b1658da
+2021-10-26 16:55:42.974 [nioEventLoopGroup-3-3] DEBUG b.c.c.n.NettyClientServerCommunicationSystemServerSide - SessionReplicaToClient: Key:6, Value:bftsmart.communication.client.netty.NettyClientServerSession@4c69214b
+2021-10-26 16:55:42.974 [nioEventLoopGroup-3-3] DEBUG b.c.c.n.NettyClientServerCommunicationSystemServerSide - Removing client channel with ID = 4
+2021-10-26 16:55:42.974 [nioEventLoopGroup-3-3] DEBUG b.c.c.n.NettyClientServerCommunicationSystemServerSide - Session Closed, active clients=4
+2021-10-26 16:55:43.029 [nioEventLoopGroup-3-4] DEBUG b.c.c.n.NettyClientServerCommunicationSystemServerSide - Channel Inactive
+2021-10-26 16:55:43.029 [nioEventLoopGroup-3-4] DEBUG b.c.c.n.NettyClientServerCommunicationSystemServerSide - SessionReplicaToClient: Key:1, Value:bftsmart.communication.client.netty.NettyClientServerSession@557e44cf
+2021-10-26 16:55:43.029 [nioEventLoopGroup-3-4] DEBUG b.c.c.n.NettyClientServerCommunicationSystemServerSide - SessionReplicaToClient: Key:2, Value:bftsmart.communication.client.netty.NettyClientServerSession@3a78ea13
+2021-10-26 16:55:43.029 [nioEventLoopGroup-3-4] DEBUG b.c.c.n.NettyClientServerCommunicationSystemServerSide - SessionReplicaToClient: Key:5, Value:bftsmart.communication.client.netty.NettyClientServerSession@6b1658da
+2021-10-26 16:55:43.029 [nioEventLoopGroup-3-4] DEBUG b.c.c.n.NettyClientServerCommunicationSystemServerSide - SessionReplicaToClient: Key:6, Value:bftsmart.communication.client.netty.NettyClientServerSession@4c69214b
+2021-10-26 16:55:43.030 [nioEventLoopGroup-3-4] DEBUG b.c.c.n.NettyClientServerCommunicationSystemServerSide - Removing client channel with ID = 1
+2021-10-26 16:55:43.030 [nioEventLoopGroup-3-4] DEBUG b.c.c.n.NettyClientServerCommunicationSystemServerSide - Session Closed, active clients=3
+2021-10-26 16:55:43.035 [nioEventLoopGroup-3-5] DEBUG b.c.c.n.NettyClientServerCommunicationSystemServerSide - Channel Inactive
+2021-10-26 16:55:43.035 [nioEventLoopGroup-3-5] DEBUG b.c.c.n.NettyClientServerCommunicationSystemServerSide - SessionReplicaToClient: Key:2, Value:bftsmart.communication.client.netty.NettyClientServerSession@3a78ea13
+2021-10-26 16:55:43.035 [nioEventLoopGroup-3-5] DEBUG b.c.c.n.NettyClientServerCommunicationSystemServerSide - SessionReplicaToClient: Key:5, Value:bftsmart.communication.client.netty.NettyClientServerSession@6b1658da
+2021-10-26 16:55:43.035 [nioEventLoopGroup-3-5] DEBUG b.c.c.n.NettyClientServerCommunicationSystemServerSide - SessionReplicaToClient: Key:6, Value:bftsmart.communication.client.netty.NettyClientServerSession@4c69214b
+2021-10-26 16:55:43.035 [nioEventLoopGroup-3-5] DEBUG b.c.c.n.NettyClientServerCommunicationSystemServerSide - Removing client channel with ID = 5
+2021-10-26 16:55:43.035 [nioEventLoopGroup-3-5] DEBUG b.c.c.n.NettyClientServerCommunicationSystemServerSide - Session Closed, active clients=2
+2021-10-26 16:55:43.269 [nioEventLoopGroup-3-7] DEBUG b.c.c.n.NettyClientServerCommunicationSystemServerSide - Channel Inactive
+2021-10-26 16:55:43.269 [nioEventLoopGroup-3-7] DEBUG b.c.c.n.NettyClientServerCommunicationSystemServerSide - SessionReplicaToClient: Key:2, Value:bftsmart.communication.client.netty.NettyClientServerSession@3a78ea13
+2021-10-26 16:55:43.269 [nioEventLoopGroup-3-7] DEBUG b.c.c.n.NettyClientServerCommunicationSystemServerSide - SessionReplicaToClient: Key:6, Value:bftsmart.communication.client.netty.NettyClientServerSession@4c69214b
+2021-10-26 16:55:43.270 [nioEventLoopGroup-3-7] DEBUG b.c.c.n.NettyClientServerCommunicationSystemServerSide - Removing client channel with ID = 6
+2021-10-26 16:55:43.270 [nioEventLoopGroup-3-7] DEBUG b.c.c.n.NettyClientServerCommunicationSystemServerSide - Session Closed, active clients=1
+2021-10-26 16:55:43.297 [nioEventLoopGroup-3-6] DEBUG b.c.c.n.NettyClientServerCommunicationSystemServerSide - Channel Inactive
+2021-10-26 16:55:43.297 [nioEventLoopGroup-3-6] DEBUG b.c.c.n.NettyClientServerCommunicationSystemServerSide - SessionReplicaToClient: Key:2, Value:bftsmart.communication.client.netty.NettyClientServerSession@3a78ea13
+2021-10-26 16:55:43.298 [nioEventLoopGroup-3-6] DEBUG b.c.c.n.NettyClientServerCommunicationSystemServerSide - Removing client channel with ID = 2
+2021-10-26 16:55:43.298 [nioEventLoopGroup-3-6] DEBUG b.c.c.n.NettyClientServerCommunicationSystemServerSide - Session Closed, active clients=0
