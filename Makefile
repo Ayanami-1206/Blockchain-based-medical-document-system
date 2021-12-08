@@ -29,16 +29,21 @@ batchkill:
 netstart:
 	sudo mn --custom MyTopo200.py --topo mytopo  # 201 for illegal devices
 run_gui:
-	./rungui 1>/dev/null 2>/dev/null
+	@./rungui 1>/dev/null 2>/dev/null
 renzheng_bench:
 	cd env/0 && java -D"java.security.properties"="./config/java.security" -D"logback.configurationFile"="./config/logback.xml" -cp "bin/*:lib/*:./*:../../target/BlockChainDemo2-1.0-SNAPSHOT-jar-with-dependencies.jar" bench
 
+demo_init_gadget:
+	make batchkill
+	sleep 3
+	make blockinit
+	sleep 3
+	make batchkill
+	sleep 3
+	make blockinit
+	sleep 3
+
 demo_init:
-	make batchkill
-	sleep 1
-	make blockinit
-	sleep 1
-	make batchkill
-	sleep 1
-	make blockinit
-	sleep 1
+	@make demo_init_gadget > /dev/null 2>/dev/null &
+	@bash bar.sh
+
