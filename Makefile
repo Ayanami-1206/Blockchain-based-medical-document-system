@@ -32,3 +32,13 @@ run_gui:
 	./rungui 1>/dev/null 2>/dev/null
 renzheng_bench:
 	cd env/0 && java -D"java.security.properties"="./config/java.security" -D"logback.configurationFile"="./config/logback.xml" -cp "bin/*:lib/*:./*:../../target/BlockChainDemo2-1.0-SNAPSHOT-jar-with-dependencies.jar" bench
+
+demo_init:
+	make batchkill
+	sleep 1
+	make blockinit
+	sleep 1
+	make batchkill
+	sleep 1
+	make blockinit
+	sleep 1
