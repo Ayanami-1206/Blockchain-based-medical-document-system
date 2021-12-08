@@ -46,15 +46,7 @@ public class Res_Contract {
         }*/
         String Ti = getCurrentTime();
         returnStr = Ti + "&" + "资源" + r_name + "在" + Ti + "申请修改" + "资源";
-        if (user_role==0&&r_level == 0){
-            //测发控系统是否部署觉得是否可以读写
-            flag = 1;
-            if(!testFlag) {
-                 Ti = getCurrentTime();
-                returnStr = Ti + "&" + "资源" + r_name + "在" + Ti + "申请修改" + "资源";
-            }
-        }
-        else if (user_role == 1 &&r_level==1){
+       if (user_role == 1 &&r_level==1){
             flag = 1;//可删
             if(!testFlag) {
                  Ti = getCurrentTime();
