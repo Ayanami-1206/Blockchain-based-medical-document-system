@@ -3,6 +3,7 @@ build: runguibuild
 blockinit:
 	rm -rf env/*/block_data
 	rm -rf env/*/currentView
+	rm -rf env/*/src
 runguibuild: rungui.cpp Makefile
 	g++ rungui.cpp -o rungui -g 2>/dev/null
 run0:
@@ -35,15 +36,46 @@ renzheng_bench:
 
 demo_init_gadget:
 	make batchkill
-	sleep 3
+	make blockinit
+	make batchkill
+	make blockinit
+	make batchkill
 	make blockinit
 	sleep 3
 	make batchkill
-	sleep 3
+	make blockinit
+	make batchkill
+	make blockinit
+	make batchkill
 	make blockinit
 	sleep 3
+	make batchkill
+	make blockinit
+	make batchkill
+	make blockinit
+	make batchkill
+	make blockinit
+	sleep 3
+	make batchkill
+	make blockinit
+	make batchkill
+	make blockinit
+	make batchkill
+	make blockinit		
 
-demo_init:
+
+init:
 	@make demo_init_gadget > /dev/null 2>/dev/null &
 	@bash bar.sh
 
+set_quiet_run:
+	@ln -s -f /home/bupt/sdlyyxy/BlockChainDemo2/env/0/config/quiet_run.xml /home/bupt/sdlyyxy/BlockChainDemo2/env/0/config/logback.xml
+
+set_show_consensus:
+	@ln -s -f /home/bupt/sdlyyxy/BlockChainDemo2/env/0/config/show_consensus.xml /home/bupt/sdlyyxy/BlockChainDemo2/env/0/config/logback.xml
+
+view_consensus:
+	@grep --color=always -e "type=.*," -e "deci.* " BFT.log
+
+show_selected_nodes:
+	@cat /home/bupt/sdlyyxy/BlockChainDemo2/env/0/config/hosts.config

@@ -32,20 +32,21 @@ public class bench {
         Initialization_Contract.InitialzationRes(Tool.FROMCLIENT);
         Initialization_Contract.InitialzationEquip(Tool.FROMCLIENT);
         Initialization_Contract.InitialzationApply(Tool.FROMCLIENT);
-        for(int i=0;i<30;i++){
-            String[] strArr = {"typeone","1","14","1","123"};
+        for(int i=0;i<300;i++){
+            String userName="typeonetest";
+            String[] strArr = {userName,"1","14","1","123"};
             String  returnStr = User_Contract.userRegister(strArr,Tool.FROMCLIENT);
             System.out.println(returnStr);
-            strArr = new String[] {"typeone"+i,"1","14","1","123"};
+            strArr = new String[] {userName+i,"1","14","1","123"};
             returnStr = User_Contract.userRegister(strArr,Tool.FROMCLIENT);
             System.out.println(returnStr);
-            strArr = new String[] {"typeone","14","123"};
+            strArr = new String[] {userName,"14","123"};
             returnStr = User_Contract.userLogin(strArr,Tool.FROMCLIENT);
             System.out.println(returnStr);
-            strArr = new String[] {"typeone","14","123"+i};
+            strArr = new String[] {userName,"14","123"+i};
             returnStr = User_Contract.userLogin(strArr,Tool.FROMCLIENT);
             System.out.println(returnStr);
-            strArr = new String[] {"typeone","1"};
+            strArr = new String[] {userName,"1"};
             returnStr = User_Contract.userout(strArr,Tool.FROMCLIENT);
             System.out.println(returnStr);   
         }

@@ -94,3 +94,28 @@
 *pic*
 
 即可得出结果。
+
+## Lorem Ipsum
+
+users.add(new User("一类用户", "13911407974", "005", "110101199003079737", 0, "", realPub));
+users.add(new User("二类用户", "13391797905", "002", "110117195410029932", 1, "", realPub));
+users.add(new User("三类用户", "13240086748", "003", "110119197905143245", 2, "", realPub));
+users.add(new User("管理节点", "13910456530", "103", "110111195808265793", 3, "", realPub));
+
+## 日志展示
+
+make init
+make set_show_consensus
+mininet> runp2p
+等待done
+make view_consensus
+
+make init
+make set_quiet_run
+mininet> runp2p
+等待done
+make run_gui
+
+## 在终端展示出参与共识的节点
+
+make show_selected_nodes

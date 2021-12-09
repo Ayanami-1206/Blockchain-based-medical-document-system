@@ -148,6 +148,7 @@ public class Initialization_Contract {
         users.add(new User("typethree", "18888888888", "003", "123456789123456789", 2, "", realPub));
         // users.add(new User("管理节点", "1", "13", "1", 3, "", realPub));
         users.add(new User("mgmt", "18888888888", "103", "123456789123456789", 3, "", realPub));
+        users.add(new User("typeonetest", "1", "14", "1", 0, "", realPub));
         // users.add(new User("typethree", "1", "15", "1", 3, "", realPub));
         Tool.writeUserDB(users);
         userDone=true;
