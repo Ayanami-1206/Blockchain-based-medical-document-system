@@ -4,6 +4,10 @@ blockinit:
 	rm -rf env/*/block_data
 	rm -rf env/*/currentView
 	rm -rf env/*/src
+	rm -rf env/*/.h*.in
+	rm -rf env/*/.h*.out
+	rm -rf env/*/kill.sh
+	rm -rf env/*/.storage
 runguibuild: rungui.cpp Makefile
 	g++ rungui.cpp -o rungui -g 2>/dev/null
 run0:
@@ -36,32 +40,7 @@ renzheng_bench:
 
 demo_init_gadget:
 	make batchkill
-	make blockinit
-	make batchkill
-	make blockinit
-	make batchkill
-	make blockinit
-	sleep 3
-	make batchkill
-	make blockinit
-	make batchkill
-	make blockinit
-	make batchkill
-	make blockinit
-	sleep 3
-	make batchkill
-	make blockinit
-	make batchkill
-	make blockinit
-	make batchkill
-	make blockinit
-	sleep 3
-	make batchkill
-	make blockinit
-	make batchkill
-	make blockinit
-	make batchkill
-	make blockinit		
+	make blockinit	
 
 
 init:

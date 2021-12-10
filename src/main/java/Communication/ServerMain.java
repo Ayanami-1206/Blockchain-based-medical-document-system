@@ -43,7 +43,7 @@ public class ServerMain {
         try (ByteArrayOutputStream byteOut = new ByteArrayOutputStream();
         ObjectOutput objOut = new ObjectOutputStream(byteOut);) {
             System.out.println("Wait servers to be ready.....");
-            Thread.sleep(10*1000);
+            Thread.sleep(20*1000);
             // System.out.println("Wait done......");
             objOut.writeObject(MiscCommand.getState);
             objOut.flush();
