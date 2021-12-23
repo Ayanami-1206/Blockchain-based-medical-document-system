@@ -59,12 +59,12 @@ public class User_Contract {
         String temp_worknumber = strArr[2];
         String temp_idnumber = strArr[3];
         String psw =strArr[4];
-        System.out.println("中文测试 in user_contract");
-        System.out.printf("Did enter userRegister\ntemp_name=%s, temp_phone=%s, temp_worknumber=%s, temp_idnumber=%s, psw=%s\n", temp_name,temp_phone,temp_worknumber,temp_idnumber,psw);
+        // System.out.println("中文测试 in user_contract");
+        // System.out.printf("Did enter userRegister\ntemp_name=%s, temp_phone=%s, temp_worknumber=%s, temp_idnumber=%s, psw=%s\n", temp_name,temp_phone,temp_worknumber,temp_idnumber,psw);
         int flag = 0;
         //获取当前主机的ip地址
         String  Ei = Tool.getClientIP();
-        System.out.printf("localIP=%s\n",Ei);
+        // System.out.printf("localIP=%s\n",Ei);
         //获取已经初始化的用户列表
         ArrayList<User> users = Tool.getUser();
         ArrayList<Equip> equips = Tool.getEquip();
@@ -115,23 +115,23 @@ public class User_Contract {
             if(!testFlag) {
                 // System.out.println("currentUser.getUser_name(): "+currentUser.getUser_name());
                 // System.out.println("Ei: "+Ei);
-                System.out.println("no matched user in ArrayList<User> users = Tool.getUser();");
+                // System.out.println("no matched user in ArrayList<User> users = Tool.getUser();");
                 String Ti = Tool.getCurrentTime();
                 returnStr = Ti+"&"+ temp_name+"*" + "在ip地址为" + Ei + "上申请注册，于" + Ti + "注册失败"+"*注册";
-                System.out.println("returnStr: "+returnStr);
+                // System.out.println("returnStr: "+returnStr);
             }
         }
     }else{
             //isEquip(equips)==false
             //将注册失败的信息存储到数据库中
             if(!testFlag) {
-                System.out.println("isEquip(equips)==false");
+                // System.out.println("isEquip(equips)==false");
                 String Ti = Tool.getCurrentTime();
                 //将数据临时存储到
                 returnStr = Ti+"&"+ temp_name +"*"+ "在ip地址为" + Ei + "上申请注册，于" + Ti + "注册失败"+"*注册";
             }
         }
-        System.out.printf("will exit userRegister: %s\n",returnStr+flag);
+        // System.out.printf("will exit userRegister: %s\n",returnStr+flag);
         return returnStr+flag;
     }
 
