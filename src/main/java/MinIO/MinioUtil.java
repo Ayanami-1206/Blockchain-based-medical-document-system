@@ -56,6 +56,25 @@ public class MinioUtil {
             return false;
         }
     }
+
+    public boolean downloadFile(String fileName, String filePath, String bucketName) {
+        try {
+            System.out.println("hi6");
+            minioClient.downloadObject(
+                DownloadObjectArgs.builder()
+                .bucket(bucketName)
+                .object(fileName)
+                .filename(filePath)
+                .build()
+            );
+            System.out.println("hi6");
+            return true;
+        } catch (Exception e) {
+            e.printStackTrace();
+            return false;
+        }
+    }
+    
     public void ListObject(String bucketName){
         List<String> listObjectNames = new ArrayList<>();
         boolean isExist;

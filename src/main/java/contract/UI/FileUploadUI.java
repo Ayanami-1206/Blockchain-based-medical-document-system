@@ -124,12 +124,11 @@ public class FileUploadUI extends JFrame{
 					String returnStr; 
 
 					try{
-						strArr[4] = Tool.generateFileChecksum(filePath);
-					}catch(NoSuchAlgorithmException ex) {
-						ex.printStackTrace();
-					}catch(IOException ex){
+						strArr[4] = FileHashUtil.md5HashCode32(filePath);
+					}catch(Exception ex) {
 						ex.printStackTrace();
 					}
+					
 					returnStr = Upload_Contract.fileUpload(strArr, Tool.FROMCLIENT);
 					int blockFlag = Integer.parseInt(returnStr.substring(returnStr.length()-1,returnStr.length()));
 					
