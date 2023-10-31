@@ -14,4 +14,7 @@ public class Constant {
     public  static  final String USEREDS ="Usereds";
     //保存自己的密钥库
     public static  final String OWNERSECRETKEY = "OwnerSecretKey";
+    //保存医疗文件信息库
+    public static  final String FILEINFO = "FileInfo";
 }
+

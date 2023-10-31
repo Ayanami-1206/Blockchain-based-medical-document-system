@@ -91,10 +91,13 @@ public class Main {
             e.printStackTrace();
         }
         if(Tool.nodeID==0){
+        	System.out.println("check1");
             Initialization_Contract.InitialzationUser(Tool.FROMCLIENT);
             Initialization_Contract.InitialzationRes(Tool.FROMCLIENT);
             Initialization_Contract.InitialzationEquip(Tool.FROMCLIENT);
             Initialization_Contract.InitialzationApply(Tool.FROMCLIENT);
+            Initialization_Contract.InitialzationFile(Tool.FROMCLIENT);
+            System.out.println("check2");
         }
         new UserRegisterUI();
 

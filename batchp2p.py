@@ -1,6 +1,6 @@
 h1.cmd("sudo -u bupt ./runp2p > .h1.log 2> .h1.log &")
 time.sleep(2)
-nNodes=200
+nNodes=8
 template='cmd("sudo -u bupt ./runp2p &")'
 template_log='h%d.cmd("sudo -u bupt ./runp2p foo bar h%d > .h%d.log 2> .h%d.log &")'
 for i in range(2,nNodes+1):

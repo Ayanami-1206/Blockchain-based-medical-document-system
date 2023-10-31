@@ -39,7 +39,7 @@ public class LoginUI extends JFrame implements ActionListener {
 
 
         jlb1 = new JLabel("用户名");  //添加标签
-        jlb2 = new JLabel("工\u2003号");
+        jlb2 = new JLabel("用户ID");
         jlb3 = new JLabel("密\u2003码");
 
         jtf1 = new JTextField(10);

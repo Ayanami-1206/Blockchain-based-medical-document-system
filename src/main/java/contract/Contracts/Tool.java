@@ -9,7 +9,13 @@ import contract.Struct.Equip;
 import contract.Struct.MiscCommand;
 import contract.Struct.Resource;
 import contract.Struct.User;
+import contract.Struct.FileInfo;
 import Communication.SHA256RSA;
+
+import javax.crypto.KeyGenerator;
+import javax.crypto.SecretKey;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
@@ -124,6 +130,41 @@ public class Tool {
         }
         res.closeDB();
         return applyMessages;
+    }
+    //获取指定用户的医疗文件列表
+    public static ArrayList<FileInfo> getFileInfos(String work_number){
+        LevelDbUtil res = new LevelDbUtil();
+        res.initLevelDB(Constant.FILEINFO);
+        ArrayList<FileInfo> fileInfos = new ArrayList<>();
+        List<String> keys = res.getKeys();
+        Boolean count = false;
+        for(int i = 0;i < keys.size();i++){
+            if(res.get(keys.get(i))!=null&&keys.get(i).equals(work_number)){
+                String[] resStr = res.get(keys.get(i)).split(";");
+                fileInfos.add(new FileInfo(resStr[0], resStr[1], resStr[2], resStr[3]));
+                count = true;
+            }
+        }
+        if(!count){
+            return null;
+        }
+        res.closeDB();
+        return fileInfos;
+    }
+    //获取存储的医疗文件列表
+    public static ArrayList<FileInfo> getFileInfoAll( ){
+        LevelDbUtil res = new LevelDbUtil();
+        res.initLevelDB(Constant.FILEINFO);
+        ArrayList<FileInfo> fileInfos = new ArrayList<>();
+        List<String> keys = res.getKeys();
+        for (int i =0;i<keys.size();i++){
+            if (res.get(keys.get(i))!=null) {
+                String[] resStr = res.get(keys.get(i)).split(";");
+                fileInfos.add(new FileInfo(resStr[0], resStr[1], resStr[2], resStr[3]));
+            }
+        }
+        res.closeDB();
+        return fileInfos;
     }
     //获取指定的LevelDb数据库
     public static  LevelDbUtil getLevelDB(String s){
@@ -334,6 +375,19 @@ public class Tool {
         }
         Users.closeDB();
     }
+    public static void writeFileInfosDB(ArrayList<FileInfo> a){
+        LevelDbUtil FileInfos = new LevelDbUtil();
+       FileInfos.initLevelDB(Constant.FILEINFO);
+       for(int i=0;i<a.size();i++){
+           String key = a.get(i).getUser_number();
+            String val = a.get(i).toString();
+            try{
+                FileInfos.put(key,val);
+            }catch(IOException e){
+                e.printStackTrace();
+            }
+        }
+   }
     final public static String blockPath="block_data";
     public static void storeVar(){
         try{
@@ -424,4 +478,29 @@ public class Tool {
         }
         return res;
     }
+
+    public static String generateFileChecksum(String filePath) throws NoSuchAlgorithmException, IOException{
+        MessageDigest digest = MessageDigest.getInstance("SHA-256");
+
+        FileInputStream fis = new FileInputStream(filePath);
+
+        byte[] byteArray = new byte[1024];
+        int bytesCount = 0;
+
+        while((bytesCount = fis.read(byteArray))!= -1){
+            digest.update(byteArray, 0, bytesCount);
+        }
+
+        fis.close();
+
+        byte[] bytes = digest.digest();
+
+        StringBuilder sb = new StringBuilder();
+        for (byte b : bytes){
+            sb.append(String.format("%02x", b));
+        }
+
+        return sb.toString();
+    }
+
 }

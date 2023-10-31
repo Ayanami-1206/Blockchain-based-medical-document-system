@@ -10,6 +10,7 @@ public class DbStore {
     ArrayList<User> usereds = new ArrayList<>();//用来保存注册用户的列表
     ArrayList<Equip> equipeds = new ArrayList<>();//用来保存注册用设备的列表
     ArrayList<ApplyMessage> applyMessages = new ArrayList<>();//保存未处理的申请角色权限的列表
+    ArrayList<FileInfo> fileInfos = new ArrayList<>();
 
     //数据库key value
     //添加用户
@@ -48,7 +49,20 @@ public class DbStore {
         }
         return flag;
     };
-    //添加操作数据
+    //add fileInfos
+ //   public boolean put(String key, FileInfo value){
+ //       boolean flag = false;
+ //       if (key.equals("file upload")){
+ //           fileInfos.add(value);
+ //           flag = true;
+ //       }
+ //       else if (key.equals("file init")){
+ //           fileInfos.add(value);
+ //           flag = true;
+ //       }
+ //       flag = true;
+ //   }
+ //   //添加操作数据
     public void put(String key, String value){
 
     };
@@ -92,6 +106,9 @@ public class DbStore {
         applyMessages.add(applyMessage);
         return true;
     }
+//    public boolean fileUpload(FileInfo fileInfo){
+//        fileInfos.add(fileInfo);
+//    }
     //获取资源
     public ArrayList<Resource> getResources(){
         return resources;

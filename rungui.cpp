@@ -16,7 +16,7 @@ void cd(int x){
     sprintf(tmp,"env/%d/",x);
     chdir(tmp);
 }
-char guicmd[]=R"(java -D"java.security.properties"="./config/java.security" -D"logback.configurationFile"="./config/logback.xml" -cp "bin/*:lib/*:./*:../../target/BlockChainDemo2-1.0-SNAPSHOT-jar-with-dependencies.jar" Main gui)";
+char guicmd[]=R"(java -D"java.security.properties"="./config/java.security" -D"logback.configurationFile"="./config/logback.xml" -cp "bin/*:lib/*:./*:../../target/BlockChainDemo2-1.0-SNAPSHOT-jar-with-dependencies.jar:../../../library/bin/BFT-SMaRt.jar:../../../library/lib/*" Main gui)";
 int main(){
     char  ifconfigOuputTemplate[]=".ifconfigXXXXXX";
     mktemp(ifconfigOuputTemplate);

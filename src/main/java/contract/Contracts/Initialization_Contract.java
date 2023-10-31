@@ -39,6 +39,7 @@ public class Initialization_Contract {
         }else {
             returnStrv = Ti+"&"+"管理节点"+"在"+Ti+"进行用户初始化失败"+"初始化";
         }
+        System.out.println(returnStrv);
         return returnStrv+flag;
     }
     //初始化设备函数。参数：设备ID、设备的名称、设备的物理
@@ -59,6 +60,7 @@ public class Initialization_Contract {
         }else {
             returnStrv = Ti+"&"+"管理节点"+"在"+Ti+"进行设备初始化失败"+"初始化";
         }
+        System.out.println(returnStrv);
         return returnStrv+flag;
     }
     //初始化资源函数 参数：资源的名称、资源的级别、资源的版本
@@ -79,6 +81,7 @@ public class Initialization_Contract {
         }else {
             returnStrv = Ti+"&"+"管理节点"+"在"+Ti+"进行资源初始化失败"+"初始化";
         }
+        System.out.println(returnStrv);
         return returnStrv+flag;
     }
     //获取当前时间的函数
@@ -127,6 +130,7 @@ public class Initialization_Contract {
 
     public  static void InitialzationUser(int fromClient){
         Tool.sendRawCommandToServer(new String[0]);
+        System.out.println("check21");
     }
 
     public static boolean userDone=false;
@@ -147,8 +151,10 @@ public class Initialization_Contract {
         users.add(new User("typetwo", "18888888888", "002", "123456789123456789", 1, "", realPub));
         users.add(new User("typethree", "18888888888", "003", "123456789123456789", 2, "", realPub));
         // users.add(new User("管理节点", "1", "13", "1", 3, "", realPub));
-        users.add(new User("mgmt", "18888888888", "103", "123456789123456789", 3, "", realPub));
+        users.add(new User("mgmt", "188", "103", "123", 3, "", realPub));
         users.add(new User("typeonetest", "1", "14", "1", 0, "", realPub));
+        users.add(new User("d1", "1", "141", "1", 0, "", realPub));
+        users.add(new User("p1", "1", "142", "1", 0, "", realPub));
         // users.add(new User("typethree", "1", "15", "1", 3, "", realPub));
         Tool.writeUserDB(users);
         userDone=true;
@@ -158,6 +164,7 @@ public class Initialization_Contract {
 
     public static void InitialzationRes(int fromClient){
         Tool.sendRawCommandToServer(new String[0]);
+        System.out.println("check22");
     }
 
     public static boolean resDone=false;
@@ -189,6 +196,7 @@ public class Initialization_Contract {
 
     public static void InitialzationEquip(int fromClient){
         Tool.sendRawCommandToServer(new String[0]);
+        System.out.println("check23");
     }
     public static boolean equipDone=false;
     //初始化设备
@@ -221,6 +229,7 @@ public class Initialization_Contract {
 
     public static void InitialzationApply(int fromClient){
         Tool.sendRawCommandToServer(new String[0]);
+        System.out.println("check24");
     }
     public static boolean applyDone=false;
     public static String InitialzationApply(String[] s){
@@ -237,6 +246,23 @@ public class Initialization_Contract {
         applyMessages.add(m3);
         Tool.writeApplyMessageDB(applyMessages);
         applyDone=true;
+        return null;
+    }
+    public static void InitialzationFile(int fromClient){
+        Tool.sendRawCommandToServer(new String[0]);
+        System.out.println("check25");
+    }
+    public static boolean fileDone=false;
+    public static String InitialzationFile(String[] s){
+        if(fileDone){
+            return null;
+        }
+        //exist fileinfos
+        ArrayList<FileInfo> fileInfos = new ArrayList<>();
+        FileInfo f1 = new FileInfo("141","142","hh","");
+        Tool.writeFileInfosDB(fileInfos);
+        fileDone=true;
+        // System.out.println("File init");
         return null;
     }
 

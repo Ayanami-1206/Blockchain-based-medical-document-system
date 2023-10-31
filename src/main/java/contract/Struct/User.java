@@ -3,6 +3,11 @@ package contract.Struct;
 import java.io.Serializable;
 import java.util.Objects;
 
+import javax.crypto.KeyGenerator;
+import javax.crypto.SecretKey;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+
 //定义用户结构
 public class User implements Serializable{
     String user_name; //用户的名字
@@ -12,6 +17,10 @@ public class User implements Serializable{
     int user_role; //用户对应的角色权限
     String password;//用户登录密码
     String pubKey;
+
+    private SecretKey secretKey;
+
+
     public User() {
     }
 
@@ -24,6 +33,15 @@ public class User implements Serializable{
         this.user_role = user_role;
         this.password = password;
         this.pubKey = pubKey;
+
+        try {
+            KeyGenerator keyGenerator = KeyGenerator.getInstance("AES");
+            keyGenerator.init(256);
+
+            secretKey = keyGenerator.generateKey();
+        } catch (NoSuchAlgorithmException e){
+            e.printStackTrace();
+        }
     }
 
     @Override
@@ -94,6 +112,10 @@ public class User implements Serializable{
 
     public void setPubKey(String pubKey) {
         this.pubKey = pubKey;
+    }
+
+    public SecretKey getSecretKey() {
+        return secretKey;
     }
 
     @Override

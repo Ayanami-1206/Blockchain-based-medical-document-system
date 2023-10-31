@@ -1,5 +1,5 @@
 build: runguibuild
-	mvn clean compile assembly:single | egrep "INFO"
+	mvn clean compile assembly:single 
 blockinit:
 	rm -rf env/*/block_data
 	rm -rf env/*/currentView
@@ -34,11 +34,11 @@ batchkill:
 netstart:
 	sudo mn --custom MyTopo200.py --topo mytopo  # 201 for illegal devices
 run_gui:
-	@./rungui 1>/dev/null 2>/dev/null
+	@./rungui 1 2
 renzheng_bench:
-	cd env/0 && java -D"java.security.properties"="./config/java.security" -D"logback.configurationFile"="./config/logback.xml" -cp "bin/*:lib/*:./*:../../target/BlockChainDemo2-1.0-SNAPSHOT-jar-with-dependencies.jar" bench
+	cd env/0 && java -D"java.security.properties"="./config/java.security" -D"logback.configurationFile"="./config/logback.xml" -cp "bin/*:lib/*:./*:../../target/BlockChainDemo2-1.0-SNAPSHOT-jar-with-dependencies.jar:../../../library/bin/BFT-SMaRt.jar:../../../library/lib/*" bench
 shouquan_bench:
-	cd env/0 && java -D"java.security.properties"="./config/java.security" -D"logback.configurationFile"="./config/logback.xml" -cp "bin/*:lib/*:./*:../../target/BlockChainDemo2-1.0-SNAPSHOT-jar-with-dependencies.jar" shouquan_bench
+	cd env/0 && java -D"java.security.properties"="./config/java.security" -D"logback.configurationFile"="./config/logback.xml" -cp "bin/*:lib/*:./*:../../target/BlockChainDemo2-1.0-SNAPSHOT-jar-with-dependencies.jar:../../../library/bin/BFT-SMaRt.jar:../../../library/lib/*" shouquan_bench
 
 
 demo_init_gadget:

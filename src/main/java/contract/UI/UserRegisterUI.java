@@ -34,10 +34,10 @@ public class UserRegisterUI extends JFrame implements ActionListener {
         jb1.addActionListener(this);
         jb2.addActionListener(this);
         //标签信息
-        //用户的姓名、用户的身份证号、用户工号、用户电话号码、已经初始化的用户列表,已经注册的设备列表
+        //用户的姓名、用户的身份证号、用户ID、用户电话号码、已经初始化的用户列表,已经注册的设备列表
         jlb1 = new JLabel("     姓\u2003\u2003名");
         jlb2 = new JLabel("     电话号码");
-        jlb3 = new JLabel("     工\u2003\u2003号");
+        jlb3 = new JLabel("     用户ID");
         jlb4 = new JLabel("     身份证号");
         jlb5 = new JLabel("     密\u2003\u2003码");
         jlb6 = new JLabel("     确认密码");

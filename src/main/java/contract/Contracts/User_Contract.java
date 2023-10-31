@@ -597,6 +597,7 @@ public class User_Contract {
 
     public  static void InitialzationUser(int fromClient){
         Tool.sendRawCommandToServer(new String[0]);
+        System.out.println("check10");
     }
 
 
@@ -631,6 +632,7 @@ public class User_Contract {
 
     public static void InitialzationRse(int fromClient){
         Tool.sendRawCommandToServer(new String[0]);
+        System.out.println("check11");
     }
     //初始化资源
     public static void InitialzationRse(){
@@ -668,6 +670,7 @@ public class User_Contract {
 
     public static void InitialzationEquip(int fromClient){
         Tool.sendRawCommandToServer(new String[0]);
+        System.out.println("check12");
     }
     //初始化设备
     public static void InitialzationEquip(){
