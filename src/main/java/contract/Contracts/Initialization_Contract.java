@@ -130,7 +130,7 @@ public class Initialization_Contract {
 
     public  static void InitialzationUser(int fromClient){
         Tool.sendRawCommandToServer(new String[0]);
-        System.out.println("check21");
+        //System.out.println("check21");
     }
 
     public static boolean userDone=false;
@@ -164,7 +164,7 @@ public class Initialization_Contract {
 
     public static void InitialzationRes(int fromClient){
         Tool.sendRawCommandToServer(new String[0]);
-        System.out.println("check22");
+        //System.out.println("check22");
     }
 
     public static boolean resDone=false;
@@ -196,7 +196,7 @@ public class Initialization_Contract {
 
     public static void InitialzationEquip(int fromClient){
         Tool.sendRawCommandToServer(new String[0]);
-        System.out.println("check23");
+        //System.out.println("check23");
     }
     public static boolean equipDone=false;
     //初始化设备
@@ -229,7 +229,7 @@ public class Initialization_Contract {
 
     public static void InitialzationApply(int fromClient){
         Tool.sendRawCommandToServer(new String[0]);
-        System.out.println("check24");
+        //System.out.println("check24");
     }
     public static boolean applyDone=false;
     public static String InitialzationApply(String[] s){
@@ -250,7 +250,7 @@ public class Initialization_Contract {
     }
     public static void InitialzationFile(int fromClient){
         Tool.sendRawCommandToServer(new String[0]);
-        System.out.println("check25");
+        //System.out.println("check25");
     }
     public static boolean fileDone=false;
     public static String InitialzationFile(String[] s){

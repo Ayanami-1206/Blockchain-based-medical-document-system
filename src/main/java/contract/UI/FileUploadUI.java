@@ -120,7 +120,7 @@ public class FileUploadUI extends JFrame{
 					// String[] a = {"1","2","3","4","5"};
 					// String b = Upload_Contract.fileUpload(a,1);
 					// System.out.println(b);
-					String[] strArr = {dID,pname,pid,"test","test"};
+					String[] strArr = {dID,pname,pid,filename,"test"};
 					String returnStr; 
 
 					try{
@@ -128,6 +128,9 @@ public class FileUploadUI extends JFrame{
 					}catch(Exception ex) {
 						ex.printStackTrace();
 					}
+
+//					System.out.println(filename);
+//					System.out.println(strArr[4]);
 					
 					returnStr = Upload_Contract.fileUpload(strArr, Tool.FROMCLIENT);
 					int blockFlag = Integer.parseInt(returnStr.substring(returnStr.length()-1,returnStr.length()));
@@ -149,8 +152,9 @@ public class FileUploadUI extends JFrame{
 							dispose();  //使“文件上传”窗体消失
 
 							
-							String[] a = {pid};
-							System.out.println(Inquiry_Contract.fileInquiry(a, Tool.FROMCLIENT));
+							//String[] a = {pid};
+							//System.out.println(Inquiry_Contract.fileCount(a, Tool.FROMCLIENT));
+							//System.out.println(Inquiry_Contract.fileInquiry(a, Tool.FROMCLIENT));
 						}else{
 							JOptionPane.showMessageDialog(null, "上传失败！","提示消息",JOptionPane.WARNING_MESSAGE);
 						

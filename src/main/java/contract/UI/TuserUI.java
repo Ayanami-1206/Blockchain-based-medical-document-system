@@ -27,7 +27,7 @@ public class TuserUI extends JFrame implements ActionListener {
         //jb1 = new JButton("测发流程");
         //jb2 = new JButton("测发数据");
         jb3 = new JButton("角色变更");
-        jb4= new JButton("权限管理");
+        jb4 = new JButton("权限管理");
         jb5 = new JButton("用户注销");
         jb6 = new JButton("重新登录");
         jb7 = new JButton("数据追溯");

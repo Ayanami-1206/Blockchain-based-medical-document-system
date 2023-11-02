@@ -377,7 +377,7 @@ public class Tool {
     }
     public static void writeFileInfosDB(ArrayList<FileInfo> a){
         LevelDbUtil FileInfos = new LevelDbUtil();
-       FileInfos.initLevelDB(Constant.FILEINFO);
+        FileInfos.initLevelDB(Constant.FILEINFO);
        for(int i=0;i<a.size();i++){
            String key = a.get(i).getUser_number();
             String val = a.get(i).toString();

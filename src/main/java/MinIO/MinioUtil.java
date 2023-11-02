@@ -14,15 +14,15 @@ public class MinioUtil {
 
     public void init(String bucketName){
         try {
-        	System.out.println("hi1");
+        	//System.out.println("hi1");
             minioClient = MinioClient.builder()
                     .endpoint(MinioConstant.endpoint)
                     .credentials(MinioConstant.accessKey,MinioConstant.secretKey)
                     .build();
-            System.out.println("hi2");
+            //System.out.println("hi2");
             //String bucketName = MinioConstant.bucketName;
             createBucket(bucketName);
-            System.out.println("hi3");
+            //System.out.println("hi3");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -42,14 +42,14 @@ public class MinioUtil {
 
     public boolean uploadFile(String fileName, String filePath,String bucketName) {
         try {
-         	System.out.println("hi4");
+         	//System.out.println("hi4");
             minioClient.uploadObject(
                     UploadObjectArgs.builder()
                             .bucket(bucketName)
                             .object(fileName)
                             .filename(filePath) // 本地磁盘的路径
                             .build());
-            System.out.println("hi5");
+            //System.out.println("hi5");
             return true;
         } catch (Exception e) {
             e.printStackTrace();
@@ -59,7 +59,7 @@ public class MinioUtil {
 
     public boolean downloadFile(String fileName, String filePath, String bucketName) {
         try {
-            System.out.println("hi6");
+            //System.out.println("hi6");
             minioClient.downloadObject(
                 DownloadObjectArgs.builder()
                 .bucket(bucketName)
@@ -67,7 +67,7 @@ public class MinioUtil {
                 .filename(filePath)
                 .build()
             );
-            System.out.println("hi6");
+            //System.out.println("hi6");
             return true;
         } catch (Exception e) {
             e.printStackTrace();
