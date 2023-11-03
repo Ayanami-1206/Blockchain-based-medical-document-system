@@ -466,7 +466,7 @@ public class Tool {
             String tmp=allBlocks[i];
             // System.out.println(tmp);
             String types[]={"userRegister","userLogin","operateResource",
-                "applyRole","userout"};
+                "applyRole","userout", "fileUpload"};
             // if(tmp.contains("User name: "+userName)){
             String str1="User name: "+userName;
             String str2="Contract method: "+types[type];

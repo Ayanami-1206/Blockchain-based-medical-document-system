@@ -50,7 +50,7 @@ public class ShowMessageUI extends JFrame {	//继承JFrame顶层框架
         jp2=new JPanel();
         //创建按钮
         jb2=new  JButton("获取数据");
-        String [] name= {"注册","登录","资源访问","权限变更","注销"};
+        String [] name= {"注册","登录","资源访问","权限变更","注销", "文件上传"};
         //userRegister, userLogin, operateResource/changeResource, 
         //applyRole/changeRole, userout
         jcb1=new JComboBox(name);	//创建下拉框
