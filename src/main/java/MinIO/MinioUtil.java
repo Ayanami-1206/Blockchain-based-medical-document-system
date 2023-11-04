@@ -59,7 +59,7 @@ public class MinioUtil {
 
     public String downloadFile(String fileName, String filePath,String bucketName, String upHash) {
         try {
-         	System.out.println("hi6");
+         	//System.out.println("hi6");
             //DOWNLOAD
             minioClient.downloadObject(
                     DownloadObjectArgs.builder()
@@ -67,7 +67,7 @@ public class MinioUtil {
                             .object(fileName)
                             .filename(filePath) // 本地磁盘的路径
                             .build());
-            System.out.println("hi7");
+            //System.out.println("hi7");
 
             //MD5 HASH
             String doHash = FileHashUtil.md5HashCode32(filePath);

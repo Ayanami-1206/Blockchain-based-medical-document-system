@@ -152,7 +152,9 @@ public class FileUploadUI extends JFrame{
 							dispose();  //使“文件上传”窗体消失
 							
 							String[] a = {pid,filename,strArr[4]};
+		
 							String test = Inquiry_Contract.downloadFile(a, Tool.FROMCLIENT);
+							System.out.println(strArr[4]);
 							System.out.println(test);
 
 

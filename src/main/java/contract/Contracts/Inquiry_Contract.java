@@ -2,6 +2,7 @@ package contract.Contracts;
 
 import LevelDB.Constant;
 import LevelDB.LevelDbUtil;
+import MinIO.FileHashUtil;
 import MinIO.MinioUtil;
 import contract.Struct.*;
 
@@ -52,13 +53,18 @@ public class Inquiry_Contract {
         String file_name = strArr[1];
         String file_hash = strArr[2];
 
-        //shujuku lianbushang
-        MinioUtil minioUser = new MinioUtil();
-        String a = minioUser.downloadFile(file_name , "/home/bupt/Downloads/" + file_name, bucket_name, file_hash);
+        
+        MinioUtil miniotool = new MinioUtil();
+        miniotool.init(bucket_name);
+        String a = miniotool.downloadFile(file_name , "/home/bupt/Downloads/" + file_name, bucket_name, file_hash);
 
         String Ei = Tool.getClientIP();
         String Ti = Tool.getCurrentTime();
-        returnStr = Ti + "&" + bucket_name + "*" + "在ip地址为" + Ei + "下载文件:" + file_name + "result:" + a;
+
+        
+	    String doHash = FileHashUtil.md5HashCode32("/home/bupt/Downloads/" + file_name);
+		
+        returnStr = Ti + "&" + bucket_name + "*" + "在ip地址为" + Ei + "下载文件:" + file_name + "&hash:" + doHash +"&文件下载";
         return returnStr + flag;
     }
 }
