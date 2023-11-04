@@ -2,6 +2,7 @@ package contract.Contracts;
 
 import LevelDB.Constant;
 import LevelDB.LevelDbUtil;
+import MinIO.MinioUtil;
 import contract.Struct.*;
 
 import java.io.*;
@@ -14,6 +15,8 @@ import java.net.UnknownHostException;
 import java.util.ArrayList;
 import java.util.Enumeration;
 import java.util.Locale;
+
+
 
 public class Inquiry_Contract {
     public static String fileInquiry(String[] strArr, int fromClient) {
@@ -34,5 +37,28 @@ public class Inquiry_Contract {
             fileinfos+=";";    
         }
         return fileinfos;
+    }
+
+    public static String downloadFile(String[] strArr, int fromClient){
+        return Tool.sendRawCommandToServer(strArr);
+    }
+
+    public static String downloadFile(String[] strArr, Boolean testflag)throws IOException{
+        
+        
+        int flag = 1;
+        String returnStr = "";
+        String bucket_name = strArr[0];
+        String file_name = strArr[1];
+        String file_hash = strArr[2];
+
+        //shujuku lianbushang
+        MinioUtil minioUser = new MinioUtil();
+        String a = minioUser.downloadFile(file_name , "/home/bupt/Downloads/" + file_name, bucket_name, file_hash);
+
+        String Ei = Tool.getClientIP();
+        String Ti = Tool.getCurrentTime();
+        returnStr = Ti + "&" + bucket_name + "*" + "在ip地址为" + Ei + "下载文件:" + file_name + "result:" + a;
+        return returnStr + flag;
     }
 }

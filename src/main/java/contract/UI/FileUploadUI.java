@@ -150,8 +150,12 @@ public class FileUploadUI extends JFrame{
 						if(flag){
 							JOptionPane.showMessageDialog(null, "上传成功！","提示消息",JOptionPane.WARNING_MESSAGE);
 							dispose();  //使“文件上传”窗体消失
-
 							
+							String[] a = {pid,filename,strArr[4]};
+							String test = Inquiry_Contract.downloadFile(a, Tool.FROMCLIENT);
+							System.out.println(test);
+
+
 							//String[] a = {pid};
 							//System.out.println(Inquiry_Contract.fileCount(a, Tool.FROMCLIENT));
 							//System.out.println(Inquiry_Contract.fileInquiry(a, Tool.FROMCLIENT));

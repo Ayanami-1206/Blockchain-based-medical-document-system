@@ -57,21 +57,28 @@ public class MinioUtil {
         }
     }
 
-    public boolean downloadFile(String fileName, String filePath, String bucketName) {
+    public String downloadFile(String fileName, String filePath,String bucketName, String upHash) {
         try {
-            //System.out.println("hi6");
+         	System.out.println("hi6");
+            //DOWNLOAD
             minioClient.downloadObject(
-                DownloadObjectArgs.builder()
-                .bucket(bucketName)
-                .object(fileName)
-                .filename(filePath)
-                .build()
-            );
-            //System.out.println("hi6");
-            return true;
+                    DownloadObjectArgs.builder()
+                            .bucket(bucketName)
+                            .object(fileName)
+                            .filename(filePath) // 本地磁盘的路径
+                            .build());
+            System.out.println("hi7");
+
+            //MD5 HASH
+            String doHash = FileHashUtil.md5HashCode32(filePath);
+            System.out.println(doHash + "：文件的md5值2");
+            if(FileHashUtil.compareHash(upHash, doHash)){
+                return "Success";
+            }
+            else{return "IsChanged";}
         } catch (Exception e) {
             e.printStackTrace();
-            return false;
+            return "failed";
         }
     }
     
