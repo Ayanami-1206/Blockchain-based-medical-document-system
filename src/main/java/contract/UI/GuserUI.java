@@ -17,8 +17,8 @@ public class GuserUI extends JFrame implements ActionListener {
     int current_Role = 3;
     User current_user = new User();
 
-    JButton jb1, jb2,jb3,jb4,jb5,jb6,jb7;  //按钮
-    JPanel jp1,jp2,jp3,jp4,jp5,jp6,jp7,jp8;		//面板
+    JButton jb1, jb2,jb3,jb4,jb5,jb6,jb7,jb8;  //按钮
+    JPanel jp1,jp2,jp3,jp4,jp5,jp6,jp7,jp8,jp9;		//面板
     public GuserUI(User user) {
         // TODO Auto-generated constructor stub
         //按钮
@@ -33,6 +33,7 @@ public class GuserUI extends JFrame implements ActionListener {
         jb5 = new JButton("重新登录");
         jb6 = new JButton("数据追溯");
         jb7 = new JButton("文件管理");
+        jb8 = new JButton("文件下载");
         //设置按钮监听
         //jb1.addActionListener(this);
         //jb2.addActionListener(this);
@@ -41,6 +42,7 @@ public class GuserUI extends JFrame implements ActionListener {
         jb5.addActionListener(this);
         jb6.addActionListener(this);
         jb7.addActionListener(this);
+        jb8.addActionListener(this);
         //标签信息
 
 
@@ -53,6 +55,7 @@ public class GuserUI extends JFrame implements ActionListener {
         jp6 = new JPanel();
         jp7 = new JPanel();
 		jp8 = new JPanel();
+        jp9 = new JPanel();
 
         //将对应信息加入面板中
         //jp1.add(jb1);
@@ -62,7 +65,7 @@ public class GuserUI extends JFrame implements ActionListener {
         jp5.add(jb5);
         jp7.add(jb6);
         jp8.add(jb7);
-        
+        jp9.add(jb8);
         
 
 
@@ -76,6 +79,7 @@ public class GuserUI extends JFrame implements ActionListener {
         this.add(jp7);
         this.add(jp4);
         this.add(jp5);
+        this.add(jp9);
         
 
 
@@ -135,6 +139,10 @@ public class GuserUI extends JFrame implements ActionListener {
             //进入用户数据追溯的界面
             new FileUploadUI(current_user);
             //new FileUploadUI();
+        }
+        else if (e.getActionCommand()=="文件下载")
+        {
+            new FileDownloadUI(current_user);
         }
 
     }
