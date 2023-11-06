@@ -65,6 +65,8 @@
 
 找到该虚拟主机对应的进程号PID在输出的第二项，为180263。输入bash enter.sh 180263，即可进入该主机。可以通过ifconfig确认虚拟主机的网络环境。
 
+在管理节点虚拟主机环境下，输入chrome +x minio和./minio server src/main/java/MinIO/data部署分布式数据库。
+
 输入make run_gui，即可在当前的虚拟主机里运行认证授权程序。注意运行make run_gui之前一定要进入一台虚拟主机环境，否则无法正常运行。
 
 *pic*
