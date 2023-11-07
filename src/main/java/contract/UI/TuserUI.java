@@ -30,8 +30,8 @@ public class TuserUI extends JFrame implements ActionListener {
         jb4 = new JButton("权限管理");
         jb5 = new JButton("用户注销");
         jb6 = new JButton("重新登录");
-        jb7 = new JButton("数据追溯");
-        jb8 = new JButton("文件管理");
+        jb7 = new JButton("医疗数据追溯");
+        jb8 = new JButton("医疗文件管理");
         //设置按钮监听
         //jb1.addActionListener(this);
         //jb2.addActionListener(this);
@@ -79,7 +79,7 @@ public class TuserUI extends JFrame implements ActionListener {
 
 
         //设置布局
-        this.setTitle("管理节点");
+        this.setTitle("医疗文件管理节点");
         this.setLayout(new GridLayout(9, 1));
         this.setSize(250, 300);   //设置窗体大小
         this.setLocationRelativeTo(null);//在屏幕中间显示(居中显示)
@@ -129,12 +129,12 @@ public class TuserUI extends JFrame implements ActionListener {
             //进入用户注销的界面
             new LogoutUI(current_user);
         }
-        else if (e.getActionCommand()=="数据追溯")
+        else if (e.getActionCommand()=="医疗数据追溯")
         {
             //进入用户注销的界面
             new ShowMessageUI();
         }
-        else if (e.getActionCommand()=="文件管理")
+        else if (e.getActionCommand()=="医疗文件管理")
         {
             //进入用户注销的界面
             new FileUploadUI(current_user);

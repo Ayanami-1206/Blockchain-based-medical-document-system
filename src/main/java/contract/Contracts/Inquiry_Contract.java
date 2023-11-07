@@ -47,7 +47,7 @@ public class Inquiry_Contract {
     public static String downloadFile(String[] strArr, Boolean testflag)throws IOException{
         
         
-        int flag = 1;
+        int flag = 6;
         String returnStr = "";
         String bucket_name = strArr[0];
         String file_name = strArr[1];
@@ -64,7 +64,7 @@ public class Inquiry_Contract {
         
 	    String doHash = FileHashUtil.md5HashCode32("/home/bupt/Downloads/" + file_name);
 		
-        returnStr = Ti + "&" + bucket_name + "*" + "在ip地址为" + Ei + "下载文件:" + file_name + "&hash:" + doHash +"&文件下载";
+        returnStr = Ti + "&" + bucket_name + "*" + "在ip地址为" + Ei + "下载文件:" + file_name + "&hash:" + doHash +"*文件下载";
         return returnStr + flag;
     }
 }

@@ -117,7 +117,7 @@ public class LoginUI extends JFrame implements ActionListener {
         //判断身份证号和密码是否包含中文
         if (new Check().checkcountname(jtf2.getText())||new Check().checkcountname(jpf.getText()))
         {
-            JOptionPane.showMessageDialog(null, "工号或密码存在中文，不合法!","消息提示",JOptionPane.WARNING_MESSAGE);
+            JOptionPane.showMessageDialog(null, "用户ID或密码存在中文，不合法!","消息提示",JOptionPane.WARNING_MESSAGE);
         }else if(jtf2.getText().isEmpty()||jtf2.getText().isEmpty()||jpf.getText().isEmpty()){
             JOptionPane.showMessageDialog(null, "请输入完整内容！","消息提示",JOptionPane.WARNING_MESSAGE);
         }

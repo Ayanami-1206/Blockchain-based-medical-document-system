@@ -35,7 +35,7 @@ public class Upload_Contract{
             User currentuser = usereds.get(index);
             // System.out.println(currentuser.getWork_number());
             if(temp_number.equals(currentuser.getWork_number())){
-                flag = 1;
+                flag = 5;
                 break;
             }
         }

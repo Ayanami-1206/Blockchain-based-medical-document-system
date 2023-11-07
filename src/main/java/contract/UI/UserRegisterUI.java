@@ -138,7 +138,7 @@ public class UserRegisterUI extends JFrame implements ActionListener {
             JOptionPane.showMessageDialog(null, "信息有空缺，请补全！","消息提示",JOptionPane.WARNING_MESSAGE);
         }
 
-        //判断用户的身份证号、用户工号、用户电话号码账户名和密码是否包含中文
+        //判断用户的身份证号、用户ID、用户电话号码账户名和密码是否包含中文
         else if (new Check().checkcountname(jtf2.getText())||new Check().checkcountname(jtf3.getText())||new Check().checkcountname(jtf4.getText()))
         {
             JOptionPane.showMessageDialog(null, "用户的身份证号、用户工号、用户电话号码存在中文，不合法!","消息提示",JOptionPane.WARNING_MESSAGE);

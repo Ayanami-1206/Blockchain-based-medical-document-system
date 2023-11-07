@@ -96,7 +96,7 @@ public class FileUploadUI extends JFrame{
 		this.add(jp1);//confirm&upload
     
     	//设置布局
-		this.setTitle("文件上传");
+		this.setTitle("医疗文件上传");
 		this.setSize(500, 350);				//设置界面像素
 		this.setLayout(new GridLayout(4,1));//设置窗口布局
 		this.setLocation(200, 200);			//设置界面初始位置

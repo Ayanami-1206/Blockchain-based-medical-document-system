@@ -153,8 +153,8 @@ public class Initialization_Contract {
         // users.add(new User("管理节点", "1", "13", "1", 3, "", realPub));
         users.add(new User("mgmt", "188", "103", "123", 3, "", realPub));
         users.add(new User("typeonetest", "1", "14", "1", 0, "", realPub));
-        users.add(new User("d1", "1", "141", "1", 0, "", realPub));
-        users.add(new User("p1", "1", "142", "1", 0, "", realPub));
+        users.add(new User("Docter1", "1", "141", "1", 0, "", realPub));
+        users.add(new User("Patient1", "1", "142", "1", 0, "", realPub));
         // users.add(new User("typethree", "1", "15", "1", 3, "", realPub));
         Tool.writeUserDB(users);
         userDone=true;

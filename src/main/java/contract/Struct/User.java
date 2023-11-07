@@ -12,7 +12,7 @@ import java.security.NoSuchAlgorithmException;
 public class User implements Serializable{
     String user_name; //用户的名字
     String user_phone;//用户电话号码
-    String work_number; //用户的工号
+    String work_number; //用户的ID
     String id_number; //用户的身份证号
     int user_role; //用户对应的角色权限
     String password;//用户登录密码

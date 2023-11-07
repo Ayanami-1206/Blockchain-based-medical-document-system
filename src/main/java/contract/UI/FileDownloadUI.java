@@ -75,14 +75,14 @@ public class FileDownloadUI extends JFrame{
 		jp3.add(jtfid);
 
         jp4=new JPanel();
-		jlhash = new JLabel("摘要");
+		jlhash = new JLabel("医疗文件摘要");
         jtfhash = new JTextField(15);
 		jp4.setLayout(new FlowLayout(FlowLayout.CENTER,50,0));
     	jp4.add(jlhash);
 		jp4.add(jtfhash);
 		
 		jp5=new JPanel();
-		jlfn = new JLabel("文件名");
+		jlfn = new JLabel("医疗文件名");
         jtffn = new JTextField(15);
 		jp5.setLayout(new FlowLayout(FlowLayout.CENTER,50,0));
     	jp5.add(jlfn);

@@ -40,7 +40,7 @@ public class ShowMessageUI extends JFrame {	//继承JFrame顶层框架
         jta1.setEnabled(false);//设置文本不可写
         jta1.setDisabledTextColor(Color.BLACK);
         jspane1=new JScrollPane(jta1);	//创建滚动窗格
-        jta2=new JTextArea("请输入要查询的用户的名字");
+        jta2=new JTextArea("请输入要查询的患者用户的名字");
         jta2.setLineWrap(true);
         jspane2=new JScrollPane(jta2);
         jsp=new JSplitPane(JSplitPane.VERTICAL_SPLIT,jspane1,jspane2); //创建拆分窗格
@@ -68,7 +68,7 @@ public class ShowMessageUI extends JFrame {	//继承JFrame顶层框架
         this.add(jp2,BorderLayout.SOUTH);
 
         //设置窗体实行
-        this.setTitle("数据追溯");		//设置界面标题
+        this.setTitle("医疗数据追溯");		//设置界面标题
         this.setSize(400, 350);				//设置界面像素
         this.setLocation(200, 200);			//设置界面初始位置
         this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);

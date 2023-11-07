@@ -32,8 +32,8 @@ public class GuserUI extends JFrame implements ActionListener {
         jb4 = new JButton("用户注销");
         jb5 = new JButton("重新登录");
         jb6 = new JButton("数据追溯");
-        jb7 = new JButton("文件管理");
-        jb8 = new JButton("文件下载");
+        jb7 = new JButton("医疗文件管理");
+        jb8 = new JButton("医疗文件下载");
         //设置按钮监听
         //jb1.addActionListener(this);
         //jb2.addActionListener(this);
@@ -134,13 +134,13 @@ public class GuserUI extends JFrame implements ActionListener {
             //进入用户数据追溯的界面
             new ShowMessageUI();
         }
-         else if (e.getActionCommand()=="文件管理")
+         else if (e.getActionCommand()=="医疗文件管理")
         {
             //进入用户数据追溯的界面
             new FileUploadUI(current_user);
             //new FileUploadUI();
         }
-        else if (e.getActionCommand()=="文件下载")
+        else if (e.getActionCommand()=="医疗文件下载")
         {
             new FileDownloadUI(current_user);
         }
