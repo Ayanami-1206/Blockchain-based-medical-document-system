@@ -90,8 +90,8 @@ public class FileDownloadUI extends JFrame{
 
 		this.add(jp3);//id
 		this.add(jp4);//filehash
-		this.add(jp1);//confirm&download
 		this.add(jp5);//filename
+		this.add(jp1);//confirm&download
     
     	//设置布局
 		this.setTitle("文件下载");
@@ -121,7 +121,7 @@ public class FileDownloadUI extends JFrame{
 					JOptionPane.showMessageDialog(null, "下载成功！","提示消息",JOptionPane.WARNING_MESSAGE);
 					dispose();  //使“文件上传”窗体消失
 				}else{
-					JOptionPane.showMessageDialog(null, "jiaoyan失败！","提示消息",JOptionPane.WARNING_MESSAGE);
+					JOptionPane.showMessageDialog(null, "校验失败！","提示消息",JOptionPane.WARNING_MESSAGE);
 				}
 			}
 

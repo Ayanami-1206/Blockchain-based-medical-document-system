@@ -137,7 +137,7 @@ public class FileUploadUI extends JFrame{
 					
 					// System.out.println(blockFlag);
 					if(blockFlag == 0){
-						JOptionPane.showMessageDialog(null, "user inqury失败！","提示消息",JOptionPane.WARNING_MESSAGE);
+						JOptionPane.showMessageDialog(null, "用户查询失败！","提示消息",JOptionPane.WARNING_MESSAGE);
 					}else{
 						//Upload
 
@@ -153,9 +153,9 @@ public class FileUploadUI extends JFrame{
 							
 							String[] a = {pid,filename,strArr[4]};
 		
-							String test = Inquiry_Contract.downloadFile(a, Tool.FROMCLIENT);
-							System.out.println(strArr[4]);
-							System.out.println(test);
+							//String test = Inquiry_Contract.downloadFile(a, Tool.FROMCLIENT);
+							//System.out.println(strArr[4]);
+							//System.out.println(test);
 
 
 							//String[] a = {pid};
@@ -177,7 +177,7 @@ public class FileUploadUI extends JFrame{
 		
 		jbview.addActionListener(new ActionListener(){
     		public void actionPerformed(ActionEvent e){
-				jfc=new JFileChooser("/home/bupt/Downloads/");
+				jfc=new JFileChooser("/home/bupt/Desktop/");
 				jfc.setFileSelectionMode(JFileChooser.FILES_ONLY);  //可以选择文件
 				int val=jfc.showOpenDialog(null);    //文件打开对话框
 				if(val==jfc.APPROVE_OPTION){
